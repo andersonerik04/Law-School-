@@ -72,6 +72,10 @@ export interface ChatThread {
   title: string;
   ts: number;
   messages: { role: 'user' | 'assistant'; content: string }[];
+  /** extra session focus appended to the persona's system prompt */
+  system?: string;
+  opener?: string;
+  conceptId?: string;
 }
 
 export interface DrillRecord {
