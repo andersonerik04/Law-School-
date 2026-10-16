@@ -1,4 +1,5 @@
 import { useEffect, useState, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { METHOD_BY_ID } from '../lib/pedagogy';
 import { RANKS, MASTERY_VAR, masteryInk, RANK_BLURB } from '../lib/mastery';
 import { Icon } from '../visuals/Icon';
@@ -107,7 +108,7 @@ export function Modal({ children, onClose, title }: { children: ReactNode; onClo
     window.addEventListener('keydown', h);
     return () => window.removeEventListener('keydown', h);
   }, [onClose]);
-  return (
+  return createPortal(
     <div className="modal-back" onClick={onClose}>
       <div className="modal page-turn" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
         <div className="row between" style={{ marginBottom: 10 }}>
@@ -118,7 +119,8 @@ export function Modal({ children, onClose, title }: { children: ReactNode; onClo
         </div>
         {children}
       </div>
-    </div>
+    </div>,
+    document.body,
   );
 }
 

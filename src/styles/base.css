@@ -1150,3 +1150,30 @@ mark.hl-3 {
     width: 100%;
   }
 }
+
+.print-only {
+  display: none;
+}
+@media print {
+  .print-only {
+    display: block;
+  }
+  .modal-back {
+    position: static;
+    background: none;
+    padding: 0;
+  }
+  .modal {
+    max-height: none;
+    border: none;
+    box-shadow: none;
+  }
+  body:has(.modal-back) #root {
+    display: none;
+  }
+}
+@media print {
+  body:has(.modal-back) .print-only {
+    display: none;
+  }
+}
