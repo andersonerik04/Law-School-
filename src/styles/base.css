@@ -230,6 +230,16 @@ hr,
 .topbar .spacer {
   flex: 1;
 }
+.topbar .crumb {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.topbar .chip {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 .content {
   padding: 26px 30px 80px;
   max-width: 1320px;
@@ -278,6 +288,16 @@ hr,
   }
   .content {
     padding: 16px 16px 80px;
+  }
+  .topbar {
+    gap: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .topbar .tb-days,
+  .topbar .tb-theme,
+  .topbar .tb-long {
+    display: none;
   }
 }
 

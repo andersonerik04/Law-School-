@@ -113,14 +113,15 @@ export function Layout({ children }: { children: ReactNode }) {
           </button>
           <span className="crumb">{crumb}</span>
           <span className="spacer" />
-          <span className="chip gold" title={term.focus}>
-            Term {term.numeral} · Week {week} of 40
+          <span className="chip gold tb-week" title={term.focus}>
+            <span className="tb-long">Term {term.numeral} · </span>Week {week}<span className="tb-long"> of 40</span>
           </span>
-          <span className="chip" title="Days until your test date">
+          <span className="chip tb-days" title="Days until your test date">
             <Icon name="timer" size={13} /> {daysLeft} days
           </span>
           <select
             aria-label="Theme"
+            className="tb-theme"
             value={settings.theme}
             onChange={(e) => setSettings({ theme: e.target.value as 'crimson' | 'federal' })}
             style={{ width: 'auto', padding: '4px 8px', fontSize: 13 }}
