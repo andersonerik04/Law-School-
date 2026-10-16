@@ -273,7 +273,7 @@ function FactSetDiagram({ q, step, rid, ov, highlightSeg }: { q: Props['q']; ste
   });
   const paradox = q.type === 'paradox' && q.diagram.tension;
   const chain = q.diagram.chain;
-  const H = y + (paradox ? 110 : chain ? 90 : 70);
+  const H = y + (paradox ? 110 : chain ? 140 : 70);
   const label = q.type === 'cannot-be-true' ? 'WHICH CANNOT BE TRUE?' : q.type === 'paradox' ? 'APPARENT DISCREPANCY' : 'WHAT MUST FOLLOW?';
   return (
     <svg viewBox={`0 0 ${W} ${H}`} width="100%" style={{ maxWidth: 860, display: 'block', margin: '0 auto' }} role="img" aria-label="Fact set diagram">

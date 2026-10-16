@@ -109,6 +109,7 @@ export default function Lesson() {
     setLesson(c.id, { completed: true, exitScore, stage: stages.length - 1 });
     ensureCard(`concept:${c.id}`, 'concept', c.id);
     if (c.mindMap) ensureCard(`map:${c.id}`, 'map', c.id);
+    if (c.branch === 'CL') (INDICATOR_SETS[c.id] ?? []).forEach((ind) => ensureCard(`ind:${ind}`, 'indicator', ind));
   };
 
   const NextBtn = ({ label = 'Continue →', disabled }: { label?: string; disabled?: boolean }) => (
