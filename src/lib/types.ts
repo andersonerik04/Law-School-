@@ -351,6 +351,12 @@ export interface ExamRecord {
   raw?: number;
   rawMax?: number;
   completed: boolean;
+  /** in-progress state */
+  phase?: 'section' | 'intermission' | 'blind' | 'done';
+  current?: number;
+  sectionStart?: number;
+  intermissionStart?: number;
+  kind?: 'full' | 'term' | 'diagnostic';
 }
 
 export interface LessonProgress {

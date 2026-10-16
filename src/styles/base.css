@@ -1032,3 +1032,121 @@ mark.hl-3 {
 .react-flow__node:hover .react-flow__handle {
   opacity: 1;
 }
+
+/* ── Examination Room (LawHub-style, full screen) ─────────── */
+.exam-shell {
+  min-height: 100vh;
+  background: var(--paper);
+}
+.exam {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.exam-top,
+.exam-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 18px;
+  background: var(--paper-2);
+  border-bottom: 1px solid var(--rule-strong);
+  flex-wrap: wrap;
+}
+.exam-bottom {
+  border-top: 1px solid var(--rule-strong);
+  border-bottom: none;
+}
+.exam-timer {
+  font-family: var(--font-ui);
+  font-weight: 700;
+  font-size: 20px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink);
+}
+.exam-timer.warn {
+  color: var(--danger);
+}
+.exam-warning {
+  background: var(--danger-soft);
+  border-bottom: 1px solid var(--danger);
+  text-align: center;
+  padding: 6px;
+  font-weight: 600;
+}
+.exam-body {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+}
+.exam-body.split > .exam-pane {
+  width: 50%;
+}
+.exam-pane {
+  overflow: auto;
+  padding: 22px 28px;
+  border-right: 1px solid var(--rule);
+}
+.exam-pane.single {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border: none;
+}
+.exam-nav {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+}
+.exam-nav-btn {
+  width: 34px;
+  height: 30px;
+  padding: 0;
+  justify-content: center;
+  position: relative;
+  font-size: 12px;
+  background: var(--paper);
+}
+.exam-nav-btn.answered {
+  background: var(--primary-soft);
+}
+.exam-nav-btn.current {
+  outline: 2px solid var(--gold-bright);
+}
+.exam-nav-btn .flag-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--danger);
+}
+.exam-center {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+  padding: 20px;
+}
+.exam-clock {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--primary);
+}
+@media (max-width: 800px) {
+  .exam-body.split {
+    flex-direction: column;
+    overflow: auto;
+  }
+  .exam-body.split > .exam-pane {
+    width: 100%;
+  }
+}

@@ -70,6 +70,11 @@ export function Layout({ children }: { children: ReactNode }) {
 
   useEffect(() => setExpanded(false), [loc.pathname]);
 
+  // The Examination Room runs full-screen, like the real test interface.
+  if (/^\/exam\/[^/]+/.test(loc.pathname)) {
+    return <main className="exam-shell">{children}</main>;
+  }
+
   let n = 0;
   return (
     <div className={`shell ${expanded ? 'expanded' : ''}`}>
