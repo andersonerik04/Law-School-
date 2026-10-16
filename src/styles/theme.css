@@ -1,0 +1,174 @@
+/* ─────────────────────────────────────────────────────────────
+   THE BAR & BENCH — Design tokens
+   Two houses (Crimson Hall, Federal Green) × two modes (light, dark).
+   Every component and diagram reads ONLY these tokens, so all visuals
+   re-theme automatically.
+   ───────────────────────────────────────────────────────────── */
+
+:root,
+:root[data-theme='crimson'][data-mode='light'] {
+  --bg: #efe8d8;
+  --paper: #f7f3ea;
+  --paper-2: #fbf8f1;
+  --paper-sunk: #ebe3d1;
+  --ink: #2a2624;
+  --ink-soft: #4a4440;
+  --muted: #6e655c;
+  --primary: #7a1f2b;
+  --primary-strong: #5e1520;
+  --primary-soft: #e9d3d3;
+  --on-primary: #fbf6ec;
+  --secondary: #23395b;
+  --gold: #a8831f;
+  --gold-bright: #c9a227;
+  --gold-soft: #e8d9a8;
+  --rule: #cfc2a3;
+  --rule-strong: #a8956b;
+  --success: #2f6b3a;
+  --success-soft: #d7e6d2;
+  --danger: #9b2226;
+  --danger-soft: #f1d4d0;
+  --warn: #9a6a00;
+  --hl-1: rgba(233, 196, 66, 0.45);
+  --hl-2: rgba(120, 180, 140, 0.4);
+  --hl-3: rgba(214, 120, 140, 0.35);
+  --shadow: 0 1px 2px rgba(60, 40, 20, 0.08), 0 6px 18px rgba(60, 40, 20, 0.08);
+  --texture-line: rgba(122, 31, 43, 0.045);
+  /* mastery scale: Unbriefed → Clerk */
+  --m0: #ece5d5;
+  --m1: #e3c9c3;
+  --m2: #d29b98;
+  --m3: #b45f63;
+  --m4: #8f2c38;
+  --m5: #6a1622;
+  --m-ink-light: #2a2624;
+  --m-ink-dark: #fbf6ec;
+  color-scheme: light;
+}
+
+:root[data-theme='crimson'][data-mode='dark'] {
+  --bg: #1a1210;
+  --paper: #241917;
+  --paper-2: #2c1f1c;
+  --paper-sunk: #1f1513;
+  --ink: #efe6d6;
+  --ink-soft: #d8ccb8;
+  --muted: #a99a86;
+  --primary: #c4515f;
+  --primary-strong: #e0717e;
+  --primary-soft: #4a2228;
+  --on-primary: #1a1210;
+  --secondary: #8fb0d8;
+  --gold: #d4b04a;
+  --gold-bright: #e6c35a;
+  --gold-soft: #4a3d1e;
+  --rule: #4a3a30;
+  --rule-strong: #7a6248;
+  --success: #7fbf88;
+  --success-soft: #1f3324;
+  --danger: #e57373;
+  --danger-soft: #4a1f1f;
+  --warn: #e0b04a;
+  --hl-1: rgba(214, 176, 74, 0.38);
+  --hl-2: rgba(110, 170, 130, 0.35);
+  --hl-3: rgba(210, 110, 130, 0.35);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --texture-line: rgba(212, 176, 74, 0.035);
+  --m0: #33261f;
+  --m1: #4d2c2c;
+  --m2: #6e3236;
+  --m3: #93404a;
+  --m4: #b4525e;
+  --m5: #d46a76;
+  --m-ink-light: #efe6d6;
+  --m-ink-dark: #1a1210;
+  color-scheme: dark;
+}
+
+:root[data-theme='federal'][data-mode='light'] {
+  --bg: #e9e6d6;
+  --paper: #f6f2e3;
+  --paper-2: #faf7ec;
+  --paper-sunk: #e6e1cc;
+  --ink: #1d2a3f;
+  --ink-soft: #33415a;
+  --muted: #5d6676;
+  --primary: #1f3d2b;
+  --primary-strong: #152b1e;
+  --primary-soft: #d3e0d5;
+  --on-primary: #f8f4e6;
+  --secondary: #1d2a3f;
+  --gold: #9a7a12;
+  --gold-bright: #c9a227;
+  --gold-soft: #ece0b0;
+  --rule: #cbc4a6;
+  --rule-strong: #a49866;
+  --success: #2f6b3a;
+  --success-soft: #d4e5d2;
+  --danger: #9b2226;
+  --danger-soft: #f1d4d0;
+  --warn: #9a6a00;
+  --hl-1: rgba(233, 196, 66, 0.45);
+  --hl-2: rgba(120, 180, 140, 0.4);
+  --hl-3: rgba(214, 120, 140, 0.35);
+  --shadow: 0 1px 2px rgba(20, 40, 30, 0.08), 0 6px 18px rgba(20, 40, 30, 0.08);
+  --texture-line: rgba(31, 61, 43, 0.05);
+  --m0: #e8e4d0;
+  --m1: #cddcc9;
+  --m2: #9fbf9f;
+  --m3: #5f8f6b;
+  --m4: #2f5e3e;
+  --m5: #1a3b26;
+  --m-ink-light: #1d2a3f;
+  --m-ink-dark: #f8f4e6;
+  color-scheme: light;
+}
+
+:root[data-theme='federal'][data-mode='dark'] {
+  --bg: #0f1614;
+  --paper: #16201d;
+  --paper-2: #1b2723;
+  --paper-sunk: #121b18;
+  --ink: #ebe6d4;
+  --ink-soft: #cfd2c4;
+  --muted: #98a196;
+  --primary: #6fae84;
+  --primary-strong: #8fc9a1;
+  --primary-soft: #1f3a2a;
+  --on-primary: #0f1614;
+  --secondary: #9ab4d8;
+  --gold: #d6b445;
+  --gold-bright: #e8c75a;
+  --gold-soft: #453a17;
+  --rule: #2f3d36;
+  --rule-strong: #5c6b4f;
+  --success: #7fbf88;
+  --success-soft: #1d3324;
+  --danger: #e57373;
+  --danger-soft: #4a1f1f;
+  --warn: #e0b04a;
+  --hl-1: rgba(214, 180, 69, 0.38);
+  --hl-2: rgba(110, 170, 130, 0.35);
+  --hl-3: rgba(210, 110, 130, 0.35);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --texture-line: rgba(214, 180, 69, 0.03);
+  --m0: #1f2a26;
+  --m1: #24402f;
+  --m2: #2f5a3f;
+  --m3: #417a55;
+  --m4: #5a9c6f;
+  --m5: #7fc293;
+  --m-ink-light: #ebe6d4;
+  --m-ink-dark: #0f1614;
+  color-scheme: dark;
+}
+
+:root {
+  --font-display: 'Cormorant Garamond', 'EB Garamond', Garamond, 'Times New Roman', serif;
+  --font-book: 'Source Serif 4', 'Source Serif Pro', 'Crimson Pro', Georgia, serif;
+  --font-ui: 'Inter', 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --passage-size: 18px;
+  --radius: 4px;
+  --radius-lg: 8px;
+  --measure: 70ch;
+}

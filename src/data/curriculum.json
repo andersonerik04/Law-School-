@@ -1,0 +1,2260 @@
+{
+ "terms": [
+  {
+   "n": 1,
+   "numeral": "I",
+   "name": "Foundations",
+   "motto": "Orientation & First Principles",
+   "weeks": [
+    1,
+    8
+   ],
+   "focus": "Argument anatomy, conditional logic, inference questions, and reading-comprehension mapping. Mostly blocked practice."
+  },
+  {
+   "n": 2,
+   "numeral": "II",
+   "name": "Accuracy",
+   "motto": "The Doctrine",
+   "weeks": [
+    9,
+    16
+   ],
+   "focus": "The assumption family, the full flaw library, and wrong-answer taxonomy. Untimed accuracy first; interleaving rises."
+  },
+  {
+   "n": 3,
+   "numeral": "III",
+   "name": "Speed",
+   "motto": "Moot Court",
+   "weeks": [
+    17,
+    24
+   ],
+   "focus": "Matching questions, timing strategy, sprints, blind review, and Argumentative Writing. Fully interleaved."
+  },
+  {
+   "n": 4,
+   "numeral": "IV",
+   "name": "Mastery",
+   "motto": "Law Review",
+   "weeks": [
+    25,
+    32
+   ],
+   "focus": "Certify every doctrine at Clerk rank, attack weaknesses with adaptive sets, weekly full examinations."
+  },
+  {
+   "n": 5,
+   "numeral": "V",
+   "name": "Simulation",
+   "motto": "The Bar",
+   "weeks": [
+    33,
+    40
+   ],
+   "focus": "Full timed simulations under test conditions, blind review of every exam, taper and test-day readiness."
+  }
+ ],
+ "weeks": [
+  {
+   "week": 1,
+   "term": 1,
+   "title": "Matriculation & the Anatomy of an Argument",
+   "objectives": [
+    "Complete the Matriculation diagnostic",
+    "Identify premises, conclusions, and context in any stimulus",
+    "Classify a question stem by type"
+   ],
+   "concepts": [
+    "anatomy",
+    "ts-stem-id"
+   ],
+   "tasks": [
+    {
+     "id": "w1-t1",
+     "text": "Complete Matriculation: survey + diagnostic",
+     "kind": "exam",
+     "ref": "diagnostic"
+    },
+    {
+     "id": "w1-t2",
+     "text": "Casebook lesson: anatomy",
+     "kind": "lesson",
+     "ref": "anatomy"
+    },
+    {
+     "id": "w1-t3",
+     "text": "Casebook lesson: ts-stem-id",
+     "kind": "lesson",
+     "ref": "ts-stem-id"
+    },
+    {
+     "id": "w1-t4",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w1-t5",
+     "text": "Chambers: 80% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w1-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w1-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.8,
+   "exams": 0
+  },
+  {
+   "week": 2,
+   "term": 1,
+   "title": "Main Conclusion & Role of a Statement",
+   "objectives": [
+    "Find the main conclusion in under 30 seconds",
+    "Name the role of any sentence in an argument"
+   ],
+   "concepts": [
+    "lr-main-conclusion",
+    "lr-role"
+   ],
+   "tasks": [
+    {
+     "id": "w2-t1",
+     "text": "Casebook lesson: lr-main-conclusion",
+     "kind": "lesson",
+     "ref": "lr-main-conclusion"
+    },
+    {
+     "id": "w2-t2",
+     "text": "Casebook lesson: lr-role",
+     "kind": "lesson",
+     "ref": "lr-role"
+    },
+    {
+     "id": "w2-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w2-t4",
+     "text": "Chambers: 80% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w2-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w2-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.8,
+   "exams": 0
+  },
+  {
+   "week": 3,
+   "term": 1,
+   "title": "Conditional Logic I \u2014 Sufficient, Necessary, Contrapositive",
+   "objectives": [
+    "Translate conditionals into arrows",
+    "Form contrapositives automatically",
+    "Spot reversal and negation errors"
+   ],
+   "concepts": [
+    "cl-suff-nec",
+    "cl-contrapositive"
+   ],
+   "tasks": [
+    {
+     "id": "w3-t1",
+     "text": "Casebook lesson: cl-suff-nec",
+     "kind": "lesson",
+     "ref": "cl-suff-nec"
+    },
+    {
+     "id": "w3-t2",
+     "text": "Casebook lesson: cl-contrapositive",
+     "kind": "lesson",
+     "ref": "cl-contrapositive"
+    },
+    {
+     "id": "w3-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w3-t4",
+     "text": "Chambers: 80% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w3-t5",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w3-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w3-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.8,
+   "exams": 0
+  },
+  {
+   "week": 4,
+   "term": 1,
+   "title": "Conditional Logic II \u2014 Unless, Only If, Quantifiers",
+   "objectives": [
+    "Translate 'unless', 'only if', 'without', 'no'",
+    "Combine quantified statements with Venn diagrams"
+   ],
+   "concepts": [
+    "cl-unless",
+    "cl-quantifiers"
+   ],
+   "tasks": [
+    {
+     "id": "w4-t1",
+     "text": "Casebook lesson: cl-unless",
+     "kind": "lesson",
+     "ref": "cl-unless"
+    },
+    {
+     "id": "w4-t2",
+     "text": "Casebook lesson: cl-quantifiers",
+     "kind": "lesson",
+     "ref": "cl-quantifiers"
+    },
+    {
+     "id": "w4-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w4-t4",
+     "text": "Chambers: 80% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w4-t5",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w4-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w4-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.8,
+   "exams": 0
+  },
+  {
+   "week": 5,
+   "term": 1,
+   "title": "Chaining & Must Be True",
+   "objectives": [
+    "Chain 3\u20135 conditionals",
+    "Prove a Must Be True answer from the record alone"
+   ],
+   "concepts": [
+    "cl-chaining",
+    "lr-must-be-true"
+   ],
+   "tasks": [
+    {
+     "id": "w5-t1",
+     "text": "Casebook lesson: cl-chaining",
+     "kind": "lesson",
+     "ref": "cl-chaining"
+    },
+    {
+     "id": "w5-t2",
+     "text": "Casebook lesson: lr-must-be-true",
+     "kind": "lesson",
+     "ref": "lr-must-be-true"
+    },
+    {
+     "id": "w5-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w5-t4",
+     "text": "Chambers: 60% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w5-t5",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w5-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w5-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.6,
+   "exams": 0
+  },
+  {
+   "week": 6,
+   "term": 1,
+   "title": "Most Strongly Supported & Cannot Be True",
+   "objectives": [
+    "Distinguish 'strongly supported' from 'must be true'",
+    "Eliminate answers that could be true"
+   ],
+   "concepts": [
+    "lr-most-strongly-supported",
+    "lr-cannot-be-true"
+   ],
+   "tasks": [
+    {
+     "id": "w6-t1",
+     "text": "Casebook lesson: lr-most-strongly-supported",
+     "kind": "lesson",
+     "ref": "lr-most-strongly-supported"
+    },
+    {
+     "id": "w6-t2",
+     "text": "Casebook lesson: lr-cannot-be-true",
+     "kind": "lesson",
+     "ref": "lr-cannot-be-true"
+    },
+    {
+     "id": "w6-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w6-t4",
+     "text": "Chambers: 60% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w6-t5",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w6-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w6-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.6,
+   "exams": 0
+  },
+  {
+   "week": 7,
+   "term": 1,
+   "title": "Reading Comprehension \u2014 Mapping the Passage",
+   "objectives": [
+    "Build a passage structure map in under 3 minutes",
+    "Tag every viewpoint and the author's tone"
+   ],
+   "concepts": [
+    "rcs-mapping",
+    "rcs-viewpoints",
+    "rcs-tone",
+    "rct-main-point",
+    "rct-primary-purpose"
+   ],
+   "tasks": [
+    {
+     "id": "w7-t1",
+     "text": "Casebook lesson: rcs-mapping",
+     "kind": "lesson",
+     "ref": "rcs-mapping"
+    },
+    {
+     "id": "w7-t2",
+     "text": "Casebook lesson: rcs-viewpoints",
+     "kind": "lesson",
+     "ref": "rcs-viewpoints"
+    },
+    {
+     "id": "w7-t3",
+     "text": "Casebook lesson: rcs-tone",
+     "kind": "lesson",
+     "ref": "rcs-tone"
+    },
+    {
+     "id": "w7-t4",
+     "text": "Casebook lesson: rct-main-point",
+     "kind": "lesson",
+     "ref": "rct-main-point"
+    },
+    {
+     "id": "w7-t5",
+     "text": "Casebook lesson: rct-primary-purpose",
+     "kind": "lesson",
+     "ref": "rct-primary-purpose"
+    },
+    {
+     "id": "w7-t6",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w7-t7",
+     "text": "Chambers: 60% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w7-t8",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w7-t9",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w7-t10",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.6,
+   "exams": 0
+  },
+  {
+   "week": 8,
+   "term": 1,
+   "title": "Method of Reasoning \u00b7 Term I Examination",
+   "objectives": [
+    "Describe an argument's method abstractly",
+    "Sit the Term I examination"
+   ],
+   "concepts": [
+    "lr-method",
+    "rct-detail"
+   ],
+   "tasks": [
+    {
+     "id": "w8-t1",
+     "text": "Casebook lesson: lr-method",
+     "kind": "lesson",
+     "ref": "lr-method"
+    },
+    {
+     "id": "w8-t2",
+     "text": "Casebook lesson: rct-detail",
+     "kind": "lesson",
+     "ref": "rct-detail"
+    },
+    {
+     "id": "w8-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w8-t4",
+     "text": "Chambers: 60% blocked practice on this week's skills \u2014 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w8-t5",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w8-t6",
+     "text": "Term I Examination + Opinion of the Examiner",
+     "kind": "exam"
+    },
+    {
+     "id": "w8-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w8-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.6,
+   "exams": 1
+  },
+  {
+   "week": 9,
+   "term": 2,
+   "title": "Flaw I \u2014 The Causal & Statistical Errors",
+   "objectives": [
+    "Name the causal flaw and its three alternate explanations",
+    "Diagnose sampling and composition errors"
+   ],
+   "concepts": [
+    "lr-flaw",
+    "flaw-causation",
+    "flaw-sampling",
+    "flaw-part-whole"
+   ],
+   "tasks": [
+    {
+     "id": "w9-t1",
+     "text": "Casebook lesson: lr-flaw",
+     "kind": "lesson",
+     "ref": "lr-flaw"
+    },
+    {
+     "id": "w9-t2",
+     "text": "Casebook lesson: flaw-causation",
+     "kind": "lesson",
+     "ref": "flaw-causation"
+    },
+    {
+     "id": "w9-t3",
+     "text": "Casebook lesson: flaw-sampling",
+     "kind": "lesson",
+     "ref": "flaw-sampling"
+    },
+    {
+     "id": "w9-t4",
+     "text": "Casebook lesson: flaw-part-whole",
+     "kind": "lesson",
+     "ref": "flaw-part-whole"
+    },
+    {
+     "id": "w9-t5",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w9-t6",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w9-t7",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w9-t8",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w9-t9",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.45,
+   "exams": 0
+  },
+  {
+   "week": 10,
+   "term": 2,
+   "title": "Flaw II \u2014 Errors of Language & Authority",
+   "objectives": [
+    "Detect a shifting term",
+    "Separate the arguer from the argument"
+   ],
+   "concepts": [
+    "flaw-equivocation",
+    "flaw-ad-hominem",
+    "flaw-authority",
+    "flaw-circular",
+    "flaw-false-dichotomy"
+   ],
+   "tasks": [
+    {
+     "id": "w10-t1",
+     "text": "Casebook lesson: flaw-equivocation",
+     "kind": "lesson",
+     "ref": "flaw-equivocation"
+    },
+    {
+     "id": "w10-t2",
+     "text": "Casebook lesson: flaw-ad-hominem",
+     "kind": "lesson",
+     "ref": "flaw-ad-hominem"
+    },
+    {
+     "id": "w10-t3",
+     "text": "Casebook lesson: flaw-authority",
+     "kind": "lesson",
+     "ref": "flaw-authority"
+    },
+    {
+     "id": "w10-t4",
+     "text": "Casebook lesson: flaw-circular",
+     "kind": "lesson",
+     "ref": "flaw-circular"
+    },
+    {
+     "id": "w10-t5",
+     "text": "Casebook lesson: flaw-false-dichotomy",
+     "kind": "lesson",
+     "ref": "flaw-false-dichotomy"
+    },
+    {
+     "id": "w10-t6",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w10-t7",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w10-t8",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w10-t9",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w10-t10",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.45,
+   "exams": 0
+  },
+  {
+   "week": 11,
+   "term": 2,
+   "title": "Flaw III \u2014 Errors of Logic & Proportion",
+   "objectives": [
+    "Complete the 15-flaw library",
+    "Match flaw descriptions to abstract answer language"
+   ],
+   "concepts": [
+    "flaw-suff-nec",
+    "flaw-absence-evidence",
+    "flaw-percent-number",
+    "flaw-possibility-certainty",
+    "flaw-straw-man",
+    "flaw-overgeneralization",
+    "flaw-unlike-comparison"
+   ],
+   "tasks": [
+    {
+     "id": "w11-t1",
+     "text": "Casebook lesson: flaw-suff-nec",
+     "kind": "lesson",
+     "ref": "flaw-suff-nec"
+    },
+    {
+     "id": "w11-t2",
+     "text": "Casebook lesson: flaw-absence-evidence",
+     "kind": "lesson",
+     "ref": "flaw-absence-evidence"
+    },
+    {
+     "id": "w11-t3",
+     "text": "Casebook lesson: flaw-percent-number",
+     "kind": "lesson",
+     "ref": "flaw-percent-number"
+    },
+    {
+     "id": "w11-t4",
+     "text": "Casebook lesson: flaw-possibility-certainty",
+     "kind": "lesson",
+     "ref": "flaw-possibility-certainty"
+    },
+    {
+     "id": "w11-t5",
+     "text": "Casebook lesson: flaw-straw-man",
+     "kind": "lesson",
+     "ref": "flaw-straw-man"
+    },
+    {
+     "id": "w11-t6",
+     "text": "Casebook lesson: flaw-overgeneralization",
+     "kind": "lesson",
+     "ref": "flaw-overgeneralization"
+    },
+    {
+     "id": "w11-t7",
+     "text": "Casebook lesson: flaw-unlike-comparison",
+     "kind": "lesson",
+     "ref": "flaw-unlike-comparison"
+    },
+    {
+     "id": "w11-t8",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w11-t9",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w11-t10",
+     "text": "Conditional Logic Trainer: 3 timed rounds",
+     "kind": "drill",
+     "ref": "logic"
+    },
+    {
+     "id": "w11-t11",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w11-t12",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.45,
+   "exams": 0
+  },
+  {
+   "week": 12,
+   "term": 2,
+   "title": "Necessary Assumption",
+   "objectives": [
+    "Apply the Negation Test",
+    "Find the brick the argument cannot stand without"
+   ],
+   "concepts": [
+    "lr-necessary-assumption",
+    "rct-inference"
+   ],
+   "tasks": [
+    {
+     "id": "w12-t1",
+     "text": "Casebook lesson: lr-necessary-assumption",
+     "kind": "lesson",
+     "ref": "lr-necessary-assumption"
+    },
+    {
+     "id": "w12-t2",
+     "text": "Casebook lesson: rct-inference",
+     "kind": "lesson",
+     "ref": "rct-inference"
+    },
+    {
+     "id": "w12-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w12-t4",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w12-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w12-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.45,
+   "exams": 0
+  },
+  {
+   "week": 13,
+   "term": 2,
+   "title": "Sufficient Assumption",
+   "objectives": [
+    "Bridge the gap so the conclusion is guaranteed",
+    "Use the conditional-logic toolkit on SA questions"
+   ],
+   "concepts": [
+    "lr-sufficient-assumption",
+    "rct-function"
+   ],
+   "tasks": [
+    {
+     "id": "w13-t1",
+     "text": "Casebook lesson: lr-sufficient-assumption",
+     "kind": "lesson",
+     "ref": "lr-sufficient-assumption"
+    },
+    {
+     "id": "w13-t2",
+     "text": "Casebook lesson: rct-function",
+     "kind": "lesson",
+     "ref": "rct-function"
+    },
+    {
+     "id": "w13-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w13-t4",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w13-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w13-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.3,
+   "exams": 0
+  },
+  {
+   "week": 14,
+   "term": 2,
+   "title": "Strengthen, Weaken & the Wrong-Answer Taxonomy",
+   "objectives": [
+    "Attack the gap, not the premises",
+    "Label every wrong answer with its trap"
+   ],
+   "concepts": [
+    "lr-strengthen",
+    "lr-weaken",
+    "ts-elimination",
+    "rct-attitude"
+   ],
+   "tasks": [
+    {
+     "id": "w14-t1",
+     "text": "Casebook lesson: lr-strengthen",
+     "kind": "lesson",
+     "ref": "lr-strengthen"
+    },
+    {
+     "id": "w14-t2",
+     "text": "Casebook lesson: lr-weaken",
+     "kind": "lesson",
+     "ref": "lr-weaken"
+    },
+    {
+     "id": "w14-t3",
+     "text": "Casebook lesson: ts-elimination",
+     "kind": "lesson",
+     "ref": "ts-elimination"
+    },
+    {
+     "id": "w14-t4",
+     "text": "Casebook lesson: rct-attitude",
+     "kind": "lesson",
+     "ref": "rct-attitude"
+    },
+    {
+     "id": "w14-t5",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w14-t6",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w14-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w14-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.3,
+   "exams": 0
+  },
+  {
+   "week": 15,
+   "term": 2,
+   "title": "Evaluate & Resolve the Paradox",
+   "objectives": [
+    "Pose the question whose answer matters",
+    "Explain how both facts can be true"
+   ],
+   "concepts": [
+    "lr-evaluate",
+    "lr-paradox",
+    "rct-structure"
+   ],
+   "tasks": [
+    {
+     "id": "w15-t1",
+     "text": "Casebook lesson: lr-evaluate",
+     "kind": "lesson",
+     "ref": "lr-evaluate"
+    },
+    {
+     "id": "w15-t2",
+     "text": "Casebook lesson: lr-paradox",
+     "kind": "lesson",
+     "ref": "lr-paradox"
+    },
+    {
+     "id": "w15-t3",
+     "text": "Casebook lesson: rct-structure",
+     "kind": "lesson",
+     "ref": "rct-structure"
+    },
+    {
+     "id": "w15-t4",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w15-t5",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w15-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w15-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.3,
+   "exams": 0
+  },
+  {
+   "week": 16,
+   "term": 2,
+   "title": "Disagreement Questions \u00b7 Term II Examination",
+   "objectives": [
+    "Apply the 'both have an opinion' test",
+    "Sit the Term II examination"
+   ],
+   "concepts": [
+    "lr-point-at-issue",
+    "lr-point-of-agreement"
+   ],
+   "tasks": [
+    {
+     "id": "w16-t1",
+     "text": "Casebook lesson: lr-point-at-issue",
+     "kind": "lesson",
+     "ref": "lr-point-at-issue"
+    },
+    {
+     "id": "w16-t2",
+     "text": "Casebook lesson: lr-point-of-agreement",
+     "kind": "lesson",
+     "ref": "lr-point-of-agreement"
+    },
+    {
+     "id": "w16-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w16-t4",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w16-t5",
+     "text": "Term II Examination + Opinion of the Examiner",
+     "kind": "exam"
+    },
+    {
+     "id": "w16-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w16-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.3,
+   "exams": 1
+  },
+  {
+   "week": 17,
+   "term": 3,
+   "title": "Principles \u2014 Identify & Apply",
+   "objectives": [
+    "Match a rule to a case",
+    "Find the situation that conforms to a principle"
+   ],
+   "concepts": [
+    "lr-principle-identify",
+    "lr-principle-apply",
+    "rct-analogy"
+   ],
+   "tasks": [
+    {
+     "id": "w17-t1",
+     "text": "Casebook lesson: lr-principle-identify",
+     "kind": "lesson",
+     "ref": "lr-principle-identify"
+    },
+    {
+     "id": "w17-t2",
+     "text": "Casebook lesson: lr-principle-apply",
+     "kind": "lesson",
+     "ref": "lr-principle-apply"
+    },
+    {
+     "id": "w17-t3",
+     "text": "Casebook lesson: rct-analogy",
+     "kind": "lesson",
+     "ref": "rct-analogy"
+    },
+    {
+     "id": "w17-t4",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w17-t5",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w17-t6",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w17-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w17-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.1,
+   "exams": 0
+  },
+  {
+   "week": 18,
+   "term": 3,
+   "title": "Parallel Reasoning & Comparative Passages",
+   "objectives": [
+    "Match argument structure abstractly",
+    "Map passage A against passage B"
+   ],
+   "concepts": [
+    "lr-parallel",
+    "rcs-comparative",
+    "rct-comparative"
+   ],
+   "tasks": [
+    {
+     "id": "w18-t1",
+     "text": "Casebook lesson: lr-parallel",
+     "kind": "lesson",
+     "ref": "lr-parallel"
+    },
+    {
+     "id": "w18-t2",
+     "text": "Casebook lesson: rcs-comparative",
+     "kind": "lesson",
+     "ref": "rcs-comparative"
+    },
+    {
+     "id": "w18-t3",
+     "text": "Casebook lesson: rct-comparative",
+     "kind": "lesson",
+     "ref": "rct-comparative"
+    },
+    {
+     "id": "w18-t4",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w18-t5",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w18-t6",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w18-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w18-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.1,
+   "exams": 0
+  },
+  {
+   "week": 19,
+   "term": 3,
+   "title": "Parallel Flaw",
+   "objectives": [
+    "Find the identical error in a new subject"
+   ],
+   "concepts": [
+    "lr-parallel-flaw",
+    "rct-strengthen-weaken"
+   ],
+   "tasks": [
+    {
+     "id": "w19-t1",
+     "text": "Casebook lesson: lr-parallel-flaw",
+     "kind": "lesson",
+     "ref": "lr-parallel-flaw"
+    },
+    {
+     "id": "w19-t2",
+     "text": "Casebook lesson: rct-strengthen-weaken",
+     "kind": "lesson",
+     "ref": "rct-strengthen-weaken"
+    },
+    {
+     "id": "w19-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w19-t4",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w19-t5",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w19-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w19-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 20,
+   "term": 3,
+   "title": "Timing Strategy & Section Management",
+   "objectives": [
+    "Hold 1:20 average pace",
+    "Skip and return: the two-pass method"
+   ],
+   "concepts": [
+    "ts-timing"
+   ],
+   "tasks": [
+    {
+     "id": "w20-t1",
+     "text": "Casebook lesson: ts-timing",
+     "kind": "lesson",
+     "ref": "ts-timing"
+    },
+    {
+     "id": "w20-t2",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w20-t3",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w20-t4",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w20-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w20-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 21,
+   "term": 3,
+   "title": "Blind Review & RC Structures I",
+   "objectives": [
+    "Run a full blind review",
+    "Recognize theory\u2013critique and problem\u2013solution passages"
+   ],
+   "concepts": [
+    "ts-blind-review",
+    "rcs-theory-critique",
+    "rcs-problem-solution"
+   ],
+   "tasks": [
+    {
+     "id": "w21-t1",
+     "text": "Casebook lesson: ts-blind-review",
+     "kind": "lesson",
+     "ref": "ts-blind-review"
+    },
+    {
+     "id": "w21-t2",
+     "text": "Casebook lesson: rcs-theory-critique",
+     "kind": "lesson",
+     "ref": "rcs-theory-critique"
+    },
+    {
+     "id": "w21-t3",
+     "text": "Casebook lesson: rcs-problem-solution",
+     "kind": "lesson",
+     "ref": "rcs-problem-solution"
+    },
+    {
+     "id": "w21-t4",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w21-t5",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w21-t6",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w21-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w21-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 22,
+   "term": 3,
+   "title": "RC Structures II & Reading Speed",
+   "objectives": [
+    "Read for structure at ~250 wpm",
+    "Recognize old-view/new-view and explanation passages"
+   ],
+   "concepts": [
+    "rcs-old-new",
+    "rcs-phenomenon-explanation"
+   ],
+   "tasks": [
+    {
+     "id": "w22-t1",
+     "text": "Casebook lesson: rcs-old-new",
+     "kind": "lesson",
+     "ref": "rcs-old-new"
+    },
+    {
+     "id": "w22-t2",
+     "text": "Casebook lesson: rcs-phenomenon-explanation",
+     "kind": "lesson",
+     "ref": "rcs-phenomenon-explanation"
+    },
+    {
+     "id": "w22-t3",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w22-t4",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w22-t5",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w22-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w22-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 23,
+   "term": 3,
+   "title": "Argumentative Writing",
+   "objectives": [
+    "Plan an essay with a visual pre-write",
+    "Write a 35-minute argumentative essay"
+   ],
+   "concepts": [
+    "aw-format",
+    "aw-prewriting",
+    "aw-thesis",
+    "aw-perspectives"
+   ],
+   "tasks": [
+    {
+     "id": "w23-t1",
+     "text": "Casebook lesson: aw-format",
+     "kind": "lesson",
+     "ref": "aw-format"
+    },
+    {
+     "id": "w23-t2",
+     "text": "Casebook lesson: aw-prewriting",
+     "kind": "lesson",
+     "ref": "aw-prewriting"
+    },
+    {
+     "id": "w23-t3",
+     "text": "Casebook lesson: aw-thesis",
+     "kind": "lesson",
+     "ref": "aw-thesis"
+    },
+    {
+     "id": "w23-t4",
+     "text": "Casebook lesson: aw-perspectives",
+     "kind": "lesson",
+     "ref": "aw-perspectives"
+    },
+    {
+     "id": "w23-t5",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w23-t6",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w23-t7",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w23-t8",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w23-t9",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w23-t10",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 24,
+   "term": 3,
+   "title": "Term III Examination",
+   "objectives": [
+    "Sit the Term III examination under full conditions",
+    "Blind review every flagged question"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w24-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w24-t2",
+     "text": "Chambers: interleaved set of 25 questions",
+     "kind": "drill"
+    },
+    {
+     "id": "w24-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w24-t4",
+     "text": "Term III Examination + Opinion of the Examiner",
+     "kind": "exam"
+    },
+    {
+     "id": "w24-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w24-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 25,
+   "term": 4,
+   "title": "Certification I \u2014 Inference & Structure",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w25-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w25-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w25-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w25-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w25-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w25-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 26,
+   "term": 4,
+   "title": "Certification II \u2014 The Assumption Family",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w26-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w26-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w26-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w26-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w26-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w26-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 27,
+   "term": 4,
+   "title": "Certification III \u2014 Flaws",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w27-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w27-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w27-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w27-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w27-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w27-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w27-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 28,
+   "term": 4,
+   "title": "Certification IV \u2014 Matching & Principles",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w28-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w28-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w28-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w28-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w28-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w28-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 29,
+   "term": 4,
+   "title": "Certification V \u2014 Reading Comprehension",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w29-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w29-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w29-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w29-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w29-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w29-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w29-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 30,
+   "term": 4,
+   "title": "Weakest Doctrines Clinic",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w30-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w30-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w30-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w30-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w30-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w30-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 31,
+   "term": 4,
+   "title": "Difficulty 5 Seminar",
+   "objectives": [
+    "Certify target doctrines at Clerk rank",
+    "Adaptive sets in the 60\u201375% zone",
+    "One full examination with blind review"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w31-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w31-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w31-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w31-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w31-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w31-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w31-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 32,
+   "term": 4,
+   "title": "Term IV Examination",
+   "objectives": [
+    "Sit the Term IV examination",
+    "Write the Law Review reflection"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w32-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w32-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w32-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w32-t4",
+     "text": "Term IV Examination + Opinion of the Examiner",
+     "kind": "exam"
+    },
+    {
+     "id": "w32-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w32-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 33,
+   "term": 5,
+   "title": "Simulation I",
+   "objectives": [
+    "Two full timed simulations",
+    "Blind review within 24 hours",
+    "Ledger review of every miss"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w33-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w33-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w33-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w33-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w33-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w33-t6",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w33-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w33-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 2
+  },
+  {
+   "week": 34,
+   "term": 5,
+   "title": "Simulation II",
+   "objectives": [
+    "Two full timed simulations",
+    "Blind review within 24 hours",
+    "Ledger review of every miss"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w34-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w34-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w34-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w34-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w34-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w34-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w34-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 2
+  },
+  {
+   "week": 35,
+   "term": 5,
+   "title": "Simulation III",
+   "objectives": [
+    "Two full timed simulations",
+    "Blind review within 24 hours",
+    "Ledger review of every miss"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w35-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w35-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w35-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w35-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w35-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w35-t6",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w35-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w35-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 2
+  },
+  {
+   "week": 36,
+   "term": 5,
+   "title": "Simulation IV",
+   "objectives": [
+    "Two full timed simulations",
+    "Blind review within 24 hours",
+    "Ledger review of every miss"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w36-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w36-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w36-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w36-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w36-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w36-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w36-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 2
+  },
+  {
+   "week": 37,
+   "term": 5,
+   "title": "Simulation V",
+   "objectives": [
+    "Two full timed simulations",
+    "Blind review within 24 hours",
+    "Ledger review of every miss"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w37-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w37-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w37-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w37-t4",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w37-t5",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w37-t6",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w37-t7",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w37-t8",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 2
+  },
+  {
+   "week": 38,
+   "term": 5,
+   "title": "Final Polish",
+   "objectives": [
+    "One light simulation",
+    "Review Bench Cards and flaw library",
+    "Rest, routine, and confidence"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w38-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w38-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w38-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w38-t4",
+     "text": "Examination Room: full practice exam + blind review",
+     "kind": "exam"
+    },
+    {
+     "id": "w38-t5",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w38-t6",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 1
+  },
+  {
+   "week": 39,
+   "term": 5,
+   "title": "Test-Day Readiness",
+   "objectives": [
+    "One light simulation",
+    "Review Bench Cards and flaw library",
+    "Rest, routine, and confidence"
+   ],
+   "concepts": [
+    "ts-test-day"
+   ],
+   "tasks": [
+    {
+     "id": "w39-t1",
+     "text": "Casebook lesson: ts-test-day",
+     "kind": "lesson",
+     "ref": "ts-test-day"
+    },
+    {
+     "id": "w39-t2",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w39-t3",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w39-t4",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w39-t5",
+     "text": "Argumentative Writing: one timed essay",
+     "kind": "writing"
+    },
+    {
+     "id": "w39-t6",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w39-t7",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  },
+  {
+   "week": 40,
+   "term": 5,
+   "title": "Taper & The Bar",
+   "objectives": [
+    "One light simulation",
+    "Review Bench Cards and flaw library",
+    "Rest, routine, and confidence"
+   ],
+   "concepts": [],
+   "tasks": [
+    {
+     "id": "w40-t1",
+     "text": "Daily Reviews: clear every due flashcard (5 days)",
+     "kind": "review"
+    },
+    {
+     "id": "w40-t2",
+     "text": "Chambers: adaptive set of 30 questions (desirable-difficulty zone)",
+     "kind": "drill"
+    },
+    {
+     "id": "w40-t3",
+     "text": "Moot Court: two 10-question sprints + 'Identify the Type' drill",
+     "kind": "sprint"
+    },
+    {
+     "id": "w40-t4",
+     "text": "Clerk's Ledger: complete reflections for every new entry",
+     "kind": "review"
+    },
+    {
+     "id": "w40-t5",
+     "text": "Weekly reflection: what worked, what didn't, what will change",
+     "kind": "reflection"
+    }
+   ],
+   "blockedRatio": 0.0,
+   "exams": 0
+  }
+ ]
+}
