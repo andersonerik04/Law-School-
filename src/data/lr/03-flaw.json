@@ -1,0 +1,678 @@
+[
+  {
+    "id": "lr-019",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 4,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "economics",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "A study of sixty countries found that those whose central banks are legally independent of the government have, on average, markedly lower inflation than those whose central banks are not.",
+        "r": "P"
+      },
+      {
+        "t": "Therefore, granting a central bank legal independence lowers a country’s inflation.",
+        "r": "C"
+      }
+    ],
+    "stem": "The reasoning in the argument is most vulnerable to criticism on the grounds that the argument",
+    "choices": [
+      "relies on the testimony of an authority whose expertise lies outside the field in question",
+      "overlooks the possibility that countries already committed to low inflation are more likely to grant their central banks independence",
+      "takes for granted that inflation is the sole measure of a central bank’s performance",
+      "treats a condition that is required for low inflation as though it were sufficient to produce it",
+      "fails to consider that some countries with independent central banks nonetheless have high inflation"
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "The correlation reflects central-bank independence causing low inflation, not the reverse and not a common cause.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Countries with independent central banks average lower inflation. The author concludes that independence causes lower inflation.",
+      "issue": "What is wrong with moving from correlation to causation here?",
+      "rule": "A correlation between A and B is consistent with A causing B, B causing A, a third factor C causing both, or coincidence. A causal conclusion must rule out the alternatives.",
+      "analysis": {
+        "correct": "(B) names reverse causation: an inflation-averse political culture could lead countries to grant independence, rather than independence producing low inflation.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "No authority is cited; the argument relies on a study."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "The argument concerns inflation only and never claims to measure overall performance."
+          },
+          {
+            "choice": 3,
+            "label": "reversal",
+            "why": "A plausible-sounding conditional confusion, but the argument draws a causal inference, not a conditional one."
+          },
+          {
+            "choice": 4,
+            "label": "irrelevant-comparison",
+            "why": "Averages tolerate exceptions. A few high-inflation independent banks do not damage a claim about the general effect."
+          }
+        ]
+      },
+      "holding": "Correlation → causation is always vulnerable to reverse causation and common cause; look for the answer that names one of them."
+    },
+    "reasoningKeys": [
+      "reverse",
+      "causation",
+      "correlation",
+      "alternative"
+    ]
+  },
+  {
+    "id": "lr-020",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 4,
+    "flaw": "sampling",
+    "pattern": "statistical",
+    "topic": "international commerce",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "An online survey of subscribers to the journal Arbitration Quarterly found that 82 percent prefer arbitration to litigation for resolving cross-border commercial disputes.",
+        "r": "P"
+      },
+      {
+        "t": "Clearly, most businesses engaged in cross-border commerce prefer arbitration.",
+        "r": "C"
+      }
+    ],
+    "stem": "The argument is most vulnerable to which one of the following criticisms?",
+    "choices": [
+      "It confuses how widespread a preference is with how strongly it is held.",
+      "It fails to establish that arbitration is in fact superior to litigation.",
+      "It draws a conclusion about a large population from a sample that is likely to be biased toward a particular response.",
+      "It assumes that a preference held by most members of a group is held by every member.",
+      "It takes for granted that subscribers to the journal are not engaged in cross-border commerce."
+    ],
+    "answer": 2,
+    "diagram": {
+      "gap": "Arbitration Quarterly subscribers are representative of all cross-border businesses.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "82% of a specialist arbitration journal’s subscribers prefer arbitration. Conclusion: most cross-border businesses prefer arbitration.",
+      "issue": "Is the sample representative of the population in the conclusion?",
+      "rule": "A sample supports a generalization only if it is representative. Self-selected or specialist samples are suspect.",
+      "analysis": {
+        "correct": "(C) Readers of an arbitration journal are far more likely than typical businesses to favor arbitration. The sample is skewed toward the very response measured.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Intensity of preference is never at issue."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "The conclusion concerns what businesses PREFER, not which method is better."
+          },
+          {
+            "choice": 3,
+            "label": "shell-game",
+            "why": "The conclusion says ‘most,’ not ‘every.’"
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "The argument, if anything, assumes they are representative of such businesses."
+          }
+        ]
+      },
+      "holding": "Ask WHO was surveyed and whether that group leans toward the answer being measured."
+    },
+    "reasoningKeys": [
+      "sample",
+      "biased",
+      "unrepresentative",
+      "subscribers"
+    ]
+  },
+  {
+    "id": "lr-021",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 5,
+    "flaw": "equivocation",
+    "pattern": "conditional",
+    "topic": "constitutional theory",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Commentator: Any program that increases the money supply is inflationary,",
+        "r": "P"
+      },
+      {
+        "t": "and because inflation erodes the value of savings, every inflationary program is in effect a tax.",
+        "r": "P"
+      },
+      {
+        "t": "The central bank’s new lending program increases the money supply,",
+        "r": "P"
+      },
+      {
+        "t": "so it is a tax.",
+        "r": "I"
+      },
+      {
+        "t": "Since the constitution permits only the legislature to impose taxes, the lending program is unconstitutional.",
+        "r": "C"
+      }
+    ],
+    "stem": "The reasoning in the commentator’s argument is flawed because the argument",
+    "choices": [
+      "takes for granted that every increase in the money supply is inflationary",
+      "concludes that a policy is undesirable merely because it has some negative effects",
+      "presumes that what is true of a program as a whole is true of each of its parts",
+      "shifts from using a key term in an economic sense to using it in a legal sense",
+      "infers a causal relationship from a mere correlation"
+    ],
+    "answer": 3,
+    "diagram": {
+      "gap": "A ‘tax’ in the economic sense is a ‘tax’ in the constitutional sense.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Money creation → inflation → an economic burden the commentator calls a ‘tax.’ The constitution reserves ‘taxes’ to the legislature, so the program is unconstitutional.",
+      "issue": "Does ‘tax’ mean the same thing throughout?",
+      "rule": "Equivocation: a word changes meaning between premise and conclusion, so the premises connect only verbally.",
+      "analysis": {
+        "correct": "(D) ‘In effect a tax’ is an economic metaphor; the constitutional clause concerns taxes as a legal category. The argument trades on the shift.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "restatement",
+            "why": "This is a stated premise. Flaw questions accept the premises; the error lies in the inference."
+          },
+          {
+            "choice": 1,
+            "label": "shell-game",
+            "why": "The conclusion is about constitutionality, not desirability."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "No whole-to-part reasoning occurs."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "No correlation is offered."
+          }
+        ]
+      },
+      "holding": "Hedges like ‘in effect’ or ‘in a sense’ often mark the moment a word quietly changes meaning."
+    },
+    "reasoningKeys": [
+      "equivocation",
+      "tax",
+      "two senses",
+      "economic",
+      "legal"
+    ]
+  },
+  {
+    "id": "lr-022",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 4,
+    "flaw": "suff-nec",
+    "pattern": "conditional",
+    "topic": "finance",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Only companies whose accounts have been audited for three consecutive years may list on the exchange’s premium tier.",
+        "r": "P"
+      },
+      {
+        "t": "Zentara Corp.’s application for the premium tier was rejected.",
+        "r": "P"
+      },
+      {
+        "t": "Hence Zentara’s accounts have not been audited for three consecutive years.",
+        "r": "C"
+      }
+    ],
+    "stem": "The flawed reasoning in the argument is that the argument",
+    "choices": [
+      "confuses a company’s audit history with the quality of its accounts",
+      "draws a general conclusion about all listed companies from a single case",
+      "fails to consider that some companies on the premium tier have not been audited for three consecutive years",
+      "overlooks the possibility that a company could satisfy a necessary condition for premium listing and still be refused",
+      "assumes that the exchange applies its listing rules consistently"
+    ],
+    "answer": 3,
+    "diagram": {
+      "chain": [
+        "Premium listing",
+        "Audited 3 consecutive years"
+      ],
+      "gap": "Being audited for three years guarantees premium listing.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Premium → audited three years. Zentara was not admitted. The author concludes that Zentara was not audited three years.",
+      "issue": "Does failing the outcome mean failing the requirement?",
+      "rule": "From A → B, the fact ¬A tells you nothing about B (the negation fallacy). A necessary condition can be met while the outcome still fails.",
+      "analysis": {
+        "correct": "(D) Zentara may have met the audit requirement but failed some OTHER condition. Meeting a necessary condition does not guarantee the outcome.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Account quality is never mentioned."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "The conclusion is about Zentara alone."
+          },
+          {
+            "choice": 2,
+            "label": "opposite",
+            "why": "That would contradict the premise, and flaw answers must not attack premises."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Consistency of enforcement is not the problem; the logic fails even with perfectly consistent enforcement."
+          }
+        ]
+      },
+      "holding": "‘Only X may Y’ makes X necessary. Failing Y never proves failing X."
+    },
+    "reasoningKeys": [
+      "necessary",
+      "sufficient",
+      "other conditions",
+      "negation"
+    ]
+  },
+  {
+    "id": "lr-023",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 4,
+    "flaw": "absence-evidence",
+    "pattern": "evidence",
+    "topic": "regulation",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Regulator: The food additive tarvanol has been examined in more than a dozen short-term studies,",
+        "r": "P"
+      },
+      {
+        "t": "and none of them established that it harms human health.",
+        "r": "P"
+      },
+      {
+        "t": "We can therefore conclude that tarvanol poses no long-term risk to human health.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following most accurately describes a flaw in the regulator’s reasoning?",
+    "choices": [
+      "It treats the failure to establish that a substance is harmful as sufficient grounds for concluding that it is harmless.",
+      "It rejects a claim merely because the claim has not been proven with certainty.",
+      "It relies on studies conducted by parties with a financial interest in the outcome.",
+      "It presumes that a substance harmful in large doses is harmful in small doses.",
+      "It generalizes from the effects of tarvanol to the effects of all food additives."
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "The absence of evidence of long-term harm is evidence that there is no long-term harm.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Short-term studies found no established harm. Conclusion: no long-term risk.",
+      "issue": "Does a lack of proof of harm prove safety, especially safety over a time frame the studies never examined?",
+      "rule": "Absence of evidence is not evidence of absence, particularly when the evidence-gathering could not have detected the effect in question.",
+      "analysis": {
+        "correct": "(A) The regulator moves from ‘not shown harmful’ to ‘shown harmless.’ The studies were short-term, so they could not detect long-term harm at all.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "The regulator ACCEPTS a claim (safety) without proof; this answer describes the reverse error."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Funding is never mentioned."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Dosage is never discussed."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The conclusion concerns tarvanol only."
+          }
+        ]
+      },
+      "holding": "Ask whether the investigation could even have found the thing whose absence is being claimed."
+    },
+    "reasoningKeys": [
+      "absence",
+      "not proven",
+      "harmless",
+      "short-term"
+    ]
+  },
+  {
+    "id": "lr-024",
+    "section": "LR",
+    "type": "flaw",
+    "difficulty": 3,
+    "flaw": "straw-man",
+    "pattern": "misrepresentation",
+    "topic": "banking regulation",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Senator Osei has proposed requiring large banks to hold more capital in reserve.",
+        "r": "K"
+      },
+      {
+        "t": "Evidently, the senator believes that banks should be prevented from lending altogether.",
+        "r": "P"
+      },
+      {
+        "t": "But lending is essential to economic growth,",
+        "r": "P"
+      },
+      {
+        "t": "so the senator’s proposal should be rejected.",
+        "r": "C"
+      }
+    ],
+    "stem": "The argument is flawed in that it",
+    "choices": [
+      "concludes that a proposal will have a certain effect merely because it was intended to have that effect",
+      "treats evidence that lending is essential as proof that all lending is beneficial",
+      "relies on a premise that merely restates its conclusion",
+      "attacks the senator’s character rather than the substance of her proposal",
+      "distorts a proposal into a more extreme position and then argues against that position"
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "Higher capital reserves amount to prohibiting lending.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "The senator proposes higher capital reserves. The author recasts this as a wish to ban lending, then rejects it because lending fuels growth.",
+      "issue": "Is the author arguing against what the senator actually proposed?",
+      "rule": "Straw man: misrepresent the opposing position, usually as more extreme, then refute the misrepresentation.",
+      "analysis": {
+        "correct": "(E) Raising reserve requirements is not banning lending. The author refutes a position the senator never took.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Intended effects are not discussed."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "No claim about ALL lending being beneficial is made."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "The premises do not restate the conclusion."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Her character is never attacked; her position is misdescribed."
+          }
+        ]
+      },
+      "holding": "‘Evidently, X believes …’ followed by an extreme paraphrase is a straw-man alarm."
+    },
+    "reasoningKeys": [
+      "misrepresents",
+      "extreme",
+      "straw man",
+      "distorts"
+    ]
+  },
+  {
+    "id": "lr-025",
+    "section": "LR",
+    "type": "parallel-flaw",
+    "difficulty": 4,
+    "flaw": "part-whole",
+    "pattern": "composition",
+    "topic": "international law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Every clause in the proposed trade agreement is easy to understand.",
+        "r": "P"
+      },
+      {
+        "t": "So the agreement itself is easy to understand.",
+        "r": "C"
+      }
+    ],
+    "stem": "The flawed pattern of reasoning in the argument above is most similar to that in which one of the following?",
+    "choices": [
+      "The committee as a whole is divided on the issue. So each of its members must be undecided.",
+      "Every member of the delegation speaks Hungarian. So the delegation can conduct its negotiations in Hungarian.",
+      "Each witness testified credibly. So at least one witness gave credible testimony.",
+      "Most of the firm’s partners favor the merger. So the firm will approve the merger.",
+      "Every chapter of the treatise is concise. So the treatise is concise."
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "A property of each part (easy to understand) belongs to the whole.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Each clause is easy → the agreement is easy. But clauses can interact in complex ways.",
+      "issue": "Which answer commits the same part-to-whole error?",
+      "rule": "Composition flaw: infer that a whole has a property because each part has it, when the property may not transfer.",
+      "analysis": {
+        "correct": "(E) Concise chapters can still add up to a long treatise. Parts → whole, with a property that does not transfer.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "reversal",
+            "why": "Whole-to-part (division), the reverse direction, and a different inference."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Reasonable, not flawed. A shared language of all members does transfer to the group’s capacity."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Valid: if each is credible, at least one is."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "A different gap: whether partner preference determines firm approval."
+          }
+        ]
+      },
+      "holding": "In Parallel Flaw, match the DIRECTION of the error (parts → whole) and confirm the property really fails to transfer."
+    },
+    "reasoningKeys": [
+      "parts",
+      "whole",
+      "composition",
+      "concise"
+    ]
+  },
+  {
+    "id": "lr-026",
+    "section": "LR",
+    "type": "parallel-flaw",
+    "difficulty": 4,
+    "flaw": "possibility-certainty",
+    "pattern": "modal",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "It is possible that regulators will block the proposed merger.",
+        "r": "P"
+      },
+      {
+        "t": "If the merger is blocked, Halden’s share price will fall.",
+        "r": "P"
+      },
+      {
+        "t": "So Halden’s share price will fall.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following exhibits a flawed pattern of reasoning most similar to the argument above?",
+    "choices": [
+      "If the river floods, the bridge will close. The bridge has closed. So the river must have flooded.",
+      "The vote can pass only if the delegates attend. The delegates might attend. So the vote might pass.",
+      "Most years, the harbor freezes in January. It is now January. So the harbor will probably freeze.",
+      "The tenants’ association may call a strike. If it calls a strike, the landlord will negotiate. Therefore, the landlord will negotiate.",
+      "The court will hear the appeal this term. If it hears the appeal, the ruling might be reversed. So the ruling might be reversed."
+    ],
+    "answer": 3,
+    "diagram": {
+      "gap": "What may happen will happen.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "A possible event (merger blocked) would cause a result (price fall). The author concludes the result WILL occur.",
+      "issue": "Which answer also turns a possibility into a certainty?",
+      "rule": "Possibility vs. certainty: ‘X may happen; if X, then Y; so Y’ is invalid.",
+      "analysis": {
+        "correct": "(D) ‘May call a strike’ → ‘will negotiate’ repeats the exact move: a mere possibility treated as an established fact.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "reversal",
+            "why": "Affirms the necessary condition, a different flaw."
+          },
+          {
+            "choice": 1,
+            "label": "wrong-degree",
+            "why": "A different error. Meeting a necessary condition is treated as making the outcome possible, but the conclusion stays modal (‘might’), not certain."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Reasonable probabilistic reasoning."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Valid: certain premise plus a possible consequence yields a possible conclusion."
+          }
+        ]
+      },
+      "holding": "Track modality: ‘may’ in the premises cannot become ‘will’ in the conclusion."
+    },
+    "reasoningKeys": [
+      "possible",
+      "certain",
+      "may",
+      "will"
+    ]
+  },
+  {
+    "id": "lr-027",
+    "section": "LR",
+    "type": "parallel-flaw",
+    "difficulty": 5,
+    "flaw": "suff-nec",
+    "pattern": "conditional",
+    "topic": "international law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Any treaty ratified by the Senate is binding on the federal government.",
+        "r": "P"
+      },
+      {
+        "t": "The Bilateral Water Accord is binding on the federal government.",
+        "r": "P"
+      },
+      {
+        "t": "So the Senate must have ratified it.",
+        "r": "C"
+      }
+    ],
+    "stem": "The pattern of flawed reasoning in the argument above is most closely paralleled in which one of the following?",
+    "choices": [
+      "All certified translators have passed the state examination. Mira is not a certified translator. So Mira has not passed the state examination.",
+      "All licensed pilots have passed the medical examination. Reka has not passed the medical examination. So Reka is not a licensed pilot.",
+      "Most firms that hire the consultancy see higher profits. Kallos saw higher profits. So Kallos probably hired the consultancy.",
+      "Every vintage the estate releases has been aged for five years. This wine has been aged for five years. So the estate must have released it.",
+      "Only members in good standing may vote. Bence voted. So Bence is a member in good standing."
+    ],
+    "answer": 3,
+    "diagram": {
+      "chain": [
+        "Ratified by Senate",
+        "Binding"
+      ],
+      "gap": "Being binding guarantees Senate ratification.",
+      "overlay": "flaw"
+    },
+    "brief": {
+      "facts": "Ratified → binding. The Accord is binding. Conclusion: it was ratified.",
+      "issue": "Which answer commits the same error: affirming the necessary condition and concluding the sufficient one?",
+      "rule": "From A → B and B, nothing follows about A (the reversal fallacy). Distinguish it from the negation fallacy (from A → B and ¬A, conclude ¬B).",
+      "analysis": {
+        "correct": "(D) Released → aged five years. This wine is aged five years. Conclusion: it was released by the estate. Same form: A → B, B, therefore A.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "wrong-degree",
+            "why": "Flawed, but it is the NEGATION fallacy (¬A → ¬B), not the reversal. Same family, different form."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Valid contrapositive: ¬B → ¬A."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Probabilistic and hedged (‘probably’), a different structure."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Valid: Vote → Good standing, Bence voted, so good standing."
+          }
+        ]
+      },
+      "holding": "Reversal (B, so A) and negation (¬A, so ¬B) are different flaws. Parallel Flaw requires the same one."
+    },
+    "reasoningKeys": [
+      "reversal",
+      "affirming",
+      "necessary",
+      "sufficient",
+      "same form"
+    ]
+  }
+]

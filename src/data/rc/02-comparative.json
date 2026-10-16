@@ -1,0 +1,828 @@
+[
+  {
+    "id": "rc-05",
+    "title": "Fixed Meaning and Living Precedent",
+    "topic": "constitutional theory",
+    "comparative": true,
+    "passages": [
+      {
+        "label": "Passage A",
+        "paragraphs": [
+          {
+            "text": "A written constitution is a legal text, and like any legal text its words carry the meaning they had when it was adopted. That meaning is fixed; it does not drift with the changing views of later generations. The authority of the constitution derives from its ratification by the people, and that act of ratification attached to the words as they were then understood. If judges may revise that meaning to suit the present, the constitution binds no one; it becomes whatever a majority of the court believes it ought to be. Interpretation, on this view, is a search for a historical fact—what the words meant to those who adopted them—rather than an occasion for moral or political judgment.",
+            "fn": "Thesis",
+            "gist": "A: constitutional meaning is fixed at adoption; authority comes from ratification; judicial revision dissolves constraint."
+          },
+          {
+            "text": "None of this denies that the constitution must sometimes change. Admittedly, the formal amendment process is arduous, requiring supermajorities that are difficult to assemble. But difficulty is a feature, not a defect: it ensures that fundamental law changes only with broad and durable consent. When courts depart from original meaning, they do not avoid the burdens of amendment; they simply transfer the power to amend from the people to the judiciary. A people that wishes to alter its fundamental law has a means of doing so; a court that does it on the people’s behalf has substituted its judgment for theirs, however wise that judgment may be.",
+            "fn": "Concession",
+            "gist": "A concedes amendment is hard but says that is by design; judicial change usurps the amendment power.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Passage B",
+        "paragraphs": [
+          {
+            "text": "Much of a constitutional system’s actual content lies not in its text, which is often brief and general, but in the precedents built up by courts over generations. These precedents develop as the common law always has: incrementally, case by case, each decision constrained by those that came before. This method has its own discipline. A judge who departs too abruptly from precedent invites reversal; one who follows it extends a body of reasoning tested against many concrete disputes. Most of the doctrines that structure constitutional litigation—tests for when speech may be regulated, standards for reviewing legislation, rules about who may sue—appear nowhere in the text; they are the product of decades of adjudication.",
+            "fn": "Thesis",
+            "gist": "B: constitutional content lives largely in precedent, developed incrementally like common law, with its own discipline."
+          },
+          {
+            "text": "The legitimacy of this process rests on humility rather than on a single founding act. The accumulated judgments of many judges, confronting many circumstances, are more likely to be sound than the views of any one generation, including the generation that ratified the text. And because formal amendment is so difficult to accomplish, a constitution that could change only through amendment would grow ever more ill-suited to the society it governs. Incremental judicial development allows adaptation while preserving continuity. Continuity, in turn, is itself a value that the framers could not secure for later generations except by leaving room for judges to adjust. Precedent thus does the work that amendment, in practice, cannot.",
+            "fn": "Evidence",
+            "gist": "B grounds legitimacy in accumulated judicial wisdom; amendment is too difficult, so incremental development is needed.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "a",
+        "name": "Author A",
+        "stance": "Meaning is fixed at ratification; change should come only through amendment.",
+        "isAuthor": true
+      },
+      {
+        "id": "b",
+        "name": "Author B",
+        "stance": "Constitutional law legitimately evolves through incremental precedent.",
+        "isAuthor": true
+      }
+    ],
+    "tone": {
+      "value": 0,
+      "word": "Two advocates",
+      "note": "Each author is confident and argumentative; neither addresses the other directly."
+    },
+    "comparison": {
+      "agree": [
+        "Formal amendment is difficult",
+        "Constitutions sometimes need to change"
+      ],
+      "disagree": [
+        "Whether judicial precedent may legitimately alter constitutional law",
+        "Source of constitutional legitimacy"
+      ],
+      "onlyA": [
+        "Ratification by the people as the source of authority",
+        "Judicial revision transfers the amendment power"
+      ],
+      "onlyB": [
+        "Common-law method has its own discipline",
+        "Accumulated judgments of many judges"
+      ]
+    },
+    "questions": [
+      {
+        "id": "rc-05-1",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "Both passages are primarily concerned with which one of the following questions?",
+        "choices": [
+          "How should conflicts between precedent and statute be resolved?",
+          "Is the common law superior to statutory law?",
+          "How, and by whom, may the content of constitutional law legitimately change over time?",
+          "Should constitutions be shorter and more general?",
+          "Should judges be elected or appointed?"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "A: change only through amendment by the people. B: change through incremental judicial precedent.",
+          "issue": "What shared question do both passages answer differently?",
+          "rule": "Comparative ‘both concerned with’ questions: find the topic both address, not either author’s answer.",
+          "analysis": {
+            "correct": "(C) Both address legitimate constitutional change and who controls it.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Statutes are not discussed."
+              },
+              {
+                "choice": 1,
+                "label": "half-right",
+                "why": "B invokes common-law method; A does not compare legal sources."
+              },
+              {
+                "choice": 3,
+                "label": "half-right",
+                "why": "B notes texts are brief; neither recommends brevity."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Judicial selection is not discussed."
+              }
+            ]
+          },
+          "holding": "The shared question is usually one level more abstract than either author’s thesis."
+        },
+        "reasoningKeys": [
+          "legitimate change",
+          "who",
+          "both address"
+        ]
+      },
+      {
+        "id": "rc-05-2",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "The authors of the two passages would be most likely to disagree about whether",
+        "choices": [
+          "judges should be constrained in some way when deciding constitutional cases",
+          "judicial precedent can legitimately alter the content of constitutional law",
+          "constitutions sometimes need to change",
+          "constitutional texts are written documents",
+          "the formal amendment process is difficult to use"
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "A: judicial change transfers the amendment power to judges (illegitimate). B: incremental precedent is legitimate.",
+          "issue": "Where do their views conflict?",
+          "rule": "Disagreement answers need both authors to take opposing positions.",
+          "analysis": {
+            "correct": "(B) A: no; B: yes.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "restatement",
+                "why": "Both endorse constraint (fixed meaning vs. precedent’s discipline)."
+              },
+              {
+                "choice": 2,
+                "label": "restatement",
+                "why": "Both accept this."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Uncontroversial and not at issue."
+              },
+              {
+                "choice": 4,
+                "label": "restatement",
+                "why": "Both agree (A: ‘admittedly … arduous’; B: ‘so difficult’)."
+              }
+            ]
+          },
+          "holding": "Concessions in one passage often create agreement traps in disagreement questions."
+        },
+        "reasoningKeys": [
+          "precedent",
+          "legitimately",
+          "disagree"
+        ]
+      },
+      {
+        "id": "rc-05-3",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 5,
+        "bloom": "Analyze",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "The authors would most likely agree with which one of the following statements?",
+        "choices": [
+          "The difficulty of formal amendment is a reason to permit judges to adapt constitutional law.",
+          "Formal constitutional amendment is difficult to accomplish.",
+          "Courts should never overrule precedent.",
+          "Constitutional meaning is fixed at the time of ratification.",
+          "The accumulated judgments of many judges are more reliable than the views of any one generation."
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "A: ‘the formal amendment process is arduous.’ B: ‘formal amendment is so difficult to accomplish.’",
+          "issue": "What do both affirm?",
+          "rule": "Agreement answers often come from one author’s concession matching the other’s premise.",
+          "analysis": {
+            "correct": "(B) Both state it, though they draw opposite lessons.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "half-right",
+                "why": "B’s inference; A rejects it."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "Neither says this; A might favor overruling non-originalist precedent."
+              },
+              {
+                "choice": 3,
+                "label": "half-right",
+                "why": "A only."
+              },
+              {
+                "choice": 4,
+                "label": "half-right",
+                "why": "B only."
+              }
+            ]
+          },
+          "holding": "Shared facts, opposite lessons: a hallmark of comparative passages."
+        },
+        "reasoningKeys": [
+          "amendment difficult",
+          "both",
+          "concession"
+        ]
+      },
+      {
+        "id": "rc-05-4",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "The reference in Passage B to ‘the accumulated judgments of many judges’ serves primarily to",
+        "choices": [
+          "criticize the generation that ratified the text",
+          "explain why amendment is difficult",
+          "ground the legitimacy of incremental change in a form of collective wisdom",
+          "concede that individual judges often err",
+          "argue that judges should be elected"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "‘The legitimacy of this process rests on humility … the accumulated judgments … are more likely to be sound.’",
+          "issue": "What work does the phrase do?",
+          "rule": "Function: tie the detail to the paragraph’s purpose (legitimacy).",
+          "analysis": {
+            "correct": "(C) It supplies B’s theory of legitimacy.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "B prefers accumulated judgment but does not criticize the founders."
+              },
+              {
+                "choice": 1,
+                "label": "shell-game",
+                "why": "Amendment difficulty is a separate point."
+              },
+              {
+                "choice": 3,
+                "label": "unsupported-inference",
+                "why": "Not the purpose; the point is collective reliability."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Not discussed."
+              }
+            ]
+          },
+          "holding": "Look for the claim the detail directly supports."
+        },
+        "reasoningKeys": [
+          "legitimacy",
+          "collective wisdom",
+          "humility"
+        ]
+      },
+      {
+        "id": "rc-05-5",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "Which one of the following most accurately describes the relationship between the two passages?",
+        "choices": [
+          "Passage A defends a view that Passage B’s approach implicitly rejects, though Passage B does not address Passage A’s argument directly.",
+          "Passage A describes a historical development that Passage B evaluates.",
+          "Passage B directly rebuts each argument made in Passage A.",
+          "Both passages defend the same view using different evidence.",
+          "Passage B provides an example illustrating the general principle stated in Passage A."
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "A: fixed meaning + amendment only. B: incremental precedent; never mentions A.",
+          "issue": "How do the passages relate?",
+          "rule": "Comparative relationship: note whether passages engage each other directly or only implicitly.",
+          "analysis": {
+            "correct": "(A) Opposing views, no direct engagement.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "No historical narrative."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "B never addresses A’s arguments directly."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "They hold opposing views."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "B contradicts A’s principle."
+              }
+            ]
+          },
+          "holding": "Most LSAT comparative pairs are written independently; ‘directly rebuts’ is usually too strong."
+        },
+        "reasoningKeys": [
+          "implicitly",
+          "not directly",
+          "opposing"
+        ]
+      },
+      {
+        "id": "rc-05-6",
+        "section": "RC",
+        "type": "rc-inference",
+        "difficulty": 4,
+        "bloom": "Apply",
+        "passageId": "rc-05",
+        "topic": "constitutional theory",
+        "stem": "The author of Passage A would most likely regard a court that overturns a long-standing precedent because it conflicts with the constitution’s original meaning as",
+        "choices": [
+          "making a decision that only a supermajority of judges may make",
+          "usurping the power of amendment",
+          "acting illegitimately because precedent is binding",
+          "acting appropriately by restoring the meaning that ratification fixed",
+          "showing excessive deference to precedent"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "A: authority comes from ratified meaning; judicial departure from it is illegitimate.",
+          "issue": "Apply A’s view to a court restoring original meaning.",
+          "rule": "Apply an author’s principle to a new case.",
+          "analysis": {
+            "correct": "(D) Restoring fixed meaning is what A demands.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Supermajorities concern amendment, not courts."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "Usurpation, for A, is departing FROM original meaning."
+              },
+              {
+                "choice": 2,
+                "label": "shell-game",
+                "why": "That reflects B’s emphasis, not A’s."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The court is overruling precedent."
+              }
+            ]
+          },
+          "holding": "Predict the author’s judgment from her criterion, then match."
+        },
+        "reasoningKeys": [
+          "original meaning",
+          "restoring",
+          "appropriate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rc-06",
+    "title": "Independent Central Banks",
+    "topic": "economics & public law",
+    "comparative": true,
+    "passages": [
+      {
+        "label": "Passage A",
+        "paragraphs": [
+          {
+            "text": "The case for central bank independence rests on a problem economists call time inconsistency. Elected officials facing an approaching election have an incentive to stimulate the economy, lowering unemployment in the short run at the cost of higher inflation later. Because the public anticipates this temptation, it expects inflation, and those expectations become embedded in wages and prices, so that the economy suffers higher inflation without the lasting gain in employment. A central bank shielded from electoral pressure can commit credibly to price stability, anchoring expectations. The difficulty is not that politicians are uniquely shortsighted but that their promises are not believed: even an official sincerely committed to low inflation cannot prove that commitment to a skeptical public.",
+            "fn": "Thesis",
+            "gist": "A: time inconsistency tempts politicians to inflate; independence makes price-stability commitments credible."
+          },
+          {
+            "text": "The evidence broadly supports this reasoning. Among advanced economies, greater legal independence of the central bank has been associated with lower average inflation, and several countries that granted independence in the 1990s saw inflation expectations fall soon afterward. Independence was designed for a deliberately narrow task—keeping inflation low and stable—and within that task it has served well. Governments have also found independence useful for their own purposes: by delegating an unpopular task to an insulated institution, they can avoid blame for the higher interest rates that fighting inflation sometimes requires.",
+            "fn": "Evidence",
+            "gist": "A: evidence links independence to lower inflation; independence was designed for a narrow task and works within it.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Passage B",
+        "paragraphs": [
+          {
+            "text": "Central bank independence was justified as a technical solution to a technical problem: the control of inflation. But in recent decades many central banks have taken on tasks far beyond setting short-term interest rates. Through large-scale purchases of government and corporate bonds, they have influenced long-term borrowing costs, the prices of financial assets, and therefore the distribution of wealth, since those who hold assets gain most when asset prices rise. Such purchases were initially presented as emergency measures during financial crises, but in many economies they have become a recurring instrument, and central banks’ balance sheets have grown to a multiple of their former size.",
+            "fn": "Background",
+            "gist": "B: independence justified for inflation control, but central banks now shape asset prices and wealth distribution."
+          },
+          {
+            "text": "Decisions with such distributive consequences are the ordinary business of democratic politics. The credibility argument for independence may well hold for interest-rate policy, where a commitment to low inflation benefits from insulation. It is far weaker for choices about which assets to buy and in what quantities. The remedy is not to abolish independence but to define central banks’ mandates more precisely in legislation and to subject their balance-sheet policies to greater oversight by elected bodies. When an unelected body decides, in effect, whether the gains of a recovery accrue disproportionately to asset owners, the claim that it is merely keeping prices stable no longer describes what it is doing. Legislatures, for their part, have often been content to let central banks act, since doing so spares them difficult choices. Clearer mandates would restore the division of labor that independence originally presupposed.",
+            "fn": "Author's Conclusion",
+            "gist": "B: credibility rationale fits rates, not asset purchases; narrow mandates and more oversight, not abolition.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "a",
+        "name": "Author A",
+        "stance": "Independence solves time inconsistency and has delivered low inflation.",
+        "isAuthor": true
+      },
+      {
+        "id": "b",
+        "name": "Author B",
+        "stance": "Independence fits rate policy but not distributive balance-sheet policy; legislate tighter mandates.",
+        "isAuthor": true
+      }
+    ],
+    "tone": {
+      "value": 0.2,
+      "word": "Analytical",
+      "note": "A is approving; B is critical but measured—reform, not abolition."
+    },
+    "comparison": {
+      "agree": [
+        "Independence was justified by inflation control",
+        "Independence suits interest-rate policy"
+      ],
+      "disagree": [
+        "Whether independence should extend to all central bank policies (implicitly)"
+      ],
+      "onlyA": [
+        "Time inconsistency",
+        "Evidence: lower inflation in advanced economies"
+      ],
+      "onlyB": [
+        "Asset purchases redistribute wealth",
+        "Legislated mandates and oversight"
+      ]
+    },
+    "questions": [
+      {
+        "id": "rc-06-1",
+        "section": "RC",
+        "type": "rc-main-point",
+        "difficulty": 3,
+        "bloom": "Understand",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "Which one of the following most accurately expresses the main point of Passage B?",
+        "choices": [
+          "Because central banks now make decisions with significant distributive consequences, the case for insulating those decisions from democratic oversight is weaker than the case for independence in setting interest rates.",
+          "Large-scale bond purchases always increase inequality.",
+          "Time inconsistency is not a real problem.",
+          "Central bank independence should be abolished.",
+          "Central banks should stop setting short-term interest rates."
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "B: tasks expanded; distributive effects; credibility argument weaker for asset purchases; oversight, not abolition.",
+          "issue": "What is B’s main claim?",
+          "rule": "Main point must include B’s scope limitation (rates vs. purchases).",
+          "analysis": {
+            "correct": "(A) Captures the distinction and the conclusion.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "too-strong",
+                "why": "‘Always’ overstates."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "B grants the credibility argument for rates."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "B explicitly rejects abolition."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Not proposed."
+              }
+            ]
+          },
+          "holding": "Watch for ‘not X but Y’ conclusions; the answer must respect both halves."
+        },
+        "reasoningKeys": [
+          "distributive",
+          "weaker",
+          "not abolish"
+        ]
+      },
+      {
+        "id": "rc-06-2",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "The author of Passage B would most likely respond to the argument in Passage A by",
+        "choices": [
+          "maintaining that inflation is no longer a significant economic concern",
+          "rejecting the evidence that independence lowers inflation",
+          "arguing that elected officials never face incentives to stimulate the economy before elections",
+          "agreeing that central banks should be fully insulated from legislative oversight",
+          "conceding the force of the credibility argument for interest-rate policy while questioning whether it extends to policies with major distributive consequences"
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "B: ‘The credibility argument … may well hold for interest-rate policy … far weaker for choices about which assets to buy.’",
+          "issue": "How would B engage A?",
+          "rule": "Cross-passage response: use the author’s own stated concessions and limits.",
+          "analysis": {
+            "correct": "(E) Exactly B’s concession plus limitation.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Not B’s view."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "B does not dispute A’s evidence."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "B grants the argument’s force."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "B calls for more oversight."
+              }
+            ]
+          },
+          "holding": "‘Concede within scope, contest beyond it’ is a common cross-passage response."
+        },
+        "reasoningKeys": [
+          "concede",
+          "interest-rate",
+          "distributive",
+          "extends"
+        ]
+      },
+      {
+        "id": "rc-06-3",
+        "section": "RC",
+        "type": "rc-comparative",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "Both authors would most likely agree that",
+        "choices": [
+          "time inconsistency affects central bankers as much as elected officials",
+          "central bank independence was originally justified by reference to controlling inflation",
+          "independence has lowered inflation in all economies",
+          "central bank mandates should be redefined in legislation",
+          "asset purchases by central banks redistribute wealth"
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "A: ‘designed for a deliberately narrow task—keeping inflation low.’ B: ‘justified as a technical solution to … the control of inflation.’",
+          "issue": "What do both state?",
+          "rule": "Find the statement each passage independently supports.",
+          "analysis": {
+            "correct": "(B) Both say so explicitly.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "A’s argument assumes insulation removes the temptation."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "A speaks of advanced economies and association, not all economies."
+              },
+              {
+                "choice": 3,
+                "label": "half-right",
+                "why": "B only."
+              },
+              {
+                "choice": 4,
+                "label": "half-right",
+                "why": "B only."
+              }
+            ]
+          },
+          "holding": "Agreement answers are often the shared premise both start from."
+        },
+        "reasoningKeys": [
+          "originally justified",
+          "inflation",
+          "both"
+        ]
+      },
+      {
+        "id": "rc-06-4",
+        "section": "RC",
+        "type": "rc-detail",
+        "difficulty": 3,
+        "bloom": "Remember",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "According to Passage A, the problem of time inconsistency arises because",
+        "choices": [
+          "independent central banks are unaccountable",
+          "central banks cannot forecast inflation accurately",
+          "asset purchases raise long-term borrowing costs",
+          "elected officials facing elections have an incentive to stimulate the economy in the short run at the cost of higher inflation later",
+          "wages adjust more slowly than prices"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "A ¶1 defines it in these terms.",
+          "issue": "What does A say?",
+          "rule": "Locate the definition.",
+          "analysis": {
+            "correct": "(D) Paraphrase of A’s definition.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "shell-game",
+                "why": "B’s concern, not A’s."
+              },
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "Not mentioned."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "B says purchases influence (typically lower) borrowing costs; irrelevant here."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Not stated."
+              }
+            ]
+          },
+          "holding": "Definitions in RC passages are frequent detail targets."
+        },
+        "reasoningKeys": [
+          "incentive",
+          "election",
+          "short run"
+        ]
+      },
+      {
+        "id": "rc-06-5",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "In Passage B, the remark that those who hold assets gain most when asset prices rise serves primarily to",
+        "choices": [
+          "argue that asset holders control central banks",
+          "demonstrate that asset purchases are ineffective",
+          "explain how central bank asset purchases can affect the distribution of wealth",
+          "show that inflation harms savers",
+          "suggest that central banks should buy only government bonds"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "‘… and therefore the distribution of wealth, since those who hold assets gain most …’",
+          "issue": "Why include the remark?",
+          "rule": "‘Since’ introduces the mechanism behind the preceding claim.",
+          "analysis": {
+            "correct": "(C) It explains the distributive mechanism.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "unsupported-inference",
+                "why": "No claim about control."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "B says purchases influence prices."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Not B’s point."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Not proposed."
+              }
+            ]
+          },
+          "holding": "‘Since/because’ clauses usually supply mechanisms—their function is explanatory."
+        },
+        "reasoningKeys": [
+          "mechanism",
+          "distribution",
+          "since"
+        ]
+      },
+      {
+        "id": "rc-06-6",
+        "section": "RC",
+        "type": "rc-structure",
+        "difficulty": 5,
+        "bloom": "Analyze",
+        "passageId": "rc-06",
+        "topic": "economics",
+        "stem": "Which one of the following most accurately describes how the two passages are related?",
+        "choices": [
+          "Passage A criticizes an institution that Passage B defends.",
+          "Passage A presents a rationale for an institutional arrangement; Passage B argues that changes in what the institution does strain that rationale.",
+          "Passage B provides empirical evidence for the theory stated in Passage A.",
+          "Both passages argue for abolishing central bank independence.",
+          "Passage A responds directly to objections raised in Passage B."
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "A: rationale (time inconsistency) + evidence. B: expanded tasks; rationale weaker beyond rates.",
+          "issue": "Relationship between the passages.",
+          "rule": "Describe each passage’s move abstractly, then compare.",
+          "analysis": {
+            "correct": "(B) Rationale vs. strain on rationale from expanded functions.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "reversal",
+                "why": "A defends; B criticizes (partially)."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "B offers no such evidence."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Neither argues for abolition."
+              },
+              {
+                "choice": 4,
+                "label": "too-strong",
+                "why": "A does not engage B."
+              }
+            ]
+          },
+          "holding": "Abstract both passages into verbs (‘justifies’, ‘complicates’) before comparing."
+        },
+        "reasoningKeys": [
+          "rationale",
+          "strain",
+          "expanded tasks"
+        ]
+      }
+    ]
+  }
+]

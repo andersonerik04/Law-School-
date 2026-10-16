@@ -1,0 +1,666 @@
+[
+ {
+  "id": "cl-suff-nec",
+  "label": "Sufficient & Necessary",
+  "branch": "CL",
+  "parent": "br-cl",
+  "kind": "cl",
+  "icon": "cl",
+  "chapter": "CHAPTER IV — SUFFICIENT & NECESSARY",
+  "week": 3,
+  "lesson": true,
+  "oneLiner": "A sufficient condition guarantees; a necessary condition is required.",
+  "definition": "“If A, then B” makes A sufficient for B and B necessary for A. Knowing A tells you B; knowing B tells you nothing about A.",
+  "objectives": [
+   "Translate conditional statements into arrows",
+   "Identify sufficient vs. necessary conditions",
+   "Spot reversals"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "If it is raining, the ground is wet: rain is sufficient; wet ground is necessary."
+   },
+   {
+    "domain": "Law",
+    "text": "A bill becomes law only if signed: signature is necessary, not sufficient."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Investment-grade only if rated BBB− or higher: the rating is necessary."
+   }
+  ],
+  "attack": [
+   "Find the indicator (if, only if, all, requires)",
+   "Write sufficient → necessary",
+   "Check: does the sufficient guarantee the necessary?",
+   "Never run the arrow backward"
+  ],
+  "correctLooksLike": "An arrow from the guaranteeing condition to the required one.",
+  "traps": [
+   "Reversal",
+   "Treating necessary as sufficient"
+  ],
+  "commonError": "Reading “only if” as “if.”",
+  "keyPoints": [
+   {
+    "point": "Sufficient guarantees",
+    "keywords": [
+     "sufficient",
+     "guarantee"
+    ]
+   },
+   {
+    "point": "Necessary is required",
+    "keywords": [
+     "necessary",
+     "required"
+    ]
+   },
+   {
+    "point": "Arrow runs sufficient → necessary",
+    "keywords": [
+     "arrow"
+    ]
+   },
+   {
+    "point": "“Only if” introduces the necessary",
+    "keywords": [
+     "only if"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Sufficient & Necessary",
+   "children": [
+    {
+     "label": "Sufficient",
+     "children": [
+      {
+       "label": "If"
+      },
+      {
+       "label": "All"
+      },
+      {
+       "label": "Whenever"
+      }
+     ]
+    },
+    {
+     "label": "Necessary",
+     "children": [
+      {
+       "label": "Only if"
+      },
+      {
+       "label": "Requires"
+      },
+      {
+       "label": "Must"
+      }
+     ]
+    },
+    {
+     "label": "Arrow",
+     "children": [
+      {
+       "label": "Suff → Nec"
+      }
+     ]
+    },
+    {
+     "label": "Errors",
+     "children": [
+      {
+       "label": "Reversal"
+      },
+      {
+       "label": "Negation"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-suff-nec",
+   "lr-sufficient-assumption",
+   "lr-necessary-assumption"
+  ],
+  "card": {
+   "front": "“A bond is investment grade only if rated BBB− or higher.” Write the arrow.",
+   "back": "Investment grade → BBB− or higher.",
+   "keywords": [
+    "investment grade",
+    "bbb"
+   ]
+  },
+  "match": {
+   "patterns": [
+    "conditional",
+    "conditional-principle"
+   ]
+  }
+ },
+ {
+  "id": "cl-contrapositive",
+  "label": "The Contrapositive",
+  "branch": "CL",
+  "parent": "br-cl",
+  "kind": "cl",
+  "icon": "contrapositive",
+  "chapter": "CHAPTER IV — THE CONTRAPOSITIVE",
+  "week": 3,
+  "lesson": true,
+  "oneLiner": "Flip and negate: A → B is equivalent to ¬B → ¬A.",
+  "definition": "The contrapositive is the only valid transformation of a conditional. Reverse the order and negate both sides.",
+  "objectives": [
+   "Form contrapositives instantly",
+   "Use them to derive inferences in MBT and SA questions"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "If it’s a dog, it’s a mammal → if it’s not a mammal, it’s not a dog."
+   },
+   {
+    "domain": "Law",
+    "text": "If ratified, binding → if not binding, not ratified."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "If audited, never defaulted → if defaulted, not audited."
+   }
+  ],
+  "attack": [
+   "Write A → B",
+   "Reverse: B ? A",
+   "Negate both: ¬B → ¬A",
+   "For “and/or” in a side, flip and/or when negating"
+  ],
+  "correctLooksLike": "The original conditional, flipped and negated.",
+  "traps": [
+   "Flipping without negating (reversal)",
+   "Negating without flipping (negation)"
+  ],
+  "commonError": "Forgetting to switch “and” to “or” when negating a compound condition.",
+  "keyPoints": [
+   {
+    "point": "Flip and negate",
+    "keywords": [
+     "flip",
+     "negate"
+    ]
+   },
+   {
+    "point": "Only valid transformation",
+    "keywords": [
+     "valid",
+     "only"
+    ]
+   },
+   {
+    "point": "And ↔ or when negating",
+    "keywords": [
+     "and",
+     "or"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "The Contrapositive",
+   "children": [
+    {
+     "label": "Original",
+     "children": [
+      {
+       "label": "A → B"
+      }
+     ]
+    },
+    {
+     "label": "Contrapositive",
+     "children": [
+      {
+       "label": "¬B → ¬A"
+      }
+     ]
+    },
+    {
+     "label": "Invalid",
+     "children": [
+      {
+       "label": "B → A"
+      },
+      {
+       "label": "¬A → ¬B"
+      }
+     ]
+    },
+    {
+     "label": "Compound",
+     "children": [
+      {
+       "label": "and ↔ or"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "cl-suff-nec",
+   "lr-must-be-true",
+   "lr-cannot-be-true"
+  ],
+  "card": {
+   "front": "Contrapositive of: Signed → (Approved AND Published)?",
+   "back": "(¬Approved OR ¬Published) → ¬Signed.",
+   "keywords": [
+    "or",
+    "not signed"
+   ]
+  },
+  "match": {
+   "patterns": [
+    "conditional"
+   ]
+  }
+ },
+ {
+  "id": "cl-unless",
+  "label": "Unless, Only If & Without",
+  "branch": "CL",
+  "parent": "br-cl",
+  "kind": "cl",
+  "icon": "cl",
+  "chapter": "CHAPTER IV — UNLESS & ONLY IF",
+  "week": 4,
+  "lesson": true,
+  "oneLiner": "“Unless” = “if not.” Negate the unless-clause and make it sufficient.",
+  "definition": "“A unless B” translates to ¬B → A (equivalently ¬A → B). “Only if” and “without” introduce necessary conditions.",
+  "objectives": [
+   "Translate unless/until/without/only if",
+   "Handle “no … unless” structures"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "You can’t enter unless you have a ticket: enter → ticket."
+   },
+   {
+    "domain": "Law",
+    "text": "The Senate never re-passes unless the bill is budgetary: re-pass → budget."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Without consent, no contract: contract → consent."
+   }
+  ],
+  "attack": [
+   "Identify the unless-clause",
+   "Negate it; make it the sufficient condition",
+   "The rest becomes the necessary condition",
+   "Check with an example"
+  ],
+  "correctLooksLike": "A clean arrow such as: Enter → Ticket.",
+  "traps": [
+   "Making the unless-clause sufficient without negating it",
+   "Treating “unless” as biconditional"
+  ],
+  "commonError": "Reading “unless” as “if.”",
+  "keyPoints": [
+   {
+    "point": "Unless = if not",
+    "keywords": [
+     "if not",
+     "unless"
+    ]
+   },
+   {
+    "point": "Negate the unless clause → sufficient",
+    "keywords": [
+     "negate",
+     "sufficient"
+    ]
+   },
+   {
+    "point": "Without X, no Y → Y → X",
+    "keywords": [
+     "without"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Unless, Only If & Without",
+   "children": [
+    {
+     "label": "Unless",
+     "children": [
+      {
+       "label": "if not"
+      },
+      {
+       "label": "Negate → sufficient"
+      }
+     ]
+    },
+    {
+     "label": "Only if",
+     "children": [
+      {
+       "label": "Necessary follows"
+      }
+     ]
+    },
+    {
+     "label": "Without",
+     "children": [
+      {
+       "label": "Y → X"
+      }
+     ]
+    },
+    {
+     "label": "Until",
+     "children": [
+      {
+       "label": "Like unless"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "cl-suff-nec",
+   "lr-cannot-be-true"
+  ],
+  "card": {
+   "front": "“No shareholder may vote unless registered.” Arrow?",
+   "back": "Votes → Registered.",
+   "keywords": [
+    "votes",
+    "registered"
+   ]
+  },
+  "match": {
+   "patterns": [
+    "conditional"
+   ]
+  }
+ },
+ {
+  "id": "cl-quantifiers",
+  "label": "Quantifiers & Venn Diagrams",
+  "branch": "CL",
+  "parent": "br-cl",
+  "kind": "cl",
+  "icon": "quantifier",
+  "chapter": "CHAPTER IV — QUANTIFIERS",
+  "week": 4,
+  "lesson": true,
+  "oneLiner": "All, most, some, none: each licenses different inferences.",
+  "definition": "“All A are B” is a conditional. “Some” means at least one. “Most” means more than half. Most + all chains forward; most + most yields “some” only when both concern the same group.",
+  "objectives": [
+   "Draw Venn diagrams for quantified statements",
+   "Combine quantifiers validly"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "All cats are mammals; some mammals swim—nothing follows about cats swimming."
+   },
+   {
+    "domain": "Law",
+    "text": "Most judges were arbitrators; all arbitrators favor the rules → most judges favor the rules."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Most bonds are IG; all IG are euro → most bonds are euro."
+   }
+  ],
+  "attack": [
+   "Translate each statement (all → arrow; some → overlap ✕; none → shaded)",
+   "Draw the Venn",
+   "Chain all/most forward",
+   "Use “most + most of the same group → some overlap”"
+  ],
+  "correctLooksLike": "An inference you can see on the Venn diagram.",
+  "traps": [
+   "Most + most of different groups",
+   "Treating “some” as “some not”",
+   "Running “most” backward"
+  ],
+  "commonError": "Assuming “some A are B” implies “some A are not B.”",
+  "keyPoints": [
+   {
+    "point": "All = conditional",
+    "keywords": [
+     "all",
+     "conditional"
+    ]
+   },
+   {
+    "point": "Some = at least one",
+    "keywords": [
+     "some",
+     "at least one"
+    ]
+   },
+   {
+    "point": "Most = more than half",
+    "keywords": [
+     "most",
+     "half"
+    ]
+   },
+   {
+    "point": "Most + all chains forward",
+    "keywords": [
+     "chain",
+     "forward"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Quantifiers & Venn Diagrams",
+   "children": [
+    {
+     "label": "All",
+     "children": [
+      {
+       "label": "A → B"
+      },
+      {
+       "label": "Shade A outside B"
+      }
+     ]
+    },
+    {
+     "label": "Some",
+     "children": [
+      {
+       "label": "✕ in overlap"
+      }
+     ]
+    },
+    {
+     "label": "Most",
+     "children": [
+      {
+       "label": "> half"
+      }
+     ]
+    },
+    {
+     "label": "None",
+     "children": [
+      {
+       "label": "Shade overlap"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true",
+   "lr-parallel"
+  ],
+  "card": {
+   "front": "Most A are B; most A are C. What follows?",
+   "back": "Some B are C (the two majorities of A must overlap).",
+   "keywords": [
+    "some",
+    "overlap"
+   ]
+  },
+  "match": {
+   "patterns": [
+    "quantifier"
+   ]
+  }
+ },
+ {
+  "id": "cl-chaining",
+  "label": "Chaining Conditionals",
+  "branch": "CL",
+  "parent": "br-cl",
+  "kind": "cl",
+  "icon": "chain",
+  "chapter": "CHAPTER V — CHAINING",
+  "week": 5,
+  "lesson": true,
+  "oneLiner": "Link A → B and B → C into A → C—and its contrapositive.",
+  "definition": "When the necessary condition of one statement is the sufficient condition of another, they chain. Chains of 3–5 links power hard Must Be True and Sufficient Assumption questions.",
+  "objectives": [
+   "Order scattered conditionals into a chain",
+   "Read off every valid inference",
+   "Spot missing links (for SA)"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Coffee → awake → productive: coffee → productive."
+   },
+   {
+    "domain": "Law",
+    "text": "Enforced → recognized → not one-party appointed."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Signed 2010+ → arbitration clause → bypass courts."
+   }
+  ],
+  "attack": [
+   "Translate every statement",
+   "Find a term that appears as a necessary in one and sufficient in another",
+   "Link and extend",
+   "Write the long contrapositive",
+   "For SA: find the gap in the chain"
+  ],
+  "correctLooksLike": "A single chain with its contrapositive, from which inferences are read directly.",
+  "traps": [
+   "Chaining through a negated term",
+   "Linking on terms that only look similar"
+  ],
+  "commonError": "Linking “B” to “¬B” as though they were the same term.",
+  "keyPoints": [
+   {
+    "point": "Necessary of one = sufficient of next",
+    "keywords": [
+     "link",
+     "necessary",
+     "sufficient"
+    ]
+   },
+   {
+    "point": "Read A → C",
+    "keywords": [
+     "a → c",
+     "chain"
+    ]
+   },
+   {
+    "point": "Long contrapositive",
+    "keywords": [
+     "contrapositive"
+    ]
+   },
+   {
+    "point": "SA fills the missing link",
+    "keywords": [
+     "missing link",
+     "sufficient assumption"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Chaining Conditionals",
+   "children": [
+    {
+     "label": "Build",
+     "children": [
+      {
+       "label": "Translate"
+      },
+      {
+       "label": "Link"
+      }
+     ]
+    },
+    {
+     "label": "Read",
+     "children": [
+      {
+       "label": "Forward"
+      },
+      {
+       "label": "Contrapositive"
+      }
+     ]
+    },
+    {
+     "label": "Use",
+     "children": [
+      {
+       "label": "MBT"
+      },
+      {
+       "label": "SA"
+      },
+      {
+       "label": "Parallel"
+      }
+     ]
+    },
+    {
+     "label": "Errors",
+     "children": [
+      {
+       "label": "Broken link"
+      },
+      {
+       "label": "Negation mismatch"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true",
+   "lr-sufficient-assumption",
+   "lr-parallel"
+  ],
+  "card": {
+   "front": "A → B, C → ¬B. What follows about A and C?",
+   "back": "A → ¬C (A → B → ¬C via contrapositive of C → ¬B).",
+   "keywords": [
+    "not c"
+   ]
+  },
+  "match": {
+   "patterns": [
+    "conditional"
+   ]
+  }
+ }
+]

@@ -1,0 +1,2783 @@
+[
+ {
+  "id": "lr-must-be-true",
+  "label": "Must Be True",
+  "branch": "LR",
+  "parent": "grp-inference",
+  "kind": "lr-type",
+  "icon": "must-be-true",
+  "chapter": "CHAPTER V — MUST BE TRUE",
+  "week": 5,
+  "lesson": true,
+  "oneLiner": "Treat the stimulus as proven facts; the answer must follow from them with certainty.",
+  "definition": "Must Be True questions ask what is guaranteed by the stimulus. The stimulus is usually a fact set, not an argument. The correct answer is often a combination of two statements, a contrapositive, or a modest paraphrase—never something merely likely.",
+  "objectives": [
+   "Combine statements (especially conditionals and quantifiers) to derive guaranteed inferences",
+   "Reject answers that are merely probable or that add information"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "If every bakery on the street closes at 6 and Mira’s is a bakery on the street, Mira’s closes at 6."
+   },
+   {
+    "domain": "Law",
+    "text": "If every statute requires publication to take effect and the act was never published, it has not taken effect."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "If all A-rated bonds in a fund are euro-denominated and most holdings are A-rated, most holdings are euro-denominated."
+   }
+  ],
+  "attack": [
+   "Identify the type: the stimulus is evidence, the answer is proven",
+   "Translate conditionals and quantifiers into arrows",
+   "Combine statements; look for chains and contrapositives",
+   "Prove each answer: can you point to the lines that guarantee it?",
+   "Eliminate anything that could be false"
+  ],
+  "correctLooksLike": "An answer you can prove line-by-line from the stimulus—often modest, often a chain or contrapositive.",
+  "traps": [
+   "Too Strong: “always”, “most” when only “some” is supported",
+   "Reversal of a conditional",
+   "Out of Scope: true in life, not in the stimulus"
+  ],
+  "commonError": "Choosing an answer that is very likely true in the real world but not guaranteed by the stimulus.",
+  "keyPoints": [
+   {
+    "point": "The stimulus is accepted as true",
+    "keywords": [
+     "accept",
+     "true"
+    ]
+   },
+   {
+    "point": "The correct answer must be proven, not just likely",
+    "keywords": [
+     "proven",
+     "guarantee",
+     "certain"
+    ]
+   },
+   {
+    "point": "Look for combinations, chains, and contrapositives",
+    "keywords": [
+     "combine",
+     "chain",
+     "contrapositive"
+    ]
+   },
+   {
+    "point": "Strong language is dangerous",
+    "keywords": [
+     "strong",
+     "too strong"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Must Be True",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Prove it"
+      },
+      {
+       "label": "Facts → certainty"
+      }
+     ]
+    },
+    {
+     "label": "Tools",
+     "children": [
+      {
+       "label": "Chains"
+      },
+      {
+       "label": "Contrapositives"
+      },
+      {
+       "label": "Quantifiers"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Too Strong"
+      },
+      {
+       "label": "Reversal"
+      },
+      {
+       "label": "Out of Scope"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "MSS"
+      },
+      {
+       "label": "Cannot Be True"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-most-strongly-supported",
+   "lr-cannot-be-true",
+   "cl-chaining"
+  ],
+  "stemCues": [
+   "must also be true",
+   "must be true",
+   "properly inferred"
+  ],
+  "card": {
+   "front": "In a Must Be True question, how certain must the correct answer be?",
+   "back": "100% certain—it must follow from the stimulus with no added assumptions.",
+   "keywords": [
+    "certain",
+    "follow",
+    "100"
+   ]
+  },
+  "match": {
+   "types": [
+    "must-be-true"
+   ]
+  }
+ },
+ {
+  "id": "lr-most-strongly-supported",
+  "label": "Most Strongly Supported",
+  "branch": "LR",
+  "parent": "grp-inference",
+  "kind": "lr-type",
+  "icon": "most-strongly-supported",
+  "chapter": "CHAPTER VI — MOST STRONGLY SUPPORTED",
+  "week": 6,
+  "lesson": true,
+  "oneLiner": "The answer need not be certain—but it must be the claim the stimulus supports best.",
+  "definition": "MSS questions relax the certainty standard slightly: the correct answer is the one the facts most strongly support, typically a modest, hedged claim (“can”, “some”, “may”). Wrong answers either overreach or drift out of scope.",
+  "objectives": [
+   "Distinguish strong support from certainty",
+   "Prefer modest answers tightly tied to specific lines"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A friend arrives soaked and holding a closed umbrella: it most likely rained, though not certainly."
+   },
+   {
+    "domain": "Law",
+    "text": "Courts that permit dissents have longer opinions; this supports that permitting dissents can influence length."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Yields rose each time a central bank paired a hold with inflation forecasts: investor reactions can depend on accompanying information."
+   }
+  ],
+  "attack": [
+   "Read the facts carefully; note qualifiers (usually, some, most)",
+   "Predict a modest conclusion the facts point toward",
+   "Prefer answers with hedges matching the evidence",
+   "Eliminate over-strong and out-of-scope answers"
+  ],
+  "correctLooksLike": "A cautious claim (“can”, “some”, “may”) backed by a specific sentence.",
+  "traps": [
+   "Too Strong universals",
+   "Speculative causes",
+   "Shell Game swaps of the measured quantity"
+  ],
+  "commonError": "Picking a bold, interesting conclusion over a modest, well-supported one.",
+  "keyPoints": [
+   {
+    "point": "Support, not certainty",
+    "keywords": [
+     "support",
+     "certain"
+    ]
+   },
+   {
+    "point": "Modest answers win",
+    "keywords": [
+     "modest",
+     "hedge",
+     "cautious"
+    ]
+   },
+   {
+    "point": "Tie the answer to specific lines",
+    "keywords": [
+     "specific",
+     "line"
+    ]
+   },
+   {
+    "point": "Avoid universals",
+    "keywords": [
+     "always",
+     "all",
+     "universal"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Most Strongly Supported",
+   "children": [
+    {
+     "label": "Standard",
+     "children": [
+      {
+       "label": "Strong support"
+      },
+      {
+       "label": "Not certainty"
+      }
+     ]
+    },
+    {
+     "label": "Winners",
+     "children": [
+      {
+       "label": "Hedged"
+      },
+      {
+       "label": "Specific"
+      }
+     ]
+    },
+    {
+     "label": "Losers",
+     "children": [
+      {
+       "label": "Too Strong"
+      },
+      {
+       "label": "Speculation"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Must Be True"
+      },
+      {
+       "label": "Principle"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true"
+  ],
+  "stemCues": [
+   "most strongly supported",
+   "most strongly support",
+   "provide the most support for"
+  ],
+  "card": {
+   "front": "MSS vs. MBT: what changes?",
+   "back": "MSS requires strong support rather than certainty; modest, hedged answers tied to the facts usually win.",
+   "keywords": [
+    "support",
+    "certainty",
+    "modest"
+   ]
+  },
+  "match": {
+   "types": [
+    "most-strongly-supported"
+   ]
+  }
+ },
+ {
+  "id": "lr-cannot-be-true",
+  "label": "Cannot Be True",
+  "branch": "LR",
+  "parent": "grp-inference",
+  "kind": "lr-type",
+  "icon": "cannot-be-true",
+  "chapter": "CHAPTER VI — CANNOT BE TRUE",
+  "week": 6,
+  "lesson": true,
+  "oneLiner": "Find the answer that contradicts what the stimulus proves.",
+  "definition": "Cannot Be True (and “could be true EXCEPT”) questions ask for the one answer inconsistent with the stimulus. Four answers could be true (or must be true); the correct answer is impossible given the facts.",
+  "objectives": [
+   "Derive what must be true, then find its contradiction",
+   "Recognize the “EXCEPT” variants"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "If the store is closed every Sunday, “I bought bread there last Sunday” cannot be true."
+   },
+   {
+    "domain": "Law",
+    "text": "If an unsigned bill became law only via a two-thirds re-passage that the Senate reserves for budget bills, “it was not a budget bill” cannot be true."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "If most disclosing funds are audited and audited funds never default, “most disclosing funds defaulted” cannot be true."
+   }
+  ],
+  "attack": [
+   "Derive the guaranteed inferences first",
+   "Look for an answer that contradicts one of them",
+   "Answers that could be true are wrong—even if surprising",
+   "Double-check EXCEPT wording"
+  ],
+  "correctLooksLike": "A statement that directly contradicts a premise or a derived inference.",
+  "traps": [
+   "Answers that are merely unsupported (could still be true)",
+   "Must-be-true answers (certainly not impossible)"
+  ],
+  "commonError": "Selecting an answer that is unsupported—which is still possible, and therefore not the answer.",
+  "keyPoints": [
+   {
+    "point": "The answer contradicts the stimulus",
+    "keywords": [
+     "contradict",
+     "impossible"
+    ]
+   },
+   {
+    "point": "Unsupported is not the same as impossible",
+    "keywords": [
+     "unsupported",
+     "could be true"
+    ]
+   },
+   {
+    "point": "Derive inferences first",
+    "keywords": [
+     "derive",
+     "infer"
+    ]
+   },
+   {
+    "point": "Watch EXCEPT",
+    "keywords": [
+     "except"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Cannot Be True",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Find the impossible"
+      },
+      {
+       "label": "Contradiction"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Derive"
+      },
+      {
+       "label": "Negate"
+      }
+     ]
+    },
+    {
+     "label": "Wrong answers",
+     "children": [
+      {
+       "label": "Could be true"
+      },
+      {
+       "label": "Must be true"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Must Be True"
+      },
+      {
+       "label": "Conditional chains"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true",
+   "cl-contrapositive"
+  ],
+  "stemCues": [
+   "cannot be true",
+   "could be true except",
+   "must be false"
+  ],
+  "card": {
+   "front": "In Cannot Be True, why is an unsupported answer wrong?",
+   "back": "Unsupported claims could still be true; the right answer must be impossible given the stimulus.",
+   "keywords": [
+    "could",
+    "impossible"
+   ]
+  },
+  "match": {
+   "types": [
+    "cannot-be-true"
+   ]
+  }
+ },
+ {
+  "id": "lr-main-conclusion",
+  "label": "Main Conclusion",
+  "branch": "LR",
+  "parent": "grp-structure",
+  "kind": "lr-type",
+  "icon": "main-conclusion",
+  "chapter": "CHAPTER III — MAIN CONCLUSION",
+  "week": 2,
+  "lesson": true,
+  "oneLiner": "Identify the claim everything else supports.",
+  "definition": "Main Conclusion questions ask you to identify (or paraphrase) the argument’s overall conclusion. Traps include sub-conclusions, premises, and the opposing view the author rejects.",
+  "objectives": [
+   "Locate the main conclusion anywhere in a stimulus",
+   "Distinguish it from sub-conclusions and counterpoints"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Skip the 8:15 train—it’s always late, and the 8:30 gets you there first.” Conclusion: skip the 8:15."
+   },
+   {
+    "domain": "Law",
+    "text": "“The critics’ fear is misplaced, since the treaty bars political extraditions.” Conclusion: the fear is misplaced."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The recommendation should be rejected; reported returns understate volatility.” Conclusion: reject."
+   }
+  ],
+  "attack": [
+   "Find candidate conclusions (claims the author argues for)",
+   "Apply the Why? test between candidates",
+   "If X supports Y, Y is higher in the structure",
+   "Paraphrase; match the answer to your paraphrase"
+  ],
+  "correctLooksLike": "A faithful paraphrase of the claim that every other statement ultimately supports.",
+  "traps": [
+   "Sub-conclusion (supported but also supporting)",
+   "Premise restatement",
+   "The opponent’s conclusion"
+  ],
+  "commonError": "Choosing the sub-conclusion that follows “so” instead of the claim it supports.",
+  "keyPoints": [
+   {
+    "point": "Every premise ultimately supports the main conclusion",
+    "keywords": [
+     "support",
+     "main"
+    ]
+   },
+   {
+    "point": "Use the Why? test",
+    "keywords": [
+     "why"
+    ]
+   },
+   {
+    "point": "Sub-conclusions are traps",
+    "keywords": [
+     "sub-conclusion",
+     "intermediate"
+    ]
+   },
+   {
+    "point": "It can appear anywhere",
+    "keywords": [
+     "anywhere",
+     "middle",
+     "first"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Main Conclusion",
+   "children": [
+    {
+     "label": "Find it",
+     "children": [
+      {
+       "label": "Why? test"
+      },
+      {
+       "label": "Indicators"
+      }
+     ]
+    },
+    {
+     "label": "Not it",
+     "children": [
+      {
+       "label": "Sub-conclusion"
+      },
+      {
+       "label": "Premise"
+      },
+      {
+       "label": "Counterpoint"
+      }
+     ]
+    },
+    {
+     "label": "Position",
+     "children": [
+      {
+       "label": "First"
+      },
+      {
+       "label": "Middle"
+      },
+      {
+       "label": "Last"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Role"
+      },
+      {
+       "label": "Method"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "anatomy",
+   "lr-role"
+  ],
+  "stemCues": [
+   "main conclusion",
+   "overall conclusion",
+   "main point"
+  ],
+  "card": {
+   "front": "How do you tell a main conclusion from a sub-conclusion?",
+   "back": "The sub-conclusion supports the main conclusion; apply the Why? test—the main conclusion is supported but supports nothing further.",
+   "keywords": [
+    "why",
+    "supports"
+   ]
+  },
+  "match": {
+   "types": [
+    "main-conclusion"
+   ]
+  }
+ },
+ {
+  "id": "lr-role",
+  "label": "Role of a Statement",
+  "branch": "LR",
+  "parent": "grp-structure",
+  "kind": "lr-type",
+  "icon": "role",
+  "chapter": "CHAPTER III — ROLE OF A STATEMENT",
+  "week": 2,
+  "lesson": true,
+  "oneLiner": "Describe what job a particular claim does in the argument.",
+  "definition": "Role questions name a statement and ask its function: main conclusion, premise, sub-conclusion, counterpoint, concession, or evidence against a view the author rejects. Answers are abstract, so match the role, not the content.",
+  "objectives": [
+   "Assign a role to any quoted statement",
+   "Read abstract role descriptions precisely"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“It’s true the gym is pricey, but the classes are worth it” — “pricey” is a concession."
+   },
+   {
+    "domain": "Law",
+    "text": "“Opponents argue judges are unelected” — the opponents’ premise the author rebuts."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Pigments were sold to dozens of workshops” — undermines evidence for a view the author rejects."
+   }
+  ],
+  "attack": [
+   "Diagram the argument first",
+   "Locate the referenced statement",
+   "Ask: is it supported? does it support? whose view is it?",
+   "Match each clause of the answer to the diagram"
+  ],
+  "correctLooksLike": "An abstract description where every clause matches your diagram.",
+  "traps": [
+   "Answers that describe the right claim with the wrong function",
+   "Half-right two-part answers"
+  ],
+  "commonError": "Reading only the first half of a two-part role answer.",
+  "keyPoints": [
+   {
+    "point": "Diagram before answering",
+    "keywords": [
+     "diagram"
+    ]
+   },
+   {
+    "point": "Supported + supporting = sub-conclusion",
+    "keywords": [
+     "supported",
+     "supporting"
+    ]
+   },
+   {
+    "point": "Concessions are granted points",
+    "keywords": [
+     "concession",
+     "grant"
+    ]
+   },
+   {
+    "point": "Check every clause of the answer",
+    "keywords": [
+     "clause",
+     "every"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Role",
+   "children": [
+    {
+     "label": "Roles",
+     "children": [
+      {
+       "label": "Conclusion"
+      },
+      {
+       "label": "Premise"
+      },
+      {
+       "label": "Sub-conclusion"
+      }
+     ]
+    },
+    {
+     "label": "Other voices",
+     "children": [
+      {
+       "label": "Counterpoint"
+      },
+      {
+       "label": "Concession"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Diagram"
+      },
+      {
+       "label": "Match clauses"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Main Conclusion"
+      },
+      {
+       "label": "Method"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "anatomy",
+   "lr-main-conclusion",
+   "lr-method"
+  ],
+  "stemCues": [
+   "plays which one of the following roles",
+   "figures in the argument",
+   "serves to"
+  ],
+  "card": {
+   "front": "A statement is supported by premises and also supports the main conclusion. Its role?",
+   "back": "Intermediate (sub-)conclusion.",
+   "keywords": [
+    "intermediate",
+    "sub"
+   ]
+  },
+  "match": {
+   "types": [
+    "role"
+   ]
+  }
+ },
+ {
+  "id": "lr-method",
+  "label": "Method of Reasoning",
+  "branch": "LR",
+  "parent": "grp-structure",
+  "kind": "lr-type",
+  "icon": "method",
+  "chapter": "CHAPTER VIII — METHOD OF REASONING",
+  "week": 8,
+  "lesson": true,
+  "oneLiner": "Describe HOW the argument argues, in abstract terms.",
+  "definition": "Method questions ask you to describe an argument’s technique: analogy, counterexample, alternative explanation, reductio, appeal to principle, attacking evidence. Answers are abstract; test each phrase against the stimulus.",
+  "objectives": [
+   "Name common argumentative techniques",
+   "Translate a stimulus into abstract description"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“By your logic, we should also ban cars” — refutation by analogy."
+   },
+   {
+    "domain": "Law",
+    "text": "“The firm blames the competitor, but sales fell where it hasn’t entered” — undermining an explanation."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“That reading makes the clause contradict itself” — reductio ad absurdum."
+   }
+  ],
+  "attack": [
+   "Diagram the argument",
+   "Describe its method in your own abstract words",
+   "Test each answer phrase by phrase",
+   "Eliminate answers that describe something that did not happen"
+  ],
+  "correctLooksLike": "An abstract description you can map onto each move in the stimulus.",
+  "traps": [
+   "Answers describing a flaw the argument did not commit",
+   "Partially accurate descriptions"
+  ],
+  "commonError": "Accepting an answer because one phrase fits while another describes something absent.",
+  "keyPoints": [
+   {
+    "point": "Describe how, not what",
+    "keywords": [
+     "how",
+     "technique"
+    ]
+   },
+   {
+    "point": "Common methods: analogy, counterexample, alternative explanation",
+    "keywords": [
+     "analogy",
+     "counterexample",
+     "alternative"
+    ]
+   },
+   {
+    "point": "Test every phrase",
+    "keywords": [
+     "phrase",
+     "every"
+    ]
+   },
+   {
+    "point": "Did it actually happen?",
+    "keywords": [
+     "happen",
+     "actually"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Method",
+   "children": [
+    {
+     "label": "Techniques",
+     "children": [
+      {
+       "label": "Analogy"
+      },
+      {
+       "label": "Counterexample"
+      },
+      {
+       "label": "Alternative explanation"
+      },
+      {
+       "label": "Reductio"
+      }
+     ]
+    },
+    {
+     "label": "Process",
+     "children": [
+      {
+       "label": "Abstract it"
+      },
+      {
+       "label": "Phrase test"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Didn’t happen"
+      },
+      {
+       "label": "Half-right"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Role"
+      },
+      {
+       "label": "Parallel"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-role",
+   "lr-parallel"
+  ],
+  "stemCues": [
+   "proceeds by",
+   "argumentative strategy",
+   "method of reasoning",
+   "responds to"
+  ],
+  "card": {
+   "front": "“By that reasoning, the medical exam should be abolished too.” Method?",
+   "back": "Refutation by analogy: same reasoning yields an unacceptable conclusion.",
+   "keywords": [
+    "analogy",
+    "same reasoning"
+   ]
+  },
+  "match": {
+   "types": [
+    "method"
+   ]
+  }
+ },
+ {
+  "id": "lr-flaw",
+  "label": "Flaw",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "flaw",
+  "chapter": "CHAPTER IX — FLAW",
+  "week": 9,
+  "lesson": true,
+  "oneLiner": "Name the error that makes the conclusion fail to follow.",
+  "definition": "Flaw questions ask what is wrong with the reasoning. The premises are accepted as true; the error lies in the leap to the conclusion. Most flaws come from a recurring library of fifteen patterns.",
+  "objectives": [
+   "Diagnose the gap between premises and conclusion",
+   "Match it to the flaw library",
+   "Read abstract answer language precisely"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Every time I wash my car it rains—washing causes rain.” Causation from correlation."
+   },
+   {
+    "domain": "Law",
+    "text": "“The bill must be unconstitutional: its sponsor has been indicted.” Ad hominem."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“82% of an arbitration journal’s readers prefer arbitration, so most businesses do.” Biased sample."
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Locate the gap: what is assumed?",
+   "Name the flaw in plain words",
+   "Match to an abstract answer",
+   "Reject answers that attack premises or describe absent errors"
+  ],
+  "correctLooksLike": "An abstract description of the specific leap the argument makes, e.g. “overlooks an alternative cause.”",
+  "traps": [
+   "Answers attacking a premise (premises are given)",
+   "Real flaws that this argument did not commit"
+  ],
+  "commonError": "Picking a description of a flaw that sounds familiar but does not occur in this stimulus.",
+  "keyPoints": [
+   {
+    "point": "Premises are accepted; the leap is the problem",
+    "keywords": [
+     "premise",
+     "leap",
+     "accept"
+    ]
+   },
+   {
+    "point": "Find the gap first",
+    "keywords": [
+     "gap",
+     "assum"
+    ]
+   },
+   {
+    "point": "Use the flaw library",
+    "keywords": [
+     "library",
+     "pattern"
+    ]
+   },
+   {
+    "point": "“Overlooks / takes for granted” language",
+    "keywords": [
+     "overlook",
+     "takes for granted"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Flaw",
+   "children": [
+    {
+     "label": "Find",
+     "children": [
+      {
+       "label": "Conclusion"
+      },
+      {
+       "label": "Gap"
+      }
+     ]
+    },
+    {
+     "label": "Library",
+     "children": [
+      {
+       "label": "Causation"
+      },
+      {
+       "label": "Sampling"
+      },
+      {
+       "label": "Suff/Nec"
+      },
+      {
+       "label": "Equivocation"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Overlooks"
+      },
+      {
+       "label": "Takes for granted"
+      },
+      {
+       "label": "Presumes"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Weaken"
+      },
+      {
+       "label": "Necessary Assumption"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-necessary-assumption",
+   "lr-weaken",
+   "grp-flaws"
+  ],
+  "stemCues": [
+   "vulnerable to criticism",
+   "flawed because",
+   "reasoning error"
+  ],
+  "card": {
+   "front": "In a Flaw question, can the correct answer say a premise is false?",
+   "back": "No. Premises are accepted; the flaw is in the reasoning from premises to conclusion.",
+   "keywords": [
+    "premises accepted",
+    "reasoning"
+   ]
+  },
+  "match": {
+   "types": [
+    "flaw"
+   ]
+  }
+ },
+ {
+  "id": "lr-necessary-assumption",
+  "label": "Necessary Assumption",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "necessary-assumption",
+  "chapter": "CHAPTER XII — NECESSARY ASSUMPTION",
+  "week": 12,
+  "lesson": true,
+  "oneLiner": "Find the claim the argument cannot do without; negate it and the argument collapses.",
+  "definition": "A necessary assumption is a statement that must be true for the argument to work. It need not make the conclusion certain. The Negation Test identifies it: negate the answer; if the argument falls apart, it was necessary.",
+  "objectives": [
+   "Apply the Negation Test fluently",
+   "Distinguish necessary from sufficient",
+   "Spot defender assumptions that rule out alternatives"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“I’ll drive to Vienna tonight”—assumes the car has fuel (or can get it)."
+   },
+   {
+    "domain": "Law",
+    "text": "“The citations show advisory opinions have effect”—assumes the opinions influenced at least some decisions."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The switch to index funds improved returns”—assumes the market rise alone does not explain it."
+   }
+  ],
+  "attack": [
+   "Find conclusion and premises; locate the gap",
+   "Predict: what must be true for this to work?",
+   "Negate each contender",
+   "Prefer weaker, minimal statements",
+   "Check that the answer is relevant to the gap"
+  ],
+  "correctLooksLike": "A minimal claim whose negation destroys the argument—often “not all”, “at least some”, or “does not entirely”.",
+  "traps": [
+   "Too Strong: sufficient but not necessary",
+   "Strengtheners that are helpful but not required",
+   "Irrelevant comparisons"
+  ],
+  "commonError": "Choosing a strong answer that would prove the conclusion but is not required by it.",
+  "keyPoints": [
+   {
+    "point": "Necessary = required, not sufficient",
+    "keywords": [
+     "required",
+     "necessary"
+    ]
+   },
+   {
+    "point": "Negation Test",
+    "keywords": [
+     "negat"
+    ]
+   },
+   {
+    "point": "Minimal answers often win",
+    "keywords": [
+     "minimal",
+     "weak",
+     "some"
+    ]
+   },
+   {
+    "point": "Defender assumptions rule out alternatives",
+    "keywords": [
+     "alternative",
+     "rule out"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Necessary Assumption",
+   "children": [
+    {
+     "label": "Definition",
+     "children": [
+      {
+       "label": "Required"
+      },
+      {
+       "label": "Not enough alone"
+      }
+     ]
+    },
+    {
+     "label": "Negation Test",
+     "children": [
+      {
+       "label": "Negate answer"
+      },
+      {
+       "label": "Collapse?"
+      }
+     ]
+    },
+    {
+     "label": "Shapes",
+     "children": [
+      {
+       "label": "Bridge"
+      },
+      {
+       "label": "Defender"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Too Strong"
+      },
+      {
+       "label": "Helpful but optional"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-sufficient-assumption",
+   "lr-weaken",
+   "lr-flaw",
+   "cl-suff-nec"
+  ],
+  "stemCues": [
+   "depends on assuming",
+   "assumption required",
+   "relies on the assumption"
+  ],
+  "card": {
+   "front": "How does the Negation Test work?",
+   "back": "Negate the answer choice; if the argument falls apart, the answer is a necessary assumption.",
+   "keywords": [
+    "negate",
+    "falls apart"
+   ]
+  },
+  "match": {
+   "types": [
+    "necessary-assumption"
+   ]
+  }
+ },
+ {
+  "id": "lr-sufficient-assumption",
+  "label": "Sufficient Assumption",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "sufficient-assumption",
+  "chapter": "CHAPTER XIII — SUFFICIENT ASSUMPTION",
+  "week": 13,
+  "lesson": true,
+  "oneLiner": "Add the premise that makes the conclusion guaranteed.",
+  "definition": "A sufficient assumption, added to the premises, makes the conclusion follow with certainty. These answers are often strong and conditional: they bridge the rogue term in the premises to the rogue term in the conclusion.",
+  "objectives": [
+   "Identify rogue terms in premise and conclusion",
+   "Build the bridge conditional",
+   "Recognize that strong answers are welcome here"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“It’s Monday, so the museum is closed”—sufficient: the museum is closed every Monday."
+   },
+   {
+    "domain": "Law",
+    "text": "“Signed during an illegal blockade, so voidable”—bridge: blockade → duress (duress → voidable given)."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Reserves fall short, so Tavria will devalue”—bridge: peg fails → devaluation."
+   }
+  ],
+  "attack": [
+   "Diagram premises and conclusion as arrows",
+   "Find the term in the conclusion missing from the premises",
+   "Bridge: (premise term) → (conclusion term)",
+   "Check direction; reversals fail",
+   "Prove the conclusion with the answer added"
+  ],
+  "correctLooksLike": "A (usually conditional) statement that, with the premises, deductively proves the conclusion.",
+  "traps": [
+   "Reversed bridges",
+   "Necessary but not sufficient conditions",
+   "“Some” statements"
+  ],
+  "commonError": "Choosing a reversed conditional because it mentions the right terms.",
+  "keyPoints": [
+   {
+    "point": "Premises + answer = conclusion guaranteed",
+    "keywords": [
+     "guarantee",
+     "prove"
+    ]
+   },
+   {
+    "point": "Bridge the rogue terms",
+    "keywords": [
+     "bridge",
+     "rogue",
+     "term"
+    ]
+   },
+   {
+    "point": "Direction matters",
+    "keywords": [
+     "direction",
+     "reverse"
+    ]
+   },
+   {
+    "point": "Strong answers are fine",
+    "keywords": [
+     "strong"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Sufficient Assumption",
+   "children": [
+    {
+     "label": "Definition",
+     "children": [
+      {
+       "label": "Guarantees"
+      },
+      {
+       "label": "Bridge"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Rogue terms"
+      },
+      {
+       "label": "Arrows"
+      },
+      {
+       "label": "Direction"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Reversal"
+      },
+      {
+       "label": "“Some”"
+      },
+      {
+       "label": "Necessary-only"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Principle–Identify"
+      },
+      {
+       "label": "Necessary"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-necessary-assumption",
+   "lr-principle-identify",
+   "cl-chaining"
+  ],
+  "stemCues": [
+   "follows logically if",
+   "properly drawn if",
+   "allows the conclusion to be properly inferred"
+  ],
+  "card": {
+   "front": "SA vs. NA in one line?",
+   "back": "SA: enough to guarantee the conclusion (can be strong). NA: required for the argument (often minimal).",
+   "keywords": [
+    "guarantee",
+    "required"
+   ]
+  },
+  "match": {
+   "types": [
+    "sufficient-assumption"
+   ]
+  }
+ },
+ {
+  "id": "lr-strengthen",
+  "label": "Strengthen",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "strengthen",
+  "chapter": "CHAPTER XIV — STRENGTHEN",
+  "week": 14,
+  "lesson": true,
+  "oneLiner": "Add information that makes the conclusion more likely.",
+  "definition": "Strengthen answers may introduce new information (“if true”). They help by closing the gap: ruling out alternatives, confirming a mechanism, or showing the cause-effect pattern holds.",
+  "objectives": [
+   "Strengthen causal, sampling, and analogy arguments",
+   "Prefer answers that target the gap"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“The plant caused the frog decline” + “nitrate levels rose to harmful levels after it opened.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“The commission made the guarantees last” + “violations rose after it was dissolved.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Buybacks correct undervaluation” + “buybacks by overvalued firms produce no rise despite confident signals.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and the gap",
+   "Predict: what would make the leap safer?",
+   "Accept new information",
+   "Pick the answer that hits the gap hardest"
+  ],
+  "correctLooksLike": "New information that closes or narrows the gap—often eliminating an alternative or confirming the mechanism.",
+  "traps": [
+   "Answers that weaken",
+   "Irrelevant comparisons",
+   "Answers about premises only"
+  ],
+  "commonError": "Choosing an answer that repeats a premise rather than adding new support.",
+  "keyPoints": [
+   {
+    "point": "New information allowed",
+    "keywords": [
+     "new information",
+     "if true"
+    ]
+   },
+   {
+    "point": "Target the gap",
+    "keywords": [
+     "gap"
+    ]
+   },
+   {
+    "point": "Rule out alternatives",
+    "keywords": [
+     "alternative"
+    ]
+   },
+   {
+    "point": "Confirm the mechanism",
+    "keywords": [
+     "mechanism"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Strengthen",
+   "children": [
+    {
+     "label": "Tools",
+     "children": [
+      {
+       "label": "Rule out alternative"
+      },
+      {
+       "label": "Confirm mechanism"
+      },
+      {
+       "label": "Remove cause → effect gone"
+      }
+     ]
+    },
+    {
+     "label": "Diagram",
+     "children": [
+      {
+       "label": "Adds support arrow"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Opposite"
+      },
+      {
+       "label": "Irrelevant"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Weaken"
+      },
+      {
+       "label": "Necessary"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-weaken",
+   "lr-necessary-assumption",
+   "flaw-causation"
+  ],
+  "stemCues": [
+   "most strengthens",
+   "most strongly supports the argument",
+   "provides the most support for"
+  ],
+  "card": {
+   "front": "Three classic ways to strengthen a causal argument?",
+   "back": "Rule out alternative causes; show cause present → effect present; show cause absent → effect absent (or confirm the mechanism).",
+   "keywords": [
+    "alternative",
+    "mechanism",
+    "absent"
+   ]
+  },
+  "match": {
+   "types": [
+    "strengthen"
+   ]
+  }
+ },
+ {
+  "id": "lr-weaken",
+  "label": "Weaken",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "weaken",
+  "chapter": "CHAPTER XIV — WEAKEN",
+  "week": 14,
+  "lesson": true,
+  "oneLiner": "Add information that makes the conclusion less likely.",
+  "definition": "Weaken answers attack the gap between premises and conclusion: alternative causes, unrepresentative samples, broken mechanisms, or disanalogies. They need not disprove the conclusion.",
+  "objectives": [
+   "Identify the vulnerability before reading answers",
+   "Prefer broad attacks on the mechanism over marginal dents"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“My new diet worked—I lost 5 kg” + “you also started running daily.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Class actions cause compliance” + “those countries also have well-funded regulators.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Tax cut will boost investment” + “most firms report losses and pay no tax.”"
+   }
+  ],
+  "attack": [
+   "Find conclusion and gap",
+   "Predict the strongest attack",
+   "Accept new information",
+   "Choose the answer that most damages the link"
+  ],
+  "correctLooksLike": "New information that opens the gap: an alternative cause, a biased sample, or a failed mechanism.",
+  "traps": [
+   "Answers that strengthen",
+   "Answers attacking an irrelevant detail",
+   "Wrong-degree answers"
+  ],
+  "commonError": "Picking an answer that weakens “some” cases over one that breaks the mechanism broadly.",
+  "keyPoints": [
+   {
+    "point": "Attack the gap, not the premises",
+    "keywords": [
+     "gap"
+    ]
+   },
+   {
+    "point": "Alternative causes",
+    "keywords": [
+     "alternative"
+    ]
+   },
+   {
+    "point": "Broken mechanism",
+    "keywords": [
+     "mechanism"
+    ]
+   },
+   {
+    "point": "Need not disprove",
+    "keywords": [
+     "less likely",
+     "disprove"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Weaken",
+   "children": [
+    {
+     "label": "Tools",
+     "children": [
+      {
+       "label": "Alternative cause"
+      },
+      {
+       "label": "Biased sample"
+      },
+      {
+       "label": "Broken mechanism"
+      }
+     ]
+    },
+    {
+     "label": "Diagram",
+     "children": [
+      {
+       "label": "Cuts the link"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Opposite"
+      },
+      {
+       "label": "Wrong degree"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Flaw"
+      },
+      {
+       "label": "Strengthen"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-strengthen",
+   "lr-flaw",
+   "lr-necessary-assumption"
+  ],
+  "stemCues": [
+   "most weakens",
+   "most seriously undermines",
+   "calls into question"
+  ],
+  "card": {
+   "front": "Must a weakener prove the conclusion false?",
+   "back": "No—it only needs to make the conclusion less likely.",
+   "keywords": [
+    "less likely"
+   ]
+  },
+  "match": {
+   "types": [
+    "weaken"
+   ]
+  }
+ },
+ {
+  "id": "lr-evaluate",
+  "label": "Evaluate",
+  "branch": "LR",
+  "parent": "grp-assumption",
+  "kind": "lr-type",
+  "icon": "evaluate",
+  "chapter": "CHAPTER XV — EVALUATE",
+  "week": 15,
+  "lesson": true,
+  "oneLiner": "Find the question whose answer would strengthen or weaken the argument.",
+  "definition": "Evaluate questions ask what would be most useful to know. Use the Variance Test: answer the question both ways; if one answer strengthens and the other weakens, it is relevant.",
+  "objectives": [
+   "Run the Variance Test",
+   "Recognize alternative-cause and pre-existing-trend questions"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Did the cranes cause faster docking?”—ask whether ship sizes changed."
+   },
+   {
+    "domain": "Law",
+    "text": "“Did PR sustain turnout?”—ask whether the trend predated the reform."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Is the fund manager skilled?”—ask whether outperformance came from extra risk."
+   }
+  ],
+  "attack": [
+   "Find the gap",
+   "For each answer, imagine “yes” and “no”",
+   "Keep answers where yes/no push the argument in opposite directions",
+   "Pick the one aimed at the gap"
+  ],
+  "correctLooksLike": "A question targeting the argument’s key assumption—often an alternative explanation.",
+  "traps": [
+   "Questions whose answers don’t matter either way",
+   "Interesting but irrelevant details"
+  ],
+  "commonError": "Choosing a question that is interesting but whose answer wouldn’t change your view of the argument.",
+  "keyPoints": [
+   {
+    "point": "Variance Test: answer both ways",
+    "keywords": [
+     "variance",
+     "both ways",
+     "yes",
+     "no"
+    ]
+   },
+   {
+    "point": "Relevant answers flip the argument’s strength",
+    "keywords": [
+     "flip",
+     "strengthen",
+     "weaken"
+    ]
+   },
+   {
+    "point": "Target the assumption",
+    "keywords": [
+     "assumption",
+     "gap"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Evaluate",
+   "children": [
+    {
+     "label": "Test",
+     "children": [
+      {
+       "label": "Variance test"
+      },
+      {
+       "label": "Both ways"
+      }
+     ]
+    },
+    {
+     "label": "Good questions",
+     "children": [
+      {
+       "label": "Alternative cause"
+      },
+      {
+       "label": "Prior trend"
+      },
+      {
+       "label": "Mechanism"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Irrelevant detail"
+      },
+      {
+       "label": "One-sided"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Strengthen"
+      },
+      {
+       "label": "Weaken"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-strengthen",
+   "lr-weaken"
+  ],
+  "stemCues": [
+   "most useful to know",
+   "in order to evaluate",
+   "most relevant"
+  ],
+  "card": {
+   "front": "What is the Variance Test?",
+   "back": "Answer the proposed question both ways; if the two answers strengthen and weaken respectively, it is relevant to evaluating the argument.",
+   "keywords": [
+    "both ways",
+    "strengthen",
+    "weaken"
+   ]
+  },
+  "match": {
+   "types": [
+    "evaluate"
+   ]
+  }
+ },
+ {
+  "id": "lr-parallel",
+  "label": "Parallel Reasoning",
+  "branch": "LR",
+  "parent": "grp-matching",
+  "kind": "lr-type",
+  "icon": "parallel",
+  "chapter": "CHAPTER XVIII — PARALLEL REASONING",
+  "week": 18,
+  "lesson": true,
+  "oneLiner": "Match the logical form of the argument, regardless of subject.",
+  "definition": "Parallel questions ask which answer has the same reasoning pattern. Abstract the stimulus into its form (conditional chain, quantifier pattern, rule-exception) and match strength of language and direction.",
+  "objectives": [
+   "Abstract a stimulus into symbols",
+   "Match conclusion type and strength first"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“All cats purr; Tom is a cat; Tom purrs” parallels “All judges are lawyers; Ana is a judge; Ana is a lawyer.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Most judges were arbitrators; all arbitrators favor the rules” ↔ “Most paintings are Flemish; all Flemish paintings were restored.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A rule–exception–rule displaced pattern appears in contract excuse and exam exemptions alike."
+   }
+  ],
+  "attack": [
+   "Abstract the stimulus (A → B → C; A; ∴ C)",
+   "Check conclusion type (certain, probable, recommendation)",
+   "Eliminate mismatched conclusions quickly",
+   "Compare the remaining answers’ forms"
+  ],
+  "correctLooksLike": "An argument with the same form, quantifier strength, and conclusion type—in a different subject.",
+  "traps": [
+   "Same subject, different form",
+   "Valid vs. flawed mismatch",
+   "Contrapositive vs. forward chain"
+  ],
+  "commonError": "Matching subject matter or word order instead of logical form.",
+  "keyPoints": [
+   {
+    "point": "Match form, not topic",
+    "keywords": [
+     "form",
+     "topic"
+    ]
+   },
+   {
+    "point": "Check conclusion type first",
+    "keywords": [
+     "conclusion type"
+    ]
+   },
+   {
+    "point": "Match quantifier strength",
+    "keywords": [
+     "quantifier",
+     "strength"
+    ]
+   },
+   {
+    "point": "Abstract into symbols",
+    "keywords": [
+     "symbol",
+     "abstract"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Parallel",
+   "children": [
+    {
+     "label": "Abstract",
+     "children": [
+      {
+       "label": "Symbols"
+      },
+      {
+       "label": "Form"
+      }
+     ]
+    },
+    {
+     "label": "Match",
+     "children": [
+      {
+       "label": "Conclusion type"
+      },
+      {
+       "label": "Strength"
+      },
+      {
+       "label": "Direction"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Same topic"
+      },
+      {
+       "label": "Contrapositive swap"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Parallel Flaw"
+      },
+      {
+       "label": "Method"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-parallel-flaw",
+   "lr-method",
+   "cl-chaining"
+  ],
+  "stemCues": [
+   "most similar in its reasoning",
+   "most closely parallels",
+   "pattern of reasoning"
+  ],
+  "card": {
+   "front": "First filter on a Parallel question?",
+   "back": "Match the conclusion type and strength (certain/probable/recommendation; all/most/some).",
+   "keywords": [
+    "conclusion",
+    "strength"
+   ]
+  },
+  "match": {
+   "types": [
+    "parallel"
+   ]
+  }
+ },
+ {
+  "id": "lr-parallel-flaw",
+  "label": "Parallel Flaw",
+  "branch": "LR",
+  "parent": "grp-matching",
+  "kind": "lr-type",
+  "icon": "parallel-flaw",
+  "chapter": "CHAPTER XIX — PARALLEL FLAW",
+  "week": 19,
+  "lesson": true,
+  "oneLiner": "Find the answer that makes the same mistake.",
+  "definition": "Parallel Flaw combines Flaw and Parallel: name the stimulus’s error, then find an answer committing the identical error. Valid arguments and different flaws are wrong.",
+  "objectives": [
+   "Name the flaw before reading answers",
+   "Distinguish sibling flaws (reversal vs. negation; part→whole vs. whole→part)"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Each chapter is concise, so the book is concise” ↔ “each clause is easy, so the treaty is easy.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Ratified → binding; binding; so ratified” ↔ “released → aged; aged; so released.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The merger may be blocked; if blocked, shares fall; so they will fall” ↔ “strike may happen; strike → negotiation; so negotiation.”"
+   }
+  ],
+  "attack": [
+   "Name the flaw",
+   "Eliminate valid answers",
+   "Eliminate answers with a different flaw",
+   "Confirm direction and modality match"
+  ],
+  "correctLooksLike": "An answer with the same error in the same direction—e.g., reversal, not negation.",
+  "traps": [
+   "Valid arguments",
+   "Sibling flaws",
+   "Same topic"
+  ],
+  "commonError": "Picking an answer with a related but different flaw (negation instead of reversal).",
+  "keyPoints": [
+   {
+    "point": "Name the flaw first",
+    "keywords": [
+     "name",
+     "flaw"
+    ]
+   },
+   {
+    "point": "Valid answers are wrong",
+    "keywords": [
+     "valid"
+    ]
+   },
+   {
+    "point": "Sibling flaws differ",
+    "keywords": [
+     "sibling",
+     "negation",
+     "reversal"
+    ]
+   },
+   {
+    "point": "Match direction",
+    "keywords": [
+     "direction"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Parallel Flaw",
+   "children": [
+    {
+     "label": "Step 1",
+     "children": [
+      {
+       "label": "Name the flaw"
+      }
+     ]
+    },
+    {
+     "label": "Step 2",
+     "children": [
+      {
+       "label": "Kill valid answers"
+      }
+     ]
+    },
+    {
+     "label": "Step 3",
+     "children": [
+      {
+       "label": "Match exact flaw"
+      }
+     ]
+    },
+    {
+     "label": "Siblings",
+     "children": [
+      {
+       "label": "Reversal vs. Negation"
+      },
+      {
+       "label": "Part→Whole vs. Whole→Part"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-parallel",
+   "lr-flaw",
+   "grp-flaws"
+  ],
+  "stemCues": [
+   "flawed pattern of reasoning",
+   "most similar flawed reasoning"
+  ],
+  "card": {
+   "front": "A → B; ¬A; so ¬B. Which flaw?",
+   "back": "Negation (denying the sufficient)—not the same as Reversal (B; so A).",
+   "keywords": [
+    "negation",
+    "denying"
+   ]
+  },
+  "match": {
+   "types": [
+    "parallel-flaw"
+   ]
+  }
+ },
+ {
+  "id": "lr-principle-identify",
+  "label": "Principle — Identify",
+  "branch": "LR",
+  "parent": "grp-matching",
+  "kind": "lr-type",
+  "icon": "principle-identify",
+  "chapter": "CHAPTER XVII — PRINCIPLE IDENTIFY",
+  "week": 17,
+  "lesson": true,
+  "oneLiner": "Find the general rule that justifies the argument or judgment.",
+  "definition": "Principle–Identify questions are general-form Sufficient Assumption or Strengthen questions: the principle’s trigger must match the facts, and its outcome must match the conclusion.",
+  "objectives": [
+   "Match trigger to facts and outcome to conclusion",
+   "Handle “even if” and priority judgments"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“You shouldn’t have read my diary—it was private” ← “It is wrong to read private writings without consent.”"
+   },
+   {
+    "domain": "Law",
+    "text": "Upland was wrong to endanger uninvolved residents ← “Disputes must not endanger non-parties.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Board acted improperly despite reasonable pay ← “Reliance on beneficiary-chosen advisers is improper regardless of outcome.”"
+   }
+  ],
+  "attack": [
+   "Identify the judgment and its stated reason",
+   "Predict: if [reason], then [judgment]",
+   "Check each answer’s trigger and outcome",
+   "Watch “even if” clauses"
+  ],
+  "correctLooksLike": "A general conditional whose trigger fits the stated reasons and whose result is the stated conclusion.",
+  "traps": [
+   "Principles leading to the opposite outcome",
+   "Principles about different situations",
+   "Reversed principles"
+  ],
+  "commonError": "Choosing a principle that sounds noble but would not produce the argument’s conclusion.",
+  "keyPoints": [
+   {
+    "point": "Trigger matches facts",
+    "keywords": [
+     "trigger",
+     "facts"
+    ]
+   },
+   {
+    "point": "Outcome matches conclusion",
+    "keywords": [
+     "outcome",
+     "conclusion"
+    ]
+   },
+   {
+    "point": "General-form sufficient assumption",
+    "keywords": [
+     "sufficient",
+     "general"
+    ]
+   },
+   {
+    "point": "Watch “even if”",
+    "keywords": [
+     "even if"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Principle–Identify",
+   "children": [
+    {
+     "label": "Shape",
+     "children": [
+      {
+       "label": "If reason → judgment"
+      }
+     ]
+    },
+    {
+     "label": "Check",
+     "children": [
+      {
+       "label": "Trigger"
+      },
+      {
+       "label": "Outcome"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Opposite outcome"
+      },
+      {
+       "label": "Wrong situation"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Sufficient Assumption"
+      },
+      {
+       "label": "Principle–Apply"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-sufficient-assumption",
+   "lr-principle-apply",
+   "lr-strengthen"
+  ],
+  "stemCues": [
+   "principle",
+   "most helps to justify",
+   "conforms most closely"
+  ],
+  "card": {
+   "front": "Principle–Identify is most like which other type?",
+   "back": "Sufficient Assumption (in general form)—the principle bridges reasons to judgment.",
+   "keywords": [
+    "sufficient"
+   ]
+  },
+  "match": {
+   "types": [
+    "principle-identify"
+   ]
+  }
+ },
+ {
+  "id": "lr-principle-apply",
+  "label": "Principle — Apply",
+  "branch": "LR",
+  "parent": "grp-matching",
+  "kind": "lr-type",
+  "icon": "principle-apply",
+  "chapter": "CHAPTER XVII — PRINCIPLE APPLY",
+  "week": 17,
+  "lesson": true,
+  "oneLiner": "Apply a stated rule to find the judgment it supports.",
+  "definition": "Principle–Apply gives you the rule and asks which case conforms to it. Translate the principle into conditionals; check each answer’s facts against the trigger and its judgment against the outcome. “Only if” principles can condemn but never certify.",
+  "objectives": [
+   "Translate principles into conditionals",
+   "Avoid using necessary conditions to certify"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Rule: “Late arrivals may not enter until intermission.” Case: Jo arrived late and waited—conforms."
+   },
+   {
+    "domain": "Law",
+    "text": "Rule: arbitrator withdraws on reasonable doubt unless all parties consent; both consented → need not withdraw."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Rule: commission products only if disclosed and suitable; undisclosed → improper."
+   }
+  ],
+  "attack": [
+   "Translate the principle (trigger → outcome; exceptions)",
+   "For each answer: is the trigger met?",
+   "Does the judgment match what the rule requires?",
+   "Beware certifying with necessary conditions"
+  ],
+  "correctLooksLike": "A case whose facts satisfy the rule and whose judgment is exactly what the rule implies.",
+  "traps": [
+   "Necessary-condition certification",
+   "Exceptions ignored",
+   "Cases outside the rule’s scope"
+  ],
+  "commonError": "Concluding something is permitted because it meets a rule’s necessary conditions.",
+  "keyPoints": [
+   {
+    "point": "Translate into conditionals",
+    "keywords": [
+     "conditional",
+     "translate"
+    ]
+   },
+   {
+    "point": "“Only if” can condemn, not certify",
+    "keywords": [
+     "only if",
+     "condemn",
+     "certify"
+    ]
+   },
+   {
+    "point": "Check exceptions (“unless”)",
+    "keywords": [
+     "unless",
+     "exception"
+    ]
+   },
+   {
+    "point": "Stay within scope",
+    "keywords": [
+     "scope"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Principle–Apply",
+   "children": [
+    {
+     "label": "Translate",
+     "children": [
+      {
+       "label": "Trigger"
+      },
+      {
+       "label": "Outcome"
+      },
+      {
+       "label": "Exceptions"
+      }
+     ]
+    },
+    {
+     "label": "Apply",
+     "children": [
+      {
+       "label": "Facts meet trigger?"
+      },
+      {
+       "label": "Judgment matches?"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Necessary ≠ sufficient"
+      },
+      {
+       "label": "Out of scope"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Principle–Identify"
+      },
+      {
+       "label": "Conditional logic"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-principle-identify",
+   "cl-suff-nec",
+   "cl-unless"
+  ],
+  "stemCues": [
+   "conforms most closely to the principle",
+   "most clearly justified by the principle"
+  ],
+  "card": {
+   "front": "A rule says “X may do Y only if A and B.” X meets A and B. Is Y permitted?",
+   "back": "Not established—A and B are necessary, not sufficient. The rule can only condemn failures.",
+   "keywords": [
+    "necessary",
+    "not sufficient"
+   ]
+  },
+  "match": {
+   "types": [
+    "principle-apply"
+   ]
+  }
+ },
+ {
+  "id": "lr-paradox",
+  "label": "Resolve the Paradox",
+  "branch": "LR",
+  "parent": "grp-dispute",
+  "kind": "lr-type",
+  "icon": "paradox",
+  "chapter": "CHAPTER XV — RESOLVE THE PARADOX",
+  "week": 15,
+  "lesson": true,
+  "oneLiner": "Explain how two apparently conflicting facts can both be true.",
+  "definition": "Paradox questions present facts in tension. The correct answer introduces a factor that allows both to be true—typically a second mechanism, a difference between groups, or a change in conditions.",
+  "objectives": [
+   "State the tension in one sentence",
+   "Find answers that explain both facts"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A restaurant is always empty yet thriving: most revenue comes from catering."
+   },
+   {
+    "domain": "Law",
+    "text": "Policy rate cut but mortgage rates rose: long-term yields rose on inflation expectations."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "More taxis but fares unchanged: operating costs doubled."
+   }
+  ],
+  "attack": [
+   "State the paradox (“X, yet Y”)",
+   "Predict factors that would make both true",
+   "Eliminate answers that explain only one side or deepen the puzzle",
+   "Choose the answer that reconciles both"
+  ],
+  "correctLooksLike": "A new fact that makes both sides of the tension expected.",
+  "traps": [
+   "Answers that deepen the paradox",
+   "Answers explaining only one fact",
+   "Comparisons to other places"
+  ],
+  "commonError": "Choosing an answer that explains why one fact happened while ignoring the other.",
+  "keyPoints": [
+   {
+    "point": "State the tension",
+    "keywords": [
+     "tension",
+     "yet"
+    ]
+   },
+   {
+    "point": "Both facts must be true",
+    "keywords": [
+     "both",
+     "true"
+    ]
+   },
+   {
+    "point": "A second mechanism or difference",
+    "keywords": [
+     "mechanism",
+     "difference"
+    ]
+   },
+   {
+    "point": "Avoid deepeners",
+    "keywords": [
+     "deepen"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Paradox",
+   "children": [
+    {
+     "label": "Tension",
+     "children": [
+      {
+       "label": "Fact A"
+      },
+      {
+       "label": "Fact B"
+      }
+     ]
+    },
+    {
+     "label": "Resolvers",
+     "children": [
+      {
+       "label": "Second mechanism"
+      },
+      {
+       "label": "Group difference"
+      },
+      {
+       "label": "Changed conditions"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Deepens"
+      },
+      {
+       "label": "One-sided"
+      }
+     ]
+    },
+    {
+     "label": "Diagram",
+     "children": [
+      {
+       "label": "Two facts, one bridge"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true"
+  ],
+  "stemCues": [
+   "resolve the apparent discrepancy",
+   "explain",
+   "reconcile",
+   "paradox"
+  ],
+  "card": {
+   "front": "What must a paradox resolution do?",
+   "back": "Allow BOTH facts to be true—usually by adding a factor that explains the unexpected one.",
+   "keywords": [
+    "both",
+    "explain"
+   ]
+  },
+  "match": {
+   "types": [
+    "paradox"
+   ]
+  }
+ },
+ {
+  "id": "lr-point-at-issue",
+  "label": "Point at Issue",
+  "branch": "LR",
+  "parent": "grp-dispute",
+  "kind": "lr-type",
+  "icon": "point-at-issue",
+  "chapter": "CHAPTER XVI — POINT AT ISSUE",
+  "week": 16,
+  "lesson": true,
+  "oneLiner": "Find the claim on which two speakers hold opposite views.",
+  "definition": "Point at Issue questions show a dialogue. The correct answer is a claim on which both speakers express opinions—and the opinions conflict. Use the agree/disagree test for each speaker.",
+  "objectives": [
+   "Run the two-speaker test",
+   "Recognize disputes about weight rather than facts"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Ana: “The film was too long.” Ben: “Every minute was necessary.” Issue: whether the film was too long."
+   },
+   {
+    "domain": "Law",
+    "text": "Katalin: no damages; Andrei: entitled to compensation. Issue: whether damages were owed."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Mira: volatility disqualifies equities; Tomás: decade value matters more. Issue: whether volatility is decisive."
+   }
+  ],
+  "attack": [
+   "Summarize each speaker’s conclusion",
+   "For each answer: Speaker 1? Speaker 2?",
+   "Keep only answers with opposing opinions from both",
+   "Prefer the conclusions as the clash"
+  ],
+  "correctLooksLike": "A claim both speakers address, with opposite positions.",
+  "traps": [
+   "Claims only one speaker addresses",
+   "Claims both accept"
+  ],
+  "commonError": "Choosing a claim one speaker makes and the other simply ignores.",
+  "keyPoints": [
+   {
+    "point": "Both must have an opinion",
+    "keywords": [
+     "both",
+     "opinion"
+    ]
+   },
+   {
+    "point": "The opinions must conflict",
+    "keywords": [
+     "conflict",
+     "opposite"
+    ]
+   },
+   {
+    "point": "Use the agree/disagree test",
+    "keywords": [
+     "test",
+     "agree",
+     "disagree"
+    ]
+   },
+   {
+    "point": "Conclusions often clash",
+    "keywords": [
+     "conclusion"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Point at Issue",
+   "children": [
+    {
+     "label": "Test",
+     "children": [
+      {
+       "label": "Speaker 1?"
+      },
+      {
+       "label": "Speaker 2?"
+      }
+     ]
+    },
+    {
+     "label": "Correct",
+     "children": [
+      {
+       "label": "Both opine"
+      },
+      {
+       "label": "Opposite views"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "One-sided"
+      },
+      {
+       "label": "Shared view"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Point of Agreement"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-point-of-agreement"
+  ],
+  "stemCues": [
+   "disagree over",
+   "point at issue",
+   "disagree about whether"
+  ],
+  "card": {
+   "front": "Two conditions for a Point at Issue answer?",
+   "back": "Both speakers express an opinion on it, and their opinions conflict.",
+   "keywords": [
+    "both",
+    "conflict"
+   ]
+  },
+  "match": {
+   "types": [
+    "point-at-issue"
+   ]
+  }
+ },
+ {
+  "id": "lr-point-of-agreement",
+  "label": "Point of Agreement",
+  "branch": "LR",
+  "parent": "grp-dispute",
+  "kind": "lr-type",
+  "icon": "point-of-agreement",
+  "chapter": "CHAPTER XVI — POINT OF AGREEMENT",
+  "week": 16,
+  "lesson": true,
+  "oneLiner": "Find the claim both speakers are committed to.",
+  "definition": "Point of Agreement questions ask what both speakers accept. Agreement often lives in concessions or shared premises, even when their conclusions differ.",
+  "objectives": [
+   "Find shared premises and concessions",
+   "Avoid claims only one speaker makes"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Two friends argue about the restaurant’s value but agree the food was cold."
+   },
+   {
+    "domain": "Law",
+    "text": "Eszter and Lorant both reject the court’s quick-entry rationale."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Hannah and Viktor both accept that compliance is costly for small issuers."
+   }
+  ],
+  "attack": [
+   "Summarize each speaker",
+   "Highlight concessions (“admittedly”, “true”, “indeed”)",
+   "Test each answer against both speakers",
+   "Pick the claim both commit to"
+  ],
+  "correctLooksLike": "A claim that appears (or is clearly implied) in both speeches.",
+  "traps": [
+   "One-speaker claims",
+   "Conclusions they dispute"
+  ],
+  "commonError": "Picking a conclusion one speaker states and assuming the other agrees.",
+  "keyPoints": [
+   {
+    "point": "Both must commit",
+    "keywords": [
+     "both",
+     "commit"
+    ]
+   },
+   {
+    "point": "Look in concessions",
+    "keywords": [
+     "concession",
+     "concede"
+    ]
+   },
+   {
+    "point": "Shared premises",
+    "keywords": [
+     "shared",
+     "premise"
+    ]
+   },
+   {
+    "point": "Conclusions usually differ",
+    "keywords": [
+     "differ"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Point of Agreement",
+   "children": [
+    {
+     "label": "Test",
+     "children": [
+      {
+       "label": "Speaker 1 commits?"
+      },
+      {
+       "label": "Speaker 2 commits?"
+      }
+     ]
+    },
+    {
+     "label": "Sources",
+     "children": [
+      {
+       "label": "Concessions"
+      },
+      {
+       "label": "Shared premises"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "One-sided"
+      },
+      {
+       "label": "Disputed conclusion"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Point at Issue"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-point-at-issue"
+  ],
+  "stemCues": [
+   "agree that",
+   "committed to agreeing",
+   "most strongly supports that they agree"
+  ],
+  "card": {
+   "front": "Where does agreement usually hide in a dialogue?",
+   "back": "In concessions and shared premises, not in the conclusions.",
+   "keywords": [
+    "concession",
+    "premise"
+   ]
+  },
+  "match": {
+   "types": [
+    "point-of-agreement"
+   ]
+  }
+ }
+]

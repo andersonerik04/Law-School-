@@ -1,0 +1,672 @@
+[
+  {
+    "id": "lr-001",
+    "section": "LR",
+    "type": "must-be-true",
+    "difficulty": 3,
+    "pattern": "conditional",
+    "topic": "international law",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Every investment treaty the Republic has signed in 2010 or later contains an arbitration clause.",
+        "r": "X"
+      },
+      {
+        "t": "Any treaty that contains an arbitration clause permits foreign investors to bypass domestic courts.",
+        "r": "X"
+      },
+      {
+        "t": "The Republic’s investment treaty with Norland does not permit foreign investors to bypass domestic courts.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": [
+      "The Republic’s treaty with Norland contains no provisions concerning foreign investors.",
+      "The Republic’s treaty with Norland was not signed in 2010 or later.",
+      "Every treaty that permits foreign investors to bypass domestic courts contains an arbitration clause.",
+      "The Republic’s treaty with Norland contains an arbitration clause that its domestic courts have declined to enforce.",
+      "Some treaties that permit investors to bypass domestic courts were signed by the Republic before 2010."
+    ],
+    "answer": 1,
+    "diagram": {
+      "chain": [
+        "Signed 2010+",
+        "Arbitration clause",
+        "Bypass courts"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Treaties signed in 2010 or later all have arbitration clauses; arbitration clauses always let investors bypass domestic courts; the Norland treaty does not let investors bypass domestic courts.",
+      "issue": "What is guaranteed by these three statements, taken together?",
+      "rule": "Chain the conditionals (Signed 2010+ → Clause → Bypass) and apply the contrapositive to the known fact: ¬Bypass → ¬Clause → ¬Signed 2010+.",
+      "analysis": {
+        "correct": "(B) The Norland treaty fails the necessary condition (Bypass). By the contrapositive it lacks an arbitration clause, and therefore it cannot have been signed in 2010 or later.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "too-strong",
+            "why": "We know only that the Norland treaty lacks an arbitration clause. It may contain many other provisions concerning investors."
+          },
+          {
+            "choice": 2,
+            "label": "reversal",
+            "why": "The stimulus says Clause → Bypass. This answer asserts Bypass → Clause, the classic reversal of sufficient and necessary."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "The contrapositive shows the Norland treaty has NO arbitration clause, so this answer contradicts the stimulus."
+          },
+          {
+            "choice": 4,
+            "label": "unsupported-inference",
+            "why": "Nothing tells us about pre-2010 treaties. They may or may not permit bypass; this could be true but need not be."
+          }
+        ]
+      },
+      "holding": "When a fact fails a chain’s necessary condition, run the contrapositive all the way back to the start of the chain."
+    },
+    "reasoningKeys": [
+      "contrapositive",
+      "no arbitration clause",
+      "not signed"
+    ]
+  },
+  {
+    "id": "lr-002",
+    "section": "LR",
+    "type": "must-be-true",
+    "difficulty": 5,
+    "pattern": "quantifier",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Most of the bonds held by the Halvorsen Fund are rated investment grade.",
+        "r": "X"
+      },
+      {
+        "t": "Every investment-grade bond held by the fund is denominated in euros.",
+        "r": "X"
+      },
+      {
+        "t": "None of the fund’s euro-denominated bonds matures before 2030.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, which one of the following must also be true?",
+    "choices": [
+      "None of the bonds held by the fund matures before 2030.",
+      "More than half of the bonds held by the fund do not mature before 2030.",
+      "Some of the fund’s bonds that are not rated investment grade mature before 2030.",
+      "Every bond held by the fund that matures after 2030 is rated investment grade.",
+      "The fund holds more euro-denominated bonds than bonds that mature after 2030."
+    ],
+    "answer": 1,
+    "diagram": {
+      "chain": [
+        "Most: Fund bond",
+        "Investment grade",
+        "Euro",
+        "Not before 2030"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Most fund bonds are investment grade (IG); all IG bonds are euro bonds; no euro bond matures before 2030.",
+      "issue": "Which quantified statement is guaranteed by chaining a ‘most’ with two ‘all’ statements?",
+      "rule": "A ‘most’ statement can be extended forward through ‘all’ statements: Most A are B, and all B are C, so most A are C.",
+      "analysis": {
+        "correct": "(B) Most fund bonds are IG → euro → not before 2030. So more than half of the fund’s bonds do not mature before 2030.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "too-strong",
+            "why": "Only the ‘most’ that are IG are covered. A minority of non-IG, non-euro bonds could mature before 2030."
+          },
+          {
+            "choice": 2,
+            "label": "unsupported-inference",
+            "why": "The non-IG bonds are unconstrained; they could all mature after 2030."
+          },
+          {
+            "choice": 3,
+            "label": "reversal",
+            "why": "Euro bonds avoid pre-2030 maturities, but bonds maturing after 2030 need not be euro or IG. This reverses the chain."
+          },
+          {
+            "choice": 4,
+            "label": "irrelevant-comparison",
+            "why": "No relative counts are given. Bonds maturing after 2030 could include many non-euro bonds."
+          }
+        ]
+      },
+      "holding": "‘Most’ flows forward through ‘all’; it never flows backward, and it never becomes ‘all’."
+    },
+    "reasoningKeys": [
+      "most",
+      "investment grade",
+      "chain",
+      "more than half"
+    ]
+  },
+  {
+    "id": "lr-003",
+    "section": "LR",
+    "type": "must-be-true",
+    "difficulty": 5,
+    "flaw": "percent-number",
+    "pattern": "percentage",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Kestrel Media earns revenue from exactly two sources: subscriptions and advertising.",
+        "r": "X"
+      },
+      {
+        "t": "In 2023, advertising accounted for a larger percentage of Kestrel’s total revenue than it did in 2022,",
+        "r": "X"
+      },
+      {
+        "t": "even though Kestrel’s total revenue was smaller in 2023 than in 2022.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, which one of the following must be true?",
+    "choices": [
+      "Kestrel’s subscription revenue was smaller in 2023 than in 2022.",
+      "Kestrel’s advertising revenue was smaller in 2023 than in 2022.",
+      "Kestrel lost subscribers between 2022 and 2023.",
+      "Kestrel’s advertising revenue was greater in 2023 than in 2022.",
+      "Kestrel’s advertising revenue exceeded its subscription revenue in 2023."
+    ],
+    "answer": 0,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Revenue = subscriptions + advertising. Advertising’s share rose from 2022 to 2023; total revenue fell.",
+      "issue": "What follows from a rising share inside a shrinking total?",
+      "rule": "Percentages and amounts are different things. If one source’s share rises, the other source’s share must fall; a smaller share of a smaller total is a smaller amount.",
+      "analysis": {
+        "correct": "(A) Subscriptions’ share fell (because advertising’s rose and there are only two sources), and the total fell. A smaller share of a smaller total must be a smaller amount.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "unsupported-inference",
+            "why": "Equally unproven. Advertising revenue might have risen modestly or fallen modestly."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Subscription revenue fell, but that could come from lower prices rather than fewer subscribers."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "A larger share of a smaller total could be more, less, or the same amount. Classic percentage-versus-number trap."
+          },
+          {
+            "choice": 4,
+            "label": "unsupported-inference",
+            "why": "We know advertising’s share grew, not that it passed 50%."
+          }
+        ]
+      },
+      "holding": "When the total shrinks and one part’s share shrinks too, that part’s absolute amount must shrink."
+    },
+    "reasoningKeys": [
+      "share",
+      "smaller total",
+      "subscription",
+      "percentage"
+    ]
+  },
+  {
+    "id": "lr-004",
+    "section": "LR",
+    "type": "most-strongly-supported",
+    "difficulty": 3,
+    "pattern": "fact-set",
+    "topic": "legal history",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Merchants of the Hanseatic towns resolved commercial disputes in merchant courts rather than royal courts.",
+        "r": "X"
+      },
+      {
+        "t": "The customs these courts applied differed considerably from town to town, yet surviving correspondence contains few complaints about inconsistent outcomes from traders who did business in several towns.",
+        "r": "X"
+      },
+      {
+        "t": "Court records show that traders who litigated in more than one town almost always employed local agents familiar with each town’s customs.",
+        "r": "X"
+      }
+    ],
+    "stem": "The statements above, if true, most strongly support which one of the following?",
+    "choices": [
+      "Traders who complained about inconsistent outcomes had failed to employ local agents.",
+      "Traders who litigated in several towns generally did not rely solely on their own knowledge of each town’s customs.",
+      "Merchant courts would have produced more consistent outcomes had they applied a common code.",
+      "The differences among the towns’ customs were of no commercial significance to traders.",
+      "Royal courts applied more uniform rules than merchant courts did."
+    ],
+    "answer": 1,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Customs varied by town; multi-town traders rarely complained; multi-town litigants almost always used local agents who knew local customs.",
+      "issue": "Which claim does the record support most strongly, with the least extrapolation?",
+      "rule": "Most Strongly Supported answers stay close to the facts. Prefer modest claims backed by a specific statement.",
+      "analysis": {
+        "correct": "(B) If such traders ‘almost always’ employed local agents familiar with local customs, they generally did not rely on their own knowledge alone. That follows almost directly.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "unsupported-inference",
+            "why": "We never learn who complained or why."
+          },
+          {
+            "choice": 2,
+            "label": "unsupported-inference",
+            "why": "A speculative counterfactual the facts do not address."
+          },
+          {
+            "choice": 3,
+            "label": "too-strong",
+            "why": "Hiring agents suggests the differences DID matter; ‘no significance’ is extreme and undercut by the facts."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The royal courts’ rules are never described."
+          }
+        ]
+      },
+      "holding": "On Most Strongly Supported questions, the winning answer is usually the most modest claim with the most direct textual support."
+    },
+    "reasoningKeys": [
+      "almost always",
+      "local agents",
+      "not rely solely"
+    ]
+  },
+  {
+    "id": "lr-005",
+    "section": "LR",
+    "type": "most-strongly-supported",
+    "difficulty": 4,
+    "pattern": "fact-set",
+    "topic": "economics",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "When a central bank announces that it will hold interest rates steady, long-term bond yields in that country usually fall slightly in the following week.",
+        "r": "X"
+      },
+      {
+        "t": "Yet on each of the three occasions in the past decade when the Bank of Elsmere announced that it would hold rates steady while simultaneously publishing forecasts of rising inflation, long-term yields in Elsmere rose.",
+        "r": "X"
+      }
+    ],
+    "stem": "Which one of the following is most strongly supported by the information above?",
+    "choices": [
+      "Investors in Elsmere pay less attention to interest-rate announcements than investors in other countries do.",
+      "Long-term yields fall whenever a central bank holds rates steady without publishing inflation forecasts.",
+      "The Bank of Elsmere’s inflation forecasts have generally proven accurate.",
+      "Investors’ responses to a central bank’s interest-rate announcement can depend on other information the bank releases at the same time.",
+      "Forecasts of rising inflation cause long-term yields to rise regardless of central bank policy."
+    ],
+    "answer": 3,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Holding rates steady usually lowers long-term yields slightly. But three times, Elsmere held rates steady while forecasting rising inflation, and yields rose.",
+      "issue": "What do the usual pattern and the exceptions jointly support?",
+      "rule": "Look for the hedged, general lesson the facts illustrate (‘can’, ‘may’), not a universal causal law.",
+      "analysis": {
+        "correct": "(D) The same announcement came with different yield movements, and the difference coincided with the inflation forecasts. That supports the modest claim that responses CAN depend on simultaneously released information.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "irrelevant-comparison",
+            "why": "No comparison between Elsmere’s investors and other countries’ investors is offered."
+          },
+          {
+            "choice": 1,
+            "label": "too-strong",
+            "why": "The stimulus says ‘usually,’ not ‘whenever.’"
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "The forecasts’ accuracy is never discussed."
+          },
+          {
+            "choice": 4,
+            "label": "too-strong",
+            "why": "‘Regardless of central bank policy’ goes far beyond three observations."
+          }
+        ]
+      },
+      "holding": "A pattern plus a recurring exception supports a cautious ‘can depend on’ conclusion, not a universal rule."
+    },
+    "reasoningKeys": [
+      "can depend",
+      "simultaneous",
+      "inflation forecasts",
+      "exception"
+    ]
+  },
+  {
+    "id": "lr-006",
+    "section": "LR",
+    "type": "most-strongly-supported",
+    "difficulty": 4,
+    "pattern": "fact-set",
+    "topic": "comparative law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "In legal systems that permit judges to publish dissenting opinions, the majority opinions of the highest court tend to be longer and to cite more academic commentary than in systems that forbid dissents.",
+        "r": "X"
+      },
+      {
+        "t": "Moreover, several systems that once forbade dissents but later permitted them saw the average length of their highest courts’ majority opinions increase within a decade of the change.",
+        "r": "X"
+      }
+    ],
+    "stem": "The information above most strongly supports which one of the following?",
+    "choices": [
+      "Every system that permits dissents produces longer majority opinions than every system that forbids them.",
+      "Majority opinions in systems that permit dissents are of higher quality than those in systems that forbid them.",
+      "Whether dissents are permitted can influence the length of a high court’s majority opinions.",
+      "Judges in systems that forbid dissents rarely disagree with one another.",
+      "Academic commentary is more influential in systems that permit dissents than in systems that forbid them."
+    ],
+    "answer": 2,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Systems permitting dissents have longer, more heavily cited majority opinions. Systems that switched to permitting dissents saw majority opinions lengthen.",
+      "issue": "What does a cross-system correlation plus a before-and-after change support?",
+      "rule": "Correlation plus a before-and-after shift supports a cautious causal claim (‘can influence’).",
+      "analysis": {
+        "correct": "(C) The before-and-after evidence suggests that allowing dissents can affect opinion length, and ‘can influence’ claims no more than the evidence supports.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "too-strong",
+            "why": "‘Tend to be’ cannot support ‘every system … than every system.’"
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Length and citations are not measures of quality."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "Forbidding dissents limits publication of disagreement, not disagreement itself."
+          },
+          {
+            "choice": 4,
+            "label": "shell-game",
+            "why": "Citing more commentary is swapped for commentary being more influential."
+          }
+        ]
+      },
+      "holding": "Watch for answers that swap the measured quantity (citations, length) for a different one (influence, quality)."
+    },
+    "reasoningKeys": [
+      "can influence",
+      "length",
+      "before and after"
+    ]
+  },
+  {
+    "id": "lr-007",
+    "section": "LR",
+    "type": "cannot-be-true",
+    "difficulty": 4,
+    "pattern": "conditional",
+    "topic": "constitutional theory",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Arvenland’s legislature consists of the Senate and the Assembly.",
+        "r": "X"
+      },
+      {
+        "t": "A bill becomes law in Arvenland only if it is approved by both chambers and is either signed by the president or re-passed by a two-thirds majority in each chamber.",
+        "r": "X"
+      },
+      {
+        "t": "The Senate never re-passes a bill by a two-thirds majority unless the bill concerns the national budget.",
+        "r": "X"
+      },
+      {
+        "t": "The Transit Act became law last year but was never signed by the president.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, which one of the following CANNOT be true?",
+    "choices": [
+      "The Assembly re-passed the Transit Act by a two-thirds majority.",
+      "The Transit Act did not concern the national budget.",
+      "The Assembly has re-passed bills that did not concern the national budget.",
+      "Some bills concerning the national budget have failed to become law.",
+      "The president publicly opposed the Transit Act."
+    ],
+    "answer": 1,
+    "diagram": {
+      "chain": [
+        "Became law, unsigned",
+        "Re-passed by 2/3 in Senate",
+        "Concerns budget"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Becoming law requires approval by both chambers plus either a presidential signature or a two-thirds re-passage in each chamber. The Senate re-passes only budget bills. The Transit Act became law without a signature.",
+      "issue": "Which statement contradicts what the facts force?",
+      "rule": "For Cannot Be True, derive what MUST be true, then find the answer that contradicts it. ‘Unless’ means ‘if not’: Senate re-passes → bill concerns budget.",
+      "analysis": {
+        "correct": "(B) An unsigned law must have been re-passed by two-thirds in each chamber, including the Senate. The Senate re-passes only budget bills, so the Transit Act must concern the budget. (B) contradicts that.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "restatement",
+            "why": "This must be true, so it is certainly not impossible."
+          },
+          {
+            "choice": 2,
+            "label": "unsupported-inference",
+            "why": "This could be true. The budget restriction applies only to the Senate."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "This could be true. The rules state requirements, not guarantees that budget bills pass."
+          },
+          {
+            "choice": 4,
+            "label": "unsupported-inference",
+            "why": "This could be true. The president’s views are unconstrained."
+          }
+        ]
+      },
+      "holding": "Translate ‘X never happens unless Y’ as X → Y, and use the forced chain to identify the impossible answer."
+    },
+    "reasoningKeys": [
+      "re-passed",
+      "senate",
+      "budget",
+      "unsigned"
+    ]
+  },
+  {
+    "id": "lr-008",
+    "section": "LR",
+    "type": "cannot-be-true",
+    "difficulty": 5,
+    "pattern": "quantifier",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Every hedge fund registered in Calvo must file quarterly disclosures.",
+        "r": "X"
+      },
+      {
+        "t": "Most funds that file quarterly disclosures are audited annually.",
+        "r": "X"
+      },
+      {
+        "t": "No fund that is audited annually has ever failed to meet its redemption obligations.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, each of the following could be true EXCEPT:",
+    "choices": [
+      "Most hedge funds registered in Calvo are not audited annually.",
+      "No hedge fund registered in Calvo is audited annually.",
+      "Most funds that file quarterly disclosures have failed to meet their redemption obligations.",
+      "Some hedge funds registered in Calvo have failed to meet their redemption obligations.",
+      "Some funds that are audited annually do not file quarterly disclosures."
+    ],
+    "answer": 2,
+    "diagram": {
+      "chain": [
+        "Registered in Calvo",
+        "Files disclosures",
+        "(most) Audited",
+        "Never failed"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Registered → files disclosures. Most disclosers are audited. Audited → never failed redemptions.",
+      "issue": "Which statement is impossible given these quantified relationships?",
+      "rule": "Most A are B, and all B are C, so most A are C. Anything asserting that most A are NOT C is impossible.",
+      "analysis": {
+        "correct": "(C) Most disclosers are audited, and audited funds never fail, so most disclosers have NOT failed. ‘Most disclosers have failed’ contradicts this.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "unsupported-inference",
+            "why": "This could be true for the same reason as (B)."
+          },
+          {
+            "choice": 1,
+            "label": "unsupported-inference",
+            "why": "This could be true. ‘Most disclosers’ need not include any registered fund."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "This could be true. Registered funds could sit among the minority of disclosers that are not audited."
+          },
+          {
+            "choice": 4,
+            "label": "unsupported-inference",
+            "why": "This could be true. Nothing says auditing requires disclosure."
+          }
+        ]
+      },
+      "holding": "A ‘most’ from a larger group tells you nothing about a subgroup. Registered funds could all fall in the unaudited minority."
+    },
+    "reasoningKeys": [
+      "most",
+      "audited",
+      "subgroup",
+      "never failed"
+    ]
+  },
+  {
+    "id": "lr-009",
+    "section": "LR",
+    "type": "cannot-be-true",
+    "difficulty": 3,
+    "pattern": "conditional",
+    "topic": "natural science",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "In the Morrow Valley, an orchid species blooms in spring only if its seeds germinate in cold soil.",
+        "r": "X"
+      },
+      {
+        "t": "Unless an orchid species is pollinated by bees, its seeds do not germinate in cold soil.",
+        "r": "X"
+      },
+      {
+        "t": "No bee-pollinated orchid species in the valley is native to the valley’s wetlands.",
+        "r": "X"
+      }
+    ],
+    "stem": "If the statements above are true, which one of the following CANNOT be true of orchid species in the Morrow Valley?",
+    "choices": [
+      "Some species native to the wetlands bloom in autumn.",
+      "Some species native to the wetlands bloom in spring.",
+      "Some species whose seeds germinate in cold soil are not native to the wetlands.",
+      "Some species pollinated by bees do not bloom in spring.",
+      "No species native to the wetlands is pollinated by bees."
+    ],
+    "answer": 1,
+    "diagram": {
+      "chain": [
+        "Blooms in spring",
+        "Cold-soil germination",
+        "Bee-pollinated",
+        "Not wetland-native"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Spring bloom → cold germination → bee-pollinated → not wetland-native.",
+      "issue": "Which statement contradicts the chain?",
+      "rule": "Chain the conditionals and read the contrapositive: Wetland-native → ¬Bee → ¬Cold → ¬Spring.",
+      "analysis": {
+        "correct": "(B) Any wetland-native species is not bee-pollinated, so its seeds do not germinate in cold soil, so it does not bloom in spring. (B) is impossible.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "unsupported-inference",
+            "why": "This could be true. Autumn blooming is unconstrained."
+          },
+          {
+            "choice": 2,
+            "label": "restatement",
+            "why": "This must be true (cold → bee → not wetland), so it is possible."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "This could be true. Bee pollination is necessary for spring blooming, not sufficient."
+          },
+          {
+            "choice": 4,
+            "label": "restatement",
+            "why": "This is the contrapositive of the third statement, so it is possible."
+          }
+        ]
+      },
+      "holding": "‘Unless X, not Y’ translates to Y → X. Build the chain, then read it backward with every term negated."
+    },
+    "reasoningKeys": [
+      "contrapositive",
+      "wetland",
+      "not bee",
+      "spring"
+    ]
+  }
+]

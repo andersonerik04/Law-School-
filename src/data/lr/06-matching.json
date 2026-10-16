@@ -1,0 +1,664 @@
+[
+  {
+    "id": "lr-047",
+    "section": "LR",
+    "type": "parallel",
+    "difficulty": 4,
+    "pattern": "conditional",
+    "topic": "corporate law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "If the board approves the merger, the shareholders will vote on it.",
+        "r": "P"
+      },
+      {
+        "t": "If the shareholders vote on it, the merger will be completed within the year.",
+        "r": "P"
+      },
+      {
+        "t": "The board has approved the merger.",
+        "r": "P"
+      },
+      {
+        "t": "So the merger will be completed within the year.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following arguments is most similar in its pattern of reasoning to the argument above?",
+    "choices": [
+      "The harvest will be late only if the rains are late. If the harvest is late, grain prices will rise. The rains were late. So grain prices will rise.",
+      "Whenever the court sits in Vienna, its hearings are public, and every public hearing is transcribed. The court is sitting in Vienna. Hence its hearing will be transcribed.",
+      "If the fund rebalances, it will sell bonds, and if it sells bonds, yields will rise. Yields have risen. So the fund must have rebalanced.",
+      "Every licensed broker passed the qualifying examination, and everyone who passed that examination studied for it. Ana studied for it. So Ana is a licensed broker.",
+      "If the embassy reopens, trade will resume, and if trade resumes, tariffs will fall. Tariffs have not fallen. So trade has not resumed."
+    ],
+    "answer": 1,
+    "diagram": {
+      "chain": [
+        "Board approves",
+        "Shareholders vote",
+        "Completed within year"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "A → B, B → C, A. Therefore C, a valid chain applied forward.",
+      "issue": "Which answer has the same valid form, even if worded differently?",
+      "rule": "Parallel Reasoning: abstract the form (A → B → C; A; ∴ C), then match it. Indicator words differ; logical form must not.",
+      "analysis": {
+        "correct": "(B) Vienna → Public → Transcribed; the court is in Vienna; therefore transcribed. Same forward chain, with ‘whenever’ and ‘every’ in place of ‘if.’",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "reversal",
+            "why": "‘Late harvest only if late rains’ makes rains NECESSARY. Late rains do not establish a late harvest, so the form is flawed."
+          },
+          {
+            "choice": 2,
+            "label": "reversal",
+            "why": "Affirms the end of the chain to conclude the beginning, which is invalid."
+          },
+          {
+            "choice": 3,
+            "label": "reversal",
+            "why": "Ends with the reversal fallacy (studied, so licensed)."
+          },
+          {
+            "choice": 4,
+            "label": "wrong-degree",
+            "why": "Valid, but it uses the contrapositive (¬C, so ¬B), a different form."
+          }
+        ]
+      },
+      "holding": "Translate each answer into arrows; match direction, chain length, and what is affirmed or denied."
+    },
+    "reasoningKeys": [
+      "chain",
+      "same form",
+      "forward",
+      "valid"
+    ]
+  },
+  {
+    "id": "lr-048",
+    "section": "LR",
+    "type": "parallel",
+    "difficulty": 5,
+    "pattern": "quantifier",
+    "topic": "judicial institutions",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Most of the judges on the commercial court previously practiced as arbitrators.",
+        "r": "P"
+      },
+      {
+        "t": "All of the court’s former arbitrators favor the new procedural rules.",
+        "r": "P"
+      },
+      {
+        "t": "So most of the judges on the commercial court favor the new procedural rules.",
+        "r": "C"
+      }
+    ],
+    "stem": "The pattern of reasoning in which one of the following is most similar to that in the argument above?",
+    "choices": [
+      "All of the firm’s analysts hold degrees in economics, and most economics graduates favor free trade. So most of the firm’s analysts favor free trade.",
+      "Most residents of the district own cars, and some car owners in the district commute by train. So some residents of the district commute by train.",
+      "Most delegates from coastal states voted for the resolution, and most delegates are from coastal states. So most delegates voted for the resolution.",
+      "Most members of the orchestra trained abroad, and most musicians who trained abroad speak French. So most members of the orchestra speak French.",
+      "Most of the museum’s paintings are Flemish, and every Flemish painting in the museum was restored in the last decade. So most of the museum’s paintings were restored in the last decade."
+    ],
+    "answer": 4,
+    "diagram": {
+      "chain": [
+        "(most) Judges",
+        "Former arbitrators",
+        "Favor rules"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Most A are B; all B are C; therefore most A are C. Valid.",
+      "issue": "Which answer reproduces ‘most, then all’?",
+      "rule": "‘Most’ + ‘all’ in sequence is valid. ‘Most’ + ‘most,’ or ‘all’ + ‘most’ applied to a different group, is not.",
+      "analysis": {
+        "correct": "(E) Most paintings are Flemish; all Flemish paintings were restored; so most paintings were restored. Same valid form.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "wrong-degree",
+            "why": "‘Most economics graduates’ concerns graduates generally, and the analysts may be in the minority."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Uses ‘some,’ a different (and weaker) form."
+          },
+          {
+            "choice": 2,
+            "label": "wrong-degree",
+            "why": "Most + most again. Invalid."
+          },
+          {
+            "choice": 3,
+            "label": "wrong-degree",
+            "why": "Most + most: the two majorities may not overlap. Invalid."
+          }
+        ]
+      },
+      "holding": "In quantifier parallels, the ORDER and STRENGTH of the quantifiers is the form."
+    },
+    "reasoningKeys": [
+      "most",
+      "all",
+      "same quantifiers",
+      "valid"
+    ]
+  },
+  {
+    "id": "lr-049",
+    "section": "LR",
+    "type": "parallel",
+    "difficulty": 3,
+    "pattern": "rule-exception",
+    "topic": "contract law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Normally, a party that breaches a contract must pay damages.",
+        "r": "X"
+      },
+      {
+        "t": "But Harlan’s breach resulted from a government embargo that neither party could have foreseen.",
+        "r": "P"
+      },
+      {
+        "t": "Since a party is excused when unforeseeable events make performance impossible,",
+        "r": "P"
+      },
+      {
+        "t": "Harlan owes no damages.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following is most similar in its reasoning to the argument above?",
+    "choices": [
+      "Ordinarily, students who miss the final examination fail the course. But Lucía missed it because she was hospitalized after an accident. Since students are exempt when an emergency they could not have prevented causes their absence, Lucía will not fail on that account.",
+      "Because unforeseeable events can excuse performance, any party whose performance was affected by an embargo owes no damages.",
+      "Most tenants who pay rent late are charged a fee. Teo paid his rent late. So Teo was probably charged a fee.",
+      "Normally, contracts signed under duress are voidable. Harlan’s contract was signed under duress. So Harlan’s contract is voidable.",
+      "Normally, the museum closes at six. But it stayed open late last night. So there must have been a special event."
+    ],
+    "answer": 0,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "General rule; a case falls under a stated exception; so the general rule’s consequence does not apply.",
+      "issue": "Which answer applies a stated exception to a general rule?",
+      "rule": "Abstract: Normally R. Case meets exception E. Under E, R does not apply. So not R for this case.",
+      "analysis": {
+        "correct": "(A) Same structure: general rule (missing the final means failing), a qualifying emergency, a stated exemption, and the conclusion that the rule does not apply.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "too-strong",
+            "why": "Overgeneralizes the exception and draws a universal conclusion."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Probabilistic application of a tendency."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Applies the rule; no exception."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Infers an explanation for a departure from the norm, a different pattern."
+          }
+        ]
+      },
+      "holding": "Name each answer’s skeleton in a few words (‘rule, exception, rule displaced’) before comparing."
+    },
+    "reasoningKeys": [
+      "exception",
+      "general rule",
+      "excused",
+      "same structure"
+    ]
+  },
+  {
+    "id": "lr-050",
+    "section": "LR",
+    "type": "principle-identify",
+    "difficulty": 3,
+    "pattern": "principle",
+    "topic": "international law",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Upland had routinely shared its flood forecasts with its downstream neighbor until, during a dispute over unrelated fishing rights, it withheld them.",
+        "r": "P"
+      },
+      {
+        "t": "Upland was wrong to do so,",
+        "r": "C"
+      },
+      {
+        "t": "because withholding the forecasts endangered downstream residents who had no part in the dispute.",
+        "r": "P"
+      }
+    ],
+    "stem": "Which one of the following principles, if valid, most helps to justify the reasoning above?",
+    "choices": [
+      "It is wrong for a state, in pursuing a dispute with another state, to take actions that put at risk people who are not involved in the dispute.",
+      "A state’s obligations to its own residents take precedence over its obligations to residents of other states.",
+      "Disputes over natural resources should be kept separate from disputes over trade.",
+      "States should resolve disputes over fishing rights through binding arbitration.",
+      "A state may be justified in endangering people if doing so protects its own vital interests."
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "Endangering uninvolved people in pursuit of a dispute is wrong.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "Upland withheld flood forecasts during a fishing dispute, endangering uninvolved downstream residents. Judgment: Upland was wrong.",
+      "issue": "Which general rule turns the stated reason into the judgment?",
+      "rule": "Principle–Identify works like a Sufficient Assumption in general form: if [the stated reason], then [the judgment].",
+      "analysis": {
+        "correct": "(A) ‘Pursuing a dispute’ + ‘putting uninvolved people at risk’ → ‘wrong.’ It matches the reason given and yields the conclusion.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "If anything, this would excuse Upland’s conduct."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Concerns trade, which is not at issue."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Says nothing about withholding forecasts."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "Pushes toward justifying Upland."
+          }
+        ]
+      },
+      "holding": "The right principle uses the argument’s own reason as its trigger and its judgment as its outcome."
+    },
+    "reasoningKeys": [
+      "uninvolved",
+      "dispute",
+      "endanger",
+      "wrong"
+    ]
+  },
+  {
+    "id": "lr-051",
+    "section": "LR",
+    "type": "principle-identify",
+    "difficulty": 4,
+    "pattern": "principle",
+    "topic": "corporate governance",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Columnist: The board of Ferrand Holdings approved the chief executive’s compensation package after reviewing a report by a consulting firm that the chief executive herself had selected and paid.",
+        "r": "P"
+      },
+      {
+        "t": "Even if the package is reasonable, the board acted improperly.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following principles, if valid, most helps to justify the columnist’s judgment?",
+    "choices": [
+      "Consulting firms should disclose to the public the identities of all their clients.",
+      "A board acts improperly when it approves a decision in reliance on advice from a source chosen and paid by someone who stands to benefit from that decision, regardless of whether the decision is reasonable.",
+      "A board acts properly whenever it relies on the advice of qualified experts.",
+      "Executives should not be permitted to negotiate their own compensation.",
+      "A board should never approve executive compensation that exceeds the compensation paid by comparable firms."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "Relying on advice controlled by an interested party is improper even if the outcome is fine.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "The board relied on a report from consultants the CEO chose and paid. The columnist says the board acted improperly even if the package is reasonable.",
+      "issue": "What rule makes the PROCESS improper independent of the outcome?",
+      "rule": "Note the concession (‘even if the package is reasonable’). The principle must condemn the process regardless of outcome.",
+      "analysis": {
+        "correct": "(B) Covers advice from a source the beneficiary chose and paid, and explicitly applies regardless of reasonableness. A perfect fit.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Public disclosure of clients is unrelated."
+          },
+          {
+            "choice": 2,
+            "label": "opposite",
+            "why": "This would vindicate the board."
+          },
+          {
+            "choice": 3,
+            "label": "shell-game",
+            "why": "She chose the consultant; she did not negotiate her own pay."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The columnist allows that the package may be reasonable; comparative pay is not the issue."
+          }
+        ]
+      },
+      "holding": "When the conclusion says ‘even if X,’ the right principle must work regardless of X."
+    },
+    "reasoningKeys": [
+      "chosen and paid",
+      "conflict of interest",
+      "regardless",
+      "process"
+    ]
+  },
+  {
+    "id": "lr-052",
+    "section": "LR",
+    "type": "principle-identify",
+    "difficulty": 4,
+    "pattern": "principle",
+    "topic": "legal translation",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Ivanova, translating a commercial statute into Russian, rendered one provision in idiomatic phrasing that reads naturally but subtly narrows the scope of an exemption.",
+        "r": "P"
+      },
+      {
+        "t": "Her translation of this provision is therefore deficient,",
+        "r": "C"
+      },
+      {
+        "t": "even though a more literal rendering would have been awkward.",
+        "r": "K"
+      }
+    ],
+    "stem": "Which one of the following principles most helps to justify the reasoning above?",
+    "choices": [
+      "A translation of a statute should be evaluated by native speakers of the target language.",
+      "In translating legal texts, preserving the legal effect of the original takes precedence over producing natural-sounding prose.",
+      "A translator who makes an error should disclose it to the client.",
+      "A translation that narrows an exemption is acceptable if it reads more naturally than a literal rendering would.",
+      "A translation is deficient if it is awkward in the target language."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "Legal effect outranks fluency in legal translation.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "Ivanova’s idiomatic rendering is natural but narrows an exemption. A literal rendering would be awkward. Judgment: deficient.",
+      "issue": "Which ranking of values yields the judgment?",
+      "rule": "When an argument weighs two values (accuracy vs. fluency) and picks one, the principle states that priority.",
+      "analysis": {
+        "correct": "(B) Legal effect beats fluency. Since the rendering changes the legal effect, it is deficient despite reading well.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Who evaluates is irrelevant."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Disclosure is not at issue."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "Would make her translation acceptable."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "Would condemn the LITERAL alternative, not Ivanova’s rendering."
+          }
+        ]
+      },
+      "holding": "Trade-off arguments are justified by a priority principle (‘X takes precedence over Y’)."
+    },
+    "reasoningKeys": [
+      "legal effect",
+      "precedence",
+      "fluency",
+      "priority"
+    ]
+  },
+  {
+    "id": "lr-053",
+    "section": "LR",
+    "type": "principle-apply",
+    "difficulty": 4,
+    "pattern": "conditional-principle",
+    "topic": "international arbitration",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Principle: An arbitrator should withdraw from a case if a reasonable observer would doubt the arbitrator’s impartiality,",
+        "r": "P"
+      },
+      {
+        "t": "unless every party, fully informed of the circumstances, consents to the arbitrator’s continued service.",
+        "r": "P"
+      }
+    ],
+    "stem": "Which one of the following judgments most closely conforms to the principle above?",
+    "choices": [
+      "Arbitrator Okafor’s spouse works for one of the parties. One party, after being informed, consented to his continued service. So he need not withdraw.",
+      "Arbitrator Lind owns shares in one of the parties, and the other party has not been told. Since Lind believes he can be impartial, he need not withdraw.",
+      "Arbitrator Novak’s former law firm represents one of the parties. After being informed of this, both parties consented to her continued service. So she need not withdraw.",
+      "Arbitrator Sato has no connection to either party, but one party objects to her nationality. So she should withdraw.",
+      "Arbitrator Ruiz once published an article on the legal issue in dispute. Since a reasonable observer might doubt his impartiality, he must withdraw even though both parties, fully informed, consent to his service."
+    ],
+    "answer": 2,
+    "diagram": {
+      "chain": [
+        "Reasonable doubt AND NOT all-party informed consent",
+        "Withdraw"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Doubt about impartiality → withdraw, unless ALL parties, fully informed, consent.",
+      "issue": "Which case is decided the way the principle dictates?",
+      "rule": "‘Unless’ creates an exception. With informed consent from every party, the withdrawal requirement is lifted.",
+      "analysis": {
+        "correct": "(C) Even assuming doubt arises, both (all) parties consented with full information, so the exception applies and withdrawal is not required.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "half-right",
+            "why": "Consent came from only ONE party; the exception requires every party."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "Share ownership raises doubt, and there is no informed consent. The principle requires withdrawal."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "One party’s objection is not a reasonable observer’s doubt; the principle does not require withdrawal here."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "The exception applies (full, informed, unanimous consent), yet the judgment demands withdrawal."
+          }
+        ]
+      },
+      "holding": "In Principle–Apply, check every element of the rule AND its exception against the facts."
+    },
+    "reasoningKeys": [
+      "unless",
+      "every party",
+      "informed consent",
+      "exception"
+    ]
+  },
+  {
+    "id": "lr-054",
+    "section": "LR",
+    "type": "principle-apply",
+    "difficulty": 5,
+    "flaw": "suff-nec",
+    "pattern": "conditional-principle",
+    "topic": "financial regulation",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Principle: A financial adviser may recommend a product on which the adviser earns a commission only if the adviser discloses the commission to the client",
+        "r": "P"
+      },
+      {
+        "t": "and the product is at least as suitable for the client as any commission-free alternative the adviser knows of.",
+        "r": "P"
+      }
+    ],
+    "stem": "Which one of the following judgments is most clearly justified by the principle above?",
+    "choices": [
+      "Lindqvist recommended a pension product on which she earns a commission, after disclosing the commission; she knew of no commission-free product as suitable for her client. So her recommendation was proper.",
+      "Petrov recommended an annuity on which he earns a commission. He did not disclose the commission, but the annuity was the most suitable product available. Petrov acted properly.",
+      "Okafor recommended a fund on which he earns a commission and disclosed the commission, but a commission-free fund he knew of was better suited to his client’s needs. Okafor should not have recommended the fund.",
+      "Mora disclosed her commission on a bond fund she recommended to a client, though she knew of a commission-free fund better suited to the client’s goals. Mora acted properly.",
+      "Haddad recommended a commission-free index fund without disclosing that she earns a salary from the fund’s sponsor. Haddad acted improperly."
+    ],
+    "answer": 2,
+    "diagram": {
+      "chain": [
+        "May recommend commission product",
+        "Disclosed AND at least as suitable as known free alternatives"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Recommending a commission product requires (1) disclosure and (2) suitability at least equal to any known commission-free alternative.",
+      "issue": "Which judgment does the principle actually establish?",
+      "rule": "‘Only if’ states NECESSARY conditions. Failing one proves impermissibility; meeting all of them proves nothing.",
+      "analysis": {
+        "correct": "(C) Okafor fails condition (2), so by the principle he may not recommend the fund. The principle justifies this judgment.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "reversal",
+            "why": "Lindqvist meets both NECESSARY conditions, but necessary conditions cannot establish that the recommendation was proper. Classic trap."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "Petrov fails condition (1); the principle condemns him."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "Mora fails condition (2); the principle condemns her."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The principle covers commission products only and says nothing about salaries."
+          }
+        ]
+      },
+      "holding": "A principle phrased with ‘only if’ can condemn; it cannot certify."
+    },
+    "reasoningKeys": [
+      "only if",
+      "necessary",
+      "condemn",
+      "cannot certify"
+    ]
+  },
+  {
+    "id": "lr-055",
+    "section": "LR",
+    "type": "principle-apply",
+    "difficulty": 3,
+    "pattern": "conditional-principle",
+    "topic": "constitutional theory",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Principle: A court should decline to decide a constitutional question if the case can be fully resolved on non-constitutional grounds.",
+        "r": "P"
+      }
+    ],
+    "stem": "Which one of the following judgments conforms most closely to the principle above?",
+    "choices": [
+      "The court declined to decide the constitutional question; therefore the case must have been resolvable on statutory grounds.",
+      "The court addressed a statutory question before a constitutional one, even though the constitutional question was more important. The court erred.",
+      "A court that can resolve a case only on constitutional grounds should decline to decide the case.",
+      "The court decided the constitutional question because both parties asked it to, even though statutory grounds would have resolved the case fully. The court acted properly.",
+      "In Weller v. Danford, the plaintiff challenged a regulation as unconstitutional and as exceeding the agency’s statutory authority. Because the court found that the regulation exceeded the agency’s authority, which fully resolved the case, it properly declined to rule on the constitutional challenge."
+    ],
+    "answer": 4,
+    "diagram": {
+      "chain": [
+        "Fully resolvable on non-constitutional grounds",
+        "Decline the constitutional question"
+      ],
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Rule: if fully resolvable on non-constitutional grounds, decline the constitutional question (constitutional avoidance).",
+      "issue": "Which case applies the rule correctly?",
+      "rule": "Apply the trigger → outcome. Do not reverse it or extend it to cases it does not cover.",
+      "analysis": {
+        "correct": "(E) The statutory ground fully resolved the case (trigger), so the court declined the constitutional question (outcome). Exact conformity.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "reversal",
+            "why": "Infers the trigger from the outcome."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "The principle does not address the order or importance of questions."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "The principle says nothing about declining whole cases."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "The trigger was met, yet the judgment approves deciding the constitutional question."
+          }
+        ]
+      },
+      "holding": "Trigger met → outcome required. Outcome observed → trigger NOT proven."
+    },
+    "reasoningKeys": [
+      "fully resolved",
+      "statutory",
+      "decline",
+      "avoidance"
+    ]
+  }
+]

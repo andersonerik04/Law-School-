@@ -1,0 +1,625 @@
+[
+  {
+    "id": "lr-056",
+    "section": "LR",
+    "type": "paradox",
+    "difficulty": 4,
+    "pattern": "discrepancy",
+    "topic": "monetary economics",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "After the Bank of Aldonia cut its policy interest rate by a full percentage point,",
+        "r": "X"
+      },
+      {
+        "t": "the interest rates that Aldonian banks charged on new long-term mortgages rose.",
+        "r": "X"
+      }
+    ],
+    "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy described above?",
+    "choices": [
+      "Mortgage rates in several neighboring countries also rose during the same period.",
+      "Most outstanding Aldonian mortgages carry fixed rather than variable interest rates.",
+      "During the same period, yields on Aldonia’s long-term government bonds, to which mortgage rates are closely tied, rose sharply as investors came to expect higher inflation.",
+      "The rate cut was intended to stimulate borrowing by households and businesses.",
+      "Demand for new mortgages fell in the months following the rate cut."
+    ],
+    "answer": 2,
+    "diagram": {
+      "tension": [
+        "The central bank cut its policy rate",
+        "New mortgage rates rose"
+      ],
+      "overlay": "paradox"
+    },
+    "brief": {
+      "facts": "The policy rate fell, yet new long-term mortgage rates rose.",
+      "issue": "How can both be true?",
+      "rule": "Resolve answers introduce a factor that allows both facts to coexist. They do not deny either fact.",
+      "analysis": {
+        "correct": "(C) Long-term mortgage rates track long-term bond yields, not just the short policy rate. If inflation expectations pushed long yields up, mortgage rates could rise despite the cut.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "irrelevant-comparison",
+            "why": "Shows it happened elsewhere but not WHY."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Concerns OUTSTANDING mortgages; the puzzle is about rates on NEW ones."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "Restates the expectation that makes the result surprising, which deepens the puzzle."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "Falling demand would, if anything, push rates down, which deepens the puzzle."
+          }
+        ]
+      },
+      "holding": "Good resolutions name a second mechanism that overrides the expected one."
+    },
+    "reasoningKeys": [
+      "long-term",
+      "bond yields",
+      "inflation expectations",
+      "both true"
+    ]
+  },
+  {
+    "id": "lr-057",
+    "section": "LR",
+    "type": "paradox",
+    "difficulty": 5,
+    "pattern": "discrepancy",
+    "topic": "judicial behavior",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Judges who complete extensive training on cognitive biases rate themselves as far more aware of such biases than untrained judges do.",
+        "r": "X"
+      },
+      {
+        "t": "Yet in controlled experiments, trained judges’ sentencing decisions are just as influenced by irrelevant anchors, such as a randomly generated number shown before sentencing, as untrained judges’ decisions are.",
+        "r": "X"
+      }
+    ],
+    "stem": "Which one of the following, if true, most helps to explain the findings described above?",
+    "choices": [
+      "Training programs on cognitive bias are expensive to administer.",
+      "Among trained judges, some were influenced by anchors less than others.",
+      "Awareness that a bias exists does not, by itself, give a person any means of correcting for it at the moment of decision.",
+      "Randomly generated numbers are seldom presented to judges in actual cases.",
+      "Untrained judges are less willing than trained judges to admit that they might be biased."
+    ],
+    "answer": 2,
+    "diagram": {
+      "tension": [
+        "Training raises awareness of bias",
+        "Training does not reduce anchoring"
+      ],
+      "overlay": "paradox"
+    },
+    "brief": {
+      "facts": "Training increases self-reported awareness of bias but does not reduce anchoring in experiments.",
+      "issue": "Why would more awareness not reduce the bias?",
+      "rule": "Resolve the gap between what one would expect (aware → less biased) and what happened.",
+      "analysis": {
+        "correct": "(C) If awareness supplies no in-the-moment correction mechanism, increased awareness and unchanged anchoring fit together.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Cost is irrelevant."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Variation within the trained group does not explain the group-level result."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Real-world frequency does not explain the experimental result."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Explains the self-ratings at most, not why behavior is unchanged."
+          }
+        ]
+      },
+      "holding": "When knowledge does not change behavior, the resolution usually separates knowing from doing."
+    },
+    "reasoningKeys": [
+      "awareness",
+      "does not correct",
+      "knowing vs doing",
+      "mechanism"
+    ]
+  },
+  {
+    "id": "lr-058",
+    "section": "LR",
+    "type": "paradox",
+    "difficulty": 3,
+    "pattern": "discrepancy",
+    "topic": "regulation",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "For decades, the number of taxi licenses in Varnia was capped.",
+        "r": "X"
+      },
+      {
+        "t": "When the cap was lifted, the number of taxis rose by 60 percent within two years,",
+        "r": "X"
+      },
+      {
+        "t": "yet average taxi fares did not decline.",
+        "r": "X"
+      }
+    ],
+    "stem": "Which one of the following, if true, most helps to resolve the apparent discrepancy?",
+    "choices": [
+      "Some new taxi operators offered discounts to attract regular customers.",
+      "Many passengers complained about long waits for taxis before the cap was lifted.",
+      "Before the cap was lifted, taxi licenses were bought and sold for high prices.",
+      "Most new taxi drivers had previously worked in other transportation jobs.",
+      "Over the same two years, fuel prices and the cost of mandatory insurance for taxi operators roughly doubled."
+    ],
+    "answer": 4,
+    "diagram": {
+      "tension": [
+        "Supply of taxis rose 60%",
+        "Average fares did not fall"
+      ],
+      "overlay": "paradox"
+    },
+    "brief": {
+      "facts": "More taxis (more competition) but no drop in fares.",
+      "issue": "What would keep fares up despite more competition?",
+      "rule": "Find a countervailing force that offsets the expected effect.",
+      "analysis": {
+        "correct": "(E) Sharply higher operating costs would push fares up, offsetting the competitive pressure to lower them.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "opposite",
+            "why": "Discounts push fares down, which deepens the puzzle."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Past waits do not explain post-reform fares."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Past license prices are sunk; they do not explain current fares."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Drivers’ backgrounds do not affect fares."
+          }
+        ]
+      },
+      "holding": "Look for the offsetting force: rising costs, rising demand, or a regulatory floor."
+    },
+    "reasoningKeys": [
+      "costs",
+      "offset",
+      "fuel",
+      "insurance"
+    ]
+  },
+  {
+    "id": "lr-059",
+    "section": "LR",
+    "type": "point-at-issue",
+    "difficulty": 3,
+    "pattern": "dialogue",
+    "topic": "investment arbitration",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "The tribunal should not have awarded damages to the investor.",
+        "r": "C",
+        "s": "Katalin"
+      },
+      {
+        "t": "The investor knew the political risks when it entered the market.",
+        "r": "P",
+        "s": "Katalin"
+      },
+      {
+        "t": "Knowing about political risk is not the same as consenting to arbitrary expropriation.",
+        "r": "P",
+        "s": "Andrei"
+      },
+      {
+        "t": "The investor was entitled to compensation.",
+        "r": "C",
+        "s": "Andrei"
+      }
+    ],
+    "stem": "Katalin and Andrei disagree over whether",
+    "choices": [
+      "the investor knew the political risks when it entered the market",
+      "investors should avoid markets with significant political risk",
+      "the expropriation of the investor’s assets was arbitrary",
+      "tribunals should consider political risk at all",
+      "the investor should have been awarded damages"
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "Should the investor have been awarded damages?",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Katalin: no damages, because the investor knew the risks. Andrei: knowing the risk is not consent, so compensation was owed.",
+      "issue": "On which claim do they hold OPPOSITE views?",
+      "rule": "Point at Issue: both speakers must express an opinion, and the opinions must conflict.",
+      "analysis": {
+        "correct": "(E) Katalin says no damages; Andrei says the investor was entitled to compensation. Direct conflict.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "half-right",
+            "why": "Katalin asserts it; Andrei does not dispute it and seems to accept it."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Neither addresses investor strategy."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Andrei implies arbitrariness; Katalin never addresses it."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Neither addresses this general question."
+          }
+        ]
+      },
+      "holding": "Run the agree/disagree test on each answer: Katalin? Andrei? Only a ‘yes vs. no’ pair qualifies."
+    },
+    "reasoningKeys": [
+      "both",
+      "opposite",
+      "damages",
+      "compensation"
+    ]
+  },
+  {
+    "id": "lr-060",
+    "section": "LR",
+    "type": "point-at-issue",
+    "difficulty": 5,
+    "pattern": "dialogue",
+    "topic": "central banking",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Central banks should not hold equities in their reserves.",
+        "r": "C",
+        "s": "Mira"
+      },
+      {
+        "t": "Equity prices are volatile, and a central bank whose reserves suddenly lose value may be unable to defend its currency.",
+        "r": "P",
+        "s": "Mira"
+      },
+      {
+        "t": "Central banks with modest equity allocations have earned higher long-run returns on their reserves than those holding only government bonds, and higher returns build larger buffers over time.",
+        "r": "P",
+        "s": "Tomás"
+      },
+      {
+        "t": "A reserve portfolio’s value over a decade matters more than its volatility over a quarter.",
+        "r": "C",
+        "s": "Tomás"
+      }
+    ],
+    "stem": "The dialogue provides the most support for the claim that Mira and Tomás disagree over whether",
+    "choices": [
+      "a central bank whose reserves suddenly lose value may be unable to defend its currency",
+      "equity prices are volatile",
+      "central banks holding equities have earned higher long-run returns",
+      "central banks should hold government bonds in their reserves",
+      "the short-term volatility of equities is a decisive reason for central banks to exclude them from reserves"
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "Is short-term volatility decisive?",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Mira: exclude equities because volatility could cripple currency defense. Tomás: long-run returns build buffers; decade-long value outweighs quarterly volatility.",
+      "issue": "What do they actually clash on?",
+      "rule": "Speakers often share facts and disagree about their WEIGHT. Look for the evaluative claim each takes a side on.",
+      "analysis": {
+        "correct": "(E) Mira treats volatility as decisive; Tomás says it matters less than long-run value. Their positions conflict on its weight.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "half-right",
+            "why": "Tomás never addresses currency defense directly."
+          },
+          {
+            "choice": 1,
+            "label": "half-right",
+            "why": "Tomás does not deny volatility; he discounts it."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Mira never addresses returns."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Both seem to accept holding bonds."
+          }
+        ]
+      },
+      "holding": "Sophisticated disputes are about weighting, not facts. Find the claim about what matters MORE."
+    },
+    "reasoningKeys": [
+      "weight",
+      "volatility",
+      "decisive",
+      "long-run"
+    ]
+  },
+  {
+    "id": "lr-061",
+    "section": "LR",
+    "type": "point-at-issue",
+    "difficulty": 3,
+    "pattern": "dialogue",
+    "topic": "statutory interpretation",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Judges should interpret statutes in light of their purpose.",
+        "r": "C",
+        "s": "Zsófia"
+      },
+      {
+        "t": "Otherwise, the literal words can produce results the legislature never intended.",
+        "r": "P",
+        "s": "Zsófia"
+      },
+      {
+        "t": "When judges consult a statute’s purpose, they too often substitute their own policy preferences for the text that was actually enacted.",
+        "r": "P",
+        "s": "Pavel"
+      },
+      {
+        "t": "The text is the only reliable evidence of what the legislature decided, so judges should confine themselves to it.",
+        "r": "C",
+        "s": "Pavel"
+      }
+    ],
+    "stem": "The point at issue between Zsófia and Pavel is whether",
+    "choices": [
+      "judges should interpret statutes in light of their purpose",
+      "legislatures intend the results of the statutes they enact",
+      "the text of a statute is evidence of what the legislature decided",
+      "judges have policy preferences",
+      "literal readings of statutes can produce results the legislature did not intend"
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "Purposive vs. textual interpretation",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Zsófia favors purposive interpretation. Pavel says judges should confine themselves to the text.",
+      "issue": "Where do they directly conflict?",
+      "rule": "Both must take opposing positions on the answer’s claim.",
+      "analysis": {
+        "correct": "(A) Zsófia says yes; Pavel says judges should confine themselves to the text, which means no.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Neither addresses this directly."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Pavel affirms it; Zsófia does not deny it."
+          },
+          {
+            "choice": 3,
+            "label": "half-right",
+            "why": "Zsófia never addresses judges’ preferences."
+          },
+          {
+            "choice": 4,
+            "label": "half-right",
+            "why": "Pavel never denies this."
+          }
+        ]
+      },
+      "holding": "Conclusions are the most reliable place to find the point at issue."
+    },
+    "reasoningKeys": [
+      "purpose",
+      "text",
+      "conclusions conflict"
+    ]
+  },
+  {
+    "id": "lr-062",
+    "section": "LR",
+    "type": "point-of-agreement",
+    "difficulty": 3,
+    "pattern": "dialogue",
+    "topic": "securities regulation",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "The new disclosure rule will burden small issuers, since compliance requires expensive audits.",
+        "r": "K",
+        "s": "Hannah"
+      },
+      {
+        "t": "But investors deserve the information, so the rule is worth its cost.",
+        "r": "C",
+        "s": "Hannah"
+      },
+      {
+        "t": "The rule’s audit requirement is so costly that many small firms will simply stop issuing public securities, leaving investors with fewer choices.",
+        "r": "P",
+        "s": "Viktor"
+      },
+      {
+        "t": "The rule should be withdrawn.",
+        "r": "C",
+        "s": "Viktor"
+      }
+    ],
+    "stem": "Hannah and Viktor are committed to agreeing with which one of the following?",
+    "choices": [
+      "Complying with the rule will be costly for small issuers.",
+      "Many small firms will stop issuing public securities.",
+      "The benefits of the rule outweigh its costs.",
+      "The rule should be withdrawn.",
+      "Audits are the most effective means of ensuring accurate disclosure."
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "Common ground: compliance is costly for small issuers.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Hannah grants the cost but defends the rule. Viktor stresses the cost and opposes the rule.",
+      "issue": "What do BOTH accept?",
+      "rule": "Point of Agreement: both speakers must express (or clearly commit to) the same view.",
+      "analysis": {
+        "correct": "(A) Hannah: ‘will burden small issuers … expensive audits.’ Viktor: ‘so costly.’ Both commit to costliness.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "half-right",
+            "why": "Viktor only."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Hannah only; Viktor disagrees."
+          },
+          {
+            "choice": 3,
+            "label": "half-right",
+            "why": "Viktor only; Hannah disagrees."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Neither says this."
+          }
+        ]
+      },
+      "holding": "Concessions are fertile ground for agreement: what one concedes, the other may assert."
+    },
+    "reasoningKeys": [
+      "both",
+      "costly",
+      "concedes"
+    ]
+  },
+  {
+    "id": "lr-063",
+    "section": "LR",
+    "type": "point-of-agreement",
+    "difficulty": 4,
+    "pattern": "dialogue",
+    "topic": "competition law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "The court was wrong to approve the merger on the grounds that new competitors would quickly enter the market.",
+        "r": "C",
+        "s": "Eszter"
+      },
+      {
+        "t": "Entry requires costly licenses, and the merged firm will control 45 percent of the market, a share at which firms generally raise prices.",
+        "r": "P",
+        "s": "Eszter"
+      },
+      {
+        "t": "The court’s reasoning was unpersuasive; costly licenses will keep new firms out for years.",
+        "r": "K",
+        "s": "Lorant"
+      },
+      {
+        "t": "Yet approving the merger was correct, because the merged firm’s customers are large utilities with the bargaining power to resist price increases.",
+        "r": "C",
+        "s": "Lorant"
+      }
+    ],
+    "stem": "The dialogue most strongly supports the claim that Eszter and Lorant agree that",
+    "choices": [
+      "firms controlling 45 percent of a market generally raise prices",
+      "large utilities have the bargaining power to resist price increases",
+      "the court should have blocked the merger",
+      "new competitors are unlikely to enter the market quickly",
+      "the merged firm will raise its prices"
+    ],
+    "answer": 3,
+    "diagram": {
+      "gap": "Both reject the court’s rapid-entry rationale.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Eszter: the approval was wrong; licenses block entry; a 45% share leads to price increases. Lorant: the court’s rationale fails because licenses block entry, but the approval was right because of buyer power.",
+      "issue": "What do both accept despite their different bottom lines?",
+      "rule": "Speakers who disagree about conclusions may share a premise. Find the overlapping claim.",
+      "analysis": {
+        "correct": "(D) Both cite costly licenses as keeping entrants out, so both reject quick entry.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "half-right",
+            "why": "Eszter only."
+          },
+          {
+            "choice": 1,
+            "label": "half-right",
+            "why": "Lorant only."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Eszter’s view at most; Lorant says approval was correct."
+          },
+          {
+            "choice": 4,
+            "label": "half-right",
+            "why": "Eszter implies it; Lorant denies it (buyer power resists increases)."
+          }
+        ]
+      },
+      "holding": "Agreement often hides in the reasoning, not the conclusions."
+    },
+    "reasoningKeys": [
+      "licenses",
+      "entry",
+      "both",
+      "unlikely"
+    ]
+  }
+]

@@ -33,6 +33,7 @@ export interface ScholarData extends Record<string, unknown> {
   kind?: string;
   noteCount?: number;
   dim?: boolean;
+  big?: boolean;
   onDropTerm?: (nodeId: string, term: string) => void;
   onRename?: (nodeId: string, label: string) => void;
 }
@@ -87,14 +88,14 @@ export const ScholarNode = memo(function ScholarNode({ id, data, selected }: Nod
         outline: level === 5 ? '1px solid var(--gold-soft)' : undefined,
         outlineOffset: 2,
         borderRadius: depth === 0 ? 40 : 6,
-        padding: depth === 0 ? '14px 22px' : depth === 1 ? '9px 14px' : '6px 10px',
+        padding: d.big ? (depth === 0 ? '26px 44px' : '14px 22px') : depth === 0 ? '14px 22px' : depth === 1 ? '9px 14px' : '6px 10px',
         minWidth: d.blank ? 120 : depth === 0 ? 150 : 70,
         minHeight: d.blank ? 30 : undefined,
-        maxWidth: 210,
+        maxWidth: d.big ? 420 : 210,
         textAlign: 'center',
         fontFamily: depth <= 1 ? 'var(--font-display)' : 'var(--font-ui)',
         fontWeight: depth <= 1 ? 700 : 500,
-        fontSize: depth === 0 ? 20 : depth === 1 ? 16 : 12.5,
+        fontSize: (depth === 0 ? 20 : depth === 1 ? 16 : 12.5) * (d.big ? 2.1 : 1),
         letterSpacing: depth === 0 ? '0.08em' : undefined,
         boxShadow: depth <= 1 ? 'var(--shadow)' : undefined,
         opacity: d.dim ? 0.35 : 1,
@@ -109,7 +110,7 @@ export const ScholarNode = memo(function ScholarNode({ id, data, selected }: Nod
       {(['top', 'right', 'bottom', 'left'] as const).map((p) => (
         <Handle key={p} type="source" id={p} position={p === 'top' ? Position.Top : p === 'right' ? Position.Right : p === 'bottom' ? Position.Bottom : Position.Left} style={handleStyle} />
       ))}
-      {d.icon && <Icon name={d.icon} size={depth <= 1 ? 18 : 14} />}
+      {d.icon && <Icon name={d.icon} size={(depth <= 1 ? 18 : 14) * (d.big ? 2 : 1)} />}
       {editing ? (
         <input
           autoFocus

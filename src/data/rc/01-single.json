@@ -1,0 +1,1794 @@
+[
+  {
+    "id": "rc-01",
+    "title": "The Persistent Objector",
+    "topic": "international law",
+    "comparative": false,
+    "passages": [
+      {
+        "label": "Passage",
+        "paragraphs": [
+          {
+            "text": "Unlike treaties, which bind only the states that ratify them, customary international law is said to bind states generally, arising from a widespread practice that states follow out of a sense of legal obligation. Because custom can thus bind states that never expressly agreed to it, theorists have long sought ways to reconcile it with the principle that sovereign states are subject only to rules they accept. The most celebrated such reconciliation is the persistent objector doctrine, which holds that a state that consistently objects to an emerging customary rule during its formation is not bound by that rule once it crystallizes. Textbooks routinely present the doctrine as settled law and as a vital safety valve for state sovereignty. The doctrine also appeals to intuition: if a state has made its dissent plain from the outset, it seems unfair to hold it to a rule it never accepted merely because others did.",
+            "fn": "Background",
+            "gist": "Custom binds generally; the persistent objector doctrine is presented as settled law reconciling custom with consent."
+          },
+          {
+            "text": "Yet the doctrine’s prominence in the literature far outstrips its footing in practice. The authorities most often cited for it are two mid-century decisions of the International Court of Justice, in each of which the Court, having already concluded that the rule in question had not become customary law at all, added that the rule would in any case not apply to a state that had consistently opposed it. Such remarks are dicta: they were unnecessary to the outcome, and a rule that does not exist cannot be applied to anyone, objector or not. Later decisions have occasionally repeated the formula, but almost always in the same posture—as a supplementary observation rather than as the ground of decision. A rule whose every judicial appearance is optional is a fragile foundation for the confidence with which it is taught.",
+            "fn": "Thesis",
+            "gist": "Author: the doctrine rests on thin authority—two ICJ dicta about rules the Court found did not exist.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "Defenders of the doctrine reply that the scarcity of decisions applying it reflects its success: because states know that objection exempts them, emerging rules are shaped to accommodate likely objectors, so the doctrine rarely needs to be invoked. This reply is ingenious but unpersuasive. The historical record suggests a different pattern. States that resisted the twentieth-century expansion of coastal states’ jurisdiction over adjacent waters, for example, did not secure lasting exemptions; once a large majority of states had embraced the new limits, the objectors conformed. Objection, in practice, has functioned as a bargaining posture during a rule’s formation rather than as a permanent shield after it.",
+            "fn": "Counterargument",
+            "gist": "Defenders: scarcity shows success. Author rebuts: objectors historically conformed once majorities formed.",
+            "links": [
+              {
+                "to": 1,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "None of this means the doctrine is incoherent. It may persist less as an operative rule than as a reassurance—a theoretical device that preserves the image of consent at the foundation of a body of law whose actual development owes more to the gradual convergence of state practice. Scholars would do better to treat the doctrine as a hypothesis about how custom might accommodate dissent than to cite it as an established rule.",
+            "fn": "Author's Conclusion",
+            "gist": "The doctrine functions as a reassurance preserving the image of consent; treat it as a hypothesis, not settled law.",
+            "links": [
+              {
+                "to": 1,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "author",
+        "name": "The Author",
+        "stance": "The doctrine lacks real support in practice; it functions as a reassurance about consent.",
+        "isAuthor": true
+      },
+      {
+        "id": "textbooks",
+        "name": "Textbook Writers",
+        "stance": "The doctrine is settled law and a vital safety valve for sovereignty."
+      },
+      {
+        "id": "defenders",
+        "name": "Defenders",
+        "stance": "Few cases apply the doctrine because it works preventively, shaping emerging rules."
+      },
+      {
+        "id": "icj",
+        "name": "The ICJ (dicta)",
+        "stance": "Rules found not to exist would anyway not bind a consistent objector."
+      }
+    ],
+    "tone": {
+      "value": -0.8,
+      "word": "Measured skepticism",
+      "note": "The author doubts the doctrine’s legal status but grants that it is coherent and serves a theoretical purpose."
+    },
+    "questions": [
+      {
+        "id": "rc-01-1",
+        "section": "RC",
+        "type": "rc-main-point",
+        "difficulty": 3,
+        "bloom": "Understand",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "Which one of the following most accurately expresses the main point of the passage?",
+        "choices": [
+          "The persistent objector doctrine is incoherent because customary international law cannot bind states that have not consented to it.",
+          "States that object to emerging customary rules typically secure permanent exemptions from those rules.",
+          "Customary international law should be replaced by treaties so that states are bound only by rules to which they have consented.",
+          "Although widely presented as settled law, the persistent objector doctrine has little support in practice and may serve more as a theoretical reassurance than as an operative rule.",
+          "The International Court of Justice has repeatedly applied the persistent objector doctrine to exempt states from customary rules."
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "The doctrine is presented as settled; its authorities are dicta; the defenders’ explanation fails; the doctrine functions as a reassurance.",
+          "issue": "What single claim does the whole passage build toward?",
+          "rule": "The main point is usually signaled by the author’s thesis plus final-paragraph conclusion; it must cover the whole passage.",
+          "analysis": {
+            "correct": "(D) captures the contrast (settled in textbooks vs. thin in practice) and the conclusion (reassurance, not operative rule).",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "The author explicitly says the doctrine is not incoherent."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The passage says objectors historically conformed."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "No such proposal is made."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The ICJ’s remarks were dicta; the Court did not apply the doctrine."
+              }
+            ]
+          },
+          "holding": "A correct main point reflects both the author’s critique and her constructive conclusion."
+        },
+        "reasoningKeys": [
+          "thin support",
+          "reassurance",
+          "settled law"
+        ]
+      },
+      {
+        "id": "rc-01-2",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "The author’s discussion of the two decisions of the International Court of Justice (second paragraph) primarily serves to",
+        "choices": [
+          "demonstrate that dicta are never relevant to the development of international law",
+          "show that the Court has endorsed the doctrine in its holdings",
+          "argue that the Court should have found that the rules in question were customary law",
+          "provide examples of states that successfully invoked the doctrine",
+          "illustrate the kind of authority on which the doctrine’s reputation rests, and to suggest that such authority is weak"
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "The decisions are ‘most often cited’; in each the Court’s remark was unnecessary because the rule did not exist.",
+          "issue": "Why does the author bring up these decisions?",
+          "rule": "Function questions ask WHY a detail appears—connect it to the author’s purpose in that paragraph.",
+          "analysis": {
+            "correct": "(E) They are the doctrine’s main support, and the author characterizes them as dicta about non-existent rules—weak authority.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "‘Never relevant’ goes beyond the author’s point about these remarks."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The author stresses they were dicta, not holdings."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "The author does not quarrel with the Court’s findings on custom."
+              },
+              {
+                "choice": 3,
+                "label": "unsupported-inference",
+                "why": "No state is said to have successfully invoked the doctrine."
+              }
+            ]
+          },
+          "holding": "When an author cites ‘the authorities most often cited’ and then characterizes them, the function is usually to undercut them."
+        },
+        "reasoningKeys": [
+          "dicta",
+          "weak authority",
+          "most often cited"
+        ]
+      },
+      {
+        "id": "rc-01-3",
+        "section": "RC",
+        "type": "rc-inference",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "The author would most likely agree with which one of the following statements?",
+        "choices": [
+          "The persistent objector doctrine applies equally to all rules of international law.",
+          "The International Court of Justice lacks jurisdiction over disputes involving customary law.",
+          "Treaties are a less legitimate source of international law than custom.",
+          "States should never object to emerging customary rules.",
+          "A court’s remark about how a rule would apply, made after the court has found that the rule does not exist, provides little evidence that the remark states law."
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "The author says the Court’s remarks were unnecessary to the outcome and that a non-existent rule cannot be applied to anyone.",
+          "issue": "What general view follows from the author’s treatment of the dicta?",
+          "rule": "Inference answers are supported by specific text, phrased modestly.",
+          "analysis": {
+            "correct": "(E) restates the author’s reasoning about why the decisions are weak authority.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "unsupported-inference",
+                "why": "Nothing supports this; the author questions the doctrine’s application at all."
+              },
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "Jurisdiction is never discussed."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "No ranking of legitimacy is offered."
+              },
+              {
+                "choice": 3,
+                "label": "too-strong",
+                "why": "The author describes objection as a bargaining posture, not something to avoid."
+              }
+            ]
+          },
+          "holding": "Inferences live one small step from the text."
+        },
+        "reasoningKeys": [
+          "dicta",
+          "little evidence",
+          "rule does not exist"
+        ]
+      },
+      {
+        "id": "rc-01-4",
+        "section": "RC",
+        "type": "rc-attitude",
+        "difficulty": 3,
+        "bloom": "Understand",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "The author’s attitude toward the defenders’ reply described in the third paragraph can most accurately be described as",
+        "choices": [
+          "indifference",
+          "enthusiastic endorsement",
+          "grudging acceptance",
+          "contempt for its proponents",
+          "appreciation of its cleverness combined with rejection of its conclusion"
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "‘This reply is ingenious but unpersuasive.’",
+          "issue": "How does the author evaluate the reply?",
+          "rule": "Attitude answers must match both the direction and the intensity of the author’s language.",
+          "analysis": {
+            "correct": "(E) ‘Ingenious’ = appreciation of cleverness; ‘unpersuasive’ = rejection.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "wrong-degree",
+                "why": "The author engages and rebuts it."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The author rejects the reply."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "The author does not accept it."
+              },
+              {
+                "choice": 3,
+                "label": "too-strong",
+                "why": "Nothing suggests contempt."
+              }
+            ]
+          },
+          "holding": "Mixed-attitude phrases (‘ingenious but unpersuasive’) call for mixed-attitude answers."
+        },
+        "reasoningKeys": [
+          "ingenious",
+          "unpersuasive",
+          "mixed"
+        ]
+      },
+      {
+        "id": "rc-01-5",
+        "section": "RC",
+        "type": "rc-detail",
+        "difficulty": 3,
+        "bloom": "Remember",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "According to the passage, states that resisted the twentieth-century expansion of coastal jurisdiction",
+        "choices": [
+          "withdrew from the treaties governing the law of the sea",
+          "secured permanent exemptions from the new limits",
+          "brought successful claims before the International Court of Justice",
+          "eventually conformed once a large majority of states had embraced the new limits",
+          "persuaded other states to abandon the expansion"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "‘Once a large majority of states had embraced the new limits, the objectors conformed.’",
+          "issue": "What does the passage say happened?",
+          "rule": "Detail questions are answered by locating the line—never from memory alone.",
+          "analysis": {
+            "correct": "(D) is a near-verbatim paraphrase.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Not mentioned."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The passage says they did not secure lasting exemptions."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Not mentioned."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The majority embraced the expansion."
+              }
+            ]
+          },
+          "holding": "Go back to the text: detail answers are paraphrases of specific lines."
+        },
+        "reasoningKeys": [
+          "conformed",
+          "majority"
+        ]
+      },
+      {
+        "id": "rc-01-6",
+        "section": "RC",
+        "type": "rc-strengthen-weaken",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "Which one of the following, if true, would most seriously weaken the author’s argument?",
+        "choices": [
+          "Several international tribunals have declined to apply an established customary rule to a particular state solely because that state persistently objected to the rule during its formation.",
+          "The International Court of Justice frequently includes dicta in its decisions.",
+          "Many textbooks of international law were written before the mid-twentieth century.",
+          "Treaties have become a more common source of international obligations than custom.",
+          "Some states that objected to the expansion of coastal jurisdiction did so for economic reasons."
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "The author’s case: the doctrine has never really been applied; its support is dicta; objectors conform.",
+          "issue": "What fact would most damage that case?",
+          "rule": "Weaken the author by supplying exactly the evidence she says is missing.",
+          "analysis": {
+            "correct": "(A) Actual holdings applying the doctrine to an established rule would show it is an operative rule, not merely a reassurance.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "If anything, frequent dicta support the author’s skepticism about those remarks."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Textbook dates do not bear on the doctrine’s status."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Relative frequency of treaties does not bear on the doctrine."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Motives for objecting are irrelevant."
+              }
+            ]
+          },
+          "holding": "To weaken a ‘there is no real evidence’ argument, supply real evidence."
+        },
+        "reasoningKeys": [
+          "holdings",
+          "applied",
+          "actual practice"
+        ]
+      },
+      {
+        "id": "rc-01-7",
+        "section": "RC",
+        "type": "rc-analogy",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-01",
+        "topic": "international law",
+        "stem": "Which one of the following is most analogous to the role the author ascribes to the persistent objector doctrine in the last paragraph?",
+        "choices": [
+          "A tax exemption that many taxpayers claim each year.",
+          "A safety regulation that is strictly enforced and frequently results in penalties.",
+          "A scientific theory that has been decisively refuted by experiment and abandoned by researchers.",
+          "A contract clause that both parties invoke regularly to settle disputes.",
+          "A ceremonial veto power, written into a charter but never exercised, that is pointed to in order to reassure members that their consent still matters."
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "The doctrine ‘may persist less as an operative rule than as a reassurance’ preserving the ‘image of consent.’",
+          "issue": "Which situation shares the abstract structure: a formally recognized device, rarely or never operative, that reassures about consent?",
+          "rule": "Analogy: strip the passage’s situation to its abstract relationships, then match.",
+          "analysis": {
+            "correct": "(E) A formal power that is never used but reassures members that their consent matters mirrors the doctrine’s role.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "Widely used, so operative."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "Strict, frequent enforcement is the opposite of a merely reassuring device."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "The author says the doctrine is not incoherent and still persists."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Regular invocation = operative rule."
+              }
+            ]
+          },
+          "holding": "Analogy answers match the relationship, not the subject matter."
+        },
+        "reasoningKeys": [
+          "reassurance",
+          "never exercised",
+          "consent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rc-02",
+    "title": "The Law Merchant Reconsidered",
+    "topic": "legal history & economics",
+    "comparative": false,
+    "passages": [
+      {
+        "label": "Passage",
+        "paragraphs": [
+          {
+            "text": "For much of the twentieth century, legal historians described the medieval lex mercatoria, or law merchant, as a body of customary commercial law that merchants created for themselves. On this account, traders traveling between the fairs and port cities of Europe developed uniform rules of contract, credit, and partnership, which their own courts applied swiftly and independently of kings and municipal authorities. The story has since acquired a second life in economics and political theory, where it is invoked as evidence that commerce can generate and enforce its own law without the state. On this telling, the law merchant was cosmopolitan by nature: a Genoese trader at the fairs of Champagne could expect his contracts to be judged by the same principles as in Bruges or London, because the principles belonged to the merchant community rather than to any prince.",
+            "fn": "Background",
+            "gist": "Traditional view: a uniform, merchant-made law merchant, independent of states—now used to argue commerce needs no state."
+          },
+          {
+            "text": "A generation of revisionist historians has subjected this account to sustained criticism. Examining surviving court records, they find that the rules merchants actually litigated over varied considerably from one town to the next, and that the courts hearing merchants’ disputes were usually municipal or royal institutions, not autonomous merchant tribunals. Moreover, when medieval sources refer to ‘the law merchant,’ they frequently mean not a distinct body of substantive rules but a set of procedures—expedited hearings, relaxed rules of proof—suited to litigants who could not wait for the ordinary pace of justice. Merchants, in short, appear in the records less as autonomous lawmakers than as litigants who navigated a patchwork of local jurisdictions, often with the help of local agents and interpreters.",
+            "fn": "Counterargument",
+            "gist": "Revisionists: rules varied locally; courts were public; ‘law merchant’ often meant fast procedure.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "The revisionist case is largely convincing, but it can be pressed too far. Some commercial instruments did achieve remarkable uniformity across jurisdictions. The bill of exchange, by which a merchant in one city could order payment to a creditor in another, came to follow broadly similar conventions throughout much of Europe. That uniformity, however, was produced less by any merchant legislature than by repeated contracting: merchants copied forms that worked, and public courts, faced with those standardized forms, generally enforced them as written. Nor was the process frictionless: courts occasionally refused to enforce terms that offended local rules, and merchants adjusted their forms in response.",
+            "fn": "Concession",
+            "gist": "Author: revisionists mostly right, but bills of exchange show real uniformity—built by contracting and enforced by public courts.",
+            "links": [
+              {
+                "to": 1,
+                "kind": "responds"
+              }
+            ]
+          },
+          {
+            "text": "The lesson for modern debates, then, is neither that commerce can dispense with the state nor that its rules must be dictated by one. Private ordering and public authority developed together, each depending on the other. Those who would enlist the law merchant in arguments about the sufficiency of private ordering should recognize that the historical record they invoke tells a more entangled story. Merchants relied on public courts to give their forms teeth, and public authorities, eager to attract trade, learned to accommodate the practices merchants devised.",
+            "fn": "Author's Conclusion",
+            "gist": "Private ordering and public authority co-evolved; the history doesn’t support either extreme.",
+            "links": [
+              {
+                "to": 2,
+                "kind": "supports"
+              },
+              {
+                "to": 0,
+                "kind": "opposes"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "author",
+        "name": "The Author",
+        "stance": "Revisionists are mostly right, but private ordering and public authority co-evolved.",
+        "isAuthor": true
+      },
+      {
+        "id": "traditional",
+        "name": "Traditional Historians",
+        "stance": "Merchants created a uniform law applied by their own autonomous courts."
+      },
+      {
+        "id": "theorists",
+        "name": "Modern Theorists",
+        "stance": "The law merchant proves commerce can govern itself without the state."
+      },
+      {
+        "id": "revisionists",
+        "name": "Revisionists",
+        "stance": "Rules varied; courts were public; ‘law merchant’ often meant procedure."
+      }
+    ],
+    "tone": {
+      "value": -0.3,
+      "word": "Judicious qualification",
+      "note": "The author largely endorses a critique while correcting its overreach, and gently rebukes modern theorists."
+    },
+    "questions": [
+      {
+        "id": "rc-02-1",
+        "section": "RC",
+        "type": "rc-primary-purpose",
+        "difficulty": 4,
+        "bloom": "Understand",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "The primary purpose of the passage is to",
+        "choices": [
+          "demonstrate that modern commerce requires extensive state regulation",
+          "evaluate a revisionist challenge to a traditional historical account and propose a qualified synthesis",
+          "argue that medieval merchant courts were more efficient than royal courts",
+          "defend the traditional account of the law merchant against its critics",
+          "trace the development of the bill of exchange from its origins to the present"
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "Traditional view (¶1) → revisionist critique (¶2) → limit on critique (¶3) → synthesis (¶4).",
+          "issue": "What is the author trying to DO across the passage?",
+          "rule": "Primary purpose answers use verbs that match the passage’s overall moves.",
+          "analysis": {
+            "correct": "(B) Evaluate (largely convincing, pressed too far) + synthesize (co-evolution).",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "The author rejects that commerce’s rules must be dictated by the state."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Efficiency comparisons are not the point."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "The author largely accepts the critique."
+              },
+              {
+                "choice": 4,
+                "label": "too-strong",
+                "why": "The bill of exchange is one example, not the subject."
+              }
+            ]
+          },
+          "holding": "‘Evaluate and synthesize’ purposes fit passages that concede, qualify, and conclude in the middle ground."
+        },
+        "reasoningKeys": [
+          "evaluate",
+          "synthesis",
+          "qualified"
+        ]
+      },
+      {
+        "id": "rc-02-2",
+        "section": "RC",
+        "type": "rc-detail",
+        "difficulty": 3,
+        "bloom": "Remember",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "According to the passage, when medieval sources refer to ‘the law merchant,’ they frequently mean",
+        "choices": [
+          "a code of rules enacted by an assembly of merchants",
+          "a set of procedures, such as expedited hearings, suited to merchant litigants",
+          "a treaty among the trading cities of Europe",
+          "the royal courts’ jurisdiction over foreign traders",
+          "the uniform conventions governing bills of exchange"
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "‘They frequently mean not a distinct body of substantive rules but a set of procedures—expedited hearings, relaxed rules of proof.’",
+          "issue": "What does the passage say the term often meant?",
+          "rule": "Locate and paraphrase.",
+          "analysis": {
+            "correct": "(B) is a direct paraphrase.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "The author denies there was a merchant legislature."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Not mentioned."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Not stated."
+              },
+              {
+                "choice": 4,
+                "label": "shell-game",
+                "why": "Bills of exchange are discussed separately."
+              }
+            ]
+          },
+          "holding": "Detail questions reward precise relocation of the line."
+        },
+        "reasoningKeys": [
+          "procedures",
+          "expedited"
+        ]
+      },
+      {
+        "id": "rc-02-3",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "The discussion of the bill of exchange in the third paragraph functions primarily to",
+        "choices": [
+          "suggest that the bill of exchange was invented by royal officials",
+          "illustrate the procedural meaning of ‘the law merchant’",
+          "provide decisive support for the traditional account of the law merchant",
+          "argue that public courts were hostile to merchant practices",
+          "show that the revisionist critique, if pushed too far, overlooks genuine cross-border uniformity—while explaining that uniformity without reviving the traditional account"
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "‘It can be pressed too far. Some … instruments did achieve remarkable uniformity … produced less by any merchant legislature than by repeated contracting … public courts … enforced them.’",
+          "issue": "Why does the author raise the bill of exchange?",
+          "rule": "Function = role within the author’s argument; check both halves of a two-part answer.",
+          "analysis": {
+            "correct": "(E) The example limits the revisionist critique AND attributes the uniformity to contracting plus public enforcement—not to an autonomous merchant law.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "unsupported-inference",
+                "why": "Nothing about its invention."
+              },
+              {
+                "choice": 1,
+                "label": "shell-game",
+                "why": "The procedural meaning is discussed in ¶2, not here."
+              },
+              {
+                "choice": 2,
+                "label": "half-right",
+                "why": "It shows uniformity but explicitly not via the traditional mechanism."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Courts generally enforced the forms as written."
+              }
+            ]
+          },
+          "holding": "A concession paragraph often limits a critique while blocking a return to the view the critique attacked."
+        },
+        "reasoningKeys": [
+          "pressed too far",
+          "uniformity",
+          "contracting",
+          "public courts"
+        ]
+      },
+      {
+        "id": "rc-02-4",
+        "section": "RC",
+        "type": "rc-inference",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "Proponents of the traditional account described in the first paragraph would be most likely to regard which one of the following as supporting their view?",
+        "choices": [
+          "Evidence that rules governing partnerships differed sharply from town to town.",
+          "Evidence that municipal courts heard most commercial disputes.",
+          "Documents in which ‘law merchant’ refers to expedited procedure.",
+          "Evidence that bills of exchange were enforced by royal courts.",
+          "Records showing that merchants in distant towns resolved disputes using identical substantive rules in tribunals that operated without the involvement of public authorities."
+        ],
+        "answer": 4,
+        "brief": {
+          "facts": "Traditional account: uniform rules + autonomous merchant courts, independent of public authority.",
+          "issue": "What evidence fits both pillars of that account?",
+          "rule": "Identify a viewpoint’s core claims, then pick evidence that confirms them.",
+          "analysis": {
+            "correct": "(E) Identical rules (uniformity) + tribunals without public involvement (autonomy).",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "Supports the revisionists."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "Supports the revisionists."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "Supports the revisionists."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Public enforcement undercuts autonomy."
+              }
+            ]
+          },
+          "holding": "Viewpoint questions: argue from inside that viewpoint’s claims."
+        },
+        "reasoningKeys": [
+          "uniform",
+          "autonomous",
+          "without public authorities"
+        ]
+      },
+      {
+        "id": "rc-02-5",
+        "section": "RC",
+        "type": "rc-attitude",
+        "difficulty": 4,
+        "bloom": "Evaluate",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "The author’s attitude toward theorists who invoke the law merchant as evidence that commerce can generate its own law without the state is best described as",
+        "choices": [
+          "critical of their reliance on a historical account that the record does not bear out in its strong form",
+          "hostile toward any use of history in political theory",
+          "supportive, since the author concludes that private ordering is sufficient",
+          "neutral, since the author takes no position on modern debates",
+          "unqualified admiration for their historical scholarship"
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "‘Those who would enlist the law merchant … should recognize that the historical record … tells a more entangled story.’",
+          "issue": "How does the author regard these theorists?",
+          "rule": "Attitude: direction (critical) and scope (of their historical premise, not of history generally).",
+          "analysis": {
+            "correct": "(A) Gently critical of their historical premise.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "too-strong",
+                "why": "The author uses history herself."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "The author rejects the sufficiency claim."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "The author draws a lesson for modern debates."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The author corrects them."
+              }
+            ]
+          },
+          "holding": "Calibrate intensity: ‘should recognize’ is corrective, not hostile."
+        },
+        "reasoningKeys": [
+          "critical",
+          "entangled",
+          "historical premise"
+        ]
+      },
+      {
+        "id": "rc-02-6",
+        "section": "RC",
+        "type": "rc-structure",
+        "difficulty": 5,
+        "bloom": "Analyze",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "Which one of the following most accurately describes the organization of the passage?",
+        "choices": [
+          "A modern debate is described, and historical evidence is presented that settles it in favor of one side.",
+          "A theory is presented, evidence for it is reviewed, and the theory is endorsed.",
+          "A traditional view is described, a critique of it is presented and largely endorsed, a limitation of the critique is identified, and a more nuanced conclusion is drawn.",
+          "Two competing theories are described, and the passage concludes that neither can be evaluated.",
+          "A historical puzzle is posed, several explanations are rejected, and a new explanation is defended."
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "¶1 traditional view; ¶2 critique; ¶3 ‘largely convincing, but … pressed too far’; ¶4 synthesis.",
+          "issue": "Which description tracks all four paragraphs?",
+          "rule": "Structure answers must match every paragraph in order—use the passage map.",
+          "analysis": {
+            "correct": "(C) maps one-to-one onto the four paragraphs.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "The author refuses to side with either extreme."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The traditional view is largely rejected."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "The author does evaluate them."
+              },
+              {
+                "choice": 4,
+                "label": "half-right",
+                "why": "No puzzle/multiple-explanations structure."
+              }
+            ]
+          },
+          "holding": "Check each clause of a structure answer against your paragraph map."
+        },
+        "reasoningKeys": [
+          "traditional",
+          "critique",
+          "limitation",
+          "nuanced"
+        ]
+      },
+      {
+        "id": "rc-02-7",
+        "section": "RC",
+        "type": "rc-strengthen-weaken",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-02",
+        "topic": "legal history",
+        "stem": "Which one of the following, if true, would most strengthen the author’s conclusion in the final paragraph?",
+        "choices": [
+          "Merchant guilds in some towns had no formal role in resolving disputes.",
+          "Some medieval merchants were also members of municipal councils.",
+          "Royal courts sometimes heard disputes that did not involve merchants.",
+          "Records show that municipal courts in many cities enforced bills of exchange according to terms that merchants had standardized through repeated use.",
+          "The volume of trade at European fairs declined in the fifteenth century."
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "Conclusion: private ordering and public authority developed together, each depending on the other.",
+          "issue": "What evidence would show mutual dependence?",
+          "rule": "Strengthen a ‘both together’ conclusion with evidence that each side relied on the other.",
+          "analysis": {
+            "correct": "(D) Private standardization (contracting) + public enforcement (municipal courts) operating together.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "wrong-degree",
+                "why": "Only shows a lack of merchant institutions in some places."
+              },
+              {
+                "choice": 1,
+                "label": "wrong-degree",
+                "why": "Suggestive overlap, but not mutual dependence in making law."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Non-merchant disputes are irrelevant."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Trade volume is irrelevant."
+              }
+            ]
+          },
+          "holding": "Match the evidence to the exact shape of the conclusion—here, interdependence."
+        },
+        "reasoningKeys": [
+          "interdependence",
+          "enforced",
+          "standardized"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rc-03",
+    "title": "The Wood-Wide Web",
+    "topic": "natural science",
+    "comparative": false,
+    "passages": [
+      {
+        "label": "Passage",
+        "paragraphs": [
+          {
+            "text": "The roots of most forest trees are colonized by mycorrhizal fungi, which supply the trees with water and mineral nutrients in exchange for sugars produced by photosynthesis. Because a single fungal individual can colonize the roots of several trees at once, ecologists have proposed that forests are laced with common mycorrhizal networks through which trees exchange resources. In popular accounts, this ‘wood-wide web’ has grown into a striking picture: large ‘mother trees’ are said to nourish their seedlings through the network and to send chemical warnings to neighbors under insect attack. The image has proved irresistible, appearing in bestselling books, documentaries, and even forestry policy debates, where it has been invoked to argue for preserving large old trees as hubs of the network.",
+            "fn": "Background",
+            "gist": "Mycorrhizal fungi may link trees in networks; popular accounts claim resource sharing and warnings by ‘mother trees.’"
+          },
+          {
+            "text": "That fungal connections between trees exist is not in dispute; researchers have traced individual fungi across the root systems of neighboring trees. More contested is what flows through these connections and to what effect. Experiments in which trees are supplied with carbon labeled by a rare isotope have shown that labeled carbon can later be detected in neighboring trees. Yet such experiments rarely establish the route the carbon took. Carbon released by roots into the soil can be absorbed by neighboring roots or by fungi that are not shared, and most field studies have not ruled out these alternative pathways. Establishing the fungal route would require experiments that block the fungal pathway while leaving soil pathways open, or the reverse—designs that are difficult to implement in intact forests and that few studies have attempted.",
+            "fn": "Evidence",
+            "gist": "Connections exist and carbon moves between trees, but most studies don’t establish the route (soil pathways not excluded).",
+            "links": [
+              {
+                "to": 0,
+                "kind": "responds"
+              }
+            ]
+          },
+          {
+            "text": "Nor do the quantities involved always support the larger claims. In several studies, the amount of carbon transferred was a small fraction of what the receiving seedlings fixed through their own photosynthesis, too little to account for any meaningful effect on their growth. And claims that trees preferentially direct resources to their own offspring rest largely on greenhouse experiments with seedlings, whose relevance to mature forests is uncertain. A recent review of the field found, moreover, that later papers often cite the earliest positive results while overlooking studies that failed to replicate them, so that the literature conveys more confidence than the underlying evidence warrants. Seedlings grown in pots differ from forest seedlings in light, soil, and the fungal communities available to them, any of which could affect how carbon moves.",
+            "fn": "Evidence",
+            "gist": "Transfers are often small; kin claims rest on greenhouse work; citation bias inflates confidence.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "None of this shows that the networks are ecologically trivial. It shows that the vivid version of the hypothesis has outpaced its testing. The more productive question is not whether forests are ‘cooperative’ but under what conditions, and by what routes, resources move between plants—a question that only carefully controlled field experiments can answer. Popular accounts have performed a service in drawing attention to the hidden life of soils; the task now is to discipline that attention with evidence.",
+            "fn": "Author's Conclusion",
+            "gist": "Networks may matter, but the vivid hypothesis outran evidence; ask about conditions and routes via controlled field experiments.",
+            "links": [
+              {
+                "to": 2,
+                "kind": "supports"
+              },
+              {
+                "to": 1,
+                "kind": "supports"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "author",
+        "name": "The Author",
+        "stance": "Networks exist; strong claims about sharing and kin care exceed the evidence.",
+        "isAuthor": true
+      },
+      {
+        "id": "popular",
+        "name": "Popular Accounts",
+        "stance": "‘Mother trees’ nourish offspring and warn neighbors through the network."
+      },
+      {
+        "id": "ecologists",
+        "name": "Network Ecologists",
+        "stance": "Common mycorrhizal networks allow trees to exchange resources."
+      },
+      {
+        "id": "review",
+        "name": "Recent Review",
+        "stance": "Citation patterns inflate confidence beyond the evidence."
+      }
+    ],
+    "tone": {
+      "value": -0.6,
+      "word": "Cautious skepticism",
+      "note": "Skeptical of strong claims, but explicitly not dismissive of the networks’ ecological importance."
+    },
+    "questions": [
+      {
+        "id": "rc-03-1",
+        "section": "RC",
+        "type": "rc-main-point",
+        "difficulty": 3,
+        "bloom": "Understand",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "Which one of the following most accurately states the main point of the passage?",
+        "choices": [
+          "Isotope-labeling experiments are the most reliable method in forest ecology.",
+          "Popular science writing about forests should be ignored by researchers.",
+          "Although fungal connections between trees are real, the strong claims made about resource sharing through them exceed the available evidence.",
+          "Mother trees preferentially nourish their offspring through fungal networks.",
+          "Mycorrhizal networks do not exist in mature forests."
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "Connections exist (¶2); routes and quantities unproven; kin claims weak; citation bias (¶3); vivid version outran testing (¶4).",
+          "issue": "What is the passage’s central claim?",
+          "rule": "Main point = thesis + scope; avoid answers that overstate or narrow.",
+          "analysis": {
+            "correct": "(C) Combines the concession (real connections) with the critique (claims exceed evidence).",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "The author criticizes how such experiments are interpreted."
+              },
+              {
+                "choice": 1,
+                "label": "too-strong",
+                "why": "No such claim."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "The author doubts this claim."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "Connections are ‘not in dispute.’"
+              }
+            ]
+          },
+          "holding": "Main-point answers in ‘skeptical’ passages usually include the concession."
+        },
+        "reasoningKeys": [
+          "real connections",
+          "exceed evidence"
+        ]
+      },
+      {
+        "id": "rc-03-2",
+        "section": "RC",
+        "type": "rc-detail",
+        "difficulty": 3,
+        "bloom": "Remember",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "According to the passage, experiments using isotope-labeled carbon have shown that",
+        "choices": [
+          "labeled carbon supplied to one tree can later be detected in neighboring trees",
+          "fungi do not absorb carbon released into the soil",
+          "labeled carbon travels exclusively through fungal networks",
+          "carbon transfer accounts for most of a seedling’s growth",
+          "mother trees send more carbon to kin than to unrelated seedlings"
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "‘Labeled carbon can later be detected in neighboring trees.’",
+          "issue": "What did the experiments show?",
+          "rule": "Locate the line.",
+          "analysis": {
+            "correct": "(A) paraphrases the finding.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "The passage says fungi may absorb it."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "The route is precisely what is NOT established."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Transfers were often a small fraction."
+              },
+              {
+                "choice": 4,
+                "label": "unsupported-inference",
+                "why": "Kin claims rest on greenhouse work, not these experiments."
+              }
+            ]
+          },
+          "holding": "Separate what was shown (movement) from what was claimed (route, effect)."
+        },
+        "reasoningKeys": [
+          "detected",
+          "neighboring trees"
+        ]
+      },
+      {
+        "id": "rc-03-3",
+        "section": "RC",
+        "type": "rc-inference",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "The author would be most likely to agree with which one of the following?",
+        "choices": [
+          "Demonstrating that a resource moved from one plant to another does not, by itself, establish the route by which it moved.",
+          "Trees in mature forests compete rather than cooperate.",
+          "Fungi colonize the roots of only one tree at a time.",
+          "Isotope labeling should no longer be used in ecological research.",
+          "Greenhouse experiments are useless for studying plant behavior."
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "‘Such experiments rarely establish the route the carbon took … alternative pathways.’",
+          "issue": "Which general principle underlies the author’s critique?",
+          "rule": "Inference: a modest generalization of the author’s specific reasoning.",
+          "analysis": {
+            "correct": "(A) states the logic of ¶2.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "too-strong",
+                "why": "The author rejects framing the question as cooperation vs. not."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "A single fungus can colonize several trees."
+              },
+              {
+                "choice": 3,
+                "label": "too-strong",
+                "why": "The author wants better-controlled experiments, not abandonment."
+              },
+              {
+                "choice": 4,
+                "label": "too-strong",
+                "why": "Their relevance to mature forests is ‘uncertain,’ not nil."
+              }
+            ]
+          },
+          "holding": "‘That X moved’ ≠ ‘X moved by route R.’"
+        },
+        "reasoningKeys": [
+          "route",
+          "does not establish",
+          "alternative pathways"
+        ]
+      },
+      {
+        "id": "rc-03-4",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "The author mentions the citation practices identified in a recent review primarily in order to",
+        "choices": [
+          "accuse researchers of deliberately misrepresenting their data",
+          "show that the earliest studies were methodologically sound",
+          "demonstrate that the networks do not exist",
+          "suggest one reason why confidence in the strong hypothesis may have outpaced the evidence",
+          "argue that reviews are more reliable than original research"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "Later papers cite early positive results while overlooking failed replications, ‘so that the literature conveys more confidence than the underlying evidence warrants.’",
+          "issue": "Why include the citation point?",
+          "rule": "Function: link the detail to the paragraph’s claim (confidence exceeds evidence).",
+          "analysis": {
+            "correct": "(D) The citation bias explains inflated confidence.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "No accusation of deliberate misconduct."
+              },
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "Not addressed."
+              },
+              {
+                "choice": 2,
+                "label": "opposite",
+                "why": "The networks’ existence is conceded."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "No such comparison."
+              }
+            ]
+          },
+          "holding": "A ‘mechanism of error’ detail explains how a belief outran its evidence."
+        },
+        "reasoningKeys": [
+          "citation",
+          "confidence",
+          "outpaced"
+        ]
+      },
+      {
+        "id": "rc-03-5",
+        "section": "RC",
+        "type": "rc-attitude",
+        "difficulty": 4,
+        "bloom": "Evaluate",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "The author’s attitude toward the hypothesis that forests are linked by common mycorrhizal networks is best described as",
+        "choices": [
+          "uncritically enthusiastic about the popular accounts",
+          "dismissive of the networks’ existence",
+          "convinced that the networks are the primary means by which forests function",
+          "accepting of the networks’ existence but skeptical of strong claims about what they accomplish",
+          "indifferent to the question"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "‘Not in dispute’ (existence); ‘vivid version … outpaced its testing’ (strong claims).",
+          "issue": "Two-part attitude: existence vs. strong claims.",
+          "rule": "When an author distinguishes versions of a claim, the attitude answer must too.",
+          "analysis": {
+            "correct": "(D) Matches both parts.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "The author is skeptical of popular accounts."
+              },
+              {
+                "choice": 1,
+                "label": "opposite",
+                "why": "Existence is conceded."
+              },
+              {
+                "choice": 2,
+                "label": "too-strong",
+                "why": "The author does not claim this."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The author engages critically."
+              }
+            ]
+          },
+          "holding": "Split attitudes are common in science passages: accept the phenomenon, doubt the interpretation."
+        },
+        "reasoningKeys": [
+          "existence accepted",
+          "skeptical",
+          "strong claims"
+        ]
+      },
+      {
+        "id": "rc-03-6",
+        "section": "RC",
+        "type": "rc-strengthen-weaken",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "Which one of the following, if true, would most undermine the author’s skepticism about resource transfer through fungal networks?",
+        "choices": [
+          "Greenhouse seedlings grow faster than seedlings in forests.",
+          "Field experiments that severed the fungal connections between trees while leaving the surrounding soil undisturbed found that carbon transfer between the trees stopped.",
+          "Some trees in mature forests are not colonized by any mycorrhizal fungi.",
+          "Isotope-labeling techniques have become less expensive in recent years.",
+          "Popular books about forest networks have sold millions of copies."
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "The author’s key objection: studies don’t rule out soil pathways.",
+          "issue": "What would close that gap?",
+          "rule": "Undermine skepticism by supplying the controlled evidence the author says is missing.",
+          "analysis": {
+            "correct": "(B) Cutting only the fungal link (soil intact) and stopping transfer isolates the network as the route.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Irrelevant to the route question."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Doesn’t address transfer where networks exist."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Cost is irrelevant."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Popularity is not evidence."
+              }
+            ]
+          },
+          "holding": "The best weakener answers the author’s exact methodological objection."
+        },
+        "reasoningKeys": [
+          "severed",
+          "soil undisturbed",
+          "isolates route"
+        ]
+      },
+      {
+        "id": "rc-03-7",
+        "section": "RC",
+        "type": "rc-analogy",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-03",
+        "topic": "natural science",
+        "stem": "The limitation the author identifies in the isotope-labeling experiments is most analogous to which one of the following?",
+        "choices": [
+          "Confirming that a letter reached its recipient without determining whether it traveled by post or by courier.",
+          "Finding that two letters were written by the same author.",
+          "Learning that the postal service is faster than couriers.",
+          "Discovering that a letter was never sent.",
+          "Proving that a courier service exists in a city."
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "Carbon arrived in neighbors; the route (fungal network vs. soil) is unknown.",
+          "issue": "Match the abstract relationship: arrival confirmed, pathway unknown.",
+          "rule": "Analogies preserve structure, not subject matter.",
+          "analysis": {
+            "correct": "(A) Arrival known, route unknown among two candidate channels.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "Different relationship (common origin)."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Comparative speed is not the issue."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "The carbon did move."
+              },
+              {
+                "choice": 4,
+                "label": "half-right",
+                "why": "Existence of a channel is conceded, but the problem is which channel carried this transfer."
+              }
+            ]
+          },
+          "holding": "Name the relationship in a few words (‘arrival known, route unknown’) before scanning."
+        },
+        "reasoningKeys": [
+          "arrival",
+          "route unknown",
+          "two channels"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rc-04",
+    "title": "Nabokov’s Onegin",
+    "topic": "humanities",
+    "comparative": false,
+    "passages": [
+      {
+        "label": "Passage",
+        "paragraphs": [
+          {
+            "text": "Every translator of verse confronts a choice between fidelity to meaning and fidelity to form. The choice is especially acute with Aleksandr Pushkin’s Eugene Onegin, a novel in verse composed in an intricate fourteen-line stanza of iambic tetrameter with a fixed and demanding rhyme scheme. Most English translators have tried to reproduce the stanza, rhyme and all, accepting that the constraints of English rhyme would force them to bend, pad, or invent meaning in order to land on the required sounds. Each stanza’s rhymes alternate between stressed and unstressed endings in a fixed pattern, and Russian, with its flexible word order and abundance of inflected endings, supplies rhymes far more readily than English does. A translator who insists on the full pattern must therefore spend much of his ingenuity merely meeting it.",
+            "fn": "Background",
+            "gist": "Verse translation trades meaning against form; most Onegin translators kept Pushkin’s stanza at the cost of meaning."
+          },
+          {
+            "text": "Vladimir Nabokov’s translation, published in 1964, broke sharply with that practice. Nabokov abandoned rhyme entirely and rendered Pushkin line by line in deliberately literal English, surrounding the text with a commentary several times its length that glosses allusions, traces sources, and records the connotations of individual Russian words. Rhymed versions, he insisted, were not translations at all but imitations that betrayed the original for the sake of a pleasing sound. The commentary was meant to restore what any translation must lose: the echoes of earlier poets, the social codes of Pushkin’s Russia, the weight a particular word carried for a reader of the 1820s.",
+            "fn": "Thesis",
+            "gist": "Nabokov rejected rhyme for literal line-by-line translation plus massive commentary, calling rhymed versions betrayals.",
+            "links": [
+              {
+                "to": 0,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "The work provoked one of the century’s most celebrated literary quarrels. The critic Edmund Wilson, once Nabokov’s friend, attacked the translation as awkward and pedantic, arguing that it conveyed none of the poem’s grace and that its English was often stranger than the Russian it rendered. Many readers agreed: whatever Nabokov’s version was, it was not a pleasure to read as poetry. Nabokov answered with characteristic scorn, and the exchange, conducted in the pages of literary journals, ended a long friendship.",
+            "fn": "Counterargument",
+            "gist": "Wilson and many readers found it awkward and unpoetic.",
+            "links": [
+              {
+                "to": 1,
+                "kind": "opposes"
+              }
+            ]
+          },
+          {
+            "text": "Yet the quarrel rested partly on a confusion of categories. Nabokov’s Onegin is best understood not as a rival to the rhymed versions but as an instrument of a different kind—an apparatus that enables a reader without fluent Russian to approach the original itself, word by word and allusion by allusion. Judged as a substitute for the poem, it fails, as Nabokov himself half conceded; judged as a guide to the poem, it has no equal. The rhymed versions offer an experience of Pushkin’s music at the expense of his sense; Nabokov offers his sense at the expense of his music. A serious reader may need both. To ask which is the true translation is to assume that translation has a single purpose. The question worth asking of any translation is what it enables its reader to do.",
+            "fn": "Author's Conclusion",
+            "gist": "Category confusion: Nabokov’s work is a guide, not a substitute; rhymed and literal versions serve different ends.",
+            "links": [
+              {
+                "to": 2,
+                "kind": "responds"
+              },
+              {
+                "to": 1,
+                "kind": "elaborates"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "viewpoints": [
+      {
+        "id": "author",
+        "name": "The Author",
+        "stance": "Nabokov’s version is a peerless guide, not a substitute; both kinds of translation serve readers.",
+        "isAuthor": true
+      },
+      {
+        "id": "nabokov",
+        "name": "Nabokov",
+        "stance": "Rhymed versions betray meaning; only literal translation is translation."
+      },
+      {
+        "id": "wilson",
+        "name": "Edmund Wilson",
+        "stance": "Nabokov’s version is awkward, pedantic, and conveys none of the poem’s grace."
+      },
+      {
+        "id": "rhymers",
+        "name": "Rhymed Translators",
+        "stance": "Reproducing the stanza and rhyme is worth some loss of meaning."
+      }
+    ],
+    "tone": {
+      "value": 0.8,
+      "word": "Qualified admiration",
+      "note": "Appreciative of Nabokov’s achievement while conceding its failings as poetry."
+    },
+    "questions": [
+      {
+        "id": "rc-04-1",
+        "section": "RC",
+        "type": "rc-main-point",
+        "difficulty": 4,
+        "bloom": "Understand",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "Which one of the following most accurately expresses the main point of the passage?",
+        "choices": [
+          "Nabokov’s translation of Eugene Onegin is superior in every respect to rhymed translations.",
+          "The controversy over Nabokov’s Onegin arose partly because critics judged it as a substitute for the poem rather than as a guide to it, and the two kinds of translation serve different ends.",
+          "Edmund Wilson’s criticism of Nabokov was motivated by personal rivalry.",
+          "Pushkin’s stanza is impossible to reproduce in English.",
+          "Rhymed translations of verse are always betrayals of the original."
+        ],
+        "answer": 1,
+        "brief": {
+          "facts": "¶4: category confusion; guide vs. substitute; both kinds needed.",
+          "issue": "What is the author’s main claim?",
+          "rule": "The final paragraph often states the thesis in passages that resolve a controversy.",
+          "analysis": {
+            "correct": "(B) Captures the category confusion and the complementary roles.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "The author says it fails as a substitute for the poem."
+              },
+              {
+                "choice": 2,
+                "label": "unsupported-inference",
+                "why": "Motives are not discussed."
+              },
+              {
+                "choice": 3,
+                "label": "too-strong",
+                "why": "Translators have reproduced it, at a cost."
+              },
+              {
+                "choice": 4,
+                "label": "shell-game",
+                "why": "That is Nabokov’s view, not the author’s."
+              }
+            ]
+          },
+          "holding": "Distinguish the author’s view from views the author reports."
+        },
+        "reasoningKeys": [
+          "category confusion",
+          "guide",
+          "substitute",
+          "different ends"
+        ]
+      },
+      {
+        "id": "rc-04-2",
+        "section": "RC",
+        "type": "rc-detail",
+        "difficulty": 3,
+        "bloom": "Remember",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "The passage states that Nabokov’s translation of Eugene Onegin",
+        "choices": [
+          "preserved Pushkin’s rhyme scheme",
+          "was published before most rhymed English translations",
+          "was intended to be read aloud",
+          "was accompanied by a commentary several times the length of the translated text",
+          "was praised by Edmund Wilson"
+        ],
+        "answer": 3,
+        "brief": {
+          "facts": "‘Surrounding the text with a commentary several times its length.’",
+          "issue": "What does the passage say?",
+          "rule": "Locate the line.",
+          "analysis": {
+            "correct": "(D) Direct paraphrase.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "opposite",
+                "why": "He abandoned rhyme."
+              },
+              {
+                "choice": 1,
+                "label": "unsupported-inference",
+                "why": "Relative dates are not given."
+              },
+              {
+                "choice": 2,
+                "label": "out-of-scope",
+                "why": "Not stated."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "Wilson attacked it."
+              }
+            ]
+          },
+          "holding": "Answer detail questions from the text, not general knowledge."
+        },
+        "reasoningKeys": [
+          "commentary",
+          "several times its length"
+        ]
+      },
+      {
+        "id": "rc-04-3",
+        "section": "RC",
+        "type": "rc-function",
+        "difficulty": 4,
+        "bloom": "Analyze",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "The third paragraph serves primarily to",
+        "choices": [
+          "describe an influential objection to Nabokov’s translation that the author goes on to recontextualize",
+          "show that Nabokov’s translation was commercially unsuccessful",
+          "explain the technical features of Pushkin’s stanza",
+          "provide evidence that rhymed translations are more accurate than literal ones",
+          "present the author’s own assessment of Nabokov’s translation"
+        ],
+        "answer": 0,
+        "brief": {
+          "facts": "¶3 reports Wilson’s attack; ¶4 says the quarrel rested on a confusion of categories.",
+          "issue": "What does ¶3 do in the passage’s structure?",
+          "rule": "Paragraph-function questions: what does the paragraph set up for what follows?",
+          "analysis": {
+            "correct": "(A) The objection is presented, then reframed in ¶4.",
+            "wrong": [
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "Sales are not mentioned."
+              },
+              {
+                "choice": 2,
+                "label": "shell-game",
+                "why": "That’s ¶1."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Wilson criticized grace, not accuracy."
+              },
+              {
+                "choice": 4,
+                "label": "shell-game",
+                "why": "The author’s assessment comes in ¶4."
+              }
+            ]
+          },
+          "holding": "Counterargument paragraphs usually set up the author’s response."
+        },
+        "reasoningKeys": [
+          "objection",
+          "recontextualize",
+          "sets up"
+        ]
+      },
+      {
+        "id": "rc-04-4",
+        "section": "RC",
+        "type": "rc-inference",
+        "difficulty": 5,
+        "bloom": "Analyze",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "It can be inferred from the passage that the author would recommend which one of the following to a reader without Russian who wished to experience the musical qualities of Pushkin’s verse?",
+        "choices": [
+          "Edmund Wilson’s essays on Nabokov",
+          "none, since the author holds that Pushkin’s music cannot be conveyed in any form",
+          "a rhymed translation that reproduces the Onegin stanza",
+          "Nabokov’s translation alone",
+          "a prose summary of the novel’s plot"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "‘The rhymed versions offer an experience of Pushkin’s music at the expense of his sense.’",
+          "issue": "Which version serves the music?",
+          "rule": "Apply the author’s stated trade-off to a new reader’s goal.",
+          "analysis": {
+            "correct": "(C) The rhymed versions deliver the music.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Essays are not translations."
+              },
+              {
+                "choice": 1,
+                "label": "too-strong",
+                "why": "The author says rhymed versions offer the music."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "Nabokov sacrifices the music."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Not discussed and would lose the music."
+              }
+            ]
+          },
+          "holding": "Application inferences: map the author’s trade-off onto the stated goal."
+        },
+        "reasoningKeys": [
+          "music",
+          "rhymed",
+          "trade-off"
+        ]
+      },
+      {
+        "id": "rc-04-5",
+        "section": "RC",
+        "type": "rc-attitude",
+        "difficulty": 4,
+        "bloom": "Evaluate",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "The author’s attitude toward Nabokov’s translation is best described as",
+        "choices": [
+          "unreserved praise for it as poetry",
+          "disappointment that Nabokov did not reproduce the rhyme",
+          "qualified admiration: high regard for it as a guide to the original, together with acknowledgment of its shortcomings as poetry",
+          "detached neutrality",
+          "agreement with Wilson’s judgment that it is pedantic"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "‘As a guide … it has no equal’; ‘as a substitute … it fails.’",
+          "issue": "Two-sided attitude.",
+          "rule": "Attitude answers must reflect both the praise and the qualification.",
+          "analysis": {
+            "correct": "(C) Exactly balanced.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "too-strong",
+                "why": "The author concedes it fails as poetry."
+              },
+              {
+                "choice": 1,
+                "label": "out-of-scope",
+                "why": "The author accepts Nabokov’s choice as serving a different end."
+              },
+              {
+                "choice": 3,
+                "label": "opposite",
+                "why": "‘Has no equal’ is evaluative."
+              },
+              {
+                "choice": 4,
+                "label": "opposite",
+                "why": "The author reframes, not endorses, Wilson’s attack."
+              }
+            ]
+          },
+          "holding": "Look for paired evaluative phrases; the answer should pair them too."
+        },
+        "reasoningKeys": [
+          "guide",
+          "no equal",
+          "fails as substitute"
+        ]
+      },
+      {
+        "id": "rc-04-6",
+        "section": "RC",
+        "type": "rc-analogy",
+        "difficulty": 5,
+        "bloom": "Evaluate",
+        "passageId": "rc-04",
+        "topic": "humanities",
+        "stem": "The relationship between Nabokov’s translation and a rhymed translation, as the author describes it, is most analogous to the relationship between",
+        "choices": [
+          "a first draft of a novel and its final revision",
+          "an abridged dictionary and an unabridged one",
+          "a detailed architectural survey of a cathedral and a painting that captures its atmosphere",
+          "a forged painting and an authentic one",
+          "a translation and the original text"
+        ],
+        "answer": 2,
+        "brief": {
+          "facts": "Literal + commentary = precise guide to the original’s sense; rhymed = experience of its music.",
+          "issue": "Find a pair of representations, each faithful to a different dimension of the same object.",
+          "rule": "Analogy: match the abstract relationship (precision vs. experience), not the topic.",
+          "analysis": {
+            "correct": "(C) Survey = precise, informative, unlovely; painting = conveys experience, less precise.",
+            "wrong": [
+              {
+                "choice": 0,
+                "label": "out-of-scope",
+                "why": "Not stages of one work."
+              },
+              {
+                "choice": 1,
+                "label": "wrong-degree",
+                "why": "Differs in completeness, not in kind of fidelity."
+              },
+              {
+                "choice": 3,
+                "label": "out-of-scope",
+                "why": "Neither translation is fraudulent."
+              },
+              {
+                "choice": 4,
+                "label": "out-of-scope",
+                "why": "Both are translations."
+              }
+            ]
+          },
+          "holding": "‘Different instruments for different ends’ is the relationship to preserve."
+        },
+        "reasoningKeys": [
+          "different ends",
+          "precision",
+          "experience"
+        ]
+      }
+    ]
+  }
+]

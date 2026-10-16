@@ -1,0 +1,575 @@
+[
+  {
+    "id": "lr-039",
+    "section": "LR",
+    "type": "strengthen",
+    "difficulty": 4,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "development economics",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Researchers found that, in regions where mobile banking became available, the rate at which new small businesses were formed rose more over the following three years than it did in regions without mobile banking.",
+        "r": "P"
+      },
+      {
+        "t": "The researchers conclude that access to mobile banking promotes the formation of small businesses.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most strengthens the researchers’ argument?",
+    "choices": [
+      "Many small businesses fail within five years of being founded.",
+      "Some regions without mobile banking also saw small-business formation rise.",
+      "Mobile banking became available first in the regions whose economies were already growing fastest.",
+      "In the regions where mobile banking became available, the increase in business formation was greatest among people who had previously lacked access to any bank.",
+      "Mobile banking is more popular among younger people than among older people."
+    ],
+    "answer": 3,
+    "diagram": {
+      "gap": "The rise is due to mobile banking rather than some other regional difference.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "Business formation rose more where mobile banking arrived. Conclusion: mobile banking promotes business formation.",
+      "issue": "What makes the causal story more convincing?",
+      "rule": "Strengthen a causal claim by (1) ruling out alternatives, (2) showing the effect follows the cause where the mechanism should operate, or (3) showing a dose-response pattern.",
+      "analysis": {
+        "correct": "(D) The effect is concentrated exactly where the proposed mechanism (newly available financial access) should matter most. That targeted pattern is hard to explain by coincidence.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Later failures do not bear on whether formation was promoted."
+          },
+          {
+            "choice": 1,
+            "label": "irrelevant-comparison",
+            "why": "Rises elsewhere are consistent with the claim but do nothing to support it; the claim concerns the relative rise."
+          },
+          {
+            "choice": 2,
+            "label": "opposite",
+            "why": "Supplies an alternative cause (pre-existing growth), which weakens the argument."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The age profile of users does not connect banking to business formation."
+          }
+        ]
+      },
+      "holding": "The strongest strengtheners show the effect appearing precisely where the mechanism predicts it."
+    },
+    "reasoningKeys": [
+      "mechanism",
+      "previously lacked",
+      "concentrated",
+      "rules out"
+    ]
+  },
+  {
+    "id": "lr-040",
+    "section": "LR",
+    "type": "strengthen",
+    "difficulty": 4,
+    "pattern": "causal",
+    "topic": "legal history",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Legal historian: The Treaty of Amberg’s guarantees for religious minorities were respected for decades, whereas similar guarantees in other treaties of the period were quickly ignored.",
+        "r": "P"
+      },
+      {
+        "t": "Unlike those other treaties, the Treaty of Amberg created a standing commission empowered to hear complaints from minority communities.",
+        "r": "P"
+      },
+      {
+        "t": "The commission, therefore, was responsible for the durability of the treaty’s guarantees.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most strengthens the legal historian’s argument?",
+    "choices": [
+      "The signatories of the Treaty of Amberg had stronger economic ties with one another than the signatories of the other treaties had.",
+      "Some complaints brought before the commission were dismissed as unfounded.",
+      "In the years after the commission was dissolved, violations of the treaty’s guarantees increased markedly.",
+      "The commission’s members were drawn from the minority communities themselves.",
+      "Several other treaties of the period also protected linguistic minorities."
+    ],
+    "answer": 2,
+    "diagram": {
+      "gap": "The commission, not some other difference, explains the durability.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "Amberg’s guarantees lasted while others failed; only Amberg had a complaints commission. Conclusion: the commission caused the durability.",
+      "issue": "What evidence would tie the durability to the commission specifically?",
+      "rule": "Remove the cause and the effect disappears: that pattern strongly supports causation.",
+      "analysis": {
+        "correct": "(C) When the commission disappeared, compliance collapsed. That is evidence the commission was doing the work.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "opposite",
+            "why": "An alternative explanation for durability, which weakens the argument."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Some dismissals are consistent with either view."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "A detail about composition that does not show the commission caused compliance."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Linguistic minorities are a different subject."
+          }
+        ]
+      },
+      "holding": "‘Cause removed → effect gone’ is the mirror image of ‘cause present → effect present,’ and together they make a strong causal case."
+    },
+    "reasoningKeys": [
+      "dissolved",
+      "violations increased",
+      "remove cause",
+      "effect disappears"
+    ]
+  },
+  {
+    "id": "lr-041",
+    "section": "LR",
+    "type": "strengthen",
+    "difficulty": 5,
+    "pattern": "competing-hypotheses",
+    "topic": "corporate finance",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Analyst: The stock prices of firms that announce share buybacks typically rise during the following month.",
+        "r": "X"
+      },
+      {
+        "t": "Some attribute this purely to signaling, the market reading a buyback as a sign of management’s confidence.",
+        "r": "K"
+      },
+      {
+        "t": "But the rise is larger for firms whose shares were trading below analysts’ estimates of their intrinsic value.",
+        "r": "P"
+      },
+      {
+        "t": "So the rise reflects, at least in part, the correction of undervaluation.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most strengthens the analyst’s argument?",
+    "choices": [
+      "Firms that announce buybacks also tend to increase their dividends at the same time.",
+      "Most buybacks are announced during periods when the overall stock market is rising.",
+      "Analysts frequently revise their estimates of firms’ intrinsic value.",
+      "The amount of stock repurchased in a typical buyback is small relative to the firm’s total market value.",
+      "Buybacks by firms trading above analysts’ estimates of intrinsic value produce little or no price rise, even when management publicly expresses confidence."
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "The size of the rise tracks undervaluation, not just the confidence signal.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "Buybacks → price rises; the rise is bigger for undervalued firms. The analyst concludes that undervaluation correction is at least part of the cause, contra pure signaling.",
+      "issue": "What separates the undervaluation explanation from the signaling explanation?",
+      "rule": "To favor hypothesis H1 over H2, find a case where H2’s cause is present but H1’s is absent, and show the effect vanishes.",
+      "analysis": {
+        "correct": "(E) With the confidence signal present but no undervaluation, the price barely moves. Signaling alone does not produce the rise, which supports the analyst.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "opposite",
+            "why": "Adds another signal that could explain the rise."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "Points to market-wide momentum, an alternative cause."
+          },
+          {
+            "choice": 2,
+            "label": "opposite",
+            "why": "Suggests the intrinsic-value estimates are unreliable, which weakens the key evidence."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Buyback size does not discriminate between the hypotheses."
+          }
+        ]
+      },
+      "holding": "To strengthen one explanation against another, isolate the variable: rival cause present, your cause absent, effect absent."
+    },
+    "reasoningKeys": [
+      "signal present",
+      "no undervaluation",
+      "isolate",
+      "little or no rise"
+    ]
+  },
+  {
+    "id": "lr-042",
+    "section": "LR",
+    "type": "strengthen",
+    "difficulty": 3,
+    "pattern": "causal",
+    "topic": "environmental science",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Biologist: The sharp decline of frogs in the Halas wetlands began the year a fertilizer plant opened upstream.",
+        "r": "P"
+      },
+      {
+        "t": "Runoff from fertilizer plants can contain nitrates that are toxic to amphibian larvae.",
+        "r": "P"
+      },
+      {
+        "t": "So the plant’s runoff is probably responsible for the decline.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most strengthens the biologist’s argument?",
+    "choices": [
+      "Nitrate levels in the wetlands rose sharply after the plant opened and are now high enough to harm frog larvae.",
+      "The plant employs more than 300 local residents.",
+      "Some frog species are more sensitive to nitrates than others.",
+      "A disease that kills adult frogs was detected in the region two years before the plant opened.",
+      "Frog populations in many other wetlands have also declined in recent years."
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "The plant’s runoff actually reached the wetlands at harmful levels.",
+      "overlay": "strengthen"
+    },
+    "brief": {
+      "facts": "The decline began when the plant opened; plant runoff CAN contain larval toxins. Conclusion: the runoff probably caused the decline.",
+      "issue": "What gap between ‘can contain’ and ‘caused’ needs filling?",
+      "rule": "Strengthen by confirming that the mechanism actually operated in this case.",
+      "analysis": {
+        "correct": "(A) Confirms that nitrates actually rose to harmful levels after the plant opened, turning a possible mechanism into an observed one.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Employment is irrelevant."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Varying sensitivity does not show the runoff reached the wetlands."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "An alternative cause, which weakens the argument."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "Widespread declines suggest a broader cause, which weakens the argument."
+          }
+        ]
+      },
+      "holding": "‘Can contain’ is a possibility. The best strengthener confirms it actually happened here."
+    },
+    "reasoningKeys": [
+      "nitrate levels rose",
+      "harmful",
+      "confirms mechanism"
+    ]
+  },
+  {
+    "id": "lr-043",
+    "section": "LR",
+    "type": "weaken",
+    "difficulty": 3,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "comparative law",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Countries that permit class-action lawsuits have higher rates of corporate regulatory compliance than countries that do not.",
+        "r": "P"
+      },
+      {
+        "t": "Therefore, permitting class actions leads corporations to comply more fully with regulations.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most seriously weakens the argument?",
+    "choices": [
+      "Class actions are permitted in more countries now than twenty years ago.",
+      "Some corporations in countries that permit class actions violate regulations.",
+      "Class-action lawsuits are expensive for corporations to defend.",
+      "Corporations in countries that permit class actions often cite the threat of such lawsuits in internal compliance memos.",
+      "Countries that permit class actions also tend to have well-funded regulatory agencies that inspect corporations frequently."
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "No other difference between the countries explains the higher compliance.",
+      "overlay": "weaken"
+    },
+    "brief": {
+      "facts": "Class-action countries show higher compliance. Conclusion: class actions cause compliance.",
+      "issue": "What undercuts the causal inference?",
+      "rule": "Weaken correlation-to-causation arguments with an alternative cause, reverse causation, or evidence that the correlation is coincidental.",
+      "analysis": {
+        "correct": "(E) Strong regulators could explain the higher compliance on their own, and class actions merely co-occur with them.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "The trend in adoption does not bear on causation."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "The claim concerns rates, which tolerate exceptions."
+          },
+          {
+            "choice": 2,
+            "label": "opposite",
+            "why": "Litigation costs give firms a reason to comply, which mildly strengthens the argument."
+          },
+          {
+            "choice": 3,
+            "label": "opposite",
+            "why": "Evidence of the mechanism, which strengthens the argument."
+          }
+        ]
+      },
+      "holding": "The standard weakener for a cross-country correlation is a confounding difference between the groups."
+    },
+    "reasoningKeys": [
+      "alternative cause",
+      "confound",
+      "regulatory agencies"
+    ]
+  },
+  {
+    "id": "lr-044",
+    "section": "LR",
+    "type": "weaken",
+    "difficulty": 5,
+    "pattern": "prediction",
+    "topic": "public finance",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Economist: The government plans to cut the corporate income tax rate from 30 percent to 20 percent.",
+        "r": "X"
+      },
+      {
+        "t": "Since firms will retain more of their profits,",
+        "r": "P"
+      },
+      {
+        "t": "business investment will rise substantially next year.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most seriously weakens the economist’s argument?",
+    "choices": [
+      "Several neighboring countries have recently cut their corporate tax rates.",
+      "Some firms will use the additional retained profits to pay dividends rather than to invest.",
+      "Business investment rose last year even though tax rates were unchanged.",
+      "The tax cut will reduce government revenue in the short term.",
+      "Most firms in the country currently report losses and therefore pay no corporate income tax."
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "The tax cut will actually increase most firms’ retained profits.",
+      "overlay": "weaken"
+    },
+    "brief": {
+      "facts": "Tax cut → firms retain more profit → investment rises substantially.",
+      "issue": "Which fact most damages the predicted chain of effects?",
+      "rule": "Weaken a prediction by showing the mechanism will not operate on most of the relevant population, rather than nibbling at a few cases.",
+      "analysis": {
+        "correct": "(E) Firms with losses pay no tax, so a lower rate leaves them with no extra profit. The mechanism fails for most firms, which makes a SUBSTANTIAL rise unlikely.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Too indirect to damage the argument without more information."
+          },
+          {
+            "choice": 1,
+            "label": "wrong-degree",
+            "why": "Weakens slightly (‘some’ firms), but (E) disables the mechanism for MOST firms."
+          },
+          {
+            "choice": 2,
+            "label": "irrelevant-comparison",
+            "why": "Last year’s rise neither confirms nor undermines next year’s mechanism."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Government revenue is not part of the argument."
+          }
+        ]
+      },
+      "holding": "On weaken questions, prefer the answer that breaks the mechanism broadly over one that dents it at the margins."
+    },
+    "reasoningKeys": [
+      "losses",
+      "no tax",
+      "mechanism fails",
+      "most firms"
+    ]
+  },
+  {
+    "id": "lr-045",
+    "section": "LR",
+    "type": "weaken",
+    "difficulty": 4,
+    "pattern": "plan",
+    "topic": "law of the sea",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "To reduce illegal fishing in its exclusive economic zone, the Republic of Medra plans to double the fines for vessels caught fishing without a license.",
+        "r": "X"
+      },
+      {
+        "t": "Officials predict that the higher fines will substantially reduce illegal fishing.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most strongly calls into question the officials’ prediction?",
+    "choices": [
+      "Revenue from the higher fines will be used to fund marine conservation programs.",
+      "Medra’s coast guard currently detects fewer than 5 percent of the vessels fishing illegally in its waters, and the plan includes no increase in patrols.",
+      "Licensed vessels in Medra’s waters sometimes exceed their catch limits.",
+      "Neighboring states impose fines lower than Medra’s current fines.",
+      "Most vessels caught fishing illegally in Medra’s waters are owned by foreign companies."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "A bigger fine will deter, which requires a realistic chance of being caught.",
+      "overlay": "weaken"
+    },
+    "brief": {
+      "facts": "Doubling fines is predicted to substantially reduce illegal fishing.",
+      "issue": "What would make a bigger penalty ineffective?",
+      "rule": "Deterrence depends on the size of the penalty AND the likelihood of being caught. Plans fail when a necessary condition for their mechanism is missing.",
+      "analysis": {
+        "correct": "(B) With detection below 5% and no added patrols, the expected cost of fishing illegally stays low even when fines double, so deterrence is weak.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "How the revenue is used is irrelevant to deterrence."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Licensed overfishing is a different problem."
+          },
+          {
+            "choice": 3,
+            "label": "irrelevant-comparison",
+            "why": "Comparing with neighbors’ fines does not show Medra’s will fail."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Ownership, without more, does not bear on whether higher fines deter."
+          }
+        ]
+      },
+      "holding": "Penalty plans assume enforcement. Attack the ‘probability of being caught’ half of deterrence."
+    },
+    "reasoningKeys": [
+      "detection",
+      "deterrence",
+      "probability",
+      "patrols"
+    ]
+  },
+  {
+    "id": "lr-046",
+    "section": "LR",
+    "type": "weaken",
+    "difficulty": 5,
+    "flaw": "sampling",
+    "pattern": "statistical",
+    "topic": "economic history",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Historian: Of the roughly 400 letters written by Venetian merchants between 1450 and 1500 that survive in the city’s archives, more than 70 percent discuss trade with the Ottoman Empire.",
+        "r": "P"
+      },
+      {
+        "t": "So trade with the Ottomans dominated the commercial concerns of Venetian merchants during that period.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if true, most weakens the historian’s argument?",
+    "choices": [
+      "Surviving letters that discuss Ottoman trade are, on average, longer than other surviving letters.",
+      "The archives preserved merchants’ letters chiefly when they bore on matters of state, and Ottoman trade was far more closely regulated by the Venetian state than other trade was.",
+      "Venetian merchants wrote more letters in the 1450s than in the 1490s.",
+      "Trade with the Ottomans was frequently interrupted by war during the period.",
+      "Some Venetian merchants traded with both the Ottomans and the Mamluk Sultanate."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "The surviving letters are representative of merchants’ concerns.",
+      "overlay": "weaken"
+    },
+    "brief": {
+      "facts": "70% of surviving merchant letters discuss Ottoman trade. Conclusion: Ottoman trade dominated merchants’ concerns.",
+      "issue": "Are the surviving letters a fair sample?",
+      "rule": "Survival bias: if the process that preserved the evidence favored a subject, the sample overrepresents that subject.",
+      "analysis": {
+        "correct": "(B) The archive kept letters touching state matters, and Ottoman trade was state-regulated. The preservation process itself inflates Ottoman trade’s share.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "irrelevant-comparison",
+            "why": "Letter length does not affect the 70% count."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "When letters were written does not affect what they discuss."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "War interruptions could make Ottoman trade MORE worrying; this cuts both ways."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Overlap with Mamluk trade does not undermine the proportion."
+          }
+        ]
+      },
+      "holding": "Ask how the evidence survived. The filter can manufacture the pattern."
+    },
+    "reasoningKeys": [
+      "survival bias",
+      "preserved",
+      "unrepresentative",
+      "archive"
+    ]
+  }
+]

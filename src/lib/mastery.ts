@@ -140,10 +140,24 @@ export function masteryInk(level: number) {
 
 // ── Curriculum position ──────────────────────────────────────
 
-export function currentWeek(startDate: string, now = Date.now()): number {
+/** Curriculum week (1–40). If the plan is compressed into fewer calendar weeks, weeks advance proportionally. */
+export function currentWeek(startDate: string, planWeeks = 40, now = Date.now()): number {
   const start = new Date(startDate + 'T00:00:00').getTime();
-  const w = Math.floor((now - start) / (7 * DAY)) + 1;
+  const elapsedWeeks = Math.max(0, (now - start) / (7 * DAY));
+  const w = Math.floor((elapsedWeeks * 40) / Math.max(1, planWeeks)) + 1;
   return Math.max(1, Math.min(40, w));
+}
+
+/** Calendar date on which a given curriculum week begins. */
+export function weekStartDate(startDate: string, week: number, planWeeks = 40): Date {
+  const start = new Date(startDate + 'T00:00:00').getTime();
+  return new Date(start + ((week - 1) * Math.max(1, planWeeks) * 7 * DAY) / 40);
+}
+
+export function planWeeksFor(startDate: string, testDate: string): number {
+  const s = new Date(startDate + 'T00:00:00').getTime();
+  const t = new Date(testDate + 'T00:00:00').getTime();
+  return Math.max(8, Math.min(40, Math.floor((t - s) / (7 * DAY))));
 }
 export function termForWeek(week: number) {
   return TERMS.find((t) => week >= t.weeks[0] && week <= t.weeks[1]) ?? TERMS[0];

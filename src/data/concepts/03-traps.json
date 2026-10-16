@@ -1,0 +1,364 @@
+[
+ {
+  "id": "trap-out-of-scope",
+  "label": "Out of Scope",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "out-of-scope",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Introduces a topic, group, or issue the stimulus never addresses.",
+  "definition": "Out-of-scope answers can be true and interesting, but they do not bear on the task.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Stimulus about advisory opinions; answer about whether they should be binding."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Introduces a topic, group, or issue the stimulus never addresses.",
+    "keywords": [
+     "out"
+    ]
+   }
+  ],
+  "card": {
+   "front": "An answer discusses a group the stimulus never mentions. Trap?",
+   "back": "Out of Scope.",
+   "keywords": [
+    "scope"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-too-strong",
+  "label": "Too Strong",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "too-strong",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Overstates what the evidence supports (“always”, “all”, “never”).",
+  "definition": "Fatal on inference and NA questions; acceptable on SA questions.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Stimulus: “usually falls”; answer: “falls whenever.”"
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Overstates what the evidence supports (“always”, “all”, “never”).",
+    "keywords": [
+     "too"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Where are strong answers acceptable?",
+   "back": "Sufficient Assumption (and sometimes Strengthen/Weaken); never in Must Be True or Necessary Assumption.",
+   "keywords": [
+    "sufficient"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-reversal",
+  "label": "Reversal",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "reversal",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Swaps sufficient and necessary conditions.",
+  "definition": "From A → B, the answer asserts B → A.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Stimulus: clause → bypass; answer: bypass → clause."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Swaps sufficient and necessary conditions.",
+    "keywords": [
+     "reversal"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Stimulus: A → B. Answer: B → A. Trap?",
+   "back": "Reversal.",
+   "keywords": [
+    "reversal"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-half-right",
+  "label": "Half-Right / Half-Wrong",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "half-right",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "One part fits; another part fails.",
+  "definition": "Common in two-part Role, Method, and dialogue answers.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Point at Issue answer that only one speaker addresses."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "One part fits; another part fails.",
+    "keywords": [
+     "half-right"
+    ]
+   }
+  ],
+  "card": {
+   "front": "How do you beat half-right answers?",
+   "back": "Check every clause of the answer against the stimulus.",
+   "keywords": [
+    "every clause"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-irrelevant-comparison",
+  "label": "Irrelevant Comparison",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "irrelevant-comparison",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Compares things the argument does not need to compare.",
+  "definition": "Typically “more than” / “less than” statements about outside groups.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Stimulus about one fund; answer comparing other funds’ fees."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Compares things the argument does not need to compare.",
+    "keywords": [
+     "irrelevant"
+    ]
+   }
+  ],
+  "card": {
+   "front": "An answer compares the subject to an outside group. Usual trap?",
+   "back": "Irrelevant comparison.",
+   "keywords": [
+    "comparison"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-opposite",
+  "label": "Opposite",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "opposite",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Does the reverse of the task (weakens on a strengthen question).",
+  "definition": "Especially dangerous under time pressure and EXCEPT questions.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Strengthen question; answer supplies an alternative cause."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Does the reverse of the task (weakens on a strengthen question).",
+    "keywords": [
+     "opposite"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Most common source of “Opposite” errors?",
+   "back": "Misreading the stem or EXCEPT.",
+   "keywords": [
+    "stem",
+    "except"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-shell-game",
+  "label": "Shell Game",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "shell-game",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Swaps a key term for a similar-sounding one.",
+  "definition": "The answer uses the stimulus’s vocabulary but changes the concept (citations → influence; length → quality).",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "“Cited more” becomes “more influential.”"
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Swaps a key term for a similar-sounding one.",
+    "keywords": [
+     "shell"
+    ]
+   }
+  ],
+  "card": {
+   "front": "“More citations” in the stimulus becomes “more influence” in the answer. Trap?",
+   "back": "Shell Game.",
+   "keywords": [
+    "shell"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-unsupported-inference",
+  "label": "Unsupported Inference",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "unsupported-inference",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Could be true, but the stimulus does not establish it.",
+  "definition": "Fatal on Must Be True; wrong on Cannot Be True too (possible ≠ impossible).",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "Nothing about pre-2010 treaties; answer asserts something about them."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Could be true, but the stimulus does not establish it.",
+    "keywords": [
+     "unsupported"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Is an unsupported answer correct on Cannot Be True?",
+   "back": "No—unsupported claims could still be true.",
+   "keywords": [
+    "could"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-wrong-degree",
+  "label": "Wrong Degree",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "wrong-degree",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Right direction, wrong strength (some vs. most; weakens slightly).",
+  "definition": "Often the second-best answer.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "“Some firms will pay dividends” vs. “most firms pay no tax.”"
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Right direction, wrong strength (some vs. most; weakens slightly).",
+    "keywords": [
+     "wrong"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Two answers weaken; one says “some”, one breaks the mechanism for most. Which wins?",
+   "back": "The broader one—“some” is Wrong Degree.",
+   "keywords": [
+    "broader",
+    "most"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ },
+ {
+  "id": "trap-restatement",
+  "label": "Restatement of Premise",
+  "branch": "LR",
+  "parent": "grp-traps",
+  "kind": "trap",
+  "icon": "restatement",
+  "week": 14,
+  "lesson": false,
+  "oneLiner": "Repeats a premise; useless on assumption, strengthen, and flaw questions.",
+  "definition": "Premises are already given; repeating them adds nothing.",
+  "examples": [
+   {
+    "domain": "Law",
+    "text": "NA answer that simply repeats the stimulus’s second sentence."
+   }
+  ],
+  "keyPoints": [
+   {
+    "point": "Repeats a premise; useless on assumption, strengthen, and flaw questions.",
+    "keywords": [
+     "restatement"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Why is restating a premise wrong on Necessary Assumption?",
+   "back": "Assumptions are unstated; a premise is already stated.",
+   "keywords": [
+    "unstated"
+   ]
+  },
+  "links": [
+   "ts-elimination"
+  ]
+ }
+]

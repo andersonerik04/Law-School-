@@ -1,0 +1,715 @@
+[
+  {
+    "id": "lr-010",
+    "section": "LR",
+    "type": "main-conclusion",
+    "difficulty": 4,
+    "pattern": "counterargument-rebuttal",
+    "topic": "international law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Critics of the new extradition treaty claim that it will permit politically motivated prosecutions.",
+        "r": "K"
+      },
+      {
+        "t": "But the treaty bars extradition for any offense that the requested state deems political,",
+        "r": "P"
+      },
+      {
+        "t": "and the requested state’s courts, not its executive, make that determination.",
+        "r": "P"
+      },
+      {
+        "t": "The critics’ fear is therefore misplaced.",
+        "r": "C"
+      },
+      {
+        "t": "If anything, the treaty offers more protection than the informal arrangements it replaces, which contained no political-offense exception at all.",
+        "r": "P"
+      }
+    ],
+    "stem": "Which one of the following most accurately expresses the main conclusion of the argument?",
+    "choices": [
+      "The concern that the treaty will permit politically motivated prosecutions is unfounded.",
+      "The treaty will reduce the number of politically motivated prosecutions.",
+      "The courts of the requested state are independent of its executive.",
+      "Informal extradition arrangements are always less protective than formal treaties.",
+      "The treaty bars extradition for offenses that the requested state deems political."
+    ],
+    "answer": 0,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Critics fear political prosecutions. The author notes the political-offense bar and judicial determination, concludes the fear is misplaced, and adds that the treaty beats the prior informal arrangements.",
+      "issue": "Which statement do all the others support?",
+      "rule": "The main conclusion is the claim the rest of the argument exists to prove. Use the ‘Why?’ test: each premise answers ‘why should I believe the conclusion?’",
+      "analysis": {
+        "correct": "(A) paraphrases ‘the critics’ fear is misplaced.’ The political-offense bar, the courts’ role, and the comparison with informal arrangements all support it.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "shell-game",
+            "why": "‘More protection’ is swapped for a prediction about the NUMBER of prosecutions, which the argument never makes."
+          },
+          {
+            "choice": 2,
+            "label": "unsupported-inference",
+            "why": "The argument says courts make one determination, not that they are independent in general. It is also a premise-level detail."
+          },
+          {
+            "choice": 3,
+            "label": "too-strong",
+            "why": "‘Always’ generalizes far beyond this single comparison, and it is not the point the argument is proving."
+          },
+          {
+            "choice": 4,
+            "label": "restatement",
+            "why": "A premise, not the conclusion it supports."
+          }
+        ]
+      },
+      "holding": "A conclusion can sit in the middle; a sentence after it that begins ‘If anything …’ is usually additional support."
+    },
+    "reasoningKeys": [
+      "misplaced",
+      "fear",
+      "unfounded",
+      "supported by"
+    ]
+  },
+  {
+    "id": "lr-011",
+    "section": "LR",
+    "type": "main-conclusion",
+    "difficulty": 5,
+    "pattern": "sub-conclusion",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Some analysts recommend that the state pension fund increase its allocation to private equity, because private equity has historically outperformed public markets.",
+        "r": "K"
+      },
+      {
+        "t": "That recommendation should be rejected.",
+        "r": "C"
+      },
+      {
+        "t": "The historical outperformance is measured using valuations that private equity managers themselves report,",
+        "r": "P"
+      },
+      {
+        "t": "and such self-reported valuations lag behind market declines.",
+        "r": "P"
+      },
+      {
+        "t": "So the recorded returns understate private equity’s true volatility,",
+        "r": "I"
+      },
+      {
+        "t": "and a fund with fixed obligations to retirees cannot prudently take on volatility that it cannot measure.",
+        "r": "P"
+      }
+    ],
+    "stem": "The main conclusion drawn in the argument is that",
+    "choices": [
+      "private equity has not in fact outperformed public markets",
+      "self-reported valuations lag behind market declines",
+      "funds with fixed obligations should avoid all volatile investments",
+      "the pension fund should not follow the recommendation to increase its allocation to private equity",
+      "recorded private equity returns understate the true volatility of private equity"
+    ],
+    "answer": 3,
+    "diagram": {
+      "gap": "Unmeasurable volatility is a decisive reason against the allocation.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Analysts recommend more private equity. The author rejects this: the returns rest on lagging self-reported valuations, so volatility is understated, and a fixed-obligation fund cannot prudently take on unmeasured volatility.",
+      "issue": "Which claim sits at the top of the support structure?",
+      "rule": "An intermediate conclusion (introduced by ‘so’) supports the main conclusion. Do not confuse the last ‘so’ with the main point.",
+      "analysis": {
+        "correct": "(D) ‘That recommendation should be rejected’ is supported by every other claim, including the sub-conclusion about understated volatility.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "too-strong",
+            "why": "The author questions what the returns MEASURE (volatility), not whether outperformance occurred."
+          },
+          {
+            "choice": 1,
+            "label": "restatement",
+            "why": "A premise."
+          },
+          {
+            "choice": 2,
+            "label": "too-strong",
+            "why": "The argument objects to volatility that cannot be measured, not to all volatility."
+          },
+          {
+            "choice": 4,
+            "label": "half-right",
+            "why": "This is the intermediate conclusion. It is supported by the valuation premises, but it in turn supports the rejection of the recommendation."
+          }
+        ]
+      },
+      "holding": "The word ‘so’ often marks a sub-conclusion. Ask whether that claim is itself used to support something further."
+    },
+    "reasoningKeys": [
+      "recommendation",
+      "rejected",
+      "intermediate",
+      "sub-conclusion"
+    ]
+  },
+  {
+    "id": "lr-012",
+    "section": "LR",
+    "type": "main-conclusion",
+    "difficulty": 4,
+    "pattern": "counterargument-rebuttal",
+    "topic": "jurisprudence",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Legal positivists hold that the validity of a law depends on its source rather than on its moral merit.",
+        "r": "X"
+      },
+      {
+        "t": "Some critics argue that positivism therefore requires judges to enforce any validly enacted statute, however unjust.",
+        "r": "K"
+      },
+      {
+        "t": "But this criticism confuses two questions: whether a rule is law, and whether a judge ought to apply it.",
+        "r": "I"
+      },
+      {
+        "t": "A positivist can consistently hold both that an unjust statute is valid law and that a judge has moral reason not to enforce it.",
+        "r": "P"
+      },
+      {
+        "t": "The critics’ objection, then, does not undermine positivism as a theory of legal validity.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following most accurately expresses the overall conclusion of the argument?",
+    "choices": [
+      "Whether a rule is law is a different question from whether a judge ought to apply it.",
+      "Judges have moral reasons not to enforce unjust statutes.",
+      "The objection that positivism compels judges to enforce unjust statutes fails to refute positivism’s account of legal validity.",
+      "Legal positivism is the correct theory of legal validity.",
+      "The validity of a law depends on its source rather than on its moral merit."
+    ],
+    "answer": 2,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Critics say positivism forces judges to enforce unjust laws. The author says this confuses legal validity with the duty to apply, since a positivist can separate the two, and concludes the objection fails against positivism’s theory of validity.",
+      "issue": "What is the author’s ultimate point?",
+      "rule": "Arguments that rebut an objection usually conclude that the objection fails. Distinguish that from the intermediate diagnosis of WHY it fails.",
+      "analysis": {
+        "correct": "(C) matches ‘the critics’ objection … does not undermine positivism as a theory of legal validity.’",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "half-right",
+            "why": "This is the intermediate diagnosis supporting the conclusion, not the conclusion itself."
+          },
+          {
+            "choice": 1,
+            "label": "shell-game",
+            "why": "The author says a positivist CAN consistently hold this view, not that judges in fact have such reasons."
+          },
+          {
+            "choice": 3,
+            "label": "too-strong",
+            "why": "Defeating one objection does not establish that positivism is correct."
+          },
+          {
+            "choice": 4,
+            "label": "restatement",
+            "why": "Background describing the positivists’ view, not the author’s conclusion."
+          }
+        ]
+      },
+      "holding": "When an author rebuts a critic, the conclusion is about the critic’s argument, not a proof of the defended theory."
+    },
+    "reasoningKeys": [
+      "objection",
+      "fails",
+      "validity",
+      "confuses"
+    ]
+  },
+  {
+    "id": "lr-013",
+    "section": "LR",
+    "type": "role",
+    "difficulty": 4,
+    "pattern": "sub-conclusion",
+    "topic": "economics",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Economists at the trade ministry predict that the proposed tariff on imported steel will protect domestic jobs.",
+        "r": "K"
+      },
+      {
+        "t": "Their prediction overlooks the industries that buy steel.",
+        "r": "I"
+      },
+      {
+        "t": "Automakers and machinery producers, which together employ far more workers than steel producers do, will face higher input costs,",
+        "r": "P"
+      },
+      {
+        "t": "and higher input costs typically lead such firms to reduce hiring.",
+        "r": "P"
+      },
+      {
+        "t": "So the tariff is likely to cost more jobs than it protects.",
+        "r": "C"
+      }
+    ],
+    "stem": "The claim that the economists’ prediction overlooks the industries that buy steel plays which one of the following roles in the argument?",
+    "choices": [
+      "It is a claim that the argument attributes to the ministry’s economists.",
+      "It is the argument’s main conclusion.",
+      "It is a concession that the argument goes on to qualify.",
+      "It is a conclusion supported by claims about steel-buying industries, and it in turn supports the argument’s main conclusion.",
+      "It is a premise that the argument presents without any support."
+    ],
+    "answer": 3,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "The ministry predicts job protection. The author says the prediction overlooks steel buyers, explains why steel buyers will cut jobs, and concludes the tariff will cost more jobs than it saves.",
+      "issue": "Is the ‘overlooks’ claim supported, and does it support something else?",
+      "rule": "A statement that is both supported and supporting is an intermediate (sub-)conclusion.",
+      "analysis": {
+        "correct": "(D) The facts about automakers and machinery producers show what the economists overlooked, and the oversight is a reason to reject their prediction in favor of the main conclusion.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "shell-game",
+            "why": "The economists are credited with the prediction; the author is the one who says it overlooks something."
+          },
+          {
+            "choice": 1,
+            "label": "half-right",
+            "why": "It is a conclusion, but not the MAIN one. The final ‘so’ statement is what everything ultimately supports."
+          },
+          {
+            "choice": 2,
+            "label": "unsupported-inference",
+            "why": "Nothing is conceded. The statement criticizes the opposing view."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "The claims about steel-buying industries support it."
+          }
+        ]
+      },
+      "holding": "Supported AND supporting = intermediate conclusion."
+    },
+    "reasoningKeys": [
+      "intermediate",
+      "supported",
+      "supports main conclusion"
+    ]
+  },
+  {
+    "id": "lr-014",
+    "section": "LR",
+    "type": "role",
+    "difficulty": 5,
+    "pattern": "concession",
+    "topic": "constitutional theory",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Opponents of judicial review argue that unelected judges should not overturn the decisions of elected legislatures.",
+        "r": "K"
+      },
+      {
+        "t": "It is true that judicial review sometimes frustrates the will of a current majority.",
+        "r": "K"
+      },
+      {
+        "t": "Yet the constitution itself was ratified by a supermajority,",
+        "r": "P"
+      },
+      {
+        "t": "and when judges enforce its limits, they give effect to a more deliberate expression of popular will than an ordinary statute represents.",
+        "r": "P"
+      },
+      {
+        "t": "Judicial review, then, is not undemocratic in the way its opponents allege.",
+        "r": "C"
+      }
+    ],
+    "stem": "The statement that judicial review sometimes frustrates the will of a current majority figures in the argument in which one of the following ways?",
+    "choices": [
+      "It is the conclusion of the opponents’ argument, which the arguer seeks to refute.",
+      "It is a premise from which the argument’s main conclusion is directly derived.",
+      "It concedes a point to the opponents that the arguer does not regard as fatal to the argument’s conclusion.",
+      "It is the main conclusion of the argument.",
+      "It is offered as evidence that judicial review is democratic."
+    ],
+    "answer": 2,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Opponents call judicial review undemocratic. The author grants that it sometimes frustrates current majorities, then argues that it enforces a supermajority’s more deliberate will, so it is not undemocratic as alleged.",
+      "issue": "What job does the ‘It is true that …’ sentence do?",
+      "rule": "‘It is true that … Yet …’ signals a concession: the author grants a point and then explains why the conclusion survives it.",
+      "analysis": {
+        "correct": "(C) The author acknowledges an apparent cost of judicial review, then shows that the conclusion holds anyway.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "shell-game",
+            "why": "The opponents’ conclusion is that judges should not overturn legislatures. The conceded point is a premise they might use."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "The conclusion comes from the supermajority premises, despite the concession."
+          },
+          {
+            "choice": 3,
+            "label": "restatement",
+            "why": "The main conclusion is the final sentence."
+          },
+          {
+            "choice": 4,
+            "label": "opposite",
+            "why": "Frustrating majorities looks like evidence AGAINST democratic credentials; that is why it must be conceded."
+          }
+        ]
+      },
+      "holding": "‘Admittedly / It is true that … but/yet’ = concession. The author grants it without letting it defeat the conclusion."
+    },
+    "reasoningKeys": [
+      "concedes",
+      "not fatal",
+      "it is true that",
+      "yet"
+    ]
+  },
+  {
+    "id": "lr-015",
+    "section": "LR",
+    "type": "role",
+    "difficulty": 4,
+    "pattern": "undermine-evidence",
+    "topic": "humanities",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Some art historians attribute the unsigned altar panel to Vermeulen because its pigments match those he used.",
+        "r": "K"
+      },
+      {
+        "t": "This attribution is doubtful.",
+        "r": "C"
+      },
+      {
+        "t": "Those pigments were sold by a single Antwerp supplier to dozens of workshops,",
+        "r": "P"
+      },
+      {
+        "t": "and the panel’s underdrawing, which reveals an artist’s working habits, shows none of the corrections that appear throughout Vermeulen’s documented works.",
+        "r": "P"
+      }
+    ],
+    "stem": "The claim that the pigments were sold to dozens of workshops serves primarily to",
+    "choices": [
+      "illustrate a general principle about attribution that the argument goes on to apply",
+      "lend support to the art historians’ attribution",
+      "provide direct evidence that an artist other than Vermeulen painted the panel",
+      "undermine the evidential value of a consideration offered in support of a position the argument rejects",
+      "establish that the panel was not painted in Antwerp"
+    ],
+    "answer": 3,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Historians cite matching pigments for a Vermeulen attribution. The author doubts it: many workshops used those pigments, and the underdrawing lacks Vermeulen’s habits.",
+      "issue": "How does the ‘dozens of workshops’ point function?",
+      "rule": "Arguments often attack an opponent’s evidence by showing it fails to discriminate between hypotheses.",
+      "analysis": {
+        "correct": "(D) If dozens of workshops used the pigments, a pigment match no longer points specifically to Vermeulen. The point neutralizes the historians’ evidence.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "unsupported-inference",
+            "why": "No general principle is stated or applied."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "It cuts against the attribution."
+          },
+          {
+            "choice": 2,
+            "label": "too-strong",
+            "why": "It weakens evidence FOR Vermeulen; it is not direct evidence for anyone else."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Where the panel was painted is never at issue."
+          }
+        ]
+      },
+      "holding": "Evidence that fits many hypotheses equally well cannot single out one of them."
+    },
+    "reasoningKeys": [
+      "undermine",
+      "evidence",
+      "many workshops",
+      "does not discriminate"
+    ]
+  },
+  {
+    "id": "lr-016",
+    "section": "LR",
+    "type": "method",
+    "difficulty": 3,
+    "pattern": "refutation-by-analogy",
+    "topic": "legal education",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Mr. Kovács claims that the national bar examination should be abolished because some excellent lawyers failed it on their first attempt.",
+        "r": "K"
+      },
+      {
+        "t": "By that reasoning, the medical licensing examination should be abolished too, since some excellent physicians failed it initially.",
+        "r": "P"
+      },
+      {
+        "t": "Yet hardly anyone would accept that conclusion.",
+        "r": "P"
+      },
+      {
+        "t": "So Kovács’s reasoning is unpersuasive.",
+        "r": "C"
+      }
+    ],
+    "stem": "The argument proceeds by",
+    "choices": [
+      "attempting to discredit a line of reasoning by showing that reasoning of the same form leads to a conclusion widely regarded as unacceptable",
+      "showing that an argument relies on an unrepresentative sample",
+      "contending that a claim must be true because most people accept it",
+      "questioning the credibility of the person who advances an argument",
+      "presenting evidence that the conclusion of an argument is false"
+    ],
+    "answer": 0,
+    "diagram": {
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Kovács: some excellent lawyers failed the bar, so abolish it. Response: the same logic would abolish the medical exam, which almost no one accepts.",
+      "issue": "Describe, abstractly, what the response DOES.",
+      "rule": "Refutation by parallel analogy: copy the opponent’s structure into a new context where the conclusion is plainly unacceptable.",
+      "analysis": {
+        "correct": "(A) The response transplants Kovács’s reasoning to medicine and points to the unacceptable result.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Sampling is never discussed."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "Popular rejection is mentioned, but only to show the analogous conclusion is unacceptable. The method is the parallel, not an appeal to popularity."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Kovács himself is never attacked."
+          },
+          {
+            "choice": 4,
+            "label": "shell-game",
+            "why": "The response attacks the reasoning, not the truth of the conclusion directly."
+          }
+        ]
+      },
+      "holding": "‘By that reasoning …’ announces a refutation by analogy."
+    },
+    "reasoningKeys": [
+      "same reasoning",
+      "analogy",
+      "unacceptable conclusion"
+    ]
+  },
+  {
+    "id": "lr-017",
+    "section": "LR",
+    "type": "method",
+    "difficulty": 4,
+    "flaw": "causation",
+    "pattern": "alternative-explanation",
+    "topic": "business",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Analyst: The firm attributes last quarter’s decline in sales to the new competitor that entered the market.",
+        "r": "K"
+      },
+      {
+        "t": "But sales fell by the same proportion in regions the competitor has not entered.",
+        "r": "P"
+      },
+      {
+        "t": "And the firm raised its prices in all regions at the start of the quarter.",
+        "r": "P"
+      },
+      {
+        "t": "So the price increase, rather than the competitor, more plausibly explains the decline.",
+        "r": "C"
+      }
+    ],
+    "stem": "The analyst’s argument proceeds by",
+    "choices": [
+      "denying that the phenomenon to be explained actually occurred",
+      "generalizing from the firm’s experience to the market as a whole",
+      "proposing an alternative explanation for a phenomenon and citing evidence that tells against the explanation it would replace",
+      "inferring that because two events occurred together, one must have caused the other",
+      "showing that the firm’s explanation is internally inconsistent"
+    ],
+    "answer": 2,
+    "diagram": {
+      "gap": "No other factor common to all regions explains the decline.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "The firm blames the competitor. The analyst notes equal declines where the competitor is absent, plus an all-region price increase, and concludes that the price increase is the better explanation.",
+      "issue": "What is the analyst’s strategy?",
+      "rule": "Arguing for an alternative cause typically (1) undermines the rival explanation and (2) offers a factor that fits all the data.",
+      "analysis": {
+        "correct": "(C) The equal decline in competitor-free regions tells against the firm’s explanation, and the universal price increase is offered as the alternative.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "opposite",
+            "why": "The analyst accepts that sales declined."
+          },
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "No market-wide claim is made."
+          },
+          {
+            "choice": 3,
+            "label": "half-right",
+            "why": "The analyst does offer a causal explanation, but by comparing hypotheses against evidence, not merely from co-occurrence. And ‘must’ overstates the hedged ‘more plausibly.’"
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "The firm’s explanation is contradicted by evidence, not shown to be self-contradictory."
+          }
+        ]
+      },
+      "holding": "‘Rather than X, Y more plausibly explains’ = an alternative-explanation method."
+    },
+    "reasoningKeys": [
+      "alternative explanation",
+      "evidence against",
+      "price increase"
+    ]
+  },
+  {
+    "id": "lr-018",
+    "section": "LR",
+    "type": "method",
+    "difficulty": 5,
+    "pattern": "self-undermining",
+    "topic": "international law",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Ilona: Courts should interpret treaties according to the ordinary meaning of their terms,",
+        "r": "C",
+        "s": "Ilona"
+      },
+      {
+        "t": "because that meaning is what the signatory states actually agreed to.",
+        "r": "P",
+        "s": "Ilona"
+      },
+      {
+        "t": "Dmitri: But the ordinary meaning of a term can change over the decades during which a treaty remains in force.",
+        "r": "P",
+        "s": "Dmitri"
+      },
+      {
+        "t": "If courts applied the meaning that a term has today, they would be enforcing something the signatories never agreed to.",
+        "r": "C",
+        "s": "Dmitri"
+      }
+    ],
+    "stem": "Dmitri responds to Ilona by",
+    "choices": [
+      "questioning whether courts are competent to interpret treaties at all",
+      "denying that the agreement of the signatory states is relevant to how a treaty should be interpreted",
+      "arguing that her principle, applied to long-lived treaties, can conflict with the very rationale she offers for it",
+      "proposing that courts consult the drafting history of a treaty instead of its text",
+      "describing a hypothetical treaty whose terms have no ordinary meaning"
+    ],
+    "answer": 2,
+    "diagram": {
+      "gap": "Ilona’s ‘ordinary meaning’ is ambiguous between meaning at signing and meaning today.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Ilona justifies ‘ordinary meaning’ by appeal to what the parties agreed. Dmitri notes meanings drift, so today’s ordinary meaning may not be what the parties agreed.",
+      "issue": "How does Dmitri engage Ilona’s argument?",
+      "rule": "A powerful method is to turn an opponent’s own rationale against her principle, an internal critique.",
+      "analysis": {
+        "correct": "(C) Dmitri accepts that agreement matters and shows that applying present-day ordinary meaning could betray that agreement, setting Ilona’s principle against her own reason for it.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Judicial competence is never raised."
+          },
+          {
+            "choice": 1,
+            "label": "opposite",
+            "why": "Dmitri relies on the parties’ agreement; his point depends on it."
+          },
+          {
+            "choice": 3,
+            "label": "unsupported-inference",
+            "why": "Dmitri proposes no alternative method."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "No hypothetical treaty is described, and the terms do have ordinary meanings that change."
+          }
+        ]
+      },
+      "holding": "Showing that a principle undercuts its own justification is an internal critique, among the strongest forms of rebuttal."
+    },
+    "reasoningKeys": [
+      "rationale",
+      "meaning changes",
+      "agreement",
+      "own reason"
+    ]
+  }
+]

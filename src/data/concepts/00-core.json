@@ -1,0 +1,1384 @@
+[
+ {
+  "id": "lsat",
+  "label": "THE LSAT",
+  "branch": "TS",
+  "parent": null,
+  "kind": "root",
+  "icon": "emblem",
+  "oneLiner": "Two scored Logical Reasoning sections, one scored Reading Comprehension section, an unscored experimental section, and Argumentative Writing.",
+  "links": []
+ },
+ {
+  "id": "br-lr",
+  "label": "Logical Reasoning",
+  "branch": "LR",
+  "parent": "lsat",
+  "kind": "branch",
+  "icon": "lr",
+  "oneLiner": "Short arguments; ~24–26 questions per 35-minute section; two scored sections (about two-thirds of your score).",
+  "links": []
+ },
+ {
+  "id": "br-rc",
+  "label": "Reading Comprehension",
+  "branch": "RC",
+  "parent": "lsat",
+  "kind": "branch",
+  "icon": "rc",
+  "oneLiner": "Four passage sets (one comparative), ~26–28 questions in 35 minutes.",
+  "links": []
+ },
+ {
+  "id": "br-cl",
+  "label": "Conditional Logic",
+  "branch": "CL",
+  "parent": "lsat",
+  "kind": "branch",
+  "icon": "cl",
+  "oneLiner": "The formal toolkit beneath many LR questions: sufficient/necessary, contrapositives, quantifiers, chains.",
+  "links": []
+ },
+ {
+  "id": "br-aw",
+  "label": "Argumentative Writing",
+  "branch": "AW",
+  "parent": "lsat",
+  "kind": "branch",
+  "icon": "aw",
+  "oneLiner": "Unscored essay sent to schools: 15 minutes of prewriting analysis, 35 minutes of writing.",
+  "links": []
+ },
+ {
+  "id": "br-ts",
+  "label": "Test Strategy",
+  "branch": "TS",
+  "parent": "lsat",
+  "kind": "branch",
+  "icon": "ts",
+  "oneLiner": "Identifying types, pacing, elimination, blind review, and test-day performance.",
+  "links": []
+ },
+ {
+  "id": "grp-lr-found",
+  "label": "Foundations",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "anatomy",
+  "oneLiner": "Argument anatomy—the skill every LR question builds on.",
+  "links": []
+ },
+ {
+  "id": "grp-inference",
+  "label": "Inference Family",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "must-be-true",
+  "oneLiner": "Use the stimulus as evidence; find what it proves or supports.",
+  "links": []
+ },
+ {
+  "id": "grp-structure",
+  "label": "Structure Family",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "role",
+  "oneLiner": "Describe what an argument is doing.",
+  "links": []
+ },
+ {
+  "id": "grp-assumption",
+  "label": "Assumption Family",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "necessary-assumption",
+  "oneLiner": "Find, fill, attack, or test the gap between premises and conclusion.",
+  "links": []
+ },
+ {
+  "id": "grp-matching",
+  "label": "Matching & Principles",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "parallel",
+  "oneLiner": "Match structures and apply or identify rules.",
+  "links": []
+ },
+ {
+  "id": "grp-dispute",
+  "label": "Discrepancy & Dispute",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "paradox",
+  "oneLiner": "Explain tensions; locate agreement and disagreement.",
+  "links": []
+ },
+ {
+  "id": "grp-flaws",
+  "label": "The Flaw Library",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "flaw",
+  "oneLiner": "Fifteen recurring reasoning errors.",
+  "links": []
+ },
+ {
+  "id": "grp-traps",
+  "label": "Wrong-Answer Traps",
+  "branch": "LR",
+  "parent": "br-lr",
+  "kind": "group",
+  "icon": "opposite",
+  "oneLiner": "The ten recurring ways wrong answers tempt you.",
+  "links": []
+ },
+ {
+  "id": "grp-rc-struct",
+  "label": "Passage Structures",
+  "branch": "RC",
+  "parent": "br-rc",
+  "kind": "group",
+  "icon": "structure",
+  "oneLiner": "How passages are built—and how to map them.",
+  "links": []
+ },
+ {
+  "id": "grp-rc-types",
+  "label": "RC Question Types",
+  "branch": "RC",
+  "parent": "br-rc",
+  "kind": "group",
+  "icon": "rc",
+  "oneLiner": "Ten recurring RC question types.",
+  "links": []
+ },
+ {
+  "id": "anatomy",
+  "label": "Anatomy of an Argument",
+  "branch": "LR",
+  "parent": "grp-lr-found",
+  "kind": "foundation",
+  "icon": "anatomy",
+  "chapter": "CHAPTER I — THE ANATOMY OF AN ARGUMENT",
+  "week": 1,
+  "lesson": true,
+  "oneLiner": "Every argument is premises offered in support of a conclusion; everything else is context or counterpoint.",
+  "definition": "An argument is a set of claims in which some (premises) are offered as reasons to accept another (the conclusion). Background context sets the stage; counterpoints are views the author argues against. Diagramming the roles of each sentence is the first move on nearly every LR question.",
+  "objectives": [
+   "Label every sentence of a stimulus as conclusion, premise, sub-conclusion, context, or counterpoint",
+   "Use the “Why?” test to confirm which claim is the conclusion",
+   "Recognize premise and conclusion indicator words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“The café will be packed—it’s Saturday and the band is playing.” Conclusion: packed. Premises: Saturday; band playing."
+   },
+   {
+    "domain": "Law",
+    "text": "“The statute does not apply to the defendant, since it covers only residents and the defendant lives abroad.” Conclusion first, premises after “since.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Analysts expect the bond to be downgraded; the issuer missed two payments. But the issuer has secured new financing, so a downgrade is unlikely.” Counterpoint, then the author’s conclusion."
+   }
+  ],
+  "attack": [
+   "Read the whole stimulus once for gist",
+   "Find the claim the author wants you to believe (conclusion)",
+   "Apply the Why? test: each premise answers “why believe that?”",
+   "Mark counterpoints (views the author rejects) and context",
+   "Note any claim that is both supported and supporting (sub-conclusion)"
+  ],
+  "correctLooksLike": "A diagram in which every premise points (directly or through a sub-conclusion) to exactly one main conclusion.",
+  "traps": [
+   "Taking the last sentence as the conclusion by default",
+   "Mistaking a counterpoint for the author’s view",
+   "Treating a sub-conclusion as the main conclusion"
+  ],
+  "commonError": "Assuming the conclusion comes last. Conclusions often appear first or in the middle, followed by “since/because.”",
+  "keyPoints": [
+   {
+    "point": "The conclusion is the claim the premises support",
+    "keywords": [
+     "conclusion",
+     "support"
+    ]
+   },
+   {
+    "point": "Premises are reasons; apply the Why? test",
+    "keywords": [
+     "premise",
+     "why"
+    ]
+   },
+   {
+    "point": "Counterpoints are opposing views the author rebuts",
+    "keywords": [
+     "counterpoint",
+     "oppos"
+    ]
+   },
+   {
+    "point": "A sub-conclusion is both supported and supporting",
+    "keywords": [
+     "sub-conclusion",
+     "intermediate"
+    ]
+   },
+   {
+    "point": "Indicator words: therefore/thus (conclusion), because/since (premise)",
+    "keywords": [
+     "therefore",
+     "because",
+     "indicator"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Argument Anatomy",
+   "children": [
+    {
+     "label": "Conclusion",
+     "children": [
+      {
+       "label": "Main point"
+      },
+      {
+       "label": "Why? test"
+      }
+     ]
+    },
+    {
+     "label": "Premises",
+     "children": [
+      {
+       "label": "Reasons"
+      },
+      {
+       "label": "because / since"
+      }
+     ]
+    },
+    {
+     "label": "Sub-conclusion",
+     "children": [
+      {
+       "label": "Supported"
+      },
+      {
+       "label": "Supporting"
+      }
+     ]
+    },
+    {
+     "label": "Other parts",
+     "children": [
+      {
+       "label": "Context"
+      },
+      {
+       "label": "Counterpoint"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-main-conclusion",
+   "lr-role"
+  ],
+  "stemCues": [],
+  "card": {
+   "front": "Name the five roles a sentence can play in an LR stimulus.",
+   "back": "Main conclusion, premise, sub-(intermediate) conclusion, counterpoint (opposing view), context/background.",
+   "keywords": [
+    "conclusion",
+    "premise",
+    "sub",
+    "counter",
+    "context"
+   ]
+  },
+  "match": {
+   "types": [
+    "main-conclusion",
+    "role"
+   ]
+  }
+ },
+ {
+  "id": "ts-stem-id",
+  "label": "Identify the Question Type",
+  "branch": "TS",
+  "parent": "br-ts",
+  "kind": "strategy",
+  "icon": "target",
+  "chapter": "CHAPTER II — READING THE STEM",
+  "week": 1,
+  "lesson": true,
+  "oneLiner": "The stem tells you your task; classify it before you read the stimulus closely.",
+  "definition": "Each LR question type has signature stem language. Classifying the stem first tells you whether to read the stimulus as an argument to critique, a set of facts to combine, or a structure to describe.",
+  "objectives": [
+   "Classify any LR stem into one of 19 types in under 5 seconds",
+   "Know which types treat the stimulus as true and which attack it"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A recipe card says “serves four”: you know the task (portioning) before you cook."
+   },
+   {
+    "domain": "Law",
+    "text": "“The argument is most vulnerable to criticism on the grounds that…” → Flaw."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Which one of the following, if true, most helps to resolve the apparent discrepancy…” → Paradox."
+   }
+  ],
+  "attack": [
+   "Read the stem first",
+   "Spot the action verb: must be true / weakens / assumes / resolves / most similar",
+   "Note “if true” (you may add info) vs. “if the statements above are true” (stimulus proves)",
+   "Note EXCEPT and reverse the task",
+   "Decide how you will read the stimulus"
+  ],
+  "correctLooksLike": "A one-word label (“NA”, “Weaken”, “MBT”) written before you read the stimulus.",
+  "traps": [
+   "Confusing Necessary and Sufficient Assumption stems",
+   "Missing EXCEPT",
+   "Confusing Strengthen with Principle–Identify"
+  ],
+  "commonError": "Mixing up “assumption required by” (Necessary) with “conclusion follows logically if assumed” (Sufficient).",
+  "keyPoints": [
+   {
+    "point": "Read the stem before the stimulus",
+    "keywords": [
+     "stem",
+     "first"
+    ]
+   },
+   {
+    "point": "“Depends on / requires” = Necessary Assumption",
+    "keywords": [
+     "necessary",
+     "requires",
+     "depends"
+    ]
+   },
+   {
+    "point": "“Follows logically if assumed” = Sufficient Assumption",
+    "keywords": [
+     "sufficient",
+     "follows"
+    ]
+   },
+   {
+    "point": "“If true” answers may add new information",
+    "keywords": [
+     "if true",
+     "new information"
+    ]
+   },
+   {
+    "point": "EXCEPT flips the task",
+    "keywords": [
+     "except"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Stem Decoder",
+   "children": [
+    {
+     "label": "Prove",
+     "children": [
+      {
+       "label": "Must Be True"
+      },
+      {
+       "label": "Most Strongly Supported"
+      },
+      {
+       "label": "Cannot Be True"
+      }
+     ]
+    },
+    {
+     "label": "Describe",
+     "children": [
+      {
+       "label": "Main Conclusion"
+      },
+      {
+       "label": "Role"
+      },
+      {
+       "label": "Method"
+      },
+      {
+       "label": "Flaw"
+      }
+     ]
+    },
+    {
+     "label": "Gap",
+     "children": [
+      {
+       "label": "Necessary"
+      },
+      {
+       "label": "Sufficient"
+      },
+      {
+       "label": "Strengthen"
+      },
+      {
+       "label": "Weaken"
+      },
+      {
+       "label": "Evaluate"
+      }
+     ]
+    },
+    {
+     "label": "Match",
+     "children": [
+      {
+       "label": "Parallel"
+      },
+      {
+       "label": "Principle"
+      },
+      {
+       "label": "Paradox"
+      },
+      {
+       "label": "Dispute"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "anatomy"
+  ],
+  "card": {
+   "front": "“The argument relies on the assumption that…” — which type?",
+   "back": "Necessary Assumption: the answer must be true for the argument to work (apply the Negation Test).",
+   "keywords": [
+    "necessary",
+    "negation"
+   ]
+  }
+ },
+ {
+  "id": "ts-timing",
+  "label": "Timing & Section Management",
+  "branch": "TS",
+  "parent": "br-ts",
+  "kind": "strategy",
+  "icon": "timer",
+  "chapter": "CHAPTER XXI — THE CLOCK",
+  "week": 20,
+  "lesson": true,
+  "oneLiner": "Average ~1:20 per LR question and ~8:30 per RC set; skip early, return later.",
+  "definition": "A 35-minute LR section with ~25 questions leaves about 84 seconds each, but early questions are usually faster. Elite scorers bank time on easy questions, flag time-sinks after ~2 minutes, and use a second pass on flagged items.",
+  "objectives": [
+   "Hold a 1:20 LR average with a deliberate skip policy",
+   "Run a two-pass section",
+   "Recognize your personal time-sinks from analytics"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "At a museum with an hour left, you see the highlights first and return to rooms you skipped."
+   },
+   {
+    "domain": "Law",
+    "text": "A litigator triages motions: dispositive issues first, minor ones later."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A portfolio manager cuts a losing position at a preset stop-loss rather than “waiting it out.”"
+   }
+  ],
+  "attack": [
+   "Pass 1: answer what you can in ≤ 2:00; flag and move on otherwise",
+   "Note your checkpoint (~question 10 by 10:00, 20 by 23:00)",
+   "Pass 2: return to flagged questions in order of promise",
+   "Never leave an answer blank—there is no guessing penalty",
+   "Use blind review afterward to learn from flags"
+  ],
+  "correctLooksLike": "A section where no single question consumed more than ~2:30 and every question has an answer.",
+  "traps": [
+   "Sunk-cost thinking on a hard question",
+   "Rushing the first ten questions",
+   "Leaving blanks"
+  ],
+  "commonError": "Spending four minutes on question 14 and losing three easier questions at the end.",
+  "keyPoints": [
+   {
+    "point": "About 1:20 per LR question on average",
+    "keywords": [
+     "1:20",
+     "average"
+    ]
+   },
+   {
+    "point": "Flag and move on after about two minutes",
+    "keywords": [
+     "flag",
+     "two minutes",
+     "skip"
+    ]
+   },
+   {
+    "point": "Two-pass strategy",
+    "keywords": [
+     "two pass",
+     "second pass",
+     "return"
+    ]
+   },
+   {
+    "point": "No guessing penalty—never leave blanks",
+    "keywords": [
+     "blank",
+     "guess"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Timing",
+   "children": [
+    {
+     "label": "Pace",
+     "children": [
+      {
+       "label": "1:20 LR"
+      },
+      {
+       "label": "8:30 RC set"
+      }
+     ]
+    },
+    {
+     "label": "Two Passes",
+     "children": [
+      {
+       "label": "Answer or flag"
+      },
+      {
+       "label": "Return"
+      }
+     ]
+    },
+    {
+     "label": "Checkpoints",
+     "children": [
+      {
+       "label": "Q10 @ 10:00"
+      },
+      {
+       "label": "Q20 @ 23:00"
+      }
+     ]
+    },
+    {
+     "label": "Never blank",
+     "children": [
+      {
+       "label": "No penalty"
+      },
+      {
+       "label": "Educated guess"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "ts-blind-review"
+  ],
+  "card": {
+   "front": "What is the target average pace for LR questions?",
+   "back": "About 1 minute 20 seconds per question (~25 questions in 35 minutes), with a flag-and-return policy after ~2 minutes.",
+   "keywords": [
+    "1:20",
+    "flag"
+   ]
+  }
+ },
+ {
+  "id": "ts-elimination",
+  "label": "The Wrong-Answer Taxonomy",
+  "branch": "TS",
+  "parent": "br-ts",
+  "kind": "strategy",
+  "icon": "x",
+  "chapter": "CHAPTER XV — ELIMINATION",
+  "week": 14,
+  "lesson": true,
+  "oneLiner": "Name why each wrong answer is wrong; there are only about ten recurring reasons.",
+  "definition": "LSAT wrong answers recur in recognizable patterns: Out of Scope, Too Strong, Reversal, Half-Right/Half-Wrong, Irrelevant Comparison, Opposite, Shell Game, Unsupported Inference, Wrong Degree, and Restatement of Premise. Labeling each eliminated answer builds speed and turns guessing into diagnosis.",
+  "objectives": [
+   "Label any wrong answer with its trap",
+   "Use elimination as a second path to the right answer",
+   "Recognize which traps tempt you most (from your Ledger)"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A witness who says “definitely” about something they glimpsed is Too Strong."
+   },
+   {
+    "domain": "Law",
+    "text": "A brief that answers a question the court did not ask is Out of Scope."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "An analyst who says profits rose because revenue rose, ignoring costs, is offering a Half-Right story."
+   }
+  ],
+  "attack": [
+   "Predict an answer first",
+   "Eliminate obvious misfits with a label",
+   "Compare the final two on the exact words",
+   "Choose the answer that fits the task, not the one that “sounds smart”"
+  ],
+  "correctLooksLike": "Four labels for four wrong answers, and one answer that survives scrutiny word for word.",
+  "traps": [
+   "Choosing an answer because it is true in the real world",
+   "Falling for strong language in inference questions",
+   "Picking the answer that restates a premise on assumption questions"
+  ],
+  "commonError": "Eliminating the right answer because of an unfamiliar word, while keeping a familiar-sounding wrong one.",
+  "keyPoints": [
+   {
+    "point": "Out of Scope introduces new topics",
+    "keywords": [
+     "scope",
+     "new"
+    ]
+   },
+   {
+    "point": "Too Strong overstates (“always”, “all”)",
+    "keywords": [
+     "too strong",
+     "always"
+    ]
+   },
+   {
+    "point": "Reversal swaps sufficient and necessary",
+    "keywords": [
+     "reversal",
+     "swap"
+    ]
+   },
+   {
+    "point": "Half-right answers fail on one part",
+    "keywords": [
+     "half"
+    ]
+   },
+   {
+    "point": "Shell Game swaps a key term",
+    "keywords": [
+     "shell",
+     "swap term"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Elimination",
+   "children": [
+    {
+     "label": "Scope",
+     "children": [
+      {
+       "label": "Out of Scope"
+      },
+      {
+       "label": "Irrelevant Comparison"
+      }
+     ]
+    },
+    {
+     "label": "Strength",
+     "children": [
+      {
+       "label": "Too Strong"
+      },
+      {
+       "label": "Wrong Degree"
+      }
+     ]
+    },
+    {
+     "label": "Logic",
+     "children": [
+      {
+       "label": "Reversal"
+      },
+      {
+       "label": "Unsupported Inference"
+      }
+     ]
+    },
+    {
+     "label": "Deception",
+     "children": [
+      {
+       "label": "Shell Game"
+      },
+      {
+       "label": "Half-Right"
+      },
+      {
+       "label": "Opposite"
+      },
+      {
+       "label": "Restatement"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "grp-traps"
+  ],
+  "card": {
+   "front": "An answer says “All X are Y” when the stimulus said “most”. Trap?",
+   "back": "Too Strong (or Wrong Degree): it overstates what the evidence supports.",
+   "keywords": [
+    "too strong",
+    "degree"
+   ]
+  }
+ },
+ {
+  "id": "ts-blind-review",
+  "label": "Blind Review",
+  "branch": "TS",
+  "parent": "br-ts",
+  "kind": "strategy",
+  "icon": "blind",
+  "chapter": "CHAPTER XXII — BLIND REVIEW",
+  "week": 21,
+  "lesson": true,
+  "oneLiner": "Before seeing answers, re-do flagged questions untimed with written justifications; compare timed vs. blind scores.",
+  "definition": "Blind review separates understanding problems from timing problems. If your blind-review score is high but your timed score is low, the issue is speed or nerves; if both are low, the issue is understanding.",
+  "objectives": [
+   "Run blind review on every practice test",
+   "Interpret the gap between timed and blind scores",
+   "Write justifications that would persuade a skeptical reader"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Re-reading an email you drafted in a rush—before sending—catches errors you could have caught with time."
+   },
+   {
+    "domain": "Law",
+    "text": "Appellate review: the court reconsiders the record without the pressure of trial."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A post-mortem on a trade made under deadline, conducted before you check the P&L."
+   }
+  ],
+  "attack": [
+   "Flag uncertain questions during the test",
+   "Before checking answers, re-answer flagged ones untimed",
+   "Write a one-paragraph justification for each",
+   "Score both versions",
+   "Diagnose: timing gap vs. understanding gap"
+  ],
+  "correctLooksLike": "Two scores (timed, blind) and a list of the questions that changed—with a reason for each.",
+  "traps": [
+   "Peeking at answers before reviewing",
+   "Reviewing only misses (missing lucky guesses)",
+   "Writing vague justifications"
+  ],
+  "commonError": "Only reviewing questions you got wrong; lucky guesses hide gaps that will cost you later.",
+  "keyPoints": [
+   {
+    "point": "Review before seeing the answers",
+    "keywords": [
+     "before",
+     "answers"
+    ]
+   },
+   {
+    "point": "Write justifications",
+    "keywords": [
+     "justif",
+     "write"
+    ]
+   },
+   {
+    "point": "Compare timed and blind scores",
+    "keywords": [
+     "compare",
+     "timed",
+     "blind"
+    ]
+   },
+   {
+    "point": "Big gap = timing problem; both low = understanding problem",
+    "keywords": [
+     "timing",
+     "understanding"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Blind Review",
+   "children": [
+    {
+     "label": "Flag",
+     "children": [
+      {
+       "label": "Uncertain"
+      },
+      {
+       "label": "Guessed"
+      }
+     ]
+    },
+    {
+     "label": "Re-do",
+     "children": [
+      {
+       "label": "Untimed"
+      },
+      {
+       "label": "Justify"
+      }
+     ]
+    },
+    {
+     "label": "Compare",
+     "children": [
+      {
+       "label": "Timed score"
+      },
+      {
+       "label": "Blind score"
+      }
+     ]
+    },
+    {
+     "label": "Diagnose",
+     "children": [
+      {
+       "label": "Timing gap"
+      },
+      {
+       "label": "Understanding gap"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "ts-timing"
+  ],
+  "card": {
+   "front": "Timed score 160, blind review 172. What does the gap suggest?",
+   "back": "Mostly a timing/pressure problem—your understanding is ahead of your speed.",
+   "keywords": [
+    "timing",
+    "pressure",
+    "speed"
+   ]
+  }
+ },
+ {
+  "id": "ts-test-day",
+  "label": "Test-Day Readiness",
+  "branch": "TS",
+  "parent": "br-ts",
+  "kind": "strategy",
+  "icon": "calendar",
+  "chapter": "CHAPTER XL — THE BAR",
+  "week": 39,
+  "lesson": true,
+  "oneLiner": "Routine, rest, and a rehearsed plan beat last-minute cramming.",
+  "definition": "Performance on test day depends on sleep, routine, logistics, and a pre-committed plan for difficult moments. The last week is for maintenance, not new learning.",
+  "objectives": [
+   "Rehearse your test-day routine",
+   "Prepare a reset ritual for a bad section",
+   "Taper volume in the final week"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A marathoner tapers mileage before race day."
+   },
+   {
+    "domain": "Law",
+    "text": "Counsel prepares an opening statement and then rests the night before trial."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A deal team freezes the model before signing and stops tinkering."
+   }
+  ],
+  "attack": [
+   "Simulate start time for two weeks",
+   "Taper the final 5 days",
+   "Prepare logistics (ID, check-in, equipment)",
+   "Use a 3-breath reset between sections",
+   "Treat the experimental section as scored"
+  ],
+  "correctLooksLike": "A calm, routine morning and a section-by-section plan you have already practiced.",
+  "traps": [
+   "Cramming new material",
+   "Changing strategy on test day",
+   "Judging how you are doing mid-test"
+  ],
+  "commonError": "Trying to guess which section is experimental and coasting through it.",
+  "keyPoints": [
+   {
+    "point": "Taper in the final week",
+    "keywords": [
+     "taper",
+     "rest"
+    ]
+   },
+   {
+    "point": "Rehearse the routine at test time",
+    "keywords": [
+     "routine",
+     "rehearse"
+    ]
+   },
+   {
+    "point": "Reset between sections",
+    "keywords": [
+     "reset"
+    ]
+   },
+   {
+    "point": "Treat every section as scored",
+    "keywords": [
+     "experimental",
+     "scored"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Test Day",
+   "children": [
+    {
+     "label": "Before",
+     "children": [
+      {
+       "label": "Sleep"
+      },
+      {
+       "label": "Taper"
+      }
+     ]
+    },
+    {
+     "label": "Logistics",
+     "children": [
+      {
+       "label": "ID"
+      },
+      {
+       "label": "Check-in"
+      }
+     ]
+    },
+    {
+     "label": "During",
+     "children": [
+      {
+       "label": "Reset ritual"
+      },
+      {
+       "label": "Every section counts"
+      }
+     ]
+    },
+    {
+     "label": "Mindset",
+     "children": [
+      {
+       "label": "Process"
+      },
+      {
+       "label": "No mid-test scoring"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "ts-timing"
+  ],
+  "card": {
+   "front": "Should you try to identify the experimental section?",
+   "back": "No. Treat every section as scored; guessing wrong costs points.",
+   "keywords": [
+    "every section",
+    "scored"
+   ]
+  }
+ },
+ {
+  "id": "aw-format",
+  "label": "The Writing Format",
+  "branch": "AW",
+  "parent": "br-aw",
+  "kind": "writing",
+  "icon": "quill",
+  "chapter": "CHAPTER XXIII — ARGUMENTATIVE WRITING",
+  "week": 23,
+  "lesson": true,
+  "oneLiner": "A debatable issue with several perspectives; prewrite (15 min), then write a persuasive essay (35 min).",
+  "definition": "LSAT Argumentative Writing presents a debatable issue and several perspectives. You analyze the perspectives in a guided prewriting stage, then take and defend a position, engaging at least one perspective. It is unscored but sent to every school.",
+  "objectives": [
+   "Know the timing and structure of the task",
+   "State a clear position in your first paragraph",
+   "Engage counterarguments explicitly"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Writing a letter to a landlord arguing for a repair, anticipating the landlord’s objections."
+   },
+   {
+    "domain": "Law",
+    "text": "A short bench memo recommending a ruling and addressing the strongest contrary argument."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "An investment memo that recommends a position and rebuts the bear case."
+   }
+  ],
+  "attack": [
+   "Read the issue and every perspective",
+   "Map positions and tensions (prewriting)",
+   "Choose a defensible thesis",
+   "Plan: thesis → reasons → counterargument → response → conclusion",
+   "Write cleanly; reserve 3 minutes to proofread"
+  ],
+  "correctLooksLike": "A clear thesis, organized reasons, honest engagement with a competing perspective, and precise prose.",
+  "traps": [
+   "Fence-sitting without a position",
+   "Summarizing perspectives instead of arguing",
+   "Ignoring the strongest counterargument"
+  ],
+  "commonError": "Spending the essay summarizing the perspectives instead of taking and defending a position.",
+  "keyPoints": [
+   {
+    "point": "Take a clear position",
+    "keywords": [
+     "position",
+     "thesis"
+    ]
+   },
+   {
+    "point": "Engage at least one perspective",
+    "keywords": [
+     "perspective",
+     "engage"
+    ]
+   },
+   {
+    "point": "Organize: reasons, counterargument, response",
+    "keywords": [
+     "counter",
+     "organize"
+    ]
+   },
+   {
+    "point": "Unscored but read by schools",
+    "keywords": [
+     "unscored",
+     "schools"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Argumentative Writing",
+   "children": [
+    {
+     "label": "Prewrite",
+     "children": [
+      {
+       "label": "Map perspectives"
+      },
+      {
+       "label": "Find tensions"
+      }
+     ]
+    },
+    {
+     "label": "Thesis",
+     "children": [
+      {
+       "label": "Clear position"
+      },
+      {
+       "label": "Qualified"
+      }
+     ]
+    },
+    {
+     "label": "Body",
+     "children": [
+      {
+       "label": "Reasons"
+      },
+      {
+       "label": "Counterargument"
+      },
+      {
+       "label": "Response"
+      }
+     ]
+    },
+    {
+     "label": "Polish",
+     "children": [
+      {
+       "label": "Precision"
+      },
+      {
+       "label": "Proofread"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "aw-prewriting"
+  ],
+  "card": {
+   "front": "What must every Argumentative Writing essay do?",
+   "back": "Take a clear position on the issue and engage at least one of the given perspectives.",
+   "keywords": [
+    "position",
+    "perspective"
+   ]
+  }
+ },
+ {
+  "id": "aw-prewriting",
+  "label": "Visual Prewriting",
+  "branch": "AW",
+  "parent": "br-aw",
+  "kind": "writing",
+  "icon": "map",
+  "chapter": "CHAPTER XXIV — PREWRITING",
+  "week": 23,
+  "lesson": true,
+  "oneLiner": "Map your position, the perspectives, and their tensions before you write a sentence.",
+  "definition": "A short visual pre-write—position at the center, perspectives around it, supports and objections linked—turns a blank page into an outline and prevents the most common essay failure: drifting without a thesis.",
+  "objectives": [
+   "Build a prewrite map in under 10 minutes",
+   "Convert the map into a 5-paragraph plan"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Sketching a floor plan before moving furniture."
+   },
+   {
+    "domain": "Law",
+    "text": "Drawing an issue tree before drafting a brief."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Building a decision tree before an investment committee meeting."
+   }
+  ],
+  "attack": [
+   "Put your tentative position at the center",
+   "Add each perspective as a node",
+   "Link supports (green) and objections (red)",
+   "Pick the strongest objection to answer",
+   "Number the nodes into an outline"
+  ],
+  "correctLooksLike": "A map with one central position, every perspective connected, and a numbered path through it.",
+  "traps": [
+   "Over-elaborate maps that eat writing time",
+   "Maps without a central position"
+  ],
+  "commonError": "Spending the whole prewriting period on an elaborate map and running out of writing time.",
+  "keyPoints": [
+   {
+    "point": "Position at the center",
+    "keywords": [
+     "center",
+     "position"
+    ]
+   },
+   {
+    "point": "Connect each perspective",
+    "keywords": [
+     "perspective"
+    ]
+   },
+   {
+    "point": "Mark supports and objections",
+    "keywords": [
+     "support",
+     "objection"
+    ]
+   },
+   {
+    "point": "Turn the map into an outline",
+    "keywords": [
+     "outline"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Prewrite Map",
+   "children": [
+    {
+     "label": "Center",
+     "children": [
+      {
+       "label": "My position"
+      }
+     ]
+    },
+    {
+     "label": "Perspectives",
+     "children": [
+      {
+       "label": "One"
+      },
+      {
+       "label": "Two"
+      },
+      {
+       "label": "Three"
+      }
+     ]
+    },
+    {
+     "label": "Links",
+     "children": [
+      {
+       "label": "Supports"
+      },
+      {
+       "label": "Objections"
+      }
+     ]
+    },
+    {
+     "label": "Outline",
+     "children": [
+      {
+       "label": "Order"
+      },
+      {
+       "label": "Paragraphs"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "aw-format"
+  ],
+  "card": {
+   "front": "What sits at the center of a prewrite map?",
+   "back": "Your (tentative) position on the issue.",
+   "keywords": [
+    "position"
+   ]
+  }
+ },
+ {
+  "id": "aw-thesis",
+  "label": "Thesis & Structure",
+  "branch": "AW",
+  "parent": "br-aw",
+  "kind": "writing",
+  "icon": "quill",
+  "week": 23,
+  "lesson": false,
+  "oneLiner": "A precise, arguable thesis followed by reasons in a deliberate order.",
+  "definition": "A strong thesis is specific, arguable, and appropriately qualified. Structure follows from it: strongest reasons first, then the counterargument and your response.",
+  "keyPoints": [
+   {
+    "point": "Specific and arguable thesis",
+    "keywords": [
+     "specific",
+     "arguable"
+    ]
+   },
+   {
+    "point": "Qualified where honest",
+    "keywords": [
+     "qualif"
+    ]
+   }
+  ],
+  "card": {
+   "front": "Three properties of a strong thesis?",
+   "back": "Specific, arguable, appropriately qualified.",
+   "keywords": [
+    "specific",
+    "arguable",
+    "qualified"
+   ]
+  },
+  "links": []
+ },
+ {
+  "id": "aw-perspectives",
+  "label": "Engaging Perspectives",
+  "branch": "AW",
+  "parent": "br-aw",
+  "kind": "writing",
+  "icon": "seminar",
+  "week": 23,
+  "lesson": false,
+  "oneLiner": "State the opposing view at its strongest, then answer it.",
+  "definition": "Engagement means steelmanning: representing a perspective fairly before explaining why your position survives it.",
+  "keyPoints": [
+   {
+    "point": "Steelman the opposing view",
+    "keywords": [
+     "steelman",
+     "strongest"
+    ]
+   },
+   {
+    "point": "Explain why your position survives",
+    "keywords": [
+     "survive",
+     "respond"
+    ]
+   }
+  ],
+  "card": {
+   "front": "What does it mean to “steelman” a perspective?",
+   "back": "Represent it at its strongest before responding.",
+   "keywords": [
+    "strongest"
+   ]
+  },
+  "links": []
+ }
+]

@@ -1,0 +1,2349 @@
+[
+ {
+  "id": "rcs-mapping",
+  "label": "Passage Mapping",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "structure",
+  "chapter": "CHAPTER VII — MAPPING THE PASSAGE",
+  "week": 7,
+  "lesson": true,
+  "oneLiner": "Read for structure: label each paragraph’s function and how it connects.",
+  "definition": "Elite RC readers do not memorize details; they build a map—each paragraph’s job (background, thesis, counterargument, evidence, conclusion) and the links between them—then return to the text for specifics.",
+  "objectives": [
+   "Label each paragraph’s function in a few words",
+   "Identify the author’s thesis and where it appears",
+   "Use the map to answer structure and function questions"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Reading a contract by its headings before its clauses."
+   },
+   {
+    "domain": "Law",
+    "text": "Briefing a case: facts, issue, holding, reasoning."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Skimming an equity research report for thesis, catalysts, risks."
+   }
+  ],
+  "attack": [
+   "Read ¶1 for topic and the “old view”",
+   "Mark pivot words (but, however, yet)",
+   "Write a 5-word gist per paragraph",
+   "Tag viewpoints and the author",
+   "Note tone words"
+  ],
+  "correctLooksLike": "A paragraph-by-paragraph map: function + gist + links, plus the author’s thesis.",
+  "traps": [
+   "Over-highlighting details",
+   "Missing the pivot to the author’s view"
+  ],
+  "commonError": "Reading every detail with equal attention and losing the thread.",
+  "keyPoints": [
+   {
+    "point": "Each paragraph has a function",
+    "keywords": [
+     "function",
+     "paragraph"
+    ]
+   },
+   {
+    "point": "Pivot words signal the author",
+    "keywords": [
+     "pivot",
+     "but",
+     "however"
+    ]
+   },
+   {
+    "point": "Short gists, not details",
+    "keywords": [
+     "gist",
+     "detail"
+    ]
+   },
+   {
+    "point": "Return to the text for specifics",
+    "keywords": [
+     "return",
+     "text"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Passage Mapping",
+   "children": [
+    {
+     "label": "Functions",
+     "children": [
+      {
+       "label": "Background"
+      },
+      {
+       "label": "Thesis"
+      },
+      {
+       "label": "Counterargument"
+      },
+      {
+       "label": "Evidence"
+      },
+      {
+       "label": "Conclusion"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "But / However"
+      },
+      {
+       "label": "Tone words"
+      }
+     ]
+    },
+    {
+     "label": "Output",
+     "children": [
+      {
+       "label": "Gist per ¶"
+      },
+      {
+       "label": "Links"
+      }
+     ]
+    },
+    {
+     "label": "Uses",
+     "children": [
+      {
+       "label": "Structure Qs"
+      },
+      {
+       "label": "Function Qs"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-viewpoints",
+   "rcs-tone",
+   "rct-structure"
+  ],
+  "card": {
+   "front": "What are the five common paragraph functions?",
+   "back": "Background, thesis, counterargument, evidence, author’s conclusion (plus concession, example, rebuttal).",
+   "keywords": [
+    "background",
+    "thesis",
+    "counter",
+    "evidence",
+    "conclusion"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-structure",
+    "rc-function",
+    "rc-main-point"
+   ]
+  }
+ },
+ {
+  "id": "rcs-viewpoints",
+  "label": "Viewpoints",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "viewpoint",
+  "chapter": "CHAPTER VII — THE CAST OF CHARACTERS",
+  "week": 7,
+  "lesson": true,
+  "oneLiner": "Track who believes what—and which voice is the author’s.",
+  "definition": "Passages present multiple perspectives: traditional scholars, critics, defenders, the author. Questions test whether you can attribute views correctly.",
+  "objectives": [
+   "Tag every viewpoint",
+   "Separate the author’s view from reported views"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A dinner-party argument: who said what?"
+   },
+   {
+    "domain": "Law",
+    "text": "A judicial opinion reporting each party’s argument before the court’s holding."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "An analyst note quoting bulls and bears before the analyst’s rating."
+   }
+  ],
+  "attack": [
+   "Underline each “X argue(s)” phrase",
+   "Name each viewpoint in two words",
+   "Mark agreement/disagreement with the author",
+   "Note concessions"
+  ],
+  "correctLooksLike": "A cast list: each group, its stance, and its relation to the author.",
+  "traps": [
+   "Attributing a reported view to the author",
+   "Missing a concession"
+  ],
+  "commonError": "Answering with a view the author reports but rejects.",
+  "keyPoints": [
+   {
+    "point": "Who believes what",
+    "keywords": [
+     "who",
+     "view"
+    ]
+   },
+   {
+    "point": "Author vs. reported views",
+    "keywords": [
+     "author",
+     "reported"
+    ]
+   },
+   {
+    "point": "Concessions matter",
+    "keywords": [
+     "concession"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Viewpoints",
+   "children": [
+    {
+     "label": "Cast",
+     "children": [
+      {
+       "label": "Author"
+      },
+      {
+       "label": "Critics"
+      },
+      {
+       "label": "Defenders"
+      }
+     ]
+    },
+    {
+     "label": "Relations",
+     "children": [
+      {
+       "label": "Agree"
+      },
+      {
+       "label": "Disagree"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Misattribution"
+      }
+     ]
+    },
+    {
+     "label": "Uses",
+     "children": [
+      {
+       "label": "Inference"
+      },
+      {
+       "label": "Attitude"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping",
+   "rct-inference"
+  ],
+  "card": {
+   "front": "Most common viewpoint error?",
+   "back": "Attributing a view the author reports (and rejects) to the author.",
+   "keywords": [
+    "attribut",
+    "author"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-inference"
+   ]
+  }
+ },
+ {
+  "id": "rcs-tone",
+  "label": "Author’s Tone",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "tone",
+  "chapter": "CHAPTER VII — THE TONE METER",
+  "week": 7,
+  "lesson": true,
+  "oneLiner": "Place the author on the scale from strongly negative to strongly positive.",
+  "definition": "LSAT authors are rarely extreme. Tone answers usually combine a direction and a measured intensity: “qualified admiration,” “cautious skepticism.”",
+  "objectives": [
+   "Identify tone words",
+   "Calibrate intensity"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“The plan is ambitious, if somewhat optimistic” — qualified approval."
+   },
+   {
+    "domain": "Law",
+    "text": "“The doctrine’s prominence far outstrips its footing” — measured skepticism."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“A promising but unproven strategy” — cautious optimism."
+   }
+  ],
+  "attack": [
+   "Collect evaluative words",
+   "Decide direction",
+   "Decide intensity",
+   "Prefer moderate two-part answers"
+  ],
+  "correctLooksLike": "A moderate, two-part description matching the author’s evaluative language.",
+  "traps": [
+   "Extreme words (contempt, unbridled)",
+   "Neutral when the author clearly evaluates"
+  ],
+  "commonError": "Choosing an extreme tone because the author disagrees.",
+  "keyPoints": [
+   {
+    "point": "Direction + intensity",
+    "keywords": [
+     "direction",
+     "intensity"
+    ]
+   },
+   {
+    "point": "Authors are rarely extreme",
+    "keywords": [
+     "extreme",
+     "moderate"
+    ]
+   },
+   {
+    "point": "Look for evaluative words",
+    "keywords": [
+     "evaluative",
+     "word"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Author’s Tone",
+   "children": [
+    {
+     "label": "Scale",
+     "children": [
+      {
+       "label": "Negative"
+      },
+      {
+       "label": "Neutral"
+      },
+      {
+       "label": "Positive"
+      }
+     ]
+    },
+    {
+     "label": "Intensity",
+     "children": [
+      {
+       "label": "Measured"
+      },
+      {
+       "label": "Strong"
+      }
+     ]
+    },
+    {
+     "label": "Clues",
+     "children": [
+      {
+       "label": "Adjectives"
+      },
+      {
+       "label": "Concessions"
+      }
+     ]
+    },
+    {
+     "label": "Answers",
+     "children": [
+      {
+       "label": "Two-part"
+      },
+      {
+       "label": "Moderate"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rct-attitude"
+  ],
+  "card": {
+   "front": "Why are “contempt” and “unbridled enthusiasm” rarely correct?",
+   "back": "LSAT authors are measured; tone answers are usually moderate.",
+   "keywords": [
+    "measured",
+    "moderate"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-attitude"
+   ]
+  }
+ },
+ {
+  "id": "rcs-comparative",
+  "label": "Comparative Passages",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "venn",
+  "chapter": "CHAPTER XVIII — COMPARATIVE PASSAGES",
+  "week": 18,
+  "lesson": true,
+  "oneLiner": "Map Passage A against Passage B: where they agree, disagree, and differ in scope.",
+  "definition": "Comparative sets pair two shorter passages on a shared topic. Questions ask about relationships: what both address, what they’d agree or disagree on, and how one would respond to the other.",
+  "objectives": [
+   "Build a two-circle Venn of the passages",
+   "Answer agree/disagree questions by testing both authors"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Two restaurant reviews of the same place."
+   },
+   {
+    "domain": "Law",
+    "text": "Majority and dissenting opinions in the same case."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A bull and a bear note on the same stock."
+   }
+  ],
+  "attack": [
+   "Map each passage separately",
+   "Find the shared topic",
+   "Fill the Venn: agree / disagree / A only / B only",
+   "Answer each question by testing both passages"
+  ],
+  "correctLooksLike": "A Venn diagram listing agreements, disagreements, and scope differences.",
+  "traps": [
+   "Answers true of only one passage",
+   "“Directly rebuts” when passages are independent"
+  ],
+  "commonError": "Assuming Passage B responds directly to Passage A.",
+  "keyPoints": [
+   {
+    "point": "Shared topic, different takes",
+    "keywords": [
+     "shared",
+     "topic"
+    ]
+   },
+   {
+    "point": "Agree / disagree / scope",
+    "keywords": [
+     "agree",
+     "disagree",
+     "scope"
+    ]
+   },
+   {
+    "point": "Test both passages",
+    "keywords": [
+     "both"
+    ]
+   },
+   {
+    "point": "Usually independent",
+    "keywords": [
+     "independent"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Comparative Passages",
+   "children": [
+    {
+     "label": "Map",
+     "children": [
+      {
+       "label": "A alone"
+      },
+      {
+       "label": "B alone"
+      }
+     ]
+    },
+    {
+     "label": "Venn",
+     "children": [
+      {
+       "label": "Agree"
+      },
+      {
+       "label": "Disagree"
+      },
+      {
+       "label": "Only A"
+      },
+      {
+       "label": "Only B"
+      }
+     ]
+    },
+    {
+     "label": "Questions",
+     "children": [
+      {
+       "label": "Both concerned with"
+      },
+      {
+       "label": "Relationship"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "One-sided"
+      },
+      {
+       "label": "Directly rebuts"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rct-comparative"
+  ],
+  "card": {
+   "front": "Common trap in “relationship between passages” questions?",
+   "back": "“Directly rebuts/responds”—most comparative passages were written independently.",
+   "keywords": [
+    "directly",
+    "independent"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-comparative"
+   ]
+  }
+ },
+ {
+  "id": "rcs-theory-critique",
+  "label": "Structure: Theory & Critique",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "structure",
+  "chapter": "CHAPTER XXI — PASSAGE STRUCTURES",
+  "week": 21,
+  "lesson": true,
+  "oneLiner": "A view is presented, then critiqued—often with a qualified conclusion.",
+  "definition": "The most common LSAT structure: a theory or traditional account, objections to it, sometimes a defense, and the author’s verdict.",
+  "objectives": [
+   "Recognize theory–critique passages early",
+   "Predict where the author’s verdict will appear"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A film review that summarizes praise, then dissents."
+   },
+   {
+    "domain": "Law",
+    "text": "The persistent objector passage: doctrine → thin authority → rebuttal of defenders → verdict."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "An article on an investing rule of thumb, followed by evidence that it fails."
+   }
+  ],
+  "attack": [
+   "Spot the theory in ¶1",
+   "Find the pivot",
+   "Track critique and any defense",
+   "Locate the verdict"
+  ],
+  "correctLooksLike": "Theory → critique → (defense) → verdict.",
+  "traps": [
+   "Mistaking the theory for the author’s view"
+  ],
+  "commonError": "Assuming ¶1 states the author’s view.",
+  "keyPoints": [
+   {
+    "point": "Theory first, critique after",
+    "keywords": [
+     "theory",
+     "critique"
+    ]
+   },
+   {
+    "point": "Pivot to the author",
+    "keywords": [
+     "pivot"
+    ]
+   },
+   {
+    "point": "Verdict often qualified",
+    "keywords": [
+     "verdict",
+     "qualified"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Structure: Theory & Critique",
+   "children": [
+    {
+     "label": "Parts",
+     "children": [
+      {
+       "label": "Theory"
+      },
+      {
+       "label": "Critique"
+      },
+      {
+       "label": "Defense"
+      },
+      {
+       "label": "Verdict"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "Yet"
+      },
+      {
+       "label": "But"
+      }
+     ]
+    },
+    {
+     "label": "Examples",
+     "children": [
+      {
+       "label": "Persistent objector"
+      }
+     ]
+    },
+    {
+     "label": "Questions",
+     "children": [
+      {
+       "label": "Main point"
+      },
+      {
+       "label": "Structure"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Typical shape of a theory–critique passage?",
+   "back": "Theory → critique → (defense) → the author’s (often qualified) verdict.",
+   "keywords": [
+    "theory",
+    "critique",
+    "verdict"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-structure",
+    "rc-main-point"
+   ]
+  }
+ },
+ {
+  "id": "rcs-problem-solution",
+  "label": "Structure: Problem & Solution",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "structure",
+  "chapter": "CHAPTER XXI — PASSAGE STRUCTURES",
+  "week": 21,
+  "lesson": true,
+  "oneLiner": "A problem is described; solutions are weighed; one is endorsed.",
+  "definition": "Problem–solution passages describe a difficulty, evaluate approaches, and often recommend one.",
+  "objectives": [
+   "Identify the problem and each proposed solution",
+   "Find the author’s preferred solution and its limits"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A city’s traffic problem and three proposed fixes."
+   },
+   {
+    "domain": "Law",
+    "text": "Central bank mandates: problem of distributive decisions; solution: legislated mandates and oversight."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A company’s liquidity crunch and financing options."
+   }
+  ],
+  "attack": [
+   "Name the problem",
+   "List solutions",
+   "Note the author’s verdict on each",
+   "Find qualifications"
+  ],
+  "correctLooksLike": "Problem → options → recommended solution.",
+  "traps": [
+   "Confusing a rejected solution with the endorsed one"
+  ],
+  "commonError": "Missing the qualification on the endorsed solution.",
+  "keyPoints": [
+   {
+    "point": "Problem first",
+    "keywords": [
+     "problem"
+    ]
+   },
+   {
+    "point": "Solutions weighed",
+    "keywords": [
+     "solution",
+     "weigh"
+    ]
+   },
+   {
+    "point": "Endorsement and limits",
+    "keywords": [
+     "endorse",
+     "limit"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Structure: Problem & Solution",
+   "children": [
+    {
+     "label": "Parts",
+     "children": [
+      {
+       "label": "Problem"
+      },
+      {
+       "label": "Options"
+      },
+      {
+       "label": "Recommendation"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "Should"
+      },
+      {
+       "label": "Remedy"
+      }
+     ]
+    },
+    {
+     "label": "Examples",
+     "children": [
+      {
+       "label": "Central bank oversight"
+      }
+     ]
+    },
+    {
+     "label": "Questions",
+     "children": [
+      {
+       "label": "Primary purpose"
+      },
+      {
+       "label": "Inference"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Shape of a problem–solution passage?",
+   "back": "Problem → candidate solutions → the author’s recommended (often qualified) solution.",
+   "keywords": [
+    "problem",
+    "solution"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-primary-purpose"
+   ]
+  }
+ },
+ {
+  "id": "rcs-old-new",
+  "label": "Structure: Old View, New View",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "structure",
+  "chapter": "CHAPTER XXII — PASSAGE STRUCTURES",
+  "week": 22,
+  "lesson": true,
+  "oneLiner": "A traditional understanding is revised by newer scholarship.",
+  "definition": "Old-view/new-view passages describe a received account and the scholarship that revises it—often with the author adjusting the revision.",
+  "objectives": [
+   "Separate old view, new view, and author",
+   "Spot “traditionally”, “until recently”, “revisionists”"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“For years, nutritionists warned against all fats…”"
+   },
+   {
+    "domain": "Law",
+    "text": "The law merchant: traditional uniform law → revisionist critique → synthesis."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The efficient-market view once dominated; behavioral finance revised it.”"
+   }
+  ],
+  "attack": [
+   "Find the old view",
+   "Find the new view",
+   "Locate the author relative to both"
+  ],
+  "correctLooksLike": "Old view → new view → author’s position.",
+  "traps": [
+   "Assuming the author fully adopts the new view"
+  ],
+  "commonError": "Missing that the author qualifies the revision.",
+  "keyPoints": [
+   {
+    "point": "Old view described",
+    "keywords": [
+     "traditional",
+     "old"
+    ]
+   },
+   {
+    "point": "New scholarship revises",
+    "keywords": [
+     "revis",
+     "new"
+    ]
+   },
+   {
+    "point": "Author may synthesize",
+    "keywords": [
+     "synthes"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Structure: Old View, New View",
+   "children": [
+    {
+     "label": "Parts",
+     "children": [
+      {
+       "label": "Old view"
+      },
+      {
+       "label": "New view"
+      },
+      {
+       "label": "Author"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "Traditionally"
+      },
+      {
+       "label": "Until recently"
+      }
+     ]
+    },
+    {
+     "label": "Examples",
+     "children": [
+      {
+       "label": "Law merchant"
+      }
+     ]
+    },
+    {
+     "label": "Questions",
+     "children": [
+      {
+       "label": "Structure"
+      },
+      {
+       "label": "Attitude"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Signal phrases for an old-view/new-view passage?",
+   "back": "“Traditionally”, “until recently”, “long held”, “revisionists”, “recent scholarship”.",
+   "keywords": [
+    "traditionally",
+    "recently"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-structure"
+   ]
+  }
+ },
+ {
+  "id": "rcs-phenomenon-explanation",
+  "label": "Structure: Phenomenon & Explanation",
+  "branch": "RC",
+  "parent": "grp-rc-struct",
+  "kind": "rc-structure",
+  "icon": "structure",
+  "chapter": "CHAPTER XXII — PASSAGE STRUCTURES",
+  "week": 22,
+  "lesson": true,
+  "oneLiner": "A phenomenon is described; hypotheses to explain it are weighed.",
+  "definition": "Common in science passages: an observation, competing explanations, evidence for and against each, and the author’s assessment.",
+  "objectives": [
+   "Track hypotheses and their evidence",
+   "Identify what evidence would distinguish them"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Why the dog barks at night: hunger, noise, or habit?"
+   },
+   {
+    "domain": "Law",
+    "text": "Why yields rose after a rate cut: inflation expectations vs. risk premia."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "The wood-wide web: observed carbon movement, contested routes."
+   }
+  ],
+  "attack": [
+   "State the phenomenon",
+   "List hypotheses",
+   "Pair evidence with hypotheses",
+   "Find the author’s assessment"
+  ],
+  "correctLooksLike": "Phenomenon → hypotheses → evidence → assessment.",
+  "traps": [
+   "Confusing “shown” with “claimed”"
+  ],
+  "commonError": "Treating a popular hypothesis as established.",
+  "keyPoints": [
+   {
+    "point": "Phenomenon first",
+    "keywords": [
+     "phenomenon",
+     "observ"
+    ]
+   },
+   {
+    "point": "Competing hypotheses",
+    "keywords": [
+     "hypothes"
+    ]
+   },
+   {
+    "point": "Evidence that discriminates",
+    "keywords": [
+     "evidence",
+     "discriminat"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Structure: Phenomenon & Explanation",
+   "children": [
+    {
+     "label": "Parts",
+     "children": [
+      {
+       "label": "Phenomenon"
+      },
+      {
+       "label": "Hypotheses"
+      },
+      {
+       "label": "Evidence"
+      },
+      {
+       "label": "Assessment"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "Researchers propose"
+      },
+      {
+       "label": "Yet"
+      }
+     ]
+    },
+    {
+     "label": "Examples",
+     "children": [
+      {
+       "label": "Wood-wide web"
+      }
+     ]
+    },
+    {
+     "label": "Questions",
+     "children": [
+      {
+       "label": "Weaken"
+      },
+      {
+       "label": "Inference"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "In phenomenon–explanation passages, what do weaken/strengthen questions usually target?",
+   "back": "Evidence that discriminates between competing hypotheses.",
+   "keywords": [
+    "discriminat",
+    "hypothes"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-strengthen-weaken"
+   ]
+  }
+ },
+ {
+  "id": "rct-main-point",
+  "label": "RC Main Point",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 7,
+  "lesson": true,
+  "oneLiner": "State the passage’s central claim.",
+  "definition": "Main Point answers capture the author’s thesis and the passage’s scope—neither too narrow nor too broad.",
+  "objectives": [
+   "Recognize RC Main Point questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A friend asks what a film was about—not what happened in scene three."
+   },
+   {
+    "domain": "Law",
+    "text": "A case’s holding, not a footnote, is its main point."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "An analyst note’s rating and thesis, not page 12’s revenue table."
+   }
+  ],
+  "attack": [
+   "Recall your map’s thesis",
+   "Prefer answers including the author’s verdict",
+   "Check scope against every paragraph"
+  ],
+  "correctLooksLike": "Check scope against every paragraph",
+  "traps": [
+   "Answers covering only one paragraph",
+   "Reported views mistaken for the thesis"
+  ],
+  "commonError": "Answers covering only one paragraph",
+  "keyPoints": [
+   {
+    "point": "State the passage’s central claim.",
+    "keywords": [
+     "rc"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Answers covering only one paragraph",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "RC Main Point",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "State the passage’s central claim."
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Recall your map’s thesis"
+      },
+      {
+       "label": "Prefer answers including the author’s verdict"
+      },
+      {
+       "label": "Check scope against every paragraph"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Answers covering only one paragraph"
+      },
+      {
+       "label": "Reported views mistaken for the thesis"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Two tests for an RC Main Point answer?",
+   "back": "It states the author’s thesis and fits the scope of the entire passage.",
+   "keywords": [
+    "thesis",
+    "scope"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-main-point"
+   ]
+  }
+ },
+ {
+  "id": "rct-primary-purpose",
+  "label": "Primary Purpose",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 7,
+  "lesson": true,
+  "oneLiner": "Describe what the author is trying to DO.",
+  "definition": "Primary Purpose answers start with a verb (evaluate, argue, describe, challenge) that must match the passage’s moves.",
+  "objectives": [
+   "Recognize Primary Purpose questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A recipe’s purpose is to instruct; a restaurant review’s is to evaluate."
+   },
+   {
+    "domain": "Law",
+    "text": "A dissent’s purpose is to challenge the majority’s reasoning."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A prospectus describes; an activist letter argues for change."
+   }
+  ],
+  "attack": [
+   "Name the passage’s verb",
+   "Check every part of the answer",
+   "Match the author’s level of commitment"
+  ],
+  "correctLooksLike": "Match the author’s level of commitment",
+  "traps": [
+   "Verbs that are too strong (“prove”, “refute”)",
+   "Purposes describing one paragraph"
+  ],
+  "commonError": "Verbs that are too strong (“prove”, “refute”)",
+  "keyPoints": [
+   {
+    "point": "Describe what the author is trying to DO.",
+    "keywords": [
+     "primary"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Verbs that are too strong (“prove”, “refute”)",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Primary Purpose",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Describe what the author is trying to DO"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Name the passage’s verb"
+      },
+      {
+       "label": "Check every part of the answer"
+      },
+      {
+       "label": "Match the author’s level of commitment"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Verbs that are too strong (“prove”, “refute”)"
+      },
+      {
+       "label": "Purposes describing one paragraph"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Why do Primary Purpose answers hinge on the verb?",
+   "back": "The verb must match what the author actually does (describe vs. argue vs. evaluate).",
+   "keywords": [
+    "verb"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-primary-purpose"
+   ]
+  }
+ },
+ {
+  "id": "rct-attitude",
+  "label": "Author’s Attitude",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 14,
+  "lesson": true,
+  "oneLiner": "Identify the author’s stance and its intensity.",
+  "definition": "Attitude answers combine direction and degree. Use the Tone Meter.",
+  "objectives": [
+   "Recognize Author’s Attitude questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“The plan is bold, if a little optimistic” = qualified approval."
+   },
+   {
+    "domain": "Law",
+    "text": "“The doctrine’s prominence far outstrips its footing” = measured skepticism."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“A promising but unproven strategy” = cautious optimism."
+   }
+  ],
+  "attack": [
+   "Collect evaluative words",
+   "Set direction and intensity",
+   "Prefer moderate two-part answers"
+  ],
+  "correctLooksLike": "Prefer moderate two-part answers",
+  "traps": [
+   "Extreme attitudes",
+   "Neutral answers when the author evaluates"
+  ],
+  "commonError": "Extreme attitudes",
+  "keyPoints": [
+   {
+    "point": "Identify the author’s stance and its intensity.",
+    "keywords": [
+     "author’s"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Extreme attitudes",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Author’s Attitude",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Identify the author’s stance and its int"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Collect evaluative words"
+      },
+      {
+       "label": "Set direction and intensity"
+      },
+      {
+       "label": "Prefer moderate two-part answers"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Extreme attitudes"
+      },
+      {
+       "label": "Neutral answers when the author evaluates"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Typical correct attitude answer shape?",
+   "back": "Moderate and often two-part, e.g. “qualified admiration”.",
+   "keywords": [
+    "moderate",
+    "qualified"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-attitude"
+   ]
+  }
+ },
+ {
+  "id": "rct-detail",
+  "label": "Detail",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 8,
+  "lesson": true,
+  "oneLiner": "Find what the passage explicitly says.",
+  "definition": "Detail questions reward locating the line, not remembering it.",
+  "objectives": [
+   "Recognize Detail questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Checking the ticket for the departure time instead of guessing."
+   },
+   {
+    "domain": "Law",
+    "text": "Quoting the statute’s text rather than recalling it."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Pulling the exact covenant figure from the credit agreement."
+   }
+  ],
+  "attack": [
+   "Use your map to locate the paragraph",
+   "Read the line",
+   "Match a paraphrase"
+  ],
+  "correctLooksLike": "Match a paraphrase",
+  "traps": [
+   "Answers that distort a detail",
+   "True statements from the wrong paragraph"
+  ],
+  "commonError": "Answers that distort a detail",
+  "keyPoints": [
+   {
+    "point": "Find what the passage explicitly says.",
+    "keywords": [
+     "detail"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Answers that distort a detail",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Detail",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Find what the passage explicitly says."
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Use your map to locate the paragraph"
+      },
+      {
+       "label": "Read the line"
+      },
+      {
+       "label": "Match a paraphrase"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Answers that distort a detail"
+      },
+      {
+       "label": "True statements from the wrong paragraph"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Best method for Detail questions?",
+   "back": "Go back to the text and find the line; match the paraphrase.",
+   "keywords": [
+    "text",
+    "line"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-detail"
+   ]
+  }
+ },
+ {
+  "id": "rct-inference",
+  "label": "Inference",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 12,
+  "lesson": true,
+  "oneLiner": "Find what the passage supports without stating.",
+  "definition": "Inference answers are one small step from the text—supported, not speculative.",
+  "objectives": [
+   "Recognize Inference questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Wet umbrella + soaked coat → it was raining outside."
+   },
+   {
+    "domain": "Law",
+    "text": "A court calling remarks “dicta” implies they did not decide the case."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A CFO hedging every guidance figure suggests uncertainty about next quarter."
+   }
+  ],
+  "attack": [
+   "Identify the relevant lines",
+   "Take one modest step",
+   "Eliminate speculation and extremes"
+  ],
+  "correctLooksLike": "Eliminate speculation and extremes",
+  "traps": [
+   "Speculative leaps",
+   "Views the author merely reports"
+  ],
+  "commonError": "Speculative leaps",
+  "keyPoints": [
+   {
+    "point": "Find what the passage supports without stating.",
+    "keywords": [
+     "inference"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Speculative leaps",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Inference",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Find what the passage supports without s"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Identify the relevant lines"
+      },
+      {
+       "label": "Take one modest step"
+      },
+      {
+       "label": "Eliminate speculation and extremes"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Speculative leaps"
+      },
+      {
+       "label": "Views the author merely reports"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "How big a step is an RC inference?",
+   "back": "One small, well-supported step from specific text.",
+   "keywords": [
+    "small",
+    "supported"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-inference"
+   ]
+  }
+ },
+ {
+  "id": "rct-function",
+  "label": "Function",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 13,
+  "lesson": true,
+  "oneLiner": "Explain why a detail or paragraph is there.",
+  "definition": "Function questions ask the purpose of a word, example, or paragraph within the author’s argument.",
+  "objectives": [
+   "Recognize Function questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A joke in a toast exists to relax the room."
+   },
+   {
+    "domain": "Law",
+    "text": "A hypothetical in an opinion illustrates the rule’s limits."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A sensitivity table in a model shows how fragile the valuation is."
+   }
+  ],
+  "attack": [
+   "Locate the reference",
+   "Read around it",
+   "Ask: what does this help the author do?"
+  ],
+  "correctLooksLike": "Ask: what does this help the author do?",
+  "traps": [
+   "Describing content rather than purpose",
+   "Wrong paragraph’s purpose"
+  ],
+  "commonError": "Describing content rather than purpose",
+  "keyPoints": [
+   {
+    "point": "Explain why a detail or paragraph is there.",
+    "keywords": [
+     "function"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Describing content rather than purpose",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Function",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Explain why a detail or paragraph is the"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Locate the reference"
+      },
+      {
+       "label": "Read around it"
+      },
+      {
+       "label": "Ask: what does this help the author do?"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Describing content rather than purpose"
+      },
+      {
+       "label": "Wrong paragraph’s purpose"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Function vs. Detail?",
+   "back": "Function asks WHY something is there; Detail asks WHAT is said.",
+   "keywords": [
+    "why",
+    "what"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-function"
+   ]
+  }
+ },
+ {
+  "id": "rct-analogy",
+  "label": "Analogy",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 17,
+  "lesson": true,
+  "oneLiner": "Match the passage’s situation to an abstract parallel.",
+  "definition": "Analogy questions require stripping the situation to its relationships and matching another situation with the same structure.",
+  "objectives": [
+   "Recognize Analogy questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A thermostat is to a furnace as a conductor is to an orchestra (controller → performer)."
+   },
+   {
+    "domain": "Law",
+    "text": "A precedent is to a court as a map is to a traveler (guide, not destination)."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A covenant is to a loan as a guardrail is to a road."
+   }
+  ],
+  "attack": [
+   "State the relationship abstractly",
+   "Ignore subject matter",
+   "Match the relationship"
+  ],
+  "correctLooksLike": "Match the relationship",
+  "traps": [
+   "Topical similarity",
+   "Reversed relationships"
+  ],
+  "commonError": "Topical similarity",
+  "keyPoints": [
+   {
+    "point": "Match the passage’s situation to an abstract parallel.",
+    "keywords": [
+     "analogy"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Topical similarity",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Analogy",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Match the passage’s situation to an abst"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "State the relationship abstractly"
+      },
+      {
+       "label": "Ignore subject matter"
+      },
+      {
+       "label": "Match the relationship"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Topical similarity"
+      },
+      {
+       "label": "Reversed relationships"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "First step on RC Analogy questions?",
+   "back": "State the relationship abstractly, ignoring the subject matter.",
+   "keywords": [
+    "abstract",
+    "relationship"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-analogy"
+   ]
+  }
+ },
+ {
+  "id": "rct-structure",
+  "label": "Structure",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 15,
+  "lesson": true,
+  "oneLiner": "Describe how the passage is organized.",
+  "definition": "Structure answers must match every paragraph, in order—use your map.",
+  "objectives": [
+   "Recognize Structure questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A sermon: text, exposition, application."
+   },
+   {
+    "domain": "Law",
+    "text": "A judicial opinion: facts, issue, holding, reasoning."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "A pitch book: situation, options, recommendation."
+   }
+  ],
+  "attack": [
+   "Lay your map beside each answer",
+   "Check every clause in order",
+   "Reject mismatched sequences"
+  ],
+  "correctLooksLike": "Reject mismatched sequences",
+  "traps": [
+   "Answers with an extra or missing step",
+   "Wrong order"
+  ],
+  "commonError": "Answers with an extra or missing step",
+  "keyPoints": [
+   {
+    "point": "Describe how the passage is organized.",
+    "keywords": [
+     "structure"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Answers with an extra or missing step",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Structure",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Describe how the passage is organized."
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Lay your map beside each answer"
+      },
+      {
+       "label": "Check every clause in order"
+      },
+      {
+       "label": "Reject mismatched sequences"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Answers with an extra or missing step"
+      },
+      {
+       "label": "Wrong order"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "How do you verify a Structure answer?",
+   "back": "Match each clause, in order, to your paragraph map.",
+   "keywords": [
+    "clause",
+    "order",
+    "map"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-structure"
+   ]
+  }
+ },
+ {
+  "id": "rct-strengthen-weaken",
+  "label": "RC Strengthen / Weaken",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 19,
+  "lesson": true,
+  "oneLiner": "Find new information that helps or hurts a claim in the passage.",
+  "definition": "Like LR Strengthen/Weaken, but the argument lives in a passage. Identify whose claim and what evidence it rests on.",
+  "objectives": [
+   "Recognize RC Strengthen / Weaken questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "A restaurant critic’s claim weakened by learning the chef was absent that night."
+   },
+   {
+    "domain": "Law",
+    "text": "Evidence that tribunals applied a doctrine weakens a claim that it is never applied."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Learning a fund’s returns came from leverage weakens a skill claim."
+   }
+  ],
+  "attack": [
+   "Identify whose claim",
+   "Find its evidence and gap",
+   "Choose the answer that hits the gap"
+  ],
+  "correctLooksLike": "Choose the answer that hits the gap",
+  "traps": [
+   "Weakening the wrong viewpoint",
+   "Irrelevant facts"
+  ],
+  "commonError": "Weakening the wrong viewpoint",
+  "keyPoints": [
+   {
+    "point": "Find new information that helps or hurts a claim in the passage.",
+    "keywords": [
+     "rc"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: Weakening the wrong viewpoint",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "RC Strengthen / Weaken",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Find new information that helps or hurts"
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Identify whose claim"
+      },
+      {
+       "label": "Find its evidence and gap"
+      },
+      {
+       "label": "Choose the answer that hits the gap"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "Weakening the wrong viewpoint"
+      },
+      {
+       "label": "Irrelevant facts"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "First step on RC Strengthen/Weaken?",
+   "back": "Identify exactly whose claim is being strengthened or weakened.",
+   "keywords": [
+    "whose",
+    "claim"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-strengthen-weaken"
+   ]
+  }
+ },
+ {
+  "id": "rct-comparative",
+  "label": "Comparative Relationship",
+  "branch": "RC",
+  "parent": "grp-rc-types",
+  "kind": "rc-type",
+  "icon": "rc",
+  "chapter": "CHAPTER VII — RC QUESTION TYPES",
+  "week": 18,
+  "lesson": true,
+  "oneLiner": "Relate Passage A to Passage B.",
+  "definition": "Comparative questions test agreements, disagreements, and how one author would respond to the other.",
+  "objectives": [
+   "Recognize Comparative Relationship questions from the stem",
+   "Apply the attack method",
+   "Avoid the type’s signature traps"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "Two reviews of the same play: what both praise, where they split."
+   },
+   {
+    "domain": "Law",
+    "text": "Majority and dissent: shared facts, opposite holdings."
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "Bull and bear notes on one stock: same data, different weighting."
+   }
+  ],
+  "attack": [
+   "Use your two-circle Venn",
+   "Test each answer against BOTH passages",
+   "Beware “directly rebuts”"
+  ],
+  "correctLooksLike": "Beware “directly rebuts”",
+  "traps": [
+   "One-passage answers",
+   "Overstated relationships"
+  ],
+  "commonError": "One-passage answers",
+  "keyPoints": [
+   {
+    "point": "Relate Passage A to Passage B.",
+    "keywords": [
+     "comparative"
+    ]
+   },
+   {
+    "point": "Return to the text",
+    "keywords": [
+     "text",
+     "return"
+    ]
+   },
+   {
+    "point": "Avoid: One-passage answers",
+    "keywords": [
+     "avoid"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Comparative Relationship",
+   "children": [
+    {
+     "label": "Task",
+     "children": [
+      {
+       "label": "Relate Passage A to Passage B."
+      }
+     ]
+    },
+    {
+     "label": "Method",
+     "children": [
+      {
+       "label": "Use your two-circle Venn"
+      },
+      {
+       "label": "Test each answer against BOTH passages"
+      },
+      {
+       "label": "Beware “directly rebuts”"
+      }
+     ]
+    },
+    {
+     "label": "Traps",
+     "children": [
+      {
+       "label": "One-passage answers"
+      },
+      {
+       "label": "Overstated relationships"
+      }
+     ]
+    },
+    {
+     "label": "Map use",
+     "children": [
+      {
+       "label": "Passage map"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "rcs-mapping"
+  ],
+  "card": {
+   "front": "Golden rule for comparative questions?",
+   "back": "Test each answer against BOTH passages.",
+   "keywords": [
+    "both"
+   ]
+  },
+  "match": {
+   "types": [
+    "rc-comparative"
+   ]
+  }
+ }
+]

@@ -20,13 +20,22 @@ function leaves(n: TreeNode): number {
   return n.children && n.children.length ? n.children.reduce((s, c) => s + leaves(c), 0) : 1;
 }
 
-export function radialLayout(root: TreeNode, ringGap = 230, firstRing = 260): Placed[] {
+function maxDepth(n: TreeNode, d = 0): number {
+  return n.children && n.children.length ? Math.max(...n.children.map((c) => maxDepth(c, d + 1))) : d;
+}
+
+export function radialLayout(root: TreeNode, ringGap = 230, firstRing = 260, opts: { outerLeaves?: boolean; sx?: number; sy?: number } = {}): Placed[] {
   const out: Placed[] = [];
   const total = leaves(root);
+  const md = maxDepth(root);
+  const sx = opts.sx ?? 1;
+  const sy = opts.sy ?? 0.82;
   const visit = (n: TreeNode, depth: number, a0: number, a1: number, parent: string | null) => {
     const mid = (a0 + a1) / 2;
-    const r = depth === 0 ? 0 : firstRing + (depth - 1) * ringGap;
-    out.push({ id: n.id, label: n.label, x: Math.cos(mid) * r, y: Math.sin(mid) * r * 0.82, depth, parent, angle: mid, data: n.data });
+    const isLeaf = !n.children || !n.children.length;
+    const d = opts.outerLeaves && isLeaf && depth > 0 ? md : depth;
+    const r = depth === 0 ? 0 : firstRing + (d - 1) * ringGap;
+    out.push({ id: n.id, label: n.label, x: Math.cos(mid) * r * sx, y: Math.sin(mid) * r * sy, depth, parent, angle: mid, data: n.data });
     if (!n.children) return;
     let a = a0;
     const span = a1 - a0;

@@ -1,0 +1,1929 @@
+[
+ {
+  "id": "flaw-causation",
+  "label": "Causation from Correlation",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "causation",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 9,
+  "lesson": true,
+  "oneLiner": "Two things occur together, so one must cause the other.",
+  "definition": "The argument infers a causal relationship from a correlation, overlooking reverse causation, a common cause, or coincidence.",
+  "objectives": [
+   "Recognize causation from correlation in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Every time I carry an umbrella, it rains—so carrying it brings rain.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Countries with independent central banks have lower inflation, so independence lowers inflation.” (reverse causation possible)"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Funds that hire star managers outperform, so stars cause outperformance.” (successful funds can afford stars)"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: two events linked by co-occurrence or sequence, and a causal conclusion",
+   "Match to answer language: “overlooks the possibility that … the reverse / some third factor / coincidence”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“overlooks the possibility that … the reverse / some third factor / coincidence”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Accepting a causal conclusion because the correlation is strong.",
+  "keyPoints": [
+   {
+    "point": "Correlation is not causation",
+    "keywords": [
+     "correlation",
+     "causation"
+    ]
+   },
+   {
+    "point": "Reverse causation",
+    "keywords": [
+     "reverse"
+    ]
+   },
+   {
+    "point": "Common cause / third factor",
+    "keywords": [
+     "third",
+     "common cause"
+    ]
+   },
+   {
+    "point": "Coincidence",
+    "keywords": [
+     "coincidence"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Causation from Correlation",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "A with B"
+      },
+      {
+       "label": "∴ A causes B"
+      }
+     ]
+    },
+    {
+     "label": "Alternatives",
+     "children": [
+      {
+       "label": "B causes A"
+      },
+      {
+       "label": "C causes both"
+      },
+      {
+       "label": "Coincidence"
+      }
+     ]
+    },
+    {
+     "label": "Fix",
+     "children": [
+      {
+       "label": "Rule out alternatives"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Weaken"
+      },
+      {
+       "label": "Strengthen"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-weaken",
+   "lr-strengthen",
+   "lr-evaluate"
+  ],
+  "card": {
+   "front": "[Diagram: A ↔ B with a broken causal arrow] Name this flaw and its three alternatives.",
+   "back": "Causation from correlation; alternatives: reverse causation, common cause, coincidence.",
+   "keywords": [
+    "reverse",
+    "common",
+    "coincidence"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "causation"
+   ]
+  }
+ },
+ {
+  "id": "flaw-sampling",
+  "label": "Unrepresentative Sample",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "sampling",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 9,
+  "lesson": true,
+  "oneLiner": "A conclusion about a population rests on a sample unlike that population.",
+  "definition": "The argument generalizes from a sample that is too small, self-selected, or biased toward a particular result.",
+  "objectives": [
+   "Recognize unrepresentative sample in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“My three friends loved the film, so everyone will.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“82% of an arbitration journal’s readers prefer arbitration, so most businesses do.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Surviving merchant letters mostly discuss Ottoman trade, so it dominated merchants’ concerns.” (survival bias)"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: a survey, study, or record set standing in for a larger group",
+   "Match to answer language: “draws a conclusion about a group from a sample that is unlikely to be representative”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“draws a conclusion about a group from a sample that is unlikely to be representative”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Focusing on sample size alone; bias matters more than size.",
+  "keyPoints": [
+   {
+    "point": "Sample must represent the population",
+    "keywords": [
+     "represent",
+     "population"
+    ]
+   },
+   {
+    "point": "Self-selection bias",
+    "keywords": [
+     "self-select"
+    ]
+   },
+   {
+    "point": "Survival bias",
+    "keywords": [
+     "survival"
+    ]
+   },
+   {
+    "point": "Size and bias both matter",
+    "keywords": [
+     "size",
+     "bias"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Unrepresentative Sample",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "Sample says X"
+      },
+      {
+       "label": "∴ Population says X"
+      }
+     ]
+    },
+    {
+     "label": "Problems",
+     "children": [
+      {
+       "label": "Too small"
+      },
+      {
+       "label": "Biased"
+      },
+      {
+       "label": "Self-selected"
+      }
+     ]
+    },
+    {
+     "label": "Ask",
+     "children": [
+      {
+       "label": "Who was surveyed?"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Overgeneralization"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-overgeneralization",
+   "lr-weaken"
+  ],
+  "card": {
+   "front": "[Icon: magnifier over a tiny crowd] Name this flaw.",
+   "back": "Unrepresentative sample: the sample differs from the population the conclusion concerns.",
+   "keywords": [
+    "sample",
+    "representative"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "sampling"
+   ]
+  }
+ },
+ {
+  "id": "flaw-part-whole",
+  "label": "Part-to-Whole / Whole-to-Part",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "part-whole",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "A property of the parts is assumed to belong to the whole—or vice versa.",
+  "definition": "Composition assumes the whole has the properties of its parts; division assumes each part has the properties of the whole. Many properties do not transfer.",
+  "objectives": [
+   "Recognize part-to-whole / whole-to-part in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Every ingredient is delicious, so the dish will be delicious.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Every clause of the agreement is easy to understand, so the agreement is easy to understand.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The conglomerate is highly profitable, so each of its divisions is profitable.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: a property attributed to a group because its members have it (or the reverse)",
+   "Match to answer language: “presumes that what is true of each part is true of the whole” (or the reverse)",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“presumes that what is true of each part is true of the whole” (or the reverse)",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Missing the direction: part→whole (composition) vs. whole→part (division).",
+  "keyPoints": [
+   {
+    "point": "Composition: parts → whole",
+    "keywords": [
+     "composition",
+     "parts"
+    ]
+   },
+   {
+    "point": "Division: whole → parts",
+    "keywords": [
+     "division",
+     "whole"
+    ]
+   },
+   {
+    "point": "Some properties do not transfer",
+    "keywords": [
+     "transfer"
+    ]
+   },
+   {
+    "point": "Check the direction",
+    "keywords": [
+     "direction"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Part-to-Whole / Whole-to-Part",
+   "children": [
+    {
+     "label": "Composition",
+     "children": [
+      {
+       "label": "Parts → whole"
+      }
+     ]
+    },
+    {
+     "label": "Division",
+     "children": [
+      {
+       "label": "Whole → parts"
+      }
+     ]
+    },
+    {
+     "label": "Test",
+     "children": [
+      {
+       "label": "Does the property transfer?"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Parallel Flaw"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-parallel-flaw"
+  ],
+  "card": {
+   "front": "Concise chapters → concise book. Flaw?",
+   "back": "Composition (part-to-whole): conciseness of parts need not transfer to the whole.",
+   "keywords": [
+    "composition",
+    "part"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "part-whole"
+   ]
+  }
+ },
+ {
+  "id": "flaw-equivocation",
+  "label": "Equivocation",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "equivocation",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "A key word shifts meaning between premise and conclusion.",
+  "definition": "The argument uses a term in two senses, so the premises connect to the conclusion only verbally.",
+  "objectives": [
+   "Recognize equivocation in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“A feather is light; what is light cannot be dark; so a feather cannot be dark.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Inflation is ‘in effect a tax’; only the legislature may tax; so the central bank’s program is unconstitutional.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The company has a ‘strong balance sheet’ (lots of assets), so it is ‘strong’ (low risk).”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: the same word or phrase appears in premise and conclusion with different meanings",
+   "Match to answer language: “uses a key term in one sense in a premise and in a different sense in the conclusion”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“uses a key term in one sense in a premise and in a different sense in the conclusion”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Not noticing hedges like “in effect” or “in a sense” that signal a shift.",
+  "keyPoints": [
+   {
+    "point": "One word, two meanings",
+    "keywords": [
+     "two meanings",
+     "sense"
+    ]
+   },
+   {
+    "point": "Premise and conclusion use it differently",
+    "keywords": [
+     "premise",
+     "conclusion"
+    ]
+   },
+   {
+    "point": "Hedges signal a shift",
+    "keywords": [
+     "in effect",
+     "hedge"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Equivocation",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "Term in sense 1"
+      },
+      {
+       "label": "Term in sense 2"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "“in effect”"
+      },
+      {
+       "label": "“in a sense”"
+      }
+     ]
+    },
+    {
+     "label": "Fix",
+     "children": [
+      {
+       "label": "Define the term"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Shell Game trap"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "trap-shell-game"
+  ],
+  "card": {
+   "front": "[Diagram: a word splitting into two meanings] Name this flaw.",
+   "back": "Equivocation: a key term changes meaning mid-argument.",
+   "keywords": [
+    "equivocation",
+    "meaning"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "equivocation"
+   ]
+  }
+ },
+ {
+  "id": "flaw-ad-hominem",
+  "label": "Ad Hominem",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "ad-hominem",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "Attacks the arguer instead of the argument.",
+  "definition": "The argument rejects a claim because of the character, interests, or circumstances of the person making it, not because of the claim’s merits.",
+  "objectives": [
+   "Recognize ad hominem in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Don’t trust his diet advice—he’s overweight.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Reject the ambassador’s quota proposal: her country has a small fleet and loses little.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The analyst’s downgrade is meaningless; she was fired from her last bank.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: the speaker’s motives, character, or hypocrisy offered as a reason to reject a claim",
+   "Match to answer language: “attacks the person making the argument rather than the argument itself”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“attacks the person making the argument rather than the argument itself”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Confusing legitimate challenges to an expert’s reliability with attacks on the merits.",
+  "keyPoints": [
+   {
+    "point": "Attack on the person",
+    "keywords": [
+     "person",
+     "character"
+    ]
+   },
+   {
+    "point": "Motives or interests",
+    "keywords": [
+     "motive",
+     "interest"
+    ]
+   },
+   {
+    "point": "Merits ignored",
+    "keywords": [
+     "merits"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Ad Hominem",
+   "children": [
+    {
+     "label": "Forms",
+     "children": [
+      {
+       "label": "Character"
+      },
+      {
+       "label": "Motive"
+      },
+      {
+       "label": "Hypocrisy"
+      }
+     ]
+    },
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "Source is bad"
+      },
+      {
+       "label": "∴ claim false"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Attacks the arguer"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Authority"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-authority"
+  ],
+  "card": {
+   "front": "“Her proposal benefits her own country, so it should be rejected.” Flaw?",
+   "back": "Ad hominem (circumstantial): attacks motives rather than the proposal’s merits.",
+   "keywords": [
+    "ad hominem",
+    "motive"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "ad-hominem"
+   ]
+  }
+ },
+ {
+  "id": "flaw-authority",
+  "label": "Appeal to Authority",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "authority",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "Relies on an authority outside its expertise—or as if authority were proof.",
+  "definition": "The argument treats an authority’s endorsement as decisive when the authority lacks relevant expertise, or when authority alone cannot settle the question.",
+  "objectives": [
+   "Recognize appeal to authority in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“A famous actor says this vitamin works, so it does.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“A Nobel physicist says the treaty is unconstitutional, so it is.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“A celebrated CEO predicts the currency will collapse, so hedge everything.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: a cited expert or celebrity carrying the whole argument",
+   "Match to answer language: “relies on the testimony of an authority whose expertise lies outside the matter in question”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“relies on the testimony of an authority whose expertise lies outside the matter in question”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Treating every citation of an expert as a flaw; relevant expertise is legitimate support.",
+  "keyPoints": [
+   {
+    "point": "Expertise outside the field",
+    "keywords": [
+     "outside",
+     "expertise"
+    ]
+   },
+   {
+    "point": "Authority is not proof",
+    "keywords": [
+     "proof",
+     "authority"
+    ]
+   },
+   {
+    "point": "Relevant experts are fine",
+    "keywords": [
+     "relevant"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Appeal to Authority",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "Authority says X"
+      },
+      {
+       "label": "∴ X"
+      }
+     ]
+    },
+    {
+     "label": "Problems",
+     "children": [
+      {
+       "label": "Wrong field"
+      },
+      {
+       "label": "Disputed among experts"
+      }
+     ]
+    },
+    {
+     "label": "OK when",
+     "children": [
+      {
+       "label": "Relevant expertise"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Ad hominem"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-ad-hominem"
+  ],
+  "card": {
+   "front": "“A renowned surgeon says the tax plan is unwise.” Flaw if offered as decisive?",
+   "back": "Appeal to (inappropriate) authority—expertise outside the field.",
+   "keywords": [
+    "authority",
+    "outside"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "authority"
+   ]
+  }
+ },
+ {
+  "id": "flaw-circular",
+  "label": "Circular Reasoning",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "circular",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "The conclusion is assumed in the premises.",
+  "definition": "The argument’s premises presuppose the very claim to be proved, so it offers no independent support.",
+  "objectives": [
+   "Recognize circular reasoning in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“This book is reliable because it says so in the book.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“The statute is valid because valid statutes are those the legislature enacts—and this one is valid.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Our forecasts are accurate because our accurate forecasting model produced them.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: the conclusion (or a synonym) reappears as a premise",
+   "Match to answer language: “presupposes the truth of what it sets out to prove”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“presupposes the truth of what it sets out to prove”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Missing circularity when the conclusion is reworded.",
+  "keyPoints": [
+   {
+    "point": "Conclusion assumed in premises",
+    "keywords": [
+     "assume",
+     "presuppose"
+    ]
+   },
+   {
+    "point": "Often reworded",
+    "keywords": [
+     "reword",
+     "synonym"
+    ]
+   },
+   {
+    "point": "No independent support",
+    "keywords": [
+     "independent"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Circular Reasoning",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "A because A"
+      }
+     ]
+    },
+    {
+     "label": "Disguises",
+     "children": [
+      {
+       "label": "Synonyms"
+      },
+      {
+       "label": "Rewording"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Presupposes conclusion"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Restatement trap"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "trap-restatement"
+  ],
+  "card": {
+   "front": "[Icon: a circle of arrows] Name this flaw.",
+   "back": "Circular reasoning: the premises assume the conclusion.",
+   "keywords": [
+    "circular",
+    "assume"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "circular"
+   ]
+  }
+ },
+ {
+  "id": "flaw-false-dichotomy",
+  "label": "False Dichotomy",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "false-dichotomy",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "Presents two options as the only ones.",
+  "definition": "The argument assumes only two alternatives exist and, rejecting one, embraces the other, ignoring further possibilities.",
+  "objectives": [
+   "Recognize false dichotomy in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Either we leave now or we miss the film.” (Later showings exist.)"
+   },
+   {
+    "domain": "Law",
+    "text": "“Either the court overrules the precedent or it endorses injustice.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Either we raise taxes or we default.” (Spending cuts, refinancing…)"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: “either… or…” framing with one option eliminated",
+   "Match to answer language: “assumes without warrant that only two options are available”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“assumes without warrant that only two options are available”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Accepting the framing because both options are plausible.",
+  "keyPoints": [
+   {
+    "point": "Only two options assumed",
+    "keywords": [
+     "two options",
+     "either"
+    ]
+   },
+   {
+    "point": "Other alternatives ignored",
+    "keywords": [
+     "alternative",
+     "ignore"
+    ]
+   },
+   {
+    "point": "Rejecting one ≠ proving the other",
+    "keywords": [
+     "reject"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "False Dichotomy",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "A or B"
+      },
+      {
+       "label": "Not A"
+      },
+      {
+       "label": "∴ B"
+      }
+     ]
+    },
+    {
+     "label": "Problem",
+     "children": [
+      {
+       "label": "Missing C, D…"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Only two alternatives"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Straw Man"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-straw-man"
+  ],
+  "card": {
+   "front": "[Icon: a fork with a hidden third path] Name this flaw.",
+   "back": "False dichotomy: assumes only two options exist.",
+   "keywords": [
+    "two",
+    "options"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "false-dichotomy"
+   ]
+  }
+ },
+ {
+  "id": "flaw-suff-nec",
+  "label": "Sufficient / Necessary Confusion",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "suff-nec",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "Treats a requirement as a guarantee—or a guarantee as a requirement.",
+  "definition": "Reversal: from A → B and B, concludes A. Negation: from A → B and ¬A, concludes ¬B. Both confuse sufficient and necessary conditions.",
+  "objectives": [
+   "Recognize sufficient / necessary confusion in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“You need a ticket to board; I have a ticket; so I’ll board.” (Requirement treated as guarantee.)"
+   },
+   {
+    "domain": "Law",
+    "text": "“Only audited firms list on the premium tier; Zentara was rejected; so it wasn’t audited.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Any treaty ratified is binding; the Accord is binding; so it was ratified.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: a conditional rule followed by an inference that runs backward or negates the wrong side",
+   "Match to answer language: “takes a condition that is necessary for X to be sufficient for X” (or the reverse)",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“takes a condition that is necessary for X to be sufficient for X” (or the reverse)",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Not distinguishing the reversal (B so A) from the negation (¬A so ¬B).",
+  "keyPoints": [
+   {
+    "point": "Reversal: B, so A",
+    "keywords": [
+     "reversal"
+    ]
+   },
+   {
+    "point": "Negation: not A, so not B",
+    "keywords": [
+     "negation"
+    ]
+   },
+   {
+    "point": "Necessary ≠ sufficient",
+    "keywords": [
+     "necessary",
+     "sufficient"
+    ]
+   },
+   {
+    "point": "Contrapositive is the only valid flip",
+    "keywords": [
+     "contrapositive"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Sufficient / Necessary Confusion",
+   "children": [
+    {
+     "label": "Valid",
+     "children": [
+      {
+       "label": "A → B"
+      },
+      {
+       "label": "¬B → ¬A"
+      }
+     ]
+    },
+    {
+     "label": "Invalid",
+     "children": [
+      {
+       "label": "B → A (reversal)"
+      },
+      {
+       "label": "¬A → ¬B (negation)"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Treats necessary as sufficient"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Contrapositive"
+      },
+      {
+       "label": "Principle–Apply"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "cl-suff-nec",
+   "cl-contrapositive",
+   "lr-principle-apply"
+  ],
+  "card": {
+   "front": "[Diagram: A → B, with a red arrow drawn B → A] Name this flaw.",
+   "back": "Sufficient/necessary confusion (reversal): affirming the necessary condition does not establish the sufficient one.",
+   "keywords": [
+    "reversal",
+    "necessary",
+    "sufficient"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "suff-nec"
+   ]
+  }
+ },
+ {
+  "id": "flaw-absence-evidence",
+  "label": "Absence of Evidence",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "absence-evidence",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "No proof of X is treated as proof of not-X.",
+  "definition": "The argument concludes a claim is false because it has not been proven true (or true because not proven false).",
+  "objectives": [
+   "Recognize absence of evidence in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“No one has proven ghosts don’t exist, so they do.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Short-term studies found no harm, so the additive poses no long-term risk.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Auditors found no fraud in a sample of files, so there is no fraud.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: “has not been shown / no evidence” followed by a confident opposite conclusion",
+   "Match to answer language: “treats a lack of evidence for a claim as evidence that the claim is false”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“treats a lack of evidence for a claim as evidence that the claim is false”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Ignoring whether the investigation could even have detected the thing in question.",
+  "keyPoints": [
+   {
+    "point": "Not proven ≠ disproven",
+    "keywords": [
+     "not proven",
+     "disproven"
+    ]
+   },
+   {
+    "point": "Could the search have found it?",
+    "keywords": [
+     "search",
+     "detect"
+    ]
+   },
+   {
+    "point": "Both directions",
+    "keywords": [
+     "both"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Absence of Evidence",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "No proof of X"
+      },
+      {
+       "label": "∴ not X"
+      }
+     ]
+    },
+    {
+     "label": "Ask",
+     "children": [
+      {
+       "label": "Could it have been detected?"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Lack of evidence as evidence"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Possibility/Certainty"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-possibility-certainty"
+  ],
+  "card": {
+   "front": "[Icon: an empty evidence box] Name this flaw.",
+   "back": "Absence of evidence: lack of proof treated as proof of the opposite.",
+   "keywords": [
+    "absence",
+    "lack",
+    "proof"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "absence-evidence"
+   ]
+  }
+ },
+ {
+  "id": "flaw-percent-number",
+  "label": "Percentage vs. Number",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "percent-number",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "Confuses rates or shares with absolute amounts.",
+  "definition": "The argument moves from a percentage (share, rate) to a conclusion about numbers (amounts), or vice versa, ignoring changes in the base.",
+  "objectives": [
+   "Recognize percentage vs. number in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“A larger share of my budget goes to rent, so I pay more rent.” (Budget may have shrunk.)"
+   },
+   {
+    "domain": "Law",
+    "text": "“Convictions rose as a share of cases, so more people were convicted.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Advertising’s share of revenue rose, so advertising revenue rose.” (Total may have fallen.)"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: percentages or shares in premises, counts or amounts in the conclusion",
+   "Match to answer language: “confuses a proportion with an absolute number”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“confuses a proportion with an absolute number”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Forgetting that the denominator can change.",
+  "keyPoints": [
+   {
+    "point": "Share ≠ amount",
+    "keywords": [
+     "share",
+     "amount"
+    ]
+   },
+   {
+    "point": "Watch the base/denominator",
+    "keywords": [
+     "base",
+     "denominator"
+    ]
+   },
+   {
+    "point": "Works in both directions",
+    "keywords": [
+     "both"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Percentage vs. Number",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "% up"
+      },
+      {
+       "label": "∴ number up"
+      }
+     ]
+    },
+    {
+     "label": "Ask",
+     "children": [
+      {
+       "label": "What happened to the total?"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Proportion vs. number"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Must Be True math"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-must-be-true"
+  ],
+  "card": {
+   "front": "[Icon: % sign] A rate rose; did the count rise?",
+   "back": "Not necessarily—percentage vs. number: the base may have shrunk.",
+   "keywords": [
+    "base",
+    "not necessarily"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "percent-number"
+   ]
+  }
+ },
+ {
+  "id": "flaw-possibility-certainty",
+  "label": "Possibility vs. Certainty",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "possibility-certainty",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "What might happen is treated as what will happen.",
+  "definition": "The argument converts a possibility (“may”, “could”) into a certainty (“will”, “must”), or treats something unlikely as impossible.",
+  "objectives": [
+   "Recognize possibility vs. certainty in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“It might rain, so the picnic will be cancelled.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“Regulators may block the merger; if blocked, shares fall; so shares will fall.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“A recession could hit, so the fund will lose money.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: modal words (may, could, possible) in premises; certain words (will, must) in the conclusion",
+   "Match to answer language: “treats as certain something that has only been shown to be possible”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“treats as certain something that has only been shown to be possible”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Not tracking modal words from premises to conclusion.",
+  "keyPoints": [
+   {
+    "point": "May ≠ will",
+    "keywords": [
+     "may",
+     "will"
+    ]
+   },
+   {
+    "point": "Track modal words",
+    "keywords": [
+     "modal"
+    ]
+   },
+   {
+    "point": "Possible ≠ certain",
+    "keywords": [
+     "possible",
+     "certain"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Possibility vs. Certainty",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "May X"
+      },
+      {
+       "label": "X → Y"
+      },
+      {
+       "label": "∴ Y"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "may / could"
+      },
+      {
+       "label": "will / must"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Possibility as certainty"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Absence of evidence"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-absence-evidence",
+   "lr-parallel-flaw"
+  ],
+  "card": {
+   "front": "[Icon: dice] Name this flaw.",
+   "back": "Possibility vs. certainty: what may happen is treated as what will happen.",
+   "keywords": [
+    "possible",
+    "certain"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "possibility-certainty"
+   ]
+  }
+ },
+ {
+  "id": "flaw-straw-man",
+  "label": "Straw Man",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "straw-man",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 10,
+  "lesson": true,
+  "oneLiner": "Misrepresents a position, then refutes the misrepresentation.",
+  "definition": "The argument distorts an opponent’s view—usually into a more extreme or foolish version—and attacks that instead of the actual view.",
+  "objectives": [
+   "Recognize straw man in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“You want a later curfew? So you think teenagers should have no rules?”"
+   },
+   {
+    "domain": "Law",
+    "text": "“The senator wants higher capital reserves—evidently she wants to ban lending.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The CFO proposed trimming travel costs; apparently she wants to end all client meetings.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: “so you’re saying…” / “evidently X believes…” followed by an extreme paraphrase",
+   "Match to answer language: “distorts an opposing position and then argues against the distorted version”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“distorts an opposing position and then argues against the distorted version”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Missing it when the distortion is subtle (exaggerating scope or strength).",
+  "keyPoints": [
+   {
+    "point": "Distorts the opposing view",
+    "keywords": [
+     "distort",
+     "misrepresent"
+    ]
+   },
+   {
+    "point": "Usually more extreme",
+    "keywords": [
+     "extreme"
+    ]
+   },
+   {
+    "point": "Refutes the distortion",
+    "keywords": [
+     "refut"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Straw Man",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "Real view"
+      },
+      {
+       "label": "Distorted view"
+      },
+      {
+       "label": "Attack distortion"
+      }
+     ]
+    },
+    {
+     "label": "Signals",
+     "children": [
+      {
+       "label": "“So you’re saying”"
+      },
+      {
+       "label": "“Evidently”"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Distorts position"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "False dichotomy"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-false-dichotomy"
+  ],
+  "card": {
+   "front": "[Icon: a scarecrow] Name this flaw.",
+   "back": "Straw man: refutes a distorted version of the opponent’s position.",
+   "keywords": [
+    "distort",
+    "straw"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "straw-man"
+   ]
+  }
+ },
+ {
+  "id": "flaw-overgeneralization",
+  "label": "Overgeneralization",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "overgeneralization",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "Draws a broad conclusion from too few or atypical cases.",
+  "definition": "The argument extends a conclusion from limited instances to a whole class without adequate basis.",
+  "objectives": [
+   "Recognize overgeneralization in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“I got a bad meal there once—the restaurant is terrible.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“One arbitration award was annulled, so arbitration is unreliable.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“Two emerging-market funds failed, so emerging markets are uninvestable.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: one or a few cases → a universal or broad claim",
+   "Match to answer language: “draws a general conclusion from too few instances”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“draws a general conclusion from too few instances”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Confusing it with sampling bias (bias vs. sheer insufficiency).",
+  "keyPoints": [
+   {
+    "point": "Too few cases",
+    "keywords": [
+     "few",
+     "instances"
+    ]
+   },
+   {
+    "point": "Broad conclusion",
+    "keywords": [
+     "general",
+     "broad"
+    ]
+   },
+   {
+    "point": "Differs from biased sample",
+    "keywords": [
+     "bias"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Overgeneralization",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "A few cases"
+      },
+      {
+       "label": "∴ All"
+      }
+     ]
+    },
+    {
+     "label": "Ask",
+     "children": [
+      {
+       "label": "How many? How typical?"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Generalizes from few cases"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Sampling"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "flaw-sampling"
+  ],
+  "card": {
+   "front": "[Icon: one point fanning to a wide arc] Name this flaw.",
+   "back": "Overgeneralization: a broad conclusion from too few cases.",
+   "keywords": [
+    "few",
+    "general"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "overgeneralization"
+   ]
+  }
+ },
+ {
+  "id": "flaw-unlike-comparison",
+  "label": "Comparison of Unlike Things",
+  "branch": "LR",
+  "parent": "grp-flaws",
+  "kind": "flaw",
+  "icon": "unlike-comparison",
+  "chapter": "CHAPTER X — THE FLAW LIBRARY",
+  "week": 11,
+  "lesson": true,
+  "oneLiner": "Draws a conclusion from an analogy between relevantly different cases.",
+  "definition": "The argument assumes two situations are alike in a way that matters, when a relevant difference undermines the comparison.",
+  "objectives": [
+   "Recognize comparison of unlike things in an unfamiliar argument",
+   "Match it to the abstract language LSAT answers use",
+   "Explain the flaw in your own words"
+  ],
+  "examples": [
+   {
+    "domain": "Everyday",
+    "text": "“Dogs love walks, so my cat will too.”"
+   },
+   {
+    "domain": "Law",
+    "text": "“The tribunal’s procedure worked in commercial cases, so it will work in human-rights cases.”"
+   },
+   {
+    "domain": "Business & Finance",
+    "text": "“The strategy beat the market in a bull run, so it will beat the market in a recession.”"
+   }
+  ],
+  "attack": [
+   "Find the conclusion and premises",
+   "Ask what the argument takes for granted",
+   "Spot it: “just as…”, “similarly”, or an inference from one case/group to a different one",
+   "Match to answer language: “fails to consider relevant differences between the things compared”",
+   "Reject answers that attack premises"
+  ],
+  "correctLooksLike": "“fails to consider relevant differences between the things compared”",
+  "traps": [
+   "Answers naming a different flaw that “sounds” similar",
+   "Answers that dispute a premise"
+  ],
+  "commonError": "Accepting an analogy because of surface similarities.",
+  "keyPoints": [
+   {
+    "point": "Analogy requires relevant similarity",
+    "keywords": [
+     "analogy",
+     "similar"
+    ]
+   },
+   {
+    "point": "Find the relevant difference",
+    "keywords": [
+     "difference"
+    ]
+   },
+   {
+    "point": "Surface similarity is not enough",
+    "keywords": [
+     "surface"
+    ]
+   }
+  ],
+  "mindMap": {
+   "label": "Comparison of Unlike Things",
+   "children": [
+    {
+     "label": "Pattern",
+     "children": [
+      {
+       "label": "A has X"
+      },
+      {
+       "label": "B is like A"
+      },
+      {
+       "label": "∴ B has X"
+      }
+     ]
+    },
+    {
+     "label": "Ask",
+     "children": [
+      {
+       "label": "Relevant differences?"
+      }
+     ]
+    },
+    {
+     "label": "Answer language",
+     "children": [
+      {
+       "label": "Overlooks relevant differences"
+      }
+     ]
+    },
+    {
+     "label": "Relatives",
+     "children": [
+      {
+       "label": "Parallel"
+      },
+      {
+       "label": "Weaken"
+      }
+     ]
+    }
+   ]
+  },
+  "links": [
+   "lr-weaken"
+  ],
+  "card": {
+   "front": "[Icon: scales with a circle and a square] Name this flaw.",
+   "back": "Comparison of unlike things (faulty analogy).",
+   "keywords": [
+    "analogy",
+    "unlike"
+   ]
+  },
+  "match": {
+   "flaws": [
+    "unlike-comparison"
+   ]
+  }
+ }
+]

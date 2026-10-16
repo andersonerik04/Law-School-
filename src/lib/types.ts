@@ -430,4 +430,6 @@ export interface Profile {
   preferredTimes: string[];
   diagnosticScore?: number;
   diagnosticTs?: number;
+  /** calendar weeks over which the 40-week curriculum is spread (compressed if < 40) */
+  planWeeks?: number;
 }

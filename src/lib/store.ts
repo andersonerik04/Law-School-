@@ -157,7 +157,7 @@ const DEFAULT_PROFILE: Profile = {
   matriculated: false,
   name: '',
   startDate: dateKey(),
-  testDate: '2027-04-10',
+  testDate: '2027-06-05',
   hoursPerWeek: 15,
   preferredTimes: ['Morning'],
 };

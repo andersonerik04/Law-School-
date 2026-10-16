@@ -1,0 +1,815 @@
+[
+  {
+    "id": "lr-028",
+    "section": "LR",
+    "type": "necessary-assumption",
+    "difficulty": 5,
+    "pattern": "causal",
+    "topic": "international law",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Some scholars contend that the International Court’s advisory opinions have no practical effect, because such opinions are not legally binding.",
+        "r": "K"
+      },
+      {
+        "t": "But states frequently cite advisory opinions in their diplomatic correspondence when justifying changes in their policies.",
+        "r": "P"
+      },
+      {
+        "t": "Therefore, advisory opinions do have practical effect.",
+        "r": "C"
+      }
+    ],
+    "stem": "The argument depends on assuming which one of the following?",
+    "choices": [
+      "Advisory opinions ought to be made legally binding.",
+      "Advisory opinions are cited in diplomatic correspondence more often than binding judgments are.",
+      "At least some of the policy changes that states justify by citing advisory opinions would have been different had those opinions not been issued.",
+      "Every advisory opinion the Court has issued has been cited by at least one state.",
+      "States never change a policy without citing an advisory opinion in support of the change."
+    ],
+    "answer": 2,
+    "diagram": {
+      "gap": "The citations reflect real influence, not after-the-fact window dressing.",
+      "overlay": "na"
+    },
+    "brief": {
+      "facts": "Scholars: non-binding means no effect. Author: states cite the opinions when justifying policy changes, so the opinions have effect.",
+      "issue": "What must be true for citations to show practical effect?",
+      "rule": "Negation Test: negate the answer. If the argument collapses, the answer is a necessary assumption.",
+      "analysis": {
+        "correct": "(C) Negated: every such policy change would have happened exactly the same way without the opinions. Then the citations are mere decoration and show no practical effect, so the argument collapses.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "What ought to happen is irrelevant to whether the opinions currently have effect."
+          },
+          {
+            "choice": 1,
+            "label": "irrelevant-comparison",
+            "why": "The frequency relative to binding judgments does not matter."
+          },
+          {
+            "choice": 3,
+            "label": "too-strong",
+            "why": "Some opinions having effect is enough; every opinion need not be cited."
+          },
+          {
+            "choice": 4,
+            "label": "too-strong",
+            "why": "The argument needs only SOME influence, not that every policy change cites an opinion."
+          }
+        ]
+      },
+      "holding": "When evidence is a proxy (citations), the argument assumes the proxy tracks the real thing (influence)."
+    },
+    "reasoningKeys": [
+      "negation",
+      "would have been different",
+      "window dressing",
+      "influence"
+    ]
+  },
+  {
+    "id": "lr-029",
+    "section": "LR",
+    "type": "necessary-assumption",
+    "difficulty": 4,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "After the Dalmar Pension Fund replaced its active equity managers with low-cost index funds, its average annual return after fees rose by 1.1 percentage points over the following five years, compared with the previous five.",
+        "r": "P"
+      },
+      {
+        "t": "Clearly, the switch to index funds improved the fund’s performance.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following is an assumption required by the argument?",
+    "choices": [
+      "The fund will continue to earn higher returns as long as it holds index funds.",
+      "The rise in the fund’s returns was not due entirely to a general market upswing that would have raised the previous managers’ returns just as much.",
+      "Index funds outperform actively managed funds in every five-year period.",
+      "Other pension funds that switched to index funds also saw their returns rise.",
+      "The fund’s previous managers charged higher fees than any other active managers in the market."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "No other factor (such as a market upswing) fully accounts for the higher returns.",
+      "overlay": "na"
+    },
+    "brief": {
+      "facts": "Returns rose after the switch, comparing one five-year period with the previous one. The author concludes that the switch caused the improvement.",
+      "issue": "What must be true for a before-and-after comparison to show causation?",
+      "rule": "Causal conclusions assume that no alternative cause fully explains the effect. Necessary-assumption answers often rule out one alternative.",
+      "analysis": {
+        "correct": "(B) Negated: the improvement was entirely a market-wide upswing that would have lifted the old managers equally. Then the switch improved nothing, and the argument collapses.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "The future is irrelevant to whether the switch improved past performance."
+          },
+          {
+            "choice": 2,
+            "label": "too-strong",
+            "why": "The argument concerns one fund in one period, not every period."
+          },
+          {
+            "choice": 3,
+            "label": "irrelevant-comparison",
+            "why": "Helpful corroboration, but not required. The argument survives if other funds had no such experience."
+          },
+          {
+            "choice": 4,
+            "label": "too-strong",
+            "why": "The managers need not be the most expensive in the market."
+          }
+        ]
+      },
+      "holding": "Every ‘X happened, then Y improved, so X caused it’ argument assumes the absence of a fully sufficient alternative cause."
+    },
+    "reasoningKeys": [
+      "alternative cause",
+      "market",
+      "negation",
+      "not entirely"
+    ]
+  },
+  {
+    "id": "lr-030",
+    "section": "LR",
+    "type": "necessary-assumption",
+    "difficulty": 5,
+    "pattern": "evidence",
+    "topic": "linguistics",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Linguist: The Mansi and Khanty languages share dozens of words for reindeer-herding equipment that are found in no other Ugric language.",
+        "r": "X"
+      },
+      {
+        "t": "Some researchers hold that these words were borrowed after the two peoples came into contact in recent centuries.",
+        "r": "K"
+      },
+      {
+        "t": "But the shared words display the regular sound changes that each language underwent in its prehistoric period.",
+        "r": "P"
+      },
+      {
+        "t": "So the words were inherited from a common ancestor language rather than recently borrowed.",
+        "r": "C"
+      }
+    ],
+    "stem": "The linguist’s argument requires the assumption that",
+    "choices": [
+      "words borrowed between the two languages in recent centuries would not display the regular sound changes of the languages’ prehistoric period",
+      "reindeer herding was the primary economic activity of the common ancestor’s speakers",
+      "sound changes proceed at the same rate in all languages",
+      "most words shared by related languages are inherited rather than borrowed",
+      "no words have ever been borrowed between Mansi and Khanty"
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "Recent borrowings could not show prehistoric sound changes.",
+      "overlay": "na"
+    },
+    "brief": {
+      "facts": "The shared words show the prehistoric sound changes. The linguist concludes they are inherited, not recent borrowings.",
+      "issue": "Why would prehistoric sound changes rule out recent borrowing?",
+      "rule": "Evidence discriminates between hypotheses only if it is MORE likely under one than the other. The argument assumes recent loans would lack the prehistoric changes.",
+      "analysis": {
+        "correct": "(A) Negated: recent loans WOULD display the prehistoric sound changes. Then the evidence fits both hypotheses equally, and the argument collapses.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "too-strong",
+            "why": "The ancestor’s speakers needed only the vocabulary, not herding as their primary economy."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "The rate of change is irrelevant; what matters is whether the changes show up in loans."
+          },
+          {
+            "choice": 3,
+            "label": "too-strong",
+            "why": "A general statistical claim the argument does not need."
+          },
+          {
+            "choice": 4,
+            "label": "too-strong",
+            "why": "The argument concerns these particular words, not all words ever."
+          }
+        ]
+      },
+      "holding": "Arguments that choose between two hypotheses assume the evidence is inconsistent with the rejected one."
+    },
+    "reasoningKeys": [
+      "borrowed",
+      "would not display",
+      "discriminates",
+      "sound changes"
+    ]
+  },
+  {
+    "id": "lr-031",
+    "section": "LR",
+    "type": "necessary-assumption",
+    "difficulty": 3,
+    "pattern": "proxy",
+    "topic": "municipal law",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "The city’s new ordinance allows food trucks to operate only in designated zones.",
+        "r": "X"
+      },
+      {
+        "t": "Since the ordinance took effect, complaints about sidewalk congestion have fallen by half.",
+        "r": "P"
+      },
+      {
+        "t": "So the ordinance has reduced sidewalk congestion.",
+        "r": "C"
+      }
+    ],
+    "stem": "The argument assumes which one of the following?",
+    "choices": [
+      "Food truck operators support the ordinance.",
+      "Residents did not become much less inclined to file complaints about congestion after the ordinance took effect.",
+      "Food trucks were the only cause of sidewalk congestion.",
+      "The designated zones are not themselves congested.",
+      "Complaints about other municipal matters have also fallen."
+    ],
+    "answer": 1,
+    "diagram": {
+      "gap": "Fewer complaints reflect less congestion.",
+      "overlay": "na"
+    },
+    "brief": {
+      "facts": "Complaints about congestion halved after the ordinance. Conclusion: congestion fell.",
+      "issue": "Complaints are a proxy. What must hold for the proxy to track reality?",
+      "rule": "Proxy arguments assume the measure (complaints) moves with the thing measured (congestion).",
+      "analysis": {
+        "correct": "(B) Negated: residents simply stopped complaining (for example, because they gave up). Then fewer complaints say nothing about congestion.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "Operators’ opinions are irrelevant."
+          },
+          {
+            "choice": 2,
+            "label": "too-strong",
+            "why": "Trucks need only contribute to congestion, not be the sole cause."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "The zones could be busy while overall congestion still fell."
+          },
+          {
+            "choice": 4,
+            "label": "irrelevant-comparison",
+            "why": "If anything, a general fall in complaints would WEAKEN the argument; it is not assumed."
+          }
+        ]
+      },
+      "holding": "Whenever a measurement stands in for reality, the argument assumes the measurement was not distorted."
+    },
+    "reasoningKeys": [
+      "complaints",
+      "proxy",
+      "less inclined",
+      "measure"
+    ]
+  },
+  {
+    "id": "lr-032",
+    "section": "LR",
+    "type": "sufficient-assumption",
+    "difficulty": 3,
+    "pattern": "conditional",
+    "topic": "contract law",
+    "bloom": "Apply",
+    "stimulus": [
+      {
+        "t": "Any contract that was signed under duress is voidable.",
+        "r": "P"
+      },
+      {
+        "t": "The Pellas–Varga supply contract was signed while Varga’s factory was subject to an illegal blockade organized by Pellas.",
+        "r": "P"
+      },
+      {
+        "t": "Therefore, the Pellas–Varga contract is voidable.",
+        "r": "C"
+      }
+    ],
+    "stem": "The conclusion follows logically if which one of the following is assumed?",
+    "choices": [
+      "Some contracts signed during blockades are voidable.",
+      "Varga would not have signed the contract had there been no blockade.",
+      "Any voidable contract was signed under duress.",
+      "Any contract signed while one party was subject to an illegal blockade organized by the other party was signed under duress.",
+      "Pellas organized the blockade in order to obtain the contract."
+    ],
+    "answer": 3,
+    "diagram": {
+      "chain": [
+        "Signed under illegal blockade by other party",
+        "Duress",
+        "Voidable"
+      ],
+      "gap": "Blockade conditions = duress.",
+      "overlay": "sa"
+    },
+    "brief": {
+      "facts": "Duress → voidable. The contract was signed under an illegal blockade by the counterparty. Conclusion: voidable.",
+      "issue": "What single addition makes the conclusion airtight?",
+      "rule": "Sufficient Assumption: connect the new term in the premises (the blockade) to the term that triggers the rule (duress).",
+      "analysis": {
+        "correct": "(D) Blockade → duress, and duress → voidable. Chained, the conclusion is guaranteed.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "wrong-degree",
+            "why": "‘Some’ cannot guarantee that THIS contract is voidable."
+          },
+          {
+            "choice": 1,
+            "label": "wrong-degree",
+            "why": "Suggestive of duress, but a counterfactual about signing does not establish legal duress."
+          },
+          {
+            "choice": 2,
+            "label": "reversal",
+            "why": "Reverses the stated rule and still does not connect the blockade to duress."
+          },
+          {
+            "choice": 4,
+            "label": "wrong-degree",
+            "why": "Bad motive supports duress but does not, by itself, make the blockade duress in law."
+          }
+        ]
+      },
+      "holding": "SA answers bridge the rogue term in the premise to the rogue term in the conclusion, completely."
+    },
+    "reasoningKeys": [
+      "bridge",
+      "blockade",
+      "duress",
+      "guarantees"
+    ]
+  },
+  {
+    "id": "lr-033",
+    "section": "LR",
+    "type": "sufficient-assumption",
+    "difficulty": 4,
+    "pattern": "conditional",
+    "topic": "international finance",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Economist: A currency peg can survive a speculative attack only if the central bank holds foreign reserves exceeding the monetary base.",
+        "r": "P"
+      },
+      {
+        "t": "Tavria’s central bank holds reserves equal to just 60 percent of its monetary base, and a speculative attack on Tavria’s peg is now under way.",
+        "r": "P"
+      },
+      {
+        "t": "So Tavria will be forced to devalue its currency.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if assumed, enables the economist’s conclusion to be properly drawn?",
+    "choices": [
+      "Countries whose reserves exceed their monetary base are never forced to devalue.",
+      "Speculative attacks usually succeed against pegged currencies.",
+      "Tavria’s central bank cannot borrow foreign reserves from other central banks.",
+      "If Tavria is forced to devalue its currency, its peg will not have survived the attack.",
+      "If Tavria’s peg does not survive the attack, Tavria will be forced to devalue its currency."
+    ],
+    "answer": 4,
+    "diagram": {
+      "chain": [
+        "Reserves ≤ base",
+        "Peg does not survive",
+        "Forced to devalue"
+      ],
+      "gap": "Peg failure → forced devaluation.",
+      "overlay": "sa"
+    },
+    "brief": {
+      "facts": "Survive → reserves exceed base. Tavria’s reserves do not exceed its base, so (contrapositive) the peg will not survive. Conclusion: forced devaluation.",
+      "issue": "What links ‘peg will not survive’ to ‘forced to devalue’?",
+      "rule": "After applying the contrapositive, look for the missing link between the last established term and the conclusion’s term.",
+      "analysis": {
+        "correct": "(E) ¬Survive → Devalue completes the chain: reserves fall short, so no survival, so devaluation.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "irrelevant-comparison",
+            "why": "It concerns countries with ample reserves, which Tavria is not."
+          },
+          {
+            "choice": 1,
+            "label": "wrong-degree",
+            "why": "‘Usually’ cannot guarantee the conclusion."
+          },
+          {
+            "choice": 2,
+            "label": "half-right",
+            "why": "It closes one escape route (borrowing reserves) but still does not link peg failure to devaluation."
+          },
+          {
+            "choice": 3,
+            "label": "reversal",
+            "why": "Devalue → ¬Survive runs the wrong direction."
+          }
+        ]
+      },
+      "holding": "Run the given conditional first, then bridge from its output to the conclusion."
+    },
+    "reasoningKeys": [
+      "contrapositive",
+      "does not survive",
+      "devalue",
+      "link"
+    ]
+  },
+  {
+    "id": "lr-034",
+    "section": "LR",
+    "type": "sufficient-assumption",
+    "difficulty": 4,
+    "pattern": "principle",
+    "topic": "ethics",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "Philosopher: A person who makes a promise knowing that she cannot keep it acts dishonestly.",
+        "r": "P"
+      },
+      {
+        "t": "Dana promised to repay a loan by June, although she knew she would not have the funds by then.",
+        "r": "P"
+      },
+      {
+        "t": "So Dana acted dishonestly.",
+        "r": "C"
+      }
+    ],
+    "stem": "The philosopher’s conclusion follows logically if which one of the following is assumed?",
+    "choices": [
+      "Anyone who fails to keep a promise has acted dishonestly.",
+      "Only people who know they cannot keep a promise act dishonestly in making it.",
+      "Dana did not repay the loan by June.",
+      "Anyone who knows she will lack the means to keep a promise knows that she cannot keep it.",
+      "Making a promise that one cannot keep is always morally wrong."
+    ],
+    "answer": 3,
+    "diagram": {
+      "chain": [
+        "Knows she will lack the means",
+        "Knows she cannot keep it",
+        "Dishonest"
+      ],
+      "gap": "Knowing you’ll lack the funds = knowing you can’t keep the promise.",
+      "overlay": "sa"
+    },
+    "brief": {
+      "facts": "Promise + knowledge of inability → dishonest. Dana knew she would lack the funds.",
+      "issue": "Does knowing she would lack the funds count as knowing she cannot keep the promise?",
+      "rule": "Bridge the premise’s description (‘knew she would not have the funds’) to the rule’s trigger (‘knowing she cannot keep it’).",
+      "analysis": {
+        "correct": "(D) Lacking the means → knowing she cannot keep it. Then the rule applies and the conclusion follows.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "out-of-scope",
+            "why": "We do not know whether Dana failed to repay; the argument concerns making the promise."
+          },
+          {
+            "choice": 1,
+            "label": "reversal",
+            "why": "Dishonest → knows: the reverse of what is needed."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Later failure does not establish what she knew when she promised."
+          },
+          {
+            "choice": 4,
+            "label": "shell-game",
+            "why": "‘Morally wrong’ is not ‘dishonest.’"
+          }
+        ]
+      },
+      "holding": "When the premise and the rule describe the same situation in different words, the SA is the definition that equates them."
+    },
+    "reasoningKeys": [
+      "lack the means",
+      "cannot keep",
+      "bridge",
+      "knows"
+    ]
+  },
+  {
+    "id": "lr-035",
+    "section": "LR",
+    "type": "sufficient-assumption",
+    "difficulty": 4,
+    "pattern": "conditional",
+    "topic": "international arbitration",
+    "bloom": "Analyze",
+    "stimulus": [
+      {
+        "t": "An arbitral award can be enforced in Velstria only if Velstria’s courts recognize it.",
+        "r": "P"
+      },
+      {
+        "t": "Velstria’s courts recognize no award rendered by a tribunal whose members were all appointed by one party.",
+        "r": "P"
+      },
+      {
+        "t": "Therefore, the award in Kessler v. Ostra cannot be enforced in Velstria.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following, if assumed, allows the conclusion to be properly inferred?",
+    "choices": [
+      "All the members of the tribunal in Kessler v. Ostra were appointed by Ostra.",
+      "Velstria’s courts recognize every award rendered by a tribunal whose members were appointed by both parties.",
+      "Velstria’s courts have refused to recognize at least one award in a case involving Ostra.",
+      "Some awards rendered by tribunals appointed by one party have been enforced in other states.",
+      "The award in Kessler v. Ostra has not been recognized by the courts of any other state."
+    ],
+    "answer": 0,
+    "diagram": {
+      "chain": [
+        "Enforced",
+        "Recognized",
+        "Not all appointed by one party"
+      ],
+      "gap": "The Kessler tribunal was appointed entirely by one party.",
+      "overlay": "sa"
+    },
+    "brief": {
+      "facts": "Enforced → Recognized → not appointed entirely by one party. Conclusion: the Kessler award cannot be enforced.",
+      "issue": "Which fact triggers the contrapositive for the Kessler award?",
+      "rule": "To conclude ¬A from A → B → C, establish ¬C for the case at hand.",
+      "analysis": {
+        "correct": "(A) An entirely one-party tribunal means no recognition, and no recognition means no enforcement. The conclusion follows.",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "irrelevant-comparison",
+            "why": "Describes when awards ARE recognized, which does not show this one is not."
+          },
+          {
+            "choice": 2,
+            "label": "wrong-degree",
+            "why": "One refusal in some other Ostra case says nothing about this award."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Other states are irrelevant to enforcement in Velstria."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Only Velstria’s courts matter."
+          }
+        ]
+      },
+      "holding": "For an SA that defeats an outcome, supply the fact that fails the chain’s final necessary condition."
+    },
+    "reasoningKeys": [
+      "appointed by one party",
+      "contrapositive",
+      "not recognized"
+    ]
+  },
+  {
+    "id": "lr-036",
+    "section": "LR",
+    "type": "evaluate",
+    "difficulty": 3,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "economics",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "After the Harbor Authority installed new automated cranes, the average time that cargo ships spent docked fell by 20 percent.",
+        "r": "P"
+      },
+      {
+        "t": "The Authority concludes that the cranes caused the reduction.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following would be most useful to know in evaluating the Authority’s conclusion?",
+    "choices": [
+      "whether the average size of the cargo ships using the harbor changed after the cranes were installed",
+      "whether other harbors have also installed automated cranes",
+      "how much the cranes cost to purchase and install",
+      "whether the Authority plans to install additional cranes",
+      "whether the cranes were manufactured domestically"
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "Nothing else (such as smaller ships) explains the shorter docking times.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "Docking time fell 20% after the new cranes. The Authority concludes that the cranes caused it.",
+      "issue": "What question has an answer that would strengthen OR weaken the causal claim?",
+      "rule": "Evaluate answers pose a question with two possible answers, one helping and one hurting. Alternative causes are prime candidates.",
+      "analysis": {
+        "correct": "(A) If ships got smaller, smaller loads could explain shorter stays (weakens). If ship size was unchanged, that alternative is ruled out (strengthens).",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "irrelevant-comparison",
+            "why": "Without data on those harbors’ docking times, this tells us nothing."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Cost has no bearing on causation."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Future plans do not bear on past causation."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Where the cranes were made is irrelevant."
+          }
+        ]
+      },
+      "holding": "Run the Variance Test: answer the question both ways. If the two answers push the argument in opposite directions, it is the Evaluate answer."
+    },
+    "reasoningKeys": [
+      "alternative cause",
+      "ship size",
+      "variance test",
+      "both ways"
+    ]
+  },
+  {
+    "id": "lr-037",
+    "section": "LR",
+    "type": "evaluate",
+    "difficulty": 4,
+    "pattern": "performance-attribution",
+    "topic": "finance",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Fund manager: Our emerging-markets equity fund has outperformed its benchmark index in each of the past three years.",
+        "r": "P"
+      },
+      {
+        "t": "This shows that our stock selection adds value for our investors.",
+        "r": "C"
+      }
+    ],
+    "stem": "Which one of the following would it be most useful to determine in order to evaluate the fund manager’s argument?",
+    "choices": [
+      "whether the benchmark index itself rose in each of the past three years",
+      "whether other emerging-markets funds charge higher fees",
+      "whether the fund manager holds an advanced degree in finance",
+      "whether the fund’s investors were satisfied with its returns",
+      "whether the fund achieved its outperformance by taking on substantially more risk than its benchmark carries"
+    ],
+    "answer": 4,
+    "diagram": {
+      "gap": "Outperformance came from stock selection rather than from extra risk.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "The fund beat its benchmark three years running. The manager credits stock selection.",
+      "issue": "What would distinguish skill in selection from other sources of excess return?",
+      "rule": "Excess return can come from skill, luck, or bearing more risk. Evaluate answers often probe the leading alternative explanation.",
+      "analysis": {
+        "correct": "(E) If the fund simply took much more risk (higher beta, leverage, concentration), higher returns in rising markets reflect risk, not selection skill. If not, the manager’s claim gains support.",
+        "wrong": [
+          {
+            "choice": 0,
+            "label": "irrelevant-comparison",
+            "why": "Outperformance is relative to the benchmark, whatever the benchmark’s direction."
+          },
+          {
+            "choice": 1,
+            "label": "irrelevant-comparison",
+            "why": "Other funds’ fees say nothing about this fund’s selection skill."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Credentials do not establish where returns came from."
+          },
+          {
+            "choice": 3,
+            "label": "out-of-scope",
+            "why": "Satisfaction does not bear on the source of returns."
+          }
+        ]
+      },
+      "holding": "For performance claims, ask: was it skill, luck, or risk?"
+    },
+    "reasoningKeys": [
+      "risk",
+      "alternative explanation",
+      "skill",
+      "evaluate"
+    ]
+  },
+  {
+    "id": "lr-038",
+    "section": "LR",
+    "type": "evaluate",
+    "difficulty": 5,
+    "flaw": "causation",
+    "pattern": "causal",
+    "topic": "comparative politics",
+    "bloom": "Evaluate",
+    "stimulus": [
+      {
+        "t": "Political scientist: Countries that adopted proportional representation in the 1990s have since seen voter turnout decline less than countries that retained single-member districts.",
+        "r": "P"
+      },
+      {
+        "t": "Hence, adopting proportional representation helps sustain voter turnout.",
+        "r": "C"
+      }
+    ],
+    "stem": "In order to evaluate the political scientist’s argument, it would be most useful to know",
+    "choices": [
+      "whether turnout in the countries that adopted proportional representation was already declining more slowly than elsewhere before they adopted it",
+      "whether proportional representation tends to produce more stable governments",
+      "whether voters in countries with single-member districts prefer their electoral system",
+      "whether turnout is generally higher in national elections than in local elections",
+      "whether any country has adopted proportional representation since the 1990s"
+    ],
+    "answer": 0,
+    "diagram": {
+      "gap": "The slower decline began with the reform, not before it.",
+      "overlay": "none"
+    },
+    "brief": {
+      "facts": "PR adopters saw turnout fall less than non-adopters. The author concludes that PR helps sustain turnout.",
+      "issue": "Is the difference caused by PR, or was it there all along?",
+      "rule": "A pre-existing trend is a classic alternative explanation for a before-and-after or between-group difference.",
+      "analysis": {
+        "correct": "(A) If adopters were already declining more slowly before adopting PR, the difference predates the reform (weakens). If the slowdown began only after adoption, causation is more credible (strengthens).",
+        "wrong": [
+          {
+            "choice": 1,
+            "label": "out-of-scope",
+            "why": "Government stability is a different outcome."
+          },
+          {
+            "choice": 2,
+            "label": "out-of-scope",
+            "why": "Voter preferences about the system do not bear on turnout causation."
+          },
+          {
+            "choice": 3,
+            "label": "irrelevant-comparison",
+            "why": "The national-versus-local difference is unrelated to the comparison at issue."
+          },
+          {
+            "choice": 4,
+            "label": "out-of-scope",
+            "why": "Later adopters do not bear on whether PR caused the observed difference."
+          }
+        ]
+      },
+      "holding": "Before crediting a reform, check the trend line that preceded it."
+    },
+    "reasoningKeys": [
+      "pre-existing trend",
+      "before",
+      "alternative",
+      "evaluate"
+    ]
+  }
+]

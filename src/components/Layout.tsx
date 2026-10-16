@@ -61,7 +61,7 @@ export function Layout({ children }: { children: ReactNode }) {
   const [expanded, setExpanded] = useState(false);
   const loc = useLocation();
   const nav = useNavigate();
-  const week = currentWeek(profile.startDate);
+  const week = currentWeek(profile.startDate, profile.planWeeks);
   const term = termForWeek(week);
   const base = '/' + (loc.pathname.split('/')[1] ?? '');
   const crumb = LABEL_BY_PATH[base] ?? (base === '/matriculation' ? 'Matriculation' : '');
